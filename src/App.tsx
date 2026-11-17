@@ -25,6 +25,7 @@ import { MediaCard } from './components/MediaCard';
 import { MediaLightbox } from './components/MediaLightbox';
 import { HighEndVideoPlayer } from './components/HighEndVideoPlayer';
 import { HighlightsCarousel } from './components/HighlightsCarousel';
+import { HorizontalGalleryBatchCarousel } from './components/HorizontalGalleryBatchCarousel';
 
 const EVENT_CATEGORIES: EventCategory[] = [
   'All',
@@ -438,145 +439,13 @@ export function App() {
             </button>
           </div>
         ) : viewMode === 'horizontal' ? (
-          /* DEFAULT: Horizontal Editorial Stream Layout */
-          <>
-            <div className="space-y-6">
-              {paginatedItems.map((item) => (
-                <div
-                  key={item.id}
-                  onClick={() => {
-                    if (item.type === 'video') {
-                      handlePlayFilm(item.url, item.title, item.coupleName || 'Harsha & Bhuvesh', item.thumbnailUrl, item.gdriveId);
-                    } else {
-                      setActiveLightboxItem(item);
-                    }
-                  }}
-                  className="group flex flex-col md:flex-row items-stretch gap-5 p-4 sm:p-5 rounded-2xl bg-[#131722] hover:bg-[#181d2b] border border-white/5 hover:border-[#c5a059]/40 transition-all duration-300 shadow-xl cursor-pointer"
-                >
-                  {/* Horizontal Visual Cover */}
-                  <div className="relative w-full md:w-80 lg:w-96 aspect-[16/10] md:aspect-[4/3] rounded-xl overflow-hidden shrink-0 bg-black/50">
-                    <img
-                      src={item.type === 'video' ? (item.thumbnailUrl || item.url) : item.url}
-                      alt={item.title}
-                      loading="lazy"
-                      className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-50 group-hover:opacity-20 transition-opacity" />
-                    
-                    {item.type === 'video' ? (
-                      <div className="absolute inset-0 flex items-center justify-center">
-                        <div className="w-12 h-12 rounded-full bg-black/60 group-hover:bg-[#c5a059] text-white group-hover:text-black flex items-center justify-center transition-all shadow-lg group-hover:scale-110">
-                          <Play className="w-5 h-5 ml-0.5 fill-current" />
-                        </div>
-                      </div>
-                    ) : (
-                      <div className="absolute top-3 left-3 px-2.5 py-1 rounded-full text-[10px] font-mono uppercase tracking-wider bg-black/60 text-[#f3e5ab] border border-white/10 backdrop-blur-md">
-                        Photo
-                      </div>
-                    )}
-                  </div>
-
-                  {/* Horizontal Meta & Details */}
-                  <div className="flex-1 flex flex-col justify-between py-1">
-                    <div>
-                      <div className="flex items-center gap-2.5 text-xs text-[#c5a059] font-medium tracking-wider uppercase mb-1.5">
-                        <span>{item.category}</span>
-                        <span>•</span>
-                        <span>{item.type === 'video' ? '4K Cinema Film' : 'High Resolution Still'}</span>
-                      </div>
-                      <h3 className="text-xl sm:text-2xl font-serif text-white font-normal group-hover:text-[#f3e5ab] transition-colors">
-                        {item.title}
-                      </h3>
-                      {item.description && (
-                        <p className="text-xs sm:text-sm text-gray-400 mt-2 line-clamp-2 leading-relaxed">
-                          {item.description}
-                        </p>
-                      )}
-                    </div>
-
-                    <div className="mt-4 pt-4 border-t border-white/5 flex flex-wrap items-center justify-between gap-3 text-xs text-white/50 font-mono">
-                      {item.originalFilename && (
-                        <span className="truncate max-w-xs text-white/70">
-                          File: {item.originalFilename}
-                        </span>
-                      )}
-                      <div className="flex items-center gap-3 ml-auto">
-                        <span className="text-[#c5a059] group-hover:underline flex items-center gap-1">
-                          View {item.type === 'video' ? 'Film' : 'Photo'} &rarr;
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-
-            {/* Pagination Controls */}
-            {totalPages > 1 && (
-              <div className="mt-14 flex flex-col sm:flex-row items-center justify-center gap-3 select-none">
-                <div className="flex items-center gap-1.5 p-1 bg-[#131722] border border-white/10 rounded-full shadow-xl">
-                  {/* Previous Page Button */}
-                  <button
-                    onClick={() => handlePageChange(Math.max(1, currentPage - 1))}
-                    disabled={currentPage === 1}
-                    className="p-2 sm:p-2.5 rounded-full hover:bg-white/10 disabled:opacity-30 disabled:hover:bg-transparent text-white transition-all"
-                    aria-label="Previous Page"
-                  >
-                    <ChevronLeft className="w-4 h-4" />
-                  </button>
-
-                  {/* Page Numbers */}
-                  <div className="flex items-center gap-1 px-1">
-                    {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => {
-                      if (
-                        page === 1 ||
-                        page === totalPages ||
-                        (page >= currentPage - 1 && page <= currentPage + 1)
-                      ) {
-                        return (
-                          <button
-                            key={page}
-                            onClick={() => handlePageChange(page)}
-                            className={`min-w-8 h-8 sm:min-w-9 sm:h-9 px-2 text-xs font-mono rounded-full transition-all flex items-center justify-center ${
-                              currentPage === page
-                                ? 'bg-gradient-to-r from-[#c5a059] to-[#dfba73] text-black font-bold shadow-md shadow-[#c5a059]/30'
-                                : 'text-white/70 hover:text-white hover:bg-white/5'
-                            }`}
-                          >
-                            {page}
-                          </button>
-                        );
-                      } else if (
-                        page === currentPage - 2 ||
-                        page === currentPage + 2
-                      ) {
-                        return (
-                          <span key={page} className="px-1 text-white/30 text-xs font-mono">
-                            ...
-                          </span>
-                        );
-                      }
-                      return null;
-                    })}
-                  </div>
-
-                  {/* Next Page Button */}
-                  <button
-                    onClick={() => handlePageChange(Math.min(totalPages, currentPage + 1))}
-                    disabled={currentPage === totalPages}
-                    className="p-2 sm:p-2.5 rounded-full hover:bg-white/10 disabled:opacity-30 disabled:hover:bg-transparent text-white transition-all"
-                    aria-label="Next Page"
-                  >
-                    <ChevronRight className="w-4 h-4" />
-                  </button>
-                </div>
-
-                <div className="text-[11px] font-mono text-[#f3e5ab]/70">
-                  Batch {currentPage} of {totalPages} ({paginatedItems.length} items shown)
-                </div>
-              </div>
-            )}
-          </>
+          /* DEFAULT: Horizontal Batch Carousel View */
+          <HorizontalGalleryBatchCarousel
+            items={filteredItems}
+            batchSize={24}
+            onOpenLightbox={(selected) => setActiveLightboxItem(selected)}
+            onPlayFilm={handlePlayFilm}
+          />
         ) : (
           /* Grid View Mode */
           <>
