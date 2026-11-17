@@ -40,7 +40,7 @@ export function App() {
   const [showScrollTop, setShowScrollTop] = useState(false);
   const [viewMode, setViewMode] = useState<'horizontal' | 'grid'>('horizontal');
   const [gridColumns, setGridColumns] = useState<'3' | '4' | '2'>('3');
-  const [showCarousel, setShowCarousel] = useState(true);
+  const [showCarousel, setShowCarousel] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 36; // Crisp, balanced batch of memories per page
 
