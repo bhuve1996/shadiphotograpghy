@@ -1,8 +1,8 @@
 import type { MediaItem, EventCategory } from '../types/media';
 import { INITIAL_MEDIA_ITEMS } from '../data/initialData';
 
-// Incremented to v6 to force client browsers to purge older unoptimized images
-const STORAGE_KEY = 'shaadi_photography_media_items_v6_progressive';
+// Incremented to v7 to reload the full 449 photographer photos & videos
+const STORAGE_KEY = 'shaadi_photography_media_items_v7_photographer1';
 
 export class MediaService {
   static getMedia(): MediaItem[] {
