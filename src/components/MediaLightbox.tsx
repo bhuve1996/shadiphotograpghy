@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useCallback } from 'react';
 import { X, ChevronLeft, ChevronRight, Download, Calendar, MapPin, Tag, FileText } from 'lucide-react';
 import type { MediaItem } from '../types/media';
 
@@ -17,21 +17,21 @@ export const MediaLightbox: React.FC<MediaLightboxProps> = ({
 }) => {
   const [touchStart, setTouchStart] = useState<number | null>(null);
 
-  if (!item) return null;
-
-  const currentIndex = items.findIndex((m) => m.id === item.id);
+  const currentIndex = item ? items.findIndex((m) => m.id === item.id) : -1;
   const hasPrev = currentIndex > 0;
-  const hasNext = currentIndex < items.length - 1;
+  const hasNext = currentIndex >= 0 && currentIndex < items.length - 1;
 
-  const handlePrev = () => {
+  const handlePrev = useCallback(() => {
     if (hasPrev) onSelect(items[currentIndex - 1]);
-  };
+  }, [hasPrev, currentIndex, items, onSelect]);
 
-  const handleNext = () => {
+  const handleNext = useCallback(() => {
     if (hasNext) onSelect(items[currentIndex + 1]);
-  };
+  }, [hasNext, currentIndex, items, onSelect]);
 
   useEffect(() => {
+    if (!item) return;
+
     const onKeyDown = (e: KeyboardEvent) => {
       if (e.key === 'Escape') onClose();
       if (e.key === 'ArrowLeft') handlePrev();
@@ -39,7 +39,7 @@ export const MediaLightbox: React.FC<MediaLightboxProps> = ({
     };
     window.addEventListener('keydown', onKeyDown);
     return () => window.removeEventListener('keydown', onKeyDown);
-  }, [currentIndex, items]);
+  }, [item, handlePrev, handleNext, onClose]);
 
   // Touch swipe support for mobile
   const handleTouchStart = (e: React.TouchEvent) => {
@@ -58,6 +58,9 @@ export const MediaLightbox: React.FC<MediaLightboxProps> = ({
     setTouchStart(null);
   };
 
+  // Early return after all hooks are evaluated
+  if (!item) return null;
+
   return (
     <div 
       className="fixed inset-0 z-50 flex flex-col justify-between bg-black/95 backdrop-blur-xl animate-in fade-in duration-300 select-none"
@@ -75,7 +78,7 @@ export const MediaLightbox: React.FC<MediaLightboxProps> = ({
           </h2>
           {item.originalFilename && (
             <div className="flex items-center gap-1.5 mt-0.5 text-[10px] sm:text-[11px] font-mono text-[#f3e5ab]/80 truncate">
-              <FileText className="w-3 h-3 text-[#c5a059] shrink-0" />
+              <FileText className="w-3 h-3 text-[#c5a059]" />
               <span className="truncate">Orig: <span className="text-white">{item.originalFilename}</span></span>
             </div>
           )}
@@ -104,7 +107,6 @@ export const MediaLightbox: React.FC<MediaLightboxProps> = ({
 
       {/* Main Visual Display */}
       <div className="relative flex-1 flex items-center justify-center p-2 sm:p-6 max-h-[72vh] md:max-h-[78vh]">
-        {/* Prev / Next controls */}
         {hasPrev && (
           <button
             onClick={handlePrev}
