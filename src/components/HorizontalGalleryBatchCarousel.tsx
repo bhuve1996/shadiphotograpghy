@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react';
-import { ChevronLeft, ChevronRight, Play, Maximize2, Sparkles, Layers } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Play, Maximize2, Sparkles, Layers, Sliders } from 'lucide-react';
 import type { MediaItem } from '../types/media';
 
 interface HorizontalGalleryBatchCarouselProps {
@@ -43,7 +43,8 @@ export const HorizontalGalleryBatchCarousel: React.FC<HorizontalGalleryBatchCaro
   };
 
   const handleSelectBatch = (index: number) => {
-    setCurrentBatchIndex(index);
+    const validIndex = Math.max(0, Math.min(index, totalBatches - 1));
+    setCurrentBatchIndex(validIndex);
     if (scrollContainerRef.current) {
       scrollContainerRef.current.scrollTo({ left: 0, behavior: 'smooth' });
     }
@@ -51,45 +52,76 @@ export const HorizontalGalleryBatchCarousel: React.FC<HorizontalGalleryBatchCaro
 
   if (!items || items.length === 0) return null;
 
+  // Smart page numbers calculation with ellipsis (like: 1 ... 16 [17] 18 ... 26)
+  const getPageNumbers = () => {
+    const pages: (number | string)[] = [];
+    const maxVisible = 5;
+
+    if (totalBatches <= 7) {
+      for (let i = 1; i <= totalBatches; i++) pages.push(i);
+    } else {
+      const currentPage = currentBatchIndex + 1;
+      pages.push(1);
+
+      if (currentPage > 3) {
+        pages.push('...');
+      }
+
+      const start = Math.max(2, currentPage - 1);
+      const end = Math.min(totalBatches - 1, currentPage + 1);
+
+      for (let i = start; i <= end; i++) {
+        if (!pages.includes(i)) pages.push(i);
+      }
+
+      if (currentPage < totalBatches - 2) {
+        pages.push('...');
+      }
+
+      if (!pages.includes(totalBatches)) {
+        pages.push(totalBatches);
+      }
+    }
+    return pages;
+  };
+
   return (
     <div className="relative bg-gradient-to-b from-[#101420] via-[#141826] to-[#0c0f17] p-5 sm:p-8 rounded-3xl border border-[#c5a059]/30 shadow-2xl overflow-hidden my-6">
-      {/* Top Header & Batch Navigation */}
+      {/* Top Header */}
       <div className="flex flex-col md:flex-row md:items-center justify-between pb-6 mb-6 border-b border-white/10 gap-4">
         <div>
           <div className="flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-[#c5a059] mb-1">
             <Sparkles className="w-3.5 h-3.5 text-[#c5a059]" />
-            Horizontal Story Carousel • Batch {currentBatchIndex + 1} of {totalBatches}
+            Horizontal Story Carousel • Page {currentBatchIndex + 1} of {totalBatches}
           </div>
           <h3 className="text-2xl sm:text-3xl font-serif text-white tracking-wide font-normal">
             Browse Moments Horizontally
           </h3>
           <p className="text-xs text-gray-400 mt-1">
-            Showing {currentBatchItems.length} curated memories in this batch ({currentBatchIndex * batchSize + 1}–{Math.min((currentBatchIndex + 1) * batchSize, items.length)} of {items.length})
+            Showing {currentBatchItems.length} curated memories in this page ({currentBatchIndex * batchSize + 1}–{Math.min((currentBatchIndex + 1) * batchSize, items.length)} of {items.length})
           </p>
         </div>
 
-        {/* Scroll Controls & Batch Pill Switcher */}
-        <div className="flex flex-wrap items-center gap-2 sm:gap-3">
-          {/* Batch Selector Pills */}
-          <div className="flex items-center gap-1 bg-black/40 p-1 rounded-full border border-white/10 overflow-x-auto max-w-full">
-            {Array.from({ length: totalBatches }, (_, i) => (
-              <button
-                key={i}
-                onClick={() => handleSelectBatch(i)}
-                className={`px-3 py-1 text-xs font-mono rounded-full transition-all whitespace-nowrap ${
-                  currentBatchIndex === i
-                    ? 'bg-gradient-to-r from-[#c5a059] to-[#dfba73] text-black font-bold shadow-md shadow-[#c5a059]/30'
-                    : 'text-white/60 hover:text-white hover:bg-white/10'
-                }`}
-                title={`Switch to Batch ${i + 1}`}
-              >
-                Batch {i + 1}
-              </button>
-            ))}
+        {/* Scroll Arrows & Quick Navigation */}
+        <div className="flex items-center gap-3 self-start md:self-auto">
+          {/* Direct Jump Dropdown */}
+          <div className="flex items-center gap-2 bg-[#141824] border border-white/10 rounded-full px-3 py-1.5 text-xs text-white/80">
+            <span className="text-[11px] text-white/40 uppercase font-mono">Jump to:</span>
+            <select
+              value={currentBatchIndex}
+              onChange={(e) => handleSelectBatch(Number(e.target.value))}
+              className="bg-transparent text-[#f3e5ab] font-mono text-xs focus:outline-none cursor-pointer"
+            >
+              {Array.from({ length: totalBatches }, (_, i) => (
+                <option key={i} value={i} className="bg-[#141824] text-white">
+                  Page {i + 1} ({i * batchSize + 1} - {Math.min((i + 1) * batchSize, items.length)})
+                </option>
+              ))}
+            </select>
           </div>
 
           {/* Left / Right Carousel Arrow Buttons */}
-          <div className="flex items-center gap-1.5 ml-auto">
+          <div className="flex items-center gap-1.5">
             <button
               onClick={handleScrollLeft}
               className="p-2 sm:p-2.5 rounded-full bg-white/5 hover:bg-[#c5a059] hover:text-black text-white/80 border border-white/10 transition-all shadow-md active:scale-95"
@@ -107,6 +139,74 @@ export const HorizontalGalleryBatchCarousel: React.FC<HorizontalGalleryBatchCaro
               <ChevronRight className="w-5 h-5" />
             </button>
           </div>
+        </div>
+      </div>
+
+      {/* Interactive Page Slider & Pill Navigation Bar */}
+      <div className="mb-6 p-3 rounded-2xl bg-black/40 border border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
+        {/* Slider control to scrub through any page 1..totalBatches */}
+        <div className="w-full sm:w-1/2 flex items-center gap-3">
+          <span className="text-[11px] font-mono text-white/40 shrink-0">1</span>
+          <div className="relative flex-1 flex items-center">
+            <input
+              type="range"
+              min={0}
+              max={totalBatches - 1}
+              value={currentBatchIndex}
+              onChange={(e) => handleSelectBatch(Number(e.target.value))}
+              className="w-full h-1.5 bg-white/10 rounded-lg appearance-none cursor-pointer accent-[#c5a059]"
+            />
+          </div>
+          <span className="text-[11px] font-mono text-white/40 shrink-0">{totalBatches}</span>
+          <span className="text-xs font-mono text-[#f3e5ab] bg-white/5 px-2.5 py-1 rounded-full border border-white/10 shrink-0">
+            Pg {currentBatchIndex + 1}/{totalBatches}
+          </span>
+        </div>
+
+        {/* Numbered Pill Pagination (matching user mockup) */}
+        <div className="flex items-center gap-1 sm:gap-1.5 bg-[#0f131d] px-3 py-1.5 rounded-full border border-white/10 shadow-lg">
+          <button
+            onClick={() => handleSelectBatch(currentBatchIndex - 1)}
+            disabled={currentBatchIndex === 0}
+            className="p-1.5 rounded-full text-white/60 hover:text-white disabled:opacity-20 disabled:hover:text-white/60 transition-colors"
+            title="Previous Page"
+          >
+            <ChevronLeft className="w-4 h-4" />
+          </button>
+
+          {getPageNumbers().map((page, idx) => {
+            if (page === '...') {
+              return (
+                <span key={`dots-${idx}`} className="px-1 text-white/40 text-xs font-mono">
+                  ...
+                </span>
+              );
+            }
+            const pageNum = page as number;
+            const isSelected = currentBatchIndex === pageNum - 1;
+            return (
+              <button
+                key={pageNum}
+                onClick={() => handleSelectBatch(pageNum - 1)}
+                className={`w-7 h-7 sm:w-8 sm:h-8 rounded-full flex items-center justify-center text-xs font-mono font-medium transition-all ${
+                  isSelected
+                    ? 'bg-[#dfba73] text-black font-bold shadow-lg shadow-[#c5a059]/40 scale-105'
+                    : 'text-white/70 hover:text-white hover:bg-white/10'
+                }`}
+              >
+                {pageNum}
+              </button>
+            );
+          })}
+
+          <button
+            onClick={() => handleSelectBatch(currentBatchIndex + 1)}
+            disabled={currentBatchIndex === totalBatches - 1}
+            className="p-1.5 rounded-full text-white/60 hover:text-white disabled:opacity-20 disabled:hover:text-white/60 transition-colors"
+            title="Next Page"
+          >
+            <ChevronRight className="w-4 h-4" />
+          </button>
         </div>
       </div>
 
@@ -174,27 +274,28 @@ export const HorizontalGalleryBatchCarousel: React.FC<HorizontalGalleryBatchCaro
         ))}
       </div>
 
-      {/* Quick Jump Bar across batches */}
-      <div className="mt-6 pt-5 border-t border-white/5 flex items-center justify-between text-xs text-white/50 font-mono">
+      {/* Bottom Bar: Guidance & Page Jump */}
+      <div className="mt-6 pt-5 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-white/50 font-mono">
         <div className="flex items-center gap-2">
           <Layers className="w-3.5 h-3.5 text-[#c5a059]" />
-          <span>Swipe or scroll horizontally to browse the 24 memories in this batch</span>
+          <span>Swipe horizontally or use arrows to view moments ({currentBatchIndex * batchSize + 1}–{Math.min((currentBatchIndex + 1) * batchSize, items.length)})</span>
         </div>
-        <div className="hidden sm:flex items-center gap-2">
+        <div className="flex items-center gap-3">
           {currentBatchIndex > 0 && (
             <button
               onClick={() => handleSelectBatch(currentBatchIndex - 1)}
               className="text-[#c5a059] hover:underline"
             >
-              &larr; Prev Batch
+              &larr; Prev Page
             </button>
           )}
+          <span className="text-white/30">•</span>
           {currentBatchIndex < totalBatches - 1 && (
             <button
               onClick={() => handleSelectBatch(currentBatchIndex + 1)}
-              className="text-[#c5a059] hover:underline ml-3"
+              className="text-[#c5a059] hover:underline"
             >
-              Next Batch &rarr;
+              Next Page &rarr;
             </button>
           )}
         </div>
