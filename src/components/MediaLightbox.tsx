@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useCallback } from 'react';
-import { X, ChevronLeft, ChevronRight, Download, Calendar, MapPin, Tag, FileText, Loader2, Sparkles } from 'lucide-react';
+import { X, ChevronLeft, ChevronRight, Download, Calendar, MapPin, Tag, FileText, Loader2, Sparkles, RotateCw, RotateCcw } from 'lucide-react';
 import type { MediaItem } from '../types/media';
 import { AssetManager } from '../services/assetManager';
 
@@ -19,6 +19,7 @@ export const MediaLightbox: React.FC<MediaLightboxProps> = ({
   const [touchStart, setTouchStart] = useState<number | null>(null);
   const [isFullLoaded, setIsFullLoaded] = useState(false);
   const [isThumbReady, setIsThumbReady] = useState(false);
+  const [rotation, setRotation] = useState<number>(0);
 
   const currentIndex = item ? items.findIndex((m) => m.id === item.id) : -1;
   const hasPrev = currentIndex > 0;
@@ -31,6 +32,7 @@ export const MediaLightbox: React.FC<MediaLightboxProps> = ({
     if (currentIndex >= 0) {
       setIsFullLoaded(false);
       setIsThumbReady(false);
+      setRotation(0); // Reset rotation on new image
       const nextUrls = [
         items[currentIndex + 1]?.url,
         items[currentIndex + 2]?.url,
@@ -39,6 +41,14 @@ export const MediaLightbox: React.FC<MediaLightboxProps> = ({
       AssetManager.preloadBatch(nextUrls);
     }
   }, [currentIndex, items]);
+
+  const handleRotateClockwise = () => {
+    setRotation((prev) => (prev + 90) % 360);
+  };
+
+  const handleRotateCounterClockwise = () => {
+    setRotation((prev) => (prev - 90 + 360) % 360);
+  };
 
   const handlePrev = useCallback(() => {
     if (hasPrev) onSelect(items[currentIndex - 1]);
@@ -55,6 +65,7 @@ export const MediaLightbox: React.FC<MediaLightboxProps> = ({
       if (e.key === 'Escape') onClose();
       if (e.key === 'ArrowLeft') handlePrev();
       if (e.key === 'ArrowRight') handleNext();
+      if (e.key === 'r' || e.key === 'R') handleRotateClockwise();
     };
     window.addEventListener('keydown', onKeyDown);
     return () => window.removeEventListener('keydown', onKeyDown);
@@ -107,6 +118,31 @@ export const MediaLightbox: React.FC<MediaLightboxProps> = ({
         </div>
 
         <div className="flex items-center gap-2 sm:gap-3 shrink-0">
+          {/* Rotate Control Button */}
+          {item.type === 'image' && (
+            <div className="flex items-center bg-white/10 rounded-full border border-white/10 p-0.5">
+              <button
+                onClick={handleRotateCounterClockwise}
+                className="p-1.5 sm:p-2 rounded-full hover:bg-white/20 text-white/80 hover:text-white transition-all"
+                title="Rotate 90° Left"
+              >
+                <RotateCcw className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+              </button>
+              {rotation !== 0 && (
+                <span className="text-[10px] font-mono px-1 text-[#f3e5ab]">
+                  {rotation}°
+                </span>
+              )}
+              <button
+                onClick={handleRotateClockwise}
+                className="p-1.5 sm:p-2 rounded-full hover:bg-white/20 text-[#c5a059] hover:text-[#f3e5ab] transition-all"
+                title="Rotate 90° Right (Shortcut: R)"
+              >
+                <RotateCw className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+              </button>
+            </div>
+          )}
+
           {item.gdriveId ? (
             <a
               href={`https://drive.google.com/uc?export=download&id=${item.gdriveId}`}
@@ -172,7 +208,10 @@ export const MediaLightbox: React.FC<MediaLightboxProps> = ({
         )}
 
         {item.type === 'image' ? (
-          <div className="relative max-h-full max-w-full flex items-center justify-center">
+          <div 
+            className="relative max-h-full max-w-full flex items-center justify-center transition-transform duration-300 ease-out"
+            style={{ transform: `rotate(${rotation}deg)` }}
+          >
             {/* 1. Low-Resolution Instant Blur Preview */}
             {!isFullLoaded && thumbUrl && (
               <img
