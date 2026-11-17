@@ -1,8 +1,8 @@
 import type { MediaItem, EventCategory } from '../types/media';
 import { INITIAL_MEDIA_ITEMS } from '../data/initialData';
 
-// Incremented to v9 to refresh all 624 media items (including Whatsapp 3 cinema reels)
-const STORAGE_KEY = 'shaadi_photography_media_items_v11_videothumbs';
+// Incremented to v12 to reorder photos first and videos last across all 624 assets
+const STORAGE_KEY = 'shaadi_photography_media_items_v12_photosfirst';
 
 export class MediaService {
   static getMedia(): MediaItem[] {
