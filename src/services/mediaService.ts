@@ -1,8 +1,8 @@
 import type { MediaItem, EventCategory } from '../types/media';
 import { INITIAL_MEDIA_ITEMS } from '../data/initialData';
 
-// Incremented to v5 to immediately clear older state and reload clean URLs
-const STORAGE_KEY = 'shaadi_photography_media_items_v5_clean_urls';
+// Incremented to v6 to force client browsers to purge older unoptimized images
+const STORAGE_KEY = 'shaadi_photography_media_items_v6_progressive';
 
 export class MediaService {
   static getMedia(): MediaItem[] {
