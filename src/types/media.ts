@@ -20,6 +20,8 @@ export interface MediaItem {
   duration?: string;
   originalFilename?: string; // User's original file name (e.g. IMG_8219.JPG.jpeg)
   curatedFilename?: string;  // Curated title (e.g. Roka Celebration #2)
+  gdriveId?: string;         // Google Drive direct file ID for full-resolution raw camera asset
+  gdriveUrl?: string;        // Google Drive direct stream or download URL
   videoEmbedUrl?: string;
   sourceType: 'local-public' | 'user-upload' | 'remote-cloud';
 }

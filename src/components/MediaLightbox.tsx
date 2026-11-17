@@ -107,17 +107,30 @@ export const MediaLightbox: React.FC<MediaLightboxProps> = ({
         </div>
 
         <div className="flex items-center gap-2 sm:gap-3 shrink-0">
-          <a
-            href={item.url}
-            download={item.originalFilename || item.title}
-            target="_blank"
-            rel="noreferrer"
-            className="p-2 sm:p-2.5 rounded-full bg-white/10 hover:bg-[#c5a059] hover:text-black text-white/80 transition-all border border-white/10 flex items-center gap-1.5 text-xs font-mono"
-            title="Download Full Resolution Asset"
-          >
-            <Download className="w-4 h-4 sm:w-5 sm:h-5" />
-            <span className="hidden md:inline">Download</span>
-          </a>
+          {item.gdriveId ? (
+            <a
+              href={`https://drive.google.com/uc?export=download&id=${item.gdriveId}`}
+              target="_blank"
+              rel="noreferrer"
+              className="p-2 sm:p-2.5 rounded-full bg-[#c5a059]/20 hover:bg-[#c5a059] hover:text-black text-[#f3e5ab] transition-all border border-[#c5a059]/50 flex items-center gap-1.5 text-xs font-mono"
+              title="Download Full Raw Camera Quality from Google Drive"
+            >
+              <Download className="w-4 h-4 sm:w-5 sm:h-5 text-[#c5a059] group-hover:text-black" />
+              <span className="hidden md:inline">Download Raw (Drive)</span>
+            </a>
+          ) : (
+            <a
+              href={item.url}
+              download={item.originalFilename || item.title}
+              target="_blank"
+              rel="noreferrer"
+              className="p-2 sm:p-2.5 rounded-full bg-white/10 hover:bg-[#c5a059] hover:text-black text-white/80 transition-all border border-white/10 flex items-center gap-1.5 text-xs font-mono"
+              title="Download Full Resolution Asset"
+            >
+              <Download className="w-4 h-4 sm:w-5 sm:h-5" />
+              <span className="hidden md:inline">Download</span>
+            </a>
+          )}
           <button
             onClick={onClose}
             className="p-2 sm:p-2.5 rounded-full bg-white/10 hover:bg-white/20 text-white transition-all border border-white/10"
