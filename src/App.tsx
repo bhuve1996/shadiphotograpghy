@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { 
   Sparkles, 
   Search, 
@@ -6,7 +6,8 @@ import {
   Image as ImageIcon, 
   Layers, 
   Play,
-  RefreshCw 
+  RefreshCw,
+  ArrowUp
 } from 'lucide-react';
 import type { EventCategory, MediaItem, CoupleCollection } from './types/media';
 import { MediaService } from './services/mediaService';
@@ -27,6 +28,20 @@ export function App() {
   const [selectedCategory, setSelectedCategory] = useState<EventCategory>('All');
   const [typeFilter, setTypeFilter] = useState<'all' | 'image' | 'video'>('all');
   const [searchQuery, setSearchQuery] = useState('');
+  const [showScrollTop, setShowScrollTop] = useState(false);
+  
+  // Track scroll position to reveal "Scroll to Top" button
+  useEffect(() => {
+    const handleScroll = () => {
+      setShowScrollTop(window.scrollY > 400);
+    };
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
   
   // Modals & Overlays state
   const [activeLightboxItem, setActiveLightboxItem] = useState<MediaItem | null>(null);
@@ -388,6 +403,20 @@ export function App() {
           </div>
         </div>
       )}
+
+      {/* Floating Scroll to Top Button */}
+      <button
+        onClick={scrollToTop}
+        className={`fixed bottom-6 right-6 z-40 p-3 sm:p-3.5 rounded-full bg-[#131722]/90 hover:bg-[#c5a059] text-[#f3e5ab] hover:text-black border border-[#c5a059]/40 hover:border-[#c5a059] backdrop-blur-xl shadow-2xl shadow-black/80 transition-all duration-300 flex items-center justify-center group ${
+          showScrollTop 
+            ? 'opacity-100 translate-y-0 pointer-events-auto' 
+            : 'opacity-0 translate-y-4 pointer-events-none'
+        }`}
+        aria-label="Scroll to top"
+        title="Scroll to Top"
+      >
+        <ArrowUp className="w-5 h-5 transition-transform duration-300 group-hover:-translate-y-1" />
+      </button>
     </div>
   );
 }
