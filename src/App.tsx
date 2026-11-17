@@ -277,34 +277,37 @@ export function App() {
               </button>
             </div>
 
-            {/* Grid Column Selector Controls */}
-            <div className="hidden sm:flex items-center bg-[#141824] border border-white/10 rounded-full p-1 text-xs">
+            {/* Grid Column Selector Controls - Available on Mobile & Desktop */}
+            <div className="flex items-center justify-center bg-[#141824] border border-white/10 rounded-full p-1 text-xs shrink-0">
               <button
                 onClick={() => setGridColumns('2')}
-                className={`p-1.5 rounded-full transition-all ${
+                className={`px-2.5 sm:px-2 py-1.5 rounded-full transition-all flex items-center gap-1 ${
                   gridColumns === '2' ? 'bg-[#c5a059] text-black font-semibold' : 'text-white/60 hover:text-white'
                 }`}
-                title="Large 2-Column Grid"
+                title="2-Column Grid (Large)"
               >
                 <LayoutGrid className="w-3.5 h-3.5" />
+                <span className="text-[10px] sm:hidden font-mono">2x</span>
               </button>
               <button
                 onClick={() => setGridColumns('3')}
-                className={`p-1.5 rounded-full transition-all ${
+                className={`px-2.5 sm:px-2 py-1.5 rounded-full transition-all flex items-center gap-1 ${
                   gridColumns === '3' ? 'bg-[#c5a059] text-black font-semibold' : 'text-white/60 hover:text-white'
                 }`}
-                title="Standard 3-Column Grid"
+                title="3-Column Grid (Standard)"
               >
                 <Grid3X3 className="w-3.5 h-3.5" />
+                <span className="text-[10px] sm:hidden font-mono">3x</span>
               </button>
               <button
                 onClick={() => setGridColumns('4')}
-                className={`p-1.5 rounded-full transition-all ${
+                className={`px-2.5 sm:px-2 py-1.5 rounded-full transition-all flex items-center gap-1 ${
                   gridColumns === '4' ? 'bg-[#c5a059] text-black font-semibold' : 'text-white/60 hover:text-white'
                 }`}
-                title="Compact 4-Column Grid"
+                title="4-Column Grid (Compact)"
               >
                 <Columns4 className="w-3.5 h-3.5" />
+                <span className="text-[10px] sm:hidden font-mono">4x</span>
               </button>
             </div>
           </div>
@@ -386,11 +389,11 @@ export function App() {
             </button>
           </div>
         ) : (
-          <div className={`gap-6 space-y-6 ${
+          <div className={`gap-4 sm:gap-6 space-y-4 sm:space-y-6 ${
             gridColumns === '2'
               ? 'columns-1 sm:columns-2'
               : gridColumns === '4'
-              ? 'columns-1 sm:columns-2 md:columns-3 lg:columns-4'
+              ? 'columns-2 sm:columns-3 md:columns-4'
               : 'columns-1 sm:columns-2 lg:columns-3'
           }`}>
             {filteredItems.map((item) => (
