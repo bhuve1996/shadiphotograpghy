@@ -38,6 +38,7 @@ export function App() {
     title: string;
     coupleName?: string;
     poster?: string;
+    gdriveId?: string;
   }>({
     isOpen: false,
     url: '',
@@ -69,12 +70,14 @@ export function App() {
     }
   };
 
-  const handlePlayFilm = (filmUrl: string, title: string, couple: string) => {
+  const handlePlayFilm = (filmUrl: string, title: string, couple: string, poster?: string, gdriveId?: string) => {
     setCinemaPlayer({
       isOpen: true,
       url: filmUrl,
       title,
       coupleName: couple,
+      poster,
+      gdriveId,
     });
   };
 
@@ -149,7 +152,7 @@ export function App() {
                 {cinemaVideos.map((vid) => (
                   <div
                     key={vid.id}
-                    onClick={() => handlePlayFilm(vid.url, vid.title, vid.coupleName || 'Harsha & Bhuvesh')}
+                    onClick={() => handlePlayFilm(vid.url, vid.title, vid.coupleName || 'Harsha & Bhuvesh', vid.thumbnailUrl, vid.gdriveId)}
                     className="group flex items-center gap-4 p-3 rounded-xl bg-[#141824] hover:bg-[#1c2233] border border-white/5 hover:border-[#c5a059]/40 cursor-pointer transition-all"
                   >
                     <div className="relative w-28 h-20 rounded-lg overflow-hidden shrink-0 bg-black">
@@ -378,6 +381,7 @@ export function App() {
               poster={cinemaPlayer.poster}
               coupleName={cinemaPlayer.coupleName}
               title={cinemaPlayer.title}
+              gdriveId={cinemaPlayer.gdriveId}
               autoPlay={true}
               className="aspect-video w-full"
             />

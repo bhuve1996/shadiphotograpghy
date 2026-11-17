@@ -1,8 +1,8 @@
 import type { MediaItem, EventCategory } from '../types/media';
 import { INITIAL_MEDIA_ITEMS } from '../data/initialData';
 
-// Incremented to v8 to refresh all 620 media items
-const STORAGE_KEY = 'shaadi_photography_media_items_v8_photographer2';
+// Incremented to v9 to refresh all 624 media items (including Whatsapp 3 cinema reels)
+const STORAGE_KEY = 'shaadi_photography_media_items_v9_whatsapp3';
 
 export class MediaService {
   static getMedia(): MediaItem[] {
@@ -12,7 +12,13 @@ export class MediaService {
         localStorage.setItem(STORAGE_KEY, JSON.stringify(INITIAL_MEDIA_ITEMS));
         return INITIAL_MEDIA_ITEMS;
       }
-      return JSON.parse(stored);
+      const parsed = JSON.parse(stored);
+      // Auto-migrate if stored version is older than latest INITIAL_MEDIA_ITEMS
+      if (parsed.length !== INITIAL_MEDIA_ITEMS.length) {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(INITIAL_MEDIA_ITEMS));
+        return INITIAL_MEDIA_ITEMS;
+      }
+      return parsed;
     } catch (e) {
       console.warn('Could not read from localStorage, using memory data', e);
       return INITIAL_MEDIA_ITEMS;

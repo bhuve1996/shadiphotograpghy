@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react';
-import { Play, Pause, Volume2, VolumeX, Maximize2, Minimize2, RotateCcw } from 'lucide-react';
+import { Play, Pause, Volume2, VolumeX, Maximize2, Minimize2, RotateCcw, Download } from 'lucide-react';
 
 interface HighEndVideoPlayerProps {
   src: string;
@@ -8,6 +8,7 @@ interface HighEndVideoPlayerProps {
   coupleName?: string;
   autoPlay?: boolean;
   className?: string;
+  gdriveId?: string;
   onClose?: () => void;
 }
 
@@ -18,6 +19,7 @@ export const HighEndVideoPlayer: React.FC<HighEndVideoPlayerProps> = ({
   coupleName,
   autoPlay = false,
   className = '',
+  gdriveId,
 }) => {
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const containerRef = useRef<HTMLDivElement | null>(null);
@@ -281,6 +283,18 @@ export const HighEndVideoPlayer: React.FC<HighEndVideoPlayerProps> = ({
           </div>
 
           <div className="flex items-center gap-3">
+            {gdriveId && (
+              <a
+                href={`https://drive.google.com/uc?export=download&id=${gdriveId}`}
+                target="_blank"
+                rel="noreferrer"
+                className="hidden sm:inline-flex items-center gap-1.5 px-3 py-1 bg-[#c5a059]/20 hover:bg-[#c5a059] hover:text-black text-[#f3e5ab] text-xs font-mono rounded-md border border-[#c5a059]/50 transition-all"
+                title="Download Full Resolution Raw Video from Google Drive"
+              >
+                <Download className="w-3.5 h-3.5" />
+                <span>Download Raw</span>
+              </a>
+            )}
             <button
               onClick={toggleFullscreen}
               className="p-2 hover:bg-white/10 rounded-lg transition-colors text-white/80 hover:text-white"
