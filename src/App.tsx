@@ -14,9 +14,11 @@ import {
   SlidersHorizontal,
   ChevronLeft,
   ChevronRight,
-  Rows3
+  Rows3,
+  Camera,
+  Smartphone
 } from 'lucide-react';
-import type { EventCategory, MediaItem, CoupleCollection } from './types/media';
+import type { EventCategory, MediaItem, CoupleCollection, PhotoSubcategory } from './types/media';
 import { MediaService } from './services/mediaService';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
@@ -37,6 +39,7 @@ export function App() {
   const [mediaItems, setMediaItems] = useState<MediaItem[]>(() => MediaService.getMedia());
   const [selectedCategory, setSelectedCategory] = useState<EventCategory>('All');
   const [typeFilter, setTypeFilter] = useState<'all' | 'image' | 'video'>('all');
+  const [photoSubcategory, setPhotoSubcategory] = useState<PhotoSubcategory>('all');
   const [searchQuery, setSearchQuery] = useState('');
   const [showScrollTop, setShowScrollTop] = useState(false);
   const [viewMode, setViewMode] = useState<'horizontal' | 'grid'>('horizontal');
@@ -48,7 +51,7 @@ export function App() {
   // Reset to page 1 whenever search, category, or type filter changes
   useEffect(() => {
     setCurrentPage(1);
-  }, [selectedCategory, typeFilter, searchQuery]);
+  }, [selectedCategory, typeFilter, photoSubcategory, searchQuery]);
   
   // Track scroll position to reveal "Scroll to Top" button
   useEffect(() => {
@@ -82,8 +85,8 @@ export function App() {
 
   // Filtered Media
   const filteredItems = useMemo(() => {
-    return MediaService.filterMedia(mediaItems, selectedCategory, typeFilter, searchQuery);
-  }, [mediaItems, selectedCategory, typeFilter, searchQuery]);
+    return MediaService.filterMedia(mediaItems, selectedCategory, typeFilter, searchQuery, photoSubcategory);
+  }, [mediaItems, selectedCategory, typeFilter, searchQuery, photoSubcategory]);
 
   // Paginated Batch of items
   const totalPages = Math.ceil(filteredItems.length / itemsPerPage) || 1;
@@ -311,6 +314,46 @@ export function App() {
                 </button>
               );
             })}
+
+            {/* Photo Subcategory Filter (Photographer vs Mobile Camera) */}
+            {(typeFilter === 'all' || typeFilter === 'image') && (
+              <div className="flex items-center gap-1.5 bg-[#141824] border border-white/10 rounded-full p-1 text-xs">
+                <button
+                  onClick={() => setPhotoSubcategory('all')}
+                  className={`px-3 py-1.5 rounded-full transition-all text-xs font-mono ${
+                    photoSubcategory === 'all'
+                      ? 'bg-white/20 text-[#f3e5ab] font-bold'
+                      : 'text-white/50 hover:text-white'
+                  }`}
+                >
+                  All Photos ({mediaItems.filter(m => m.type === 'image').length})
+                </button>
+                <button
+                  onClick={() => setPhotoSubcategory('photographer')}
+                  className={`px-3 py-1.5 rounded-full flex items-center gap-1.5 transition-all text-xs font-mono ${
+                    photoSubcategory === 'photographer'
+                      ? 'bg-gradient-to-r from-[#c5a059] to-[#dfba73] text-black font-bold shadow-md shadow-[#c5a059]/30'
+                      : 'text-white/60 hover:text-white hover:bg-white/5'
+                  }`}
+                  title="Professional DSLR Photography (Photographer 1 & 2)"
+                >
+                  <Camera className="w-3.5 h-3.5" />
+                  <span>Photographer ({mediaItems.filter(m => m.type === 'image' && !m.originalFilename?.toLowerCase().includes('whatsapp') && !m.id.includes('whatsapp')).length})</span>
+                </button>
+                <button
+                  onClick={() => setPhotoSubcategory('mobile')}
+                  className={`px-3 py-1.5 rounded-full flex items-center gap-1.5 transition-all text-xs font-mono ${
+                    photoSubcategory === 'mobile'
+                      ? 'bg-gradient-to-r from-[#c5a059] to-[#dfba73] text-black font-bold shadow-md shadow-[#c5a059]/30'
+                      : 'text-white/60 hover:text-white hover:bg-white/5'
+                  }`}
+                  title="Mobile Camera & WhatsApp Moments"
+                >
+                  <Smartphone className="w-3.5 h-3.5" />
+                  <span>Mobile Camera ({mediaItems.filter(m => m.type === 'image' && (m.originalFilename?.toLowerCase().includes('whatsapp') || m.id.includes('whatsapp'))).length})</span>
+                </button>
+              </div>
+            )}
           </div>
 
           {/* Toggle Carousel Stream Button */}

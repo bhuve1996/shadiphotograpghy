@@ -1,4 +1,4 @@
-import type { MediaItem, EventCategory } from '../types/media';
+import type { MediaItem, EventCategory, PhotoSubcategory } from '../types/media';
 import { INITIAL_MEDIA_ITEMS } from '../data/initialData';
 
 // Incremented to v13 to reorder Photographer 1, Photographer 2, WhatsApp photos, then Videos
@@ -63,11 +63,25 @@ export class MediaService {
     items: MediaItem[], 
     category: EventCategory, 
     typeFilter: 'all' | 'image' | 'video' = 'all',
-    searchQuery: string = ''
+    searchQuery: string = '',
+    photoSubcategory: PhotoSubcategory = 'all'
   ): MediaItem[] {
     return items.filter(item => {
       const matchesCategory = category === 'All' || item.category === category;
       const matchesType = typeFilter === 'all' || item.type === typeFilter;
+      
+      // Subcategorize photos: Photographer (DSLR) vs Mobile Camera (WhatsApp)
+      let matchesSubcategory = true;
+      if (typeFilter === 'image' || typeFilter === 'all') {
+        const orig = (item.originalFilename || item.url || '').toLowerCase();
+        const isMobile = orig.includes('whatsapp') || item.id.includes('whatsapp');
+        if (photoSubcategory === 'photographer') {
+          matchesSubcategory = item.type === 'video' ? false : !isMobile;
+        } else if (photoSubcategory === 'mobile') {
+          matchesSubcategory = item.type === 'video' ? false : isMobile;
+        }
+      }
+
       const q = searchQuery.toLowerCase();
       const matchesSearch = !searchQuery || 
         item.title.toLowerCase().includes(q) ||
@@ -77,7 +91,7 @@ export class MediaService {
         item.coupleName?.toLowerCase().includes(q) ||
         item.location?.toLowerCase().includes(q);
 
-      return matchesCategory && matchesType && matchesSearch;
+      return matchesCategory && matchesType && matchesSubcategory && matchesSearch;
     });
   }
 }

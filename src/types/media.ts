@@ -4,6 +4,8 @@ export type EventCategory =
 
 export type MediaType = 'image' | 'video';
 
+export type PhotoSubcategory = 'all' | 'photographer' | 'mobile';
+
 export interface MediaItem {
   id: string;
   title: string;
