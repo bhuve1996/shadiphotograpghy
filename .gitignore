@@ -27,3 +27,7 @@ dist-ssr
 *.MOV
 *.mov
 public/media/roka/videos/*.mp4
+
+# Exclude raw 100MB+ videos, allow web_videos up to 100MB
+!public/media/roka/web_videos/*.mp4
+

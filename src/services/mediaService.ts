@@ -2,7 +2,7 @@ import type { MediaItem, EventCategory } from '../types/media';
 import { INITIAL_MEDIA_ITEMS } from '../data/initialData';
 
 // Incremented to v9 to refresh all 624 media items (including Whatsapp 3 cinema reels)
-const STORAGE_KEY = 'shaadi_photography_media_items_v9_whatsapp3';
+const STORAGE_KEY = 'shaadi_photography_media_items_v10_localvideos';
 
 export class MediaService {
   static getMedia(): MediaItem[] {
