@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Play, Trash2, MapPin, Calendar, FileText } from 'lucide-react';
+import { Play, Trash2, MapPin, Calendar, FileText, ImageOff } from 'lucide-react';
 import type { MediaItem } from '../types/media';
 
 interface MediaCardProps {
@@ -16,6 +16,8 @@ export const MediaCard: React.FC<MediaCardProps> = ({
   onDelete,
 }) => {
   const [isHovered, setIsHovered] = useState(false);
+  const [hasError, setHasError] = useState(false);
+  const [isLoaded, setIsLoaded] = useState(false);
   const isVideo = item.type === 'video';
 
   const handleClick = () => {
@@ -30,17 +32,18 @@ export const MediaCard: React.FC<MediaCardProps> = ({
     <div
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      className="group relative overflow-hidden rounded-xl bg-[#141824] border border-white/5 transition-all duration-500 hover:border-[#c5a059]/40 hover:shadow-2xl hover:shadow-[#c5a059]/10 cursor-pointer break-inside-avoid mb-5"
+      className="group relative overflow-hidden rounded-xl bg-[#141824] border border-white/5 transition-all duration-500 hover:border-[#c5a059]/40 hover:shadow-2xl hover:shadow-[#c5a059]/10 cursor-pointer break-inside-avoid mb-6"
       onClick={handleClick}
     >
-      {/* Media container */}
-      <div className="relative overflow-hidden aspect-[4/5] sm:aspect-auto">
+      {/* Media container with guaranteed minimum height and solid aspect ratio */}
+      <div className="relative w-full overflow-hidden bg-[#10131d] min-h-[280px] flex items-center justify-center">
         {isVideo ? (
-          <div className="relative w-full h-full min-h-[260px] bg-black">
-            {item.thumbnailUrl ? (
+          <div className="relative w-full min-h-[280px] aspect-[16/10] bg-black">
+            {item.thumbnailUrl && !hasError ? (
               <img
                 src={item.thumbnailUrl}
                 alt={item.title}
+                onError={() => setHasError(true)}
                 className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                 loading="lazy"
               />
@@ -60,22 +63,44 @@ export const MediaCard: React.FC<MediaCardProps> = ({
               </div>
             </div>
             {/* Duration / Format Tag */}
-            <span className="absolute bottom-3 right-3 px-2 py-0.5 rounded bg-black/80 backdrop-blur-sm text-[11px] font-mono text-[#f3e5ab] border border-white/10">
+            <span className="absolute bottom-3 right-3 px-2 py-0.5 rounded bg-black/80 backdrop-blur-sm text-[11px] font-mono text-[#f3e5ab] border border-white/10 z-10">
               {item.duration || 'VIDEO'}
             </span>
           </div>
         ) : (
-          <img
-            src={item.url}
-            alt={item.title}
-            className="w-full h-auto object-cover transition-transform duration-700 ease-out group-hover:scale-105"
-            loading="lazy"
-          />
+          <div className="w-full relative min-h-[280px] bg-[#0e111a] flex items-center justify-center">
+            {/* Skeleton / Shimmer placeholder while loading */}
+            {!isLoaded && !hasError && (
+              <div className="absolute inset-0 skeleton-shimmer z-0" />
+            )}
+
+            {!hasError ? (
+              <img
+                src={item.url}
+                alt={item.title}
+                onLoad={() => setIsLoaded(true)}
+                onError={() => {
+                  setHasError(true);
+                  setIsLoaded(true);
+                }}
+                className={`w-full h-auto min-h-[280px] max-h-[580px] object-cover transition-all duration-700 ease-out group-hover:scale-105 ${
+                  isLoaded ? 'opacity-100' : 'opacity-0'
+                }`}
+                loading="lazy"
+              />
+            ) : (
+              <div className="py-20 flex flex-col items-center justify-center text-center p-6 text-white/40">
+                <ImageOff className="w-8 h-8 text-[#c5a059]/60 mb-2" />
+                <span className="text-xs font-serif text-white/60">{item.title}</span>
+                <span className="text-[10px] font-mono text-white/30 mt-1">{item.originalFilename}</span>
+              </div>
+            )}
+          </div>
         )}
 
         {/* Category Pill */}
-        <div className="absolute top-3 left-3 z-10">
-          <span className="px-2.5 py-1 rounded-full bg-black/60 backdrop-blur-md text-[11px] tracking-wider uppercase font-medium text-[#f3e5ab] border border-white/10">
+        <div className="absolute top-3 left-3 z-20">
+          <span className="px-2.5 py-1 rounded-full bg-black/75 backdrop-blur-md text-[11px] tracking-wider uppercase font-medium text-[#f3e5ab] border border-white/10 shadow-lg">
             {item.category}
           </span>
         </div>
@@ -87,7 +112,7 @@ export const MediaCard: React.FC<MediaCardProps> = ({
               e.stopPropagation();
               onDelete(item.id);
             }}
-            className="absolute top-3 right-3 z-20 p-2 rounded-full bg-black/60 hover:bg-red-500/80 text-white transition-all opacity-0 group-hover:opacity-100"
+            className="absolute top-3 right-3 z-30 p-2 rounded-full bg-black/60 hover:bg-red-500/80 text-white transition-all opacity-0 group-hover:opacity-100"
             title="Delete this media"
           >
             <Trash2 className="w-3.5 h-3.5" />
@@ -96,7 +121,7 @@ export const MediaCard: React.FC<MediaCardProps> = ({
 
         {/* Hover Overlay with Dual-name Metadata */}
         <div
-          className={`absolute inset-0 bg-gradient-to-t from-black/95 via-black/50 to-transparent p-5 flex flex-col justify-end transition-opacity duration-300 ${
+          className={`absolute inset-0 bg-gradient-to-t from-black/95 via-black/50 to-transparent p-5 flex flex-col justify-end transition-opacity duration-300 z-10 ${
             isHovered ? 'opacity-100' : 'opacity-0'
           }`}
         >

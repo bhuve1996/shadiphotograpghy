@@ -1,8 +1,8 @@
 import type { MediaItem, EventCategory } from '../types/media';
 import { INITIAL_MEDIA_ITEMS } from '../data/initialData';
 
-// Incremented to v4 to immediately reload user's local 78 real Roka media files
-const STORAGE_KEY = 'shaadi_photography_media_items_v4_local_roka';
+// Incremented to v5 to immediately clear older state and reload clean URLs
+const STORAGE_KEY = 'shaadi_photography_media_items_v5_clean_urls';
 
 export class MediaService {
   static getMedia(): MediaItem[] {
