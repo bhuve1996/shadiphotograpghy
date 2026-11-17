@@ -26,6 +26,7 @@ import { MediaLightbox } from './components/MediaLightbox';
 import { HighEndVideoPlayer } from './components/HighEndVideoPlayer';
 import { HighlightsCarousel } from './components/HighlightsCarousel';
 import { HorizontalGalleryBatchCarousel } from './components/HorizontalGalleryBatchCarousel';
+import { WelcomeIntro } from './components/WelcomeIntro';
 
 const EVENT_CATEGORIES: EventCategory[] = [
   'All',
@@ -135,6 +136,9 @@ export function App() {
 
   return (
     <div className="min-h-screen bg-[#0b0c10] text-[#e0e2ec] font-sans selection:bg-[#c5a059] selection:text-black">
+      {/* Auspicious Welcome Intro Overlay */}
+      <WelcomeIntro />
+
       {/* Top Luxury Navbar */}
       <Navbar
         activeTab={typeFilter}
