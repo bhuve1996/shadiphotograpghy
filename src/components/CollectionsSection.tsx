@@ -32,7 +32,7 @@ export const CollectionsSection: React.FC<CollectionsSectionProps> = ({
             className="w-full max-w-2xl group relative rounded-2xl overflow-hidden bg-[#131722] border border-white/5 hover:border-[#c5a059]/40 transition-all duration-500 hover:shadow-2xl hover:shadow-[#c5a059]/15 flex flex-col justify-between"
           >
             {/* Cover Image Container */}
-            <div className="relative aspect-[16/10] sm:aspect-[16/9] overflow-hidden">
+            <div className="relative aspect-[16/11] sm:aspect-[16/9] overflow-hidden">
               <img
                 src={col.coverImage}
                 alt={col.coupleName}
@@ -40,37 +40,38 @@ export const CollectionsSection: React.FC<CollectionsSectionProps> = ({
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#131722] via-[#131722]/30 to-black/30" />
 
-              {/* Floating Film Watch Button */}
-              {col.filmUrl && (
-                <button
-                  onClick={() => onPlayFilm(col.filmUrl!, `The Roka Film — ${col.coupleName}`, col.coupleName)}
-                  className="absolute top-4 right-4 z-10 px-3.5 py-1.5 rounded-full bg-black/60 hover:bg-[#c5a059] text-white hover:text-black backdrop-blur-md text-xs font-medium border border-white/10 flex items-center gap-1.5 transition-all shadow-lg"
-                >
-                  <Play className="w-3.5 h-3.5 fill-current" />
-                  <span>Play Roka Film ({col.filmDuration})</span>
-                </button>
-              )}
+              {/* Top Bar with Badge and Play Button (Responsive Stacking on Mobile) */}
+              <div className="absolute top-3 sm:top-4 left-3 sm:left-4 right-3 sm:right-4 z-10 flex flex-wrap items-center justify-between gap-2">
+                <div className="px-3 py-1 rounded-full bg-black/70 backdrop-blur-md text-[11px] font-mono text-[#f3e5ab] border border-white/10 shrink-0">
+                  {col.highlightsCount} Curated Memories
+                </div>
 
-              {/* Highlights count */}
-              <div className="absolute top-4 left-4 z-10 px-3 py-1 rounded-full bg-black/60 backdrop-blur-md text-[11px] font-mono text-[#f3e5ab] border border-white/10">
-                {col.highlightsCount} Curated Memories
+                {col.filmUrl && (
+                  <button
+                    onClick={() => onPlayFilm(col.filmUrl!, `The Roka Film — ${col.coupleName}`, col.coupleName)}
+                    className="px-3 sm:px-3.5 py-1.5 rounded-full bg-black/70 hover:bg-[#c5a059] text-white hover:text-black backdrop-blur-md text-xs font-medium border border-white/10 flex items-center gap-1.5 transition-all shadow-lg shrink-0"
+                  >
+                    <Play className="w-3.5 h-3.5 fill-current" />
+                    <span>Play Roka Film ({col.filmDuration})</span>
+                  </button>
+                )}
               </div>
 
               {/* Overlay Text */}
-              <div className="absolute bottom-6 left-6 right-6 z-10">
-                <div className="flex items-center gap-3 text-xs text-[#c5a059] font-medium tracking-wider uppercase mb-1">
+              <div className="absolute bottom-4 sm:bottom-6 left-4 sm:left-6 right-4 sm:right-6 z-10">
+                <div className="flex flex-wrap items-center gap-2 text-[11px] sm:text-xs text-[#c5a059] font-medium tracking-wider uppercase mb-1">
                   <span className="flex items-center gap-1">
-                    <MapPin className="w-3 h-3" /> {col.location}
+                    <MapPin className="w-3 h-3 shrink-0" /> {col.location}
                   </span>
                   <span>•</span>
                   <span className="flex items-center gap-1">
-                    <Calendar className="w-3 h-3" /> {col.date}
+                    <Calendar className="w-3 h-3 shrink-0" /> {col.date}
                   </span>
                 </div>
-                <h3 className="text-3xl sm:text-4xl font-serif text-white tracking-wide font-normal mb-2">
+                <h3 className="text-2xl sm:text-4xl font-serif text-white tracking-wide font-normal mb-1 sm:mb-2">
                   {col.coupleName}
                 </h3>
-                <p className="text-sm text-gray-300 italic font-serif opacity-90 leading-relaxed">
+                <p className="text-xs sm:text-sm text-gray-300 italic font-serif opacity-90 leading-relaxed line-clamp-2 sm:line-clamp-none">
                   "{col.storyQuote}"
                 </p>
               </div>

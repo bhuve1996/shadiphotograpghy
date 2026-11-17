@@ -178,23 +178,23 @@ export const HighEndVideoPlayer: React.FC<HighEndVideoPlayerProps> = ({
 
       {/* Top Overlay Badge / Titles */}
       <div
-        className={`absolute top-0 left-0 right-0 p-6 bg-gradient-to-b from-black/80 via-black/30 to-transparent transition-opacity duration-500 ${
+        className={`absolute top-0 left-0 right-0 p-4 sm:p-6 bg-gradient-to-b from-black/80 via-black/30 to-transparent transition-opacity duration-500 ${
           showControls ? 'opacity-100' : 'opacity-0'
         }`}
       >
         <div className="flex items-center justify-between">
           <div>
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-black/40 border border-[#c5a059]/40 text-[#f3e5ab] text-xs uppercase tracking-widest font-medium mb-1 backdrop-blur-md">
+            <div className="inline-flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3 py-0.5 sm:py-1 rounded-full bg-black/40 border border-[#c5a059]/40 text-[#f3e5ab] text-[10px] sm:text-xs uppercase tracking-widest font-medium mb-1 backdrop-blur-md">
               <span className="w-1.5 h-1.5 rounded-full bg-[#c5a059] animate-pulse" />
-              Cinematic Master Reel
+              Cinematic Reel
             </div>
             {coupleName && (
-              <h3 className="text-xl md:text-2xl font-serif text-white tracking-wide font-normal">
+              <h3 className="text-base sm:text-2xl font-serif text-white tracking-wide font-normal truncate max-w-[200px] sm:max-w-none">
                 {coupleName}
               </h3>
             )}
             {title && (
-              <p className="text-sm text-gray-300 font-sans tracking-normal opacity-90">
+              <p className="text-xs sm:text-sm text-gray-300 font-sans tracking-normal opacity-90 truncate max-w-[200px] sm:max-w-none">
                 {title}
               </p>
             )}
