@@ -11,7 +11,9 @@ import {
   LayoutGrid,
   Grid3X3,
   Columns4,
-  SlidersHorizontal
+  SlidersHorizontal,
+  ChevronLeft,
+  ChevronRight
 } from 'lucide-react';
 import type { EventCategory, MediaItem, CoupleCollection } from './types/media';
 import { MediaService } from './services/mediaService';
@@ -36,6 +38,13 @@ export function App() {
   const [showScrollTop, setShowScrollTop] = useState(false);
   const [gridColumns, setGridColumns] = useState<'3' | '4' | '2'>('3');
   const [showCarousel, setShowCarousel] = useState(true);
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 48; // Crisp, balanced batch of memories per page
+
+  // Reset to page 1 whenever search, category, or type filter changes
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [selectedCategory, typeFilter, searchQuery]);
   
   // Track scroll position to reveal "Scroll to Top" button
   useEffect(() => {
@@ -71,6 +80,18 @@ export function App() {
   const filteredItems = useMemo(() => {
     return MediaService.filterMedia(mediaItems, selectedCategory, typeFilter, searchQuery);
   }, [mediaItems, selectedCategory, typeFilter, searchQuery]);
+
+  // Paginated Batch of items
+  const totalPages = Math.ceil(filteredItems.length / itemsPerPage) || 1;
+  const paginatedItems = useMemo(() => {
+    const startIndex = (currentPage - 1) * itemsPerPage;
+    return filteredItems.slice(startIndex, startIndex + itemsPerPage);
+  }, [filteredItems, currentPage, itemsPerPage]);
+
+  const handlePageChange = (page: number) => {
+    setCurrentPage(page);
+    document.getElementById('gallery-section')?.scrollIntoView({ behavior: 'smooth' });
+  };
 
   // Video-only items for Cinema showcase
   const cinemaVideos = useMemo(() => {
@@ -367,7 +388,7 @@ export function App() {
           />
         )}
 
-        {/* Dynamic Multi-Column Grid Layout */}
+        {/* Dynamic Multi-Column Grid Layout with Pagination Batches */}
         {filteredItems.length === 0 ? (
           <div className="text-center py-24 bg-[#121520] rounded-2xl border border-dashed border-white/10 p-12">
             <div className="w-14 h-14 rounded-full bg-white/5 flex items-center justify-center mx-auto mb-4 text-[#c5a059]">
@@ -389,25 +410,94 @@ export function App() {
             </button>
           </div>
         ) : (
-          <div className={`gap-4 sm:gap-6 space-y-4 sm:space-y-6 ${
-            gridColumns === '2'
-              ? 'columns-1 sm:columns-2'
-              : gridColumns === '4'
-              ? 'columns-2 sm:columns-3 md:columns-4'
-              : 'columns-1 sm:columns-2 lg:columns-3'
-          }`}>
-            {filteredItems.map((item) => (
-              <MediaCard
-                key={item.id}
-                item={item}
-                onOpenLightbox={(selected) => setActiveLightboxItem(selected)}
-                onOpenVideoPlayer={(selected) =>
-                  handlePlayFilm(selected.url, selected.title, selected.coupleName || 'Harsha & Bhuvesh', selected.thumbnailUrl, selected.gdriveId)
-                }
-                onDelete={handleDeleteMedia}
-              />
-            ))}
-          </div>
+          <>
+            <div className={`gap-4 sm:gap-6 space-y-4 sm:space-y-6 ${
+              gridColumns === '2'
+                ? 'columns-1 sm:columns-2'
+                : gridColumns === '4'
+                ? 'columns-2 sm:columns-3 md:columns-4'
+                : 'columns-1 sm:columns-2 lg:columns-3'
+            }`}>
+              {paginatedItems.map((item) => (
+                <MediaCard
+                  key={item.id}
+                  item={item}
+                  onOpenLightbox={(selected) => setActiveLightboxItem(selected)}
+                  onOpenVideoPlayer={(selected) =>
+                    handlePlayFilm(selected.url, selected.title, selected.coupleName || 'Harsha & Bhuvesh', selected.thumbnailUrl, selected.gdriveId)
+                  }
+                  onDelete={handleDeleteMedia}
+                />
+              ))}
+            </div>
+
+            {/* Pagination Controls */}
+            {totalPages > 1 && (
+              <div className="mt-14 flex flex-col sm:flex-row items-center justify-center gap-3 select-none">
+                <div className="flex items-center gap-1.5 p-1 bg-[#131722] border border-white/10 rounded-full shadow-xl">
+                  {/* Previous Page Button */}
+                  <button
+                    onClick={() => handlePageChange(Math.max(1, currentPage - 1))}
+                    disabled={currentPage === 1}
+                    className="p-2 sm:p-2.5 rounded-full hover:bg-white/10 disabled:opacity-30 disabled:hover:bg-transparent text-white transition-all"
+                    aria-label="Previous Page"
+                  >
+                    <ChevronLeft className="w-4 h-4" />
+                  </button>
+
+                  {/* Page Numbers */}
+                  <div className="flex items-center gap-1 px-1">
+                    {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => {
+                      // Show first, last, and pages around currentPage
+                      if (
+                        page === 1 ||
+                        page === totalPages ||
+                        (page >= currentPage - 1 && page <= currentPage + 1)
+                      ) {
+                        return (
+                          <button
+                            key={page}
+                            onClick={() => handlePageChange(page)}
+                            className={`min-w-8 h-8 sm:min-w-9 sm:h-9 px-2 text-xs font-mono rounded-full transition-all flex items-center justify-center ${
+                              currentPage === page
+                                ? 'bg-gradient-to-r from-[#c5a059] to-[#dfba73] text-black font-bold shadow-md shadow-[#c5a059]/30'
+                                : 'text-white/70 hover:text-white hover:bg-white/5'
+                            }`}
+                          >
+                            {page}
+                          </button>
+                        );
+                      } else if (
+                        page === currentPage - 2 ||
+                        page === currentPage + 2
+                      ) {
+                        return (
+                          <span key={page} className="px-1 text-white/30 text-xs font-mono">
+                            ...
+                          </span>
+                        );
+                      }
+                      return null;
+                    })}
+                  </div>
+
+                  {/* Next Page Button */}
+                  <button
+                    onClick={() => handlePageChange(Math.min(totalPages, currentPage + 1))}
+                    disabled={currentPage === totalPages}
+                    className="p-2 sm:p-2.5 rounded-full hover:bg-white/10 disabled:opacity-30 disabled:hover:bg-transparent text-white transition-all"
+                    aria-label="Next Page"
+                  >
+                    <ChevronRight className="w-4 h-4" />
+                  </button>
+                </div>
+
+                <div className="text-[11px] font-mono text-[#f3e5ab]/70">
+                  Batch {currentPage} of {totalPages} ({paginatedItems.length} items shown)
+                </div>
+              </div>
+            )}
+          </>
         )}
 
         {/* Reset & Stats Footer Bar */}
