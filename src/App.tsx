@@ -150,7 +150,7 @@ export function App() {
             <div className="lg:col-span-2">
               <HighEndVideoPlayer
                 src={cinemaVideos[0]?.url || '/media/roka/videos/Roka_Cinema_Highlight_01__[orig__IMG_4344.MOV].mp4'}
-                poster={cinemaVideos[0]?.thumbnailUrl || '/media/roka/photos/Roka_Moment_01__[orig__IMG_4345.JPG.jpeg].jpg'}
+                poster={cinemaVideos[0]?.thumbnailUrl || '/media/roka/video_thumbs/IMG_9347_thumb.jpg'}
                 coupleName={cinemaVideos[0]?.coupleName || 'Harsha & Bhuvesh'}
                 title={cinemaVideos[0]?.title || 'The Roka Ceremony Film'}
                 className="w-full aspect-video"
@@ -172,7 +172,7 @@ export function App() {
                   >
                     <div className="relative w-28 h-20 rounded-lg overflow-hidden shrink-0 bg-black">
                       <img
-                        src={vid.thumbnailUrl || '/media/roka/photos/Roka_Moment_01__[orig__IMG_4345.JPG.jpeg].jpg'}
+                        src={vid.thumbnailUrl || '/media/roka/video_thumbs/IMG_9347_thumb.jpg'}
                         alt={vid.title}
                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                       />

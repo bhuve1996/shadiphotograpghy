@@ -132,7 +132,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreGallery }) => {
             </button>
             <HighEndVideoPlayer
               src="/media/roka/web_videos/IMG_9347.mp4"
-              poster="/media/roka/photos/Roka_Moment_01_orig_IMG_4345.JPG.jpeg_.jpg"
+              poster="/media/roka/video_thumbs/IMG_9347_thumb.jpg"
               coupleName="Harsha & Bhuvesh"
               title="Official 4K Roka Ceremony Film"
               gdriveId="1O5aPL_89CebKWTF_U2K_iKXx1mbL3Kp9"
