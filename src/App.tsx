@@ -13,7 +13,8 @@ import {
   Columns4,
   SlidersHorizontal,
   ChevronLeft,
-  ChevronRight
+  ChevronRight,
+  Rows3
 } from 'lucide-react';
 import type { EventCategory, MediaItem, CoupleCollection } from './types/media';
 import { MediaService } from './services/mediaService';
@@ -36,10 +37,11 @@ export function App() {
   const [typeFilter, setTypeFilter] = useState<'all' | 'image' | 'video'>('all');
   const [searchQuery, setSearchQuery] = useState('');
   const [showScrollTop, setShowScrollTop] = useState(false);
+  const [viewMode, setViewMode] = useState<'horizontal' | 'grid'>('horizontal');
   const [gridColumns, setGridColumns] = useState<'3' | '4' | '2'>('3');
   const [showCarousel, setShowCarousel] = useState(true);
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 48; // Crisp, balanced batch of memories per page
+  const itemsPerPage = 36; // Crisp, balanced batch of memories per page
 
   // Reset to page 1 whenever search, category, or type filter changes
   useEffect(() => {
@@ -298,39 +300,65 @@ export function App() {
               </button>
             </div>
 
-            {/* Grid Column Selector Controls - Available on Mobile & Desktop */}
-            <div className="flex items-center justify-center bg-[#141824] border border-white/10 rounded-full p-1 text-xs shrink-0">
+            {/* View Mode Toggle: Horizontal Stream (Default) vs Multi-Grid */}
+            <div className="flex items-center bg-[#141824] border border-white/10 rounded-full p-1 text-xs shrink-0">
               <button
-                onClick={() => setGridColumns('2')}
-                className={`px-2.5 sm:px-2 py-1.5 rounded-full transition-all flex items-center gap-1 ${
-                  gridColumns === '2' ? 'bg-[#c5a059] text-black font-semibold' : 'text-white/60 hover:text-white'
+                onClick={() => setViewMode('horizontal')}
+                className={`px-3 py-1.5 rounded-full flex items-center gap-1.5 transition-all ${
+                  viewMode === 'horizontal' ? 'bg-[#c5a059] text-black font-semibold' : 'text-white/60 hover:text-white'
                 }`}
-                title="2-Column Grid (Large)"
+                title="Horizontal Panoramic Stream View (Default)"
+              >
+                <Rows3 className="w-3.5 h-3.5" />
+                <span>Horizontal</span>
+              </button>
+              <button
+                onClick={() => setViewMode('grid')}
+                className={`px-3 py-1.5 rounded-full flex items-center gap-1.5 transition-all ${
+                  viewMode === 'grid' ? 'bg-[#c5a059] text-black font-semibold' : 'text-white/60 hover:text-white'
+                }`}
+                title="Vertical Grid View"
               >
                 <LayoutGrid className="w-3.5 h-3.5" />
-                <span className="text-[10px] sm:hidden font-mono">2x</span>
-              </button>
-              <button
-                onClick={() => setGridColumns('3')}
-                className={`px-2.5 sm:px-2 py-1.5 rounded-full transition-all flex items-center gap-1 ${
-                  gridColumns === '3' ? 'bg-[#c5a059] text-black font-semibold' : 'text-white/60 hover:text-white'
-                }`}
-                title="3-Column Grid (Standard)"
-              >
-                <Grid3X3 className="w-3.5 h-3.5" />
-                <span className="text-[10px] sm:hidden font-mono">3x</span>
-              </button>
-              <button
-                onClick={() => setGridColumns('4')}
-                className={`px-2.5 sm:px-2 py-1.5 rounded-full transition-all flex items-center gap-1 ${
-                  gridColumns === '4' ? 'bg-[#c5a059] text-black font-semibold' : 'text-white/60 hover:text-white'
-                }`}
-                title="4-Column Grid (Compact)"
-              >
-                <Columns4 className="w-3.5 h-3.5" />
-                <span className="text-[10px] sm:hidden font-mono">4x</span>
+                <span>Grid</span>
               </button>
             </div>
+
+            {/* Grid Column Selector Controls - Available in Grid Mode */}
+            {viewMode === 'grid' && (
+              <div className="flex items-center justify-center bg-[#141824] border border-white/10 rounded-full p-1 text-xs shrink-0">
+                <button
+                  onClick={() => setGridColumns('2')}
+                  className={`px-2.5 sm:px-2 py-1.5 rounded-full transition-all flex items-center gap-1 ${
+                    gridColumns === '2' ? 'bg-[#c5a059] text-black font-semibold' : 'text-white/60 hover:text-white'
+                  }`}
+                  title="2-Column Grid (Large)"
+                >
+                  <LayoutGrid className="w-3.5 h-3.5" />
+                  <span className="text-[10px] sm:hidden font-mono">2x</span>
+                </button>
+                <button
+                  onClick={() => setGridColumns('3')}
+                  className={`px-2.5 sm:px-2 py-1.5 rounded-full transition-all flex items-center gap-1 ${
+                    gridColumns === '3' ? 'bg-[#c5a059] text-black font-semibold' : 'text-white/60 hover:text-white'
+                  }`}
+                  title="3-Column Grid (Standard)"
+                >
+                  <Grid3X3 className="w-3.5 h-3.5" />
+                  <span className="text-[10px] sm:hidden font-mono">3x</span>
+                </button>
+                <button
+                  onClick={() => setGridColumns('4')}
+                  className={`px-2.5 sm:px-2 py-1.5 rounded-full transition-all flex items-center gap-1 ${
+                    gridColumns === '4' ? 'bg-[#c5a059] text-black font-semibold' : 'text-white/60 hover:text-white'
+                  }`}
+                  title="4-Column Grid (Compact)"
+                >
+                  <Columns4 className="w-3.5 h-3.5" />
+                  <span className="text-[10px] sm:hidden font-mono">4x</span>
+                </button>
+              </div>
+            )}
           </div>
         </div>
 
@@ -388,7 +416,7 @@ export function App() {
           />
         )}
 
-        {/* Dynamic Multi-Column Grid Layout with Pagination Batches */}
+        {/* Dynamic Multi-Column Grid or Horizontal Editorial Stream */}
         {filteredItems.length === 0 ? (
           <div className="text-center py-24 bg-[#121520] rounded-2xl border border-dashed border-white/10 p-12">
             <div className="w-14 h-14 rounded-full bg-white/5 flex items-center justify-center mx-auto mb-4 text-[#c5a059]">
@@ -409,7 +437,148 @@ export function App() {
               Reset Filters
             </button>
           </div>
+        ) : viewMode === 'horizontal' ? (
+          /* DEFAULT: Horizontal Editorial Stream Layout */
+          <>
+            <div className="space-y-6">
+              {paginatedItems.map((item) => (
+                <div
+                  key={item.id}
+                  onClick={() => {
+                    if (item.type === 'video') {
+                      handlePlayFilm(item.url, item.title, item.coupleName || 'Harsha & Bhuvesh', item.thumbnailUrl, item.gdriveId);
+                    } else {
+                      setActiveLightboxItem(item);
+                    }
+                  }}
+                  className="group flex flex-col md:flex-row items-stretch gap-5 p-4 sm:p-5 rounded-2xl bg-[#131722] hover:bg-[#181d2b] border border-white/5 hover:border-[#c5a059]/40 transition-all duration-300 shadow-xl cursor-pointer"
+                >
+                  {/* Horizontal Visual Cover */}
+                  <div className="relative w-full md:w-80 lg:w-96 aspect-[16/10] md:aspect-[4/3] rounded-xl overflow-hidden shrink-0 bg-black/50">
+                    <img
+                      src={item.type === 'video' ? (item.thumbnailUrl || item.url) : item.url}
+                      alt={item.title}
+                      loading="lazy"
+                      className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-50 group-hover:opacity-20 transition-opacity" />
+                    
+                    {item.type === 'video' ? (
+                      <div className="absolute inset-0 flex items-center justify-center">
+                        <div className="w-12 h-12 rounded-full bg-black/60 group-hover:bg-[#c5a059] text-white group-hover:text-black flex items-center justify-center transition-all shadow-lg group-hover:scale-110">
+                          <Play className="w-5 h-5 ml-0.5 fill-current" />
+                        </div>
+                      </div>
+                    ) : (
+                      <div className="absolute top-3 left-3 px-2.5 py-1 rounded-full text-[10px] font-mono uppercase tracking-wider bg-black/60 text-[#f3e5ab] border border-white/10 backdrop-blur-md">
+                        Photo
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Horizontal Meta & Details */}
+                  <div className="flex-1 flex flex-col justify-between py-1">
+                    <div>
+                      <div className="flex items-center gap-2.5 text-xs text-[#c5a059] font-medium tracking-wider uppercase mb-1.5">
+                        <span>{item.category}</span>
+                        <span>•</span>
+                        <span>{item.type === 'video' ? '4K Cinema Film' : 'High Resolution Still'}</span>
+                      </div>
+                      <h3 className="text-xl sm:text-2xl font-serif text-white font-normal group-hover:text-[#f3e5ab] transition-colors">
+                        {item.title}
+                      </h3>
+                      {item.description && (
+                        <p className="text-xs sm:text-sm text-gray-400 mt-2 line-clamp-2 leading-relaxed">
+                          {item.description}
+                        </p>
+                      )}
+                    </div>
+
+                    <div className="mt-4 pt-4 border-t border-white/5 flex flex-wrap items-center justify-between gap-3 text-xs text-white/50 font-mono">
+                      {item.originalFilename && (
+                        <span className="truncate max-w-xs text-white/70">
+                          File: {item.originalFilename}
+                        </span>
+                      )}
+                      <div className="flex items-center gap-3 ml-auto">
+                        <span className="text-[#c5a059] group-hover:underline flex items-center gap-1">
+                          View {item.type === 'video' ? 'Film' : 'Photo'} &rarr;
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {/* Pagination Controls */}
+            {totalPages > 1 && (
+              <div className="mt-14 flex flex-col sm:flex-row items-center justify-center gap-3 select-none">
+                <div className="flex items-center gap-1.5 p-1 bg-[#131722] border border-white/10 rounded-full shadow-xl">
+                  {/* Previous Page Button */}
+                  <button
+                    onClick={() => handlePageChange(Math.max(1, currentPage - 1))}
+                    disabled={currentPage === 1}
+                    className="p-2 sm:p-2.5 rounded-full hover:bg-white/10 disabled:opacity-30 disabled:hover:bg-transparent text-white transition-all"
+                    aria-label="Previous Page"
+                  >
+                    <ChevronLeft className="w-4 h-4" />
+                  </button>
+
+                  {/* Page Numbers */}
+                  <div className="flex items-center gap-1 px-1">
+                    {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => {
+                      if (
+                        page === 1 ||
+                        page === totalPages ||
+                        (page >= currentPage - 1 && page <= currentPage + 1)
+                      ) {
+                        return (
+                          <button
+                            key={page}
+                            onClick={() => handlePageChange(page)}
+                            className={`min-w-8 h-8 sm:min-w-9 sm:h-9 px-2 text-xs font-mono rounded-full transition-all flex items-center justify-center ${
+                              currentPage === page
+                                ? 'bg-gradient-to-r from-[#c5a059] to-[#dfba73] text-black font-bold shadow-md shadow-[#c5a059]/30'
+                                : 'text-white/70 hover:text-white hover:bg-white/5'
+                            }`}
+                          >
+                            {page}
+                          </button>
+                        );
+                      } else if (
+                        page === currentPage - 2 ||
+                        page === currentPage + 2
+                      ) {
+                        return (
+                          <span key={page} className="px-1 text-white/30 text-xs font-mono">
+                            ...
+                          </span>
+                        );
+                      }
+                      return null;
+                    })}
+                  </div>
+
+                  {/* Next Page Button */}
+                  <button
+                    onClick={() => handlePageChange(Math.min(totalPages, currentPage + 1))}
+                    disabled={currentPage === totalPages}
+                    className="p-2 sm:p-2.5 rounded-full hover:bg-white/10 disabled:opacity-30 disabled:hover:bg-transparent text-white transition-all"
+                    aria-label="Next Page"
+                  >
+                    <ChevronRight className="w-4 h-4" />
+                  </button>
+                </div>
+
+                <div className="text-[11px] font-mono text-[#f3e5ab]/70">
+                  Batch {currentPage} of {totalPages} ({paginatedItems.length} items shown)
+                </div>
+              </div>
+            )}
+          </>
         ) : (
+          /* Grid View Mode */
           <>
             <div className={`gap-4 sm:gap-6 space-y-4 sm:space-y-6 ${
               gridColumns === '2'
@@ -448,7 +617,6 @@ export function App() {
                   {/* Page Numbers */}
                   <div className="flex items-center gap-1 px-1">
                     {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => {
-                      // Show first, last, and pages around currentPage
                       if (
                         page === 1 ||
                         page === totalPages ||
