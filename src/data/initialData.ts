@@ -30,9 +30,11 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "date": "Feb 2026",
     "duration": "03:30",
     "description": "Official 4K Roka Highlight Reel #1 — Harsha & Bhuvesh",
-    "originalFilename": "Highlight_Reel_01.mp4",
+    "originalFilename": "IMG_9347.MP4",
     "curatedFilename": "The Roka Ceremony Film — Harsha & Bhuvesh",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1O5aPL_89CebKWTF_U2K_iKXx1mbL3Kp9",
+    "gdriveUrl": "https://drive.google.com/file/d/1O5aPL_89CebKWTF_U2K_iKXx1mbL3Kp9/view?usp=sharing"
   },
   {
     "id": "roka-video-2",
@@ -48,9 +50,11 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "date": "Feb 2026",
     "duration": "02:15",
     "description": "Official 4K Roka Highlight Reel #2 — Harsha & Bhuvesh",
-    "originalFilename": "Highlight_Reel_02.mp4",
+    "originalFilename": "IMG_8256.MOV",
     "curatedFilename": "Ring Exchange & Family Celebrations Highlight",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "16afP9KK-wtyD7c1V-eRaWM-uLVj88Wuh",
+    "gdriveUrl": "https://drive.google.com/file/d/16afP9KK-wtyD7c1V-eRaWM-uLVj88Wuh/view?usp=sharing"
   },
   {
     "id": "roka-video-3",
@@ -66,9 +70,11 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "date": "Feb 2026",
     "duration": "01:50",
     "description": "Official 4K Roka Highlight Reel #3 — Harsha & Bhuvesh",
-    "originalFilename": "Highlight_Reel_03.mp4",
+    "originalFilename": "IMG_8261.MOV",
     "curatedFilename": "Chunni & Shagun Ritual Moments",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1TleS0uEXWHX4r47jS6_-c-m7cnjET5DZ",
+    "gdriveUrl": "https://drive.google.com/file/d/1TleS0uEXWHX4r47jS6_-c-m7cnjET5DZ/view?usp=sharing"
   },
   {
     "id": "roka-video-4",
@@ -84,9 +90,11 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "date": "Feb 2026",
     "duration": "02:45",
     "description": "Official 4K Roka Highlight Reel #4 — Harsha & Bhuvesh",
-    "originalFilename": "Highlight_Reel_04.mp4",
+    "originalFilename": "IMG_8225.MOV",
     "curatedFilename": "Family Blessings & Sweet Exchange",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1LGU7_OA73sX_L_wqGT2syg0EjSytDU6b",
+    "gdriveUrl": "https://drive.google.com/file/d/1LGU7_OA73sX_L_wqGT2syg0EjSytDU6b/view?usp=sharing"
   },
   {
     "id": "roka-video-5",
@@ -102,9 +110,11 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "date": "Feb 2026",
     "duration": "02:10",
     "description": "Official 4K Roka Highlight Reel #5 — Harsha & Bhuvesh",
-    "originalFilename": "Highlight_Reel_05.mp4",
+    "originalFilename": "IMG_8226.MOV",
     "curatedFilename": "Evening Celebration & Dance Revelry",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1xlJTxUeXIxgggqqv1BWbeNBTtOnpmXEl",
+    "gdriveUrl": "https://drive.google.com/file/d/1xlJTxUeXIxgggqqv1BWbeNBTtOnpmXEl/view?usp=sharing"
   },
   {
     "id": "roka-video-6",
@@ -120,9 +130,11 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "date": "Feb 2026",
     "duration": "01:30",
     "description": "Official 4K Roka Highlight Reel #6 — Harsha & Bhuvesh",
-    "originalFilename": "Highlight_Reel_06.mp4",
+    "originalFilename": "IMG_4344.MOV",
     "curatedFilename": "Auspicious New Beginnings Reel",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1dZYO8LnMsrNBJnL3KzT45zwHU14aaqL_",
+    "gdriveUrl": "https://drive.google.com/file/d/1dZYO8LnMsrNBJnL3KzT45zwHU14aaqL_/view?usp=sharing"
   },
   {
     "id": "roka-photo-1",
@@ -138,7 +150,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_4345.JPG.jpeg | Dual Tag: Roka_Moment_01_orig_IMG_4345.JPG.jpeg_.jpg",
     "originalFilename": "IMG_4345.JPG.jpeg",
     "curatedFilename": "Roka Celebration #1",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "10HJNPnjZilJaKt1Id-oRHDhawQnj9l1B",
+    "gdriveUrl": "https://drive.google.com/file/d/10HJNPnjZilJaKt1Id-oRHDhawQnj9l1B/view?usp=sharing"
   },
   {
     "id": "roka-photo-2",
@@ -154,7 +168,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8219.JPG.jpeg | Dual Tag: Roka_Moment_02_orig_IMG_8219.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8219.JPG.jpeg",
     "curatedFilename": "Roka Celebration #2",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "10wHtxG-1YxqbIVfW7JIB6fKTaVsgX276",
+    "gdriveUrl": "https://drive.google.com/file/d/10wHtxG-1YxqbIVfW7JIB6fKTaVsgX276/view?usp=sharing"
   },
   {
     "id": "roka-photo-3",
@@ -170,7 +186,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8220.JPG.jpeg | Dual Tag: Roka_Moment_03_orig_IMG_8220.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8220.JPG.jpeg",
     "curatedFilename": "Roka Celebration #3",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1RP2Qxm0alxDJBtgfRUa5f3Bl2EFxUcmI",
+    "gdriveUrl": "https://drive.google.com/file/d/1RP2Qxm0alxDJBtgfRUa5f3Bl2EFxUcmI/view?usp=sharing"
   },
   {
     "id": "roka-photo-4",
@@ -186,7 +204,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8221.JPG.jpeg | Dual Tag: Roka_Moment_04_orig_IMG_8221.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8221.JPG.jpeg",
     "curatedFilename": "Roka Celebration #4",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1aKL86gjKE9oihQzoTwvtZiyxrjCxaoHy",
+    "gdriveUrl": "https://drive.google.com/file/d/1aKL86gjKE9oihQzoTwvtZiyxrjCxaoHy/view?usp=sharing"
   },
   {
     "id": "roka-photo-5",
@@ -202,7 +222,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8222.JPG.jpeg | Dual Tag: Roka_Moment_05_orig_IMG_8222.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8222.JPG.jpeg",
     "curatedFilename": "Roka Celebration #5",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1Mua6lGi2z05CdG4lA6LZEFPtyRl2-Yqi",
+    "gdriveUrl": "https://drive.google.com/file/d/1Mua6lGi2z05CdG4lA6LZEFPtyRl2-Yqi/view?usp=sharing"
   },
   {
     "id": "roka-photo-6",
@@ -218,7 +240,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8223.JPG.jpeg | Dual Tag: Roka_Moment_06_orig_IMG_8223.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8223.JPG.jpeg",
     "curatedFilename": "Roka Celebration #6",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1TnPswCiMDBRvmB3Rw3lpCp2NbVD7qNhc",
+    "gdriveUrl": "https://drive.google.com/file/d/1TnPswCiMDBRvmB3Rw3lpCp2NbVD7qNhc/view?usp=sharing"
   },
   {
     "id": "roka-photo-7",
@@ -234,7 +258,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8224.JPG.jpeg | Dual Tag: Roka_Moment_07_orig_IMG_8224.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8224.JPG.jpeg",
     "curatedFilename": "Roka Celebration #7",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1b7wS3vvH_GXoTH-Yn2Ej56sHKqI7tlpB",
+    "gdriveUrl": "https://drive.google.com/file/d/1b7wS3vvH_GXoTH-Yn2Ej56sHKqI7tlpB/view?usp=sharing"
   },
   {
     "id": "roka-photo-8",
@@ -250,7 +276,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8227.JPG.jpeg | Dual Tag: Roka_Moment_08_orig_IMG_8227.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8227.JPG.jpeg",
     "curatedFilename": "Roka Celebration #8",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1oN0WyjexnIpicfIVdLbDr1eHeuYD4FPz",
+    "gdriveUrl": "https://drive.google.com/file/d/1oN0WyjexnIpicfIVdLbDr1eHeuYD4FPz/view?usp=sharing"
   },
   {
     "id": "roka-photo-9",
@@ -266,7 +294,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8228.JPG.jpeg | Dual Tag: Roka_Moment_09_orig_IMG_8228.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8228.JPG.jpeg",
     "curatedFilename": "Roka Celebration #9",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1-HCttJlMDjBIzZkwKLx_HLx9ItU1bcS9",
+    "gdriveUrl": "https://drive.google.com/file/d/1-HCttJlMDjBIzZkwKLx_HLx9ItU1bcS9/view?usp=sharing"
   },
   {
     "id": "roka-photo-10",
@@ -282,7 +312,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8229.JPG.jpeg | Dual Tag: Roka_Moment_10_orig_IMG_8229.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8229.JPG.jpeg",
     "curatedFilename": "Roka Celebration #10",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1rmSsLZqcCbDGzHsBGHpDuk3lSvZejkRf",
+    "gdriveUrl": "https://drive.google.com/file/d/1rmSsLZqcCbDGzHsBGHpDuk3lSvZejkRf/view?usp=sharing"
   },
   {
     "id": "roka-photo-11",
@@ -298,7 +330,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8230.JPG.jpeg | Dual Tag: Roka_Moment_11_orig_IMG_8230.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8230.JPG.jpeg",
     "curatedFilename": "Roka Celebration #11",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1AHRuzh5UKBaR2AoO9x6zbgoKY-doBGUB",
+    "gdriveUrl": "https://drive.google.com/file/d/1AHRuzh5UKBaR2AoO9x6zbgoKY-doBGUB/view?usp=sharing"
   },
   {
     "id": "roka-photo-12",
@@ -314,7 +348,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8231.JPG.jpeg | Dual Tag: Roka_Moment_12_orig_IMG_8231.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8231.JPG.jpeg",
     "curatedFilename": "Roka Celebration #12",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1_swyJGUdtkQGVyAg3holUgCm2Me_6Bt0",
+    "gdriveUrl": "https://drive.google.com/file/d/1_swyJGUdtkQGVyAg3holUgCm2Me_6Bt0/view?usp=sharing"
   },
   {
     "id": "roka-photo-13",
@@ -330,7 +366,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8232.JPG.jpeg | Dual Tag: Roka_Moment_13_orig_IMG_8232.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8232.JPG.jpeg",
     "curatedFilename": "Roka Celebration #13",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1iro8Z-ofWVT_6e58KG9cBVGn8WPIq14a",
+    "gdriveUrl": "https://drive.google.com/file/d/1iro8Z-ofWVT_6e58KG9cBVGn8WPIq14a/view?usp=sharing"
   },
   {
     "id": "roka-photo-14",
@@ -346,7 +384,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8233.JPG.jpeg | Dual Tag: Roka_Moment_14_orig_IMG_8233.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8233.JPG.jpeg",
     "curatedFilename": "Roka Celebration #14",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1SNtJklRwuCqUylF1dfJn26oNl_gqSZaV",
+    "gdriveUrl": "https://drive.google.com/file/d/1SNtJklRwuCqUylF1dfJn26oNl_gqSZaV/view?usp=sharing"
   },
   {
     "id": "roka-photo-15",
@@ -362,7 +402,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8234.JPG.jpeg | Dual Tag: Roka_Moment_15_orig_IMG_8234.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8234.JPG.jpeg",
     "curatedFilename": "Roka Celebration #15",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1MhLSKAmhKWTX4CvnPd0iLNkgWEXEPBjT",
+    "gdriveUrl": "https://drive.google.com/file/d/1MhLSKAmhKWTX4CvnPd0iLNkgWEXEPBjT/view?usp=sharing"
   },
   {
     "id": "roka-photo-16",
@@ -378,7 +420,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8235.JPG.jpeg | Dual Tag: Roka_Moment_16_orig_IMG_8235.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8235.JPG.jpeg",
     "curatedFilename": "Roka Celebration #16",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1_gH-P6CeQMJXnZty9a18vCNidU_DCsqJ",
+    "gdriveUrl": "https://drive.google.com/file/d/1_gH-P6CeQMJXnZty9a18vCNidU_DCsqJ/view?usp=sharing"
   },
   {
     "id": "roka-photo-17",
@@ -394,7 +438,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8236.JPG.jpeg | Dual Tag: Roka_Moment_17_orig_IMG_8236.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8236.JPG.jpeg",
     "curatedFilename": "Roka Celebration #17",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1x8zwp-LunrpGDbON17I5mwnA7EMTWJln",
+    "gdriveUrl": "https://drive.google.com/file/d/1x8zwp-LunrpGDbON17I5mwnA7EMTWJln/view?usp=sharing"
   },
   {
     "id": "roka-photo-18",
@@ -410,7 +456,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8237.JPG.jpeg | Dual Tag: Roka_Moment_18_orig_IMG_8237.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8237.JPG.jpeg",
     "curatedFilename": "Roka Celebration #18",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1Vwebwt6W8CQsvpKNtI1acyqrw_d_A_lQ",
+    "gdriveUrl": "https://drive.google.com/file/d/1Vwebwt6W8CQsvpKNtI1acyqrw_d_A_lQ/view?usp=sharing"
   },
   {
     "id": "roka-photo-19",
@@ -426,7 +474,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8238.JPG.jpeg | Dual Tag: Roka_Moment_19_orig_IMG_8238.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8238.JPG.jpeg",
     "curatedFilename": "Roka Celebration #19",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1gLfiPPpCfCXZM3xkPRckw3ow34FBiVTc",
+    "gdriveUrl": "https://drive.google.com/file/d/1gLfiPPpCfCXZM3xkPRckw3ow34FBiVTc/view?usp=sharing"
   },
   {
     "id": "roka-photo-20",
@@ -442,7 +492,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8239.JPG.jpeg | Dual Tag: Roka_Moment_20_orig_IMG_8239.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8239.JPG.jpeg",
     "curatedFilename": "Roka Celebration #20",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "15w5ksG06Z_hCXMOsQCGitG2IFicIamL2",
+    "gdriveUrl": "https://drive.google.com/file/d/15w5ksG06Z_hCXMOsQCGitG2IFicIamL2/view?usp=sharing"
   },
   {
     "id": "roka-photo-21",
@@ -458,7 +510,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8240.JPG.jpeg | Dual Tag: Roka_Moment_21_orig_IMG_8240.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8240.JPG.jpeg",
     "curatedFilename": "Roka Celebration #21",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1q4cKvvrHAMvso87Ppb5JlWtME3SpMKGm",
+    "gdriveUrl": "https://drive.google.com/file/d/1q4cKvvrHAMvso87Ppb5JlWtME3SpMKGm/view?usp=sharing"
   },
   {
     "id": "roka-photo-22",
@@ -474,7 +528,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8241.JPG.jpeg | Dual Tag: Roka_Moment_22_orig_IMG_8241.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8241.JPG.jpeg",
     "curatedFilename": "Roka Celebration #22",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1dxiPenUbGXxEUulE0bi3FhupH-b8kSzu",
+    "gdriveUrl": "https://drive.google.com/file/d/1dxiPenUbGXxEUulE0bi3FhupH-b8kSzu/view?usp=sharing"
   },
   {
     "id": "roka-photo-23",
@@ -490,7 +546,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8242.JPG.jpeg | Dual Tag: Roka_Moment_23_orig_IMG_8242.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8242.JPG.jpeg",
     "curatedFilename": "Roka Celebration #23",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1Wf-29IjK08ieKtcf8DuhbsXmZ8Dj69LB",
+    "gdriveUrl": "https://drive.google.com/file/d/1Wf-29IjK08ieKtcf8DuhbsXmZ8Dj69LB/view?usp=sharing"
   },
   {
     "id": "roka-photo-24",
@@ -506,7 +564,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8243.JPG.jpeg | Dual Tag: Roka_Moment_24_orig_IMG_8243.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8243.JPG.jpeg",
     "curatedFilename": "Roka Celebration #24",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1PZ_mOQB_CRi6_zYdBx5Y0QhBrueM-07k",
+    "gdriveUrl": "https://drive.google.com/file/d/1PZ_mOQB_CRi6_zYdBx5Y0QhBrueM-07k/view?usp=sharing"
   },
   {
     "id": "roka-photo-25",
@@ -522,7 +582,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8244.JPG.jpeg | Dual Tag: Roka_Moment_25_orig_IMG_8244.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8244.JPG.jpeg",
     "curatedFilename": "Roka Celebration #25",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "14creGevp9Pep_5n26v9PZ2ospO-pvlHr",
+    "gdriveUrl": "https://drive.google.com/file/d/14creGevp9Pep_5n26v9PZ2ospO-pvlHr/view?usp=sharing"
   },
   {
     "id": "roka-photo-26",
@@ -538,7 +600,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8245.JPG.jpeg | Dual Tag: Roka_Moment_26_orig_IMG_8245.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8245.JPG.jpeg",
     "curatedFilename": "Roka Celebration #26",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1Kf6XiodGsQLeLKwX7TlVzNQpg0c0S4eq",
+    "gdriveUrl": "https://drive.google.com/file/d/1Kf6XiodGsQLeLKwX7TlVzNQpg0c0S4eq/view?usp=sharing"
   },
   {
     "id": "roka-photo-27",
@@ -554,7 +618,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8246.JPG.jpeg | Dual Tag: Roka_Moment_27_orig_IMG_8246.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8246.JPG.jpeg",
     "curatedFilename": "Roka Celebration #27",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1rSFMmFAThjR_sBna2OtI4pZ9dDNGf4H6",
+    "gdriveUrl": "https://drive.google.com/file/d/1rSFMmFAThjR_sBna2OtI4pZ9dDNGf4H6/view?usp=sharing"
   },
   {
     "id": "roka-photo-28",
@@ -570,7 +636,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8247.JPG.jpeg | Dual Tag: Roka_Moment_28_orig_IMG_8247.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8247.JPG.jpeg",
     "curatedFilename": "Roka Celebration #28",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1K1H-oTduESaxGJzw_VYaZht_Fr3kGHHQ",
+    "gdriveUrl": "https://drive.google.com/file/d/1K1H-oTduESaxGJzw_VYaZht_Fr3kGHHQ/view?usp=sharing"
   },
   {
     "id": "roka-photo-29",
@@ -586,7 +654,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8248.JPG.jpeg | Dual Tag: Roka_Moment_29_orig_IMG_8248.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8248.JPG.jpeg",
     "curatedFilename": "Roka Celebration #29",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1Q8NdKaRcduRGKGj3NdFgAhfOcHQOZWjO",
+    "gdriveUrl": "https://drive.google.com/file/d/1Q8NdKaRcduRGKGj3NdFgAhfOcHQOZWjO/view?usp=sharing"
   },
   {
     "id": "roka-photo-30",
@@ -602,7 +672,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8249.JPG.jpeg | Dual Tag: Roka_Moment_30_orig_IMG_8249.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8249.JPG.jpeg",
     "curatedFilename": "Roka Celebration #30",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "19SZFgNZkelSUTGHElsdWQPpQVT9gROtD",
+    "gdriveUrl": "https://drive.google.com/file/d/19SZFgNZkelSUTGHElsdWQPpQVT9gROtD/view?usp=sharing"
   },
   {
     "id": "roka-photo-31",
@@ -618,7 +690,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8250.JPG.jpeg | Dual Tag: Roka_Moment_31_orig_IMG_8250.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8250.JPG.jpeg",
     "curatedFilename": "Roka Celebration #31",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1JoWIlyTQoxAsdhEbh1wBG0WZeRoWhccZ",
+    "gdriveUrl": "https://drive.google.com/file/d/1JoWIlyTQoxAsdhEbh1wBG0WZeRoWhccZ/view?usp=sharing"
   },
   {
     "id": "roka-photo-32",
@@ -634,7 +708,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8251.JPG.jpeg | Dual Tag: Roka_Moment_32_orig_IMG_8251.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8251.JPG.jpeg",
     "curatedFilename": "Roka Celebration #32",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1zbpwa5SUvis1jkP1cW-KcqwPlILN5Q5n",
+    "gdriveUrl": "https://drive.google.com/file/d/1zbpwa5SUvis1jkP1cW-KcqwPlILN5Q5n/view?usp=sharing"
   },
   {
     "id": "roka-photo-33",
@@ -650,7 +726,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8252.JPG.jpeg | Dual Tag: Roka_Moment_33_orig_IMG_8252.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8252.JPG.jpeg",
     "curatedFilename": "Roka Celebration #33",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1xcFhEgEv-LhcuXami219xrvVIhP0lQHg",
+    "gdriveUrl": "https://drive.google.com/file/d/1xcFhEgEv-LhcuXami219xrvVIhP0lQHg/view?usp=sharing"
   },
   {
     "id": "roka-photo-34",
@@ -666,7 +744,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8253.JPG.jpeg | Dual Tag: Roka_Moment_34_orig_IMG_8253.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8253.JPG.jpeg",
     "curatedFilename": "Roka Celebration #34",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1pOZSuVddwlEyT8PXDpjczQmQ8XZ315BP",
+    "gdriveUrl": "https://drive.google.com/file/d/1pOZSuVddwlEyT8PXDpjczQmQ8XZ315BP/view?usp=sharing"
   },
   {
     "id": "roka-photo-35",
@@ -682,7 +762,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8254.JPG.jpeg | Dual Tag: Roka_Moment_35_orig_IMG_8254.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8254.JPG.jpeg",
     "curatedFilename": "Roka Celebration #35",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1MaP02YIowxvVIa8e2Zje6fG1mJKKxIFI",
+    "gdriveUrl": "https://drive.google.com/file/d/1MaP02YIowxvVIa8e2Zje6fG1mJKKxIFI/view?usp=sharing"
   },
   {
     "id": "roka-photo-36",
@@ -698,7 +780,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8255.JPG.jpeg | Dual Tag: Roka_Moment_36_orig_IMG_8255.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8255.JPG.jpeg",
     "curatedFilename": "Roka Celebration #36",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1MYWInWxMNBjBTt45bVIx1OMdmdwsImoi",
+    "gdriveUrl": "https://drive.google.com/file/d/1MYWInWxMNBjBTt45bVIx1OMdmdwsImoi/view?usp=sharing"
   },
   {
     "id": "roka-photo-37",
@@ -714,7 +798,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8257.JPG.jpeg | Dual Tag: Roka_Moment_37_orig_IMG_8257.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8257.JPG.jpeg",
     "curatedFilename": "Roka Celebration #37",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1kvi9Nv2bQqL5jcr46HYwrCfNb0TtaJUe",
+    "gdriveUrl": "https://drive.google.com/file/d/1kvi9Nv2bQqL5jcr46HYwrCfNb0TtaJUe/view?usp=sharing"
   },
   {
     "id": "roka-photo-38",
@@ -730,7 +816,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8258.JPG.jpeg | Dual Tag: Roka_Moment_38_orig_IMG_8258.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8258.JPG.jpeg",
     "curatedFilename": "Roka Celebration #38",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1ejz0RQzokYQYxjr39myyl_2Pjv0QA5U2",
+    "gdriveUrl": "https://drive.google.com/file/d/1ejz0RQzokYQYxjr39myyl_2Pjv0QA5U2/view?usp=sharing"
   },
   {
     "id": "roka-photo-39",
@@ -746,7 +834,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8259.JPG.jpeg | Dual Tag: Roka_Moment_39_orig_IMG_8259.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8259.JPG.jpeg",
     "curatedFilename": "Roka Celebration #39",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1B6EhnHELjhRWC5IZSOpEv2Y7h4XC3HHL",
+    "gdriveUrl": "https://drive.google.com/file/d/1B6EhnHELjhRWC5IZSOpEv2Y7h4XC3HHL/view?usp=sharing"
   },
   {
     "id": "roka-photo-40",
@@ -762,7 +852,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8260.JPG.jpeg | Dual Tag: Roka_Moment_40_orig_IMG_8260.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8260.JPG.jpeg",
     "curatedFilename": "Roka Celebration #40",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "19Ihr62qc3zo3j1lDL0Fx-4kOlIItzhEL",
+    "gdriveUrl": "https://drive.google.com/file/d/19Ihr62qc3zo3j1lDL0Fx-4kOlIItzhEL/view?usp=sharing"
   },
   {
     "id": "roka-photo-41",
@@ -778,7 +870,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_8262.JPG.jpeg | Dual Tag: Roka_Moment_41_orig_IMG_8262.JPG.jpeg_.jpg",
     "originalFilename": "IMG_8262.JPG.jpeg",
     "curatedFilename": "Roka Celebration #41",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "15wA5tfikxcyG9mIMWn0rkNTOXmwVETvP",
+    "gdriveUrl": "https://drive.google.com/file/d/15wA5tfikxcyG9mIMWn0rkNTOXmwVETvP/view?usp=sharing"
   },
   {
     "id": "roka-photo-42",
@@ -794,7 +888,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_9324.HEIC | Dual Tag: Roka_Moment_42_orig_IMG_9324.HEIC_.jpg",
     "originalFilename": "IMG_9324.HEIC",
     "curatedFilename": "Roka Celebration #42",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1XjB-1iUCM9nyf3mlR-PzJf1grm7RBVMt",
+    "gdriveUrl": "https://drive.google.com/file/d/1XjB-1iUCM9nyf3mlR-PzJf1grm7RBVMt/view?usp=sharing"
   },
   {
     "id": "roka-photo-43",
@@ -810,7 +906,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_9325.HEIC | Dual Tag: Roka_Moment_43_orig_IMG_9325.HEIC_.jpg",
     "originalFilename": "IMG_9325.HEIC",
     "curatedFilename": "Roka Celebration #43",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "15CZX0fgVTY4pijADNqn50jzYkKWFSP1M",
+    "gdriveUrl": "https://drive.google.com/file/d/15CZX0fgVTY4pijADNqn50jzYkKWFSP1M/view?usp=sharing"
   },
   {
     "id": "roka-photo-44",
@@ -826,7 +924,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_9328.HEIC | Dual Tag: Roka_Moment_44_orig_IMG_9328.HEIC_.jpg",
     "originalFilename": "IMG_9328.HEIC",
     "curatedFilename": "Roka Celebration #44",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1tEthd9YuU_VhdQto030Du7eXRZ4NTm5i",
+    "gdriveUrl": "https://drive.google.com/file/d/1tEthd9YuU_VhdQto030Du7eXRZ4NTm5i/view?usp=sharing"
   },
   {
     "id": "roka-photo-45",
@@ -842,7 +942,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_9329.HEIC | Dual Tag: Roka_Moment_45_orig_IMG_9329.HEIC_.jpg",
     "originalFilename": "IMG_9329.HEIC",
     "curatedFilename": "Roka Celebration #45",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "12esfLN5oTCxSnH1Ab6RYAxZ2q1MuCEul",
+    "gdriveUrl": "https://drive.google.com/file/d/12esfLN5oTCxSnH1Ab6RYAxZ2q1MuCEul/view?usp=sharing"
   },
   {
     "id": "roka-photo-46",
@@ -858,7 +960,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_9330.HEIC | Dual Tag: Roka_Moment_46_orig_IMG_9330.HEIC_.jpg",
     "originalFilename": "IMG_9330.HEIC",
     "curatedFilename": "Roka Celebration #46",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1pLM1RNFao7puRYOzCBicL-kHw4_WCWyf",
+    "gdriveUrl": "https://drive.google.com/file/d/1pLM1RNFao7puRYOzCBicL-kHw4_WCWyf/view?usp=sharing"
   },
   {
     "id": "roka-photo-47",
@@ -874,7 +978,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_9331.HEIC | Dual Tag: Roka_Moment_47_orig_IMG_9331.HEIC_.jpg",
     "originalFilename": "IMG_9331.HEIC",
     "curatedFilename": "Roka Celebration #47",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1ebg8EuyPkNlIwLQJBqdERSBHOlIB7c_4",
+    "gdriveUrl": "https://drive.google.com/file/d/1ebg8EuyPkNlIwLQJBqdERSBHOlIB7c_4/view?usp=sharing"
   },
   {
     "id": "roka-photo-48",
@@ -890,7 +996,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_9333.HEIC | Dual Tag: Roka_Moment_48_orig_IMG_9333.HEIC_.jpg",
     "originalFilename": "IMG_9333.HEIC",
     "curatedFilename": "Roka Celebration #48",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1_TdZqAAayKfYZQzqHDGO0HiFONOe4x6w",
+    "gdriveUrl": "https://drive.google.com/file/d/1_TdZqAAayKfYZQzqHDGO0HiFONOe4x6w/view?usp=sharing"
   },
   {
     "id": "roka-photo-49",
@@ -906,7 +1014,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_9335.HEIC | Dual Tag: Roka_Moment_49_orig_IMG_9335.HEIC_.jpg",
     "originalFilename": "IMG_9335.HEIC",
     "curatedFilename": "Roka Celebration #49",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "196saQBtHpbTpFInQdCns1bR34ltt4ZP2",
+    "gdriveUrl": "https://drive.google.com/file/d/196saQBtHpbTpFInQdCns1bR34ltt4ZP2/view?usp=sharing"
   },
   {
     "id": "roka-photo-50",
@@ -922,7 +1032,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_9336.HEIC | Dual Tag: Roka_Moment_50_orig_IMG_9336.HEIC_.jpg",
     "originalFilename": "IMG_9336.HEIC",
     "curatedFilename": "Roka Celebration #50",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1trbElLGv_v_3xWCkVdnDLzQ5iGSLx9aD",
+    "gdriveUrl": "https://drive.google.com/file/d/1trbElLGv_v_3xWCkVdnDLzQ5iGSLx9aD/view?usp=sharing"
   },
   {
     "id": "roka-photo-51",
@@ -938,7 +1050,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: IMG_9338.HEIC | Dual Tag: Roka_Moment_51_orig_IMG_9338.HEIC_.jpg",
     "originalFilename": "IMG_9338.HEIC",
     "curatedFilename": "Roka Celebration #51",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1tH7s8lO9NgYh3lEt_ZRVx_M8WCvQBTtZ",
+    "gdriveUrl": "https://drive.google.com/file/d/1tH7s8lO9NgYh3lEt_ZRVx_M8WCvQBTtZ/view?usp=sharing"
   },
   {
     "id": "roka-photo-52",
@@ -954,7 +1068,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: WhatsApp Image 2026-11-17 at 12.39.09 AM (1).jpeg | Dual Tag: Roka_Moment_52_orig_WhatsApp_Image_2026-11-17_at_12.39.09_AM_1_.jpeg_.jpg",
     "originalFilename": "WhatsApp Image 2026-11-17 at 12.39.09 AM (1).jpeg",
     "curatedFilename": "Roka Celebration #52",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1OsQZM33brAo_EkCN__mTZNVirbzpAwzd",
+    "gdriveUrl": "https://drive.google.com/file/d/1OsQZM33brAo_EkCN__mTZNVirbzpAwzd/view?usp=sharing"
   },
   {
     "id": "roka-photo-53",
@@ -970,7 +1086,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: WhatsApp Image 2026-11-17 at 12.39.09 AM (2).jpeg | Dual Tag: Roka_Moment_53_orig_WhatsApp_Image_2026-11-17_at_12.39.09_AM_2_.jpeg_.jpg",
     "originalFilename": "WhatsApp Image 2026-11-17 at 12.39.09 AM (2).jpeg",
     "curatedFilename": "Roka Celebration #53",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1_kiXLZYT0StG0zENOJXvnglo7KSGycS3",
+    "gdriveUrl": "https://drive.google.com/file/d/1_kiXLZYT0StG0zENOJXvnglo7KSGycS3/view?usp=sharing"
   },
   {
     "id": "roka-photo-54",
@@ -986,7 +1104,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: WhatsApp Image 2026-11-17 at 12.39.09 AM (3).jpeg | Dual Tag: Roka_Moment_54_orig_WhatsApp_Image_2026-11-17_at_12.39.09_AM_3_.jpeg_.jpg",
     "originalFilename": "WhatsApp Image 2026-11-17 at 12.39.09 AM (3).jpeg",
     "curatedFilename": "Roka Celebration #54",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1nSQRJrhf0G8KzocClS3u8SlDZYAMy0DT",
+    "gdriveUrl": "https://drive.google.com/file/d/1nSQRJrhf0G8KzocClS3u8SlDZYAMy0DT/view?usp=sharing"
   },
   {
     "id": "roka-photo-55",
@@ -1002,7 +1122,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: WhatsApp Image 2026-11-17 at 12.39.09 AM.jpeg | Dual Tag: Roka_Moment_55_orig_WhatsApp_Image_2026-11-17_at_12.39.09_AM.jpeg_.jpg",
     "originalFilename": "WhatsApp Image 2026-11-17 at 12.39.09 AM.jpeg",
     "curatedFilename": "Roka Celebration #55",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1tSqwxLk-5ylgBSxSKSc7xpy0jyZpGCny",
+    "gdriveUrl": "https://drive.google.com/file/d/1tSqwxLk-5ylgBSxSKSc7xpy0jyZpGCny/view?usp=sharing"
   },
   {
     "id": "roka-photo-56",
@@ -1018,7 +1140,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: WhatsApp Image 2026-11-17 at 12.39.10 AM (1).jpeg | Dual Tag: Roka_Moment_56_orig_WhatsApp_Image_2026-11-17_at_12.39.10_AM_1_.jpeg_.jpg",
     "originalFilename": "WhatsApp Image 2026-11-17 at 12.39.10 AM (1).jpeg",
     "curatedFilename": "Roka Celebration #56",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1h42gUusm-v8QKlPBrmg-Kd2u_WtEykQ2",
+    "gdriveUrl": "https://drive.google.com/file/d/1h42gUusm-v8QKlPBrmg-Kd2u_WtEykQ2/view?usp=sharing"
   },
   {
     "id": "roka-photo-57",
@@ -1034,7 +1158,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: WhatsApp Image 2026-11-17 at 12.39.10 AM (10).jpeg | Dual Tag: Roka_Moment_57_orig_WhatsApp_Image_2026-11-17_at_12.39.10_AM_10_.jpeg_.jpg",
     "originalFilename": "WhatsApp Image 2026-11-17 at 12.39.10 AM (10).jpeg",
     "curatedFilename": "Roka Celebration #57",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1xGA3--CTxIXa_nYx94on2k5S6hPrY-Q4",
+    "gdriveUrl": "https://drive.google.com/file/d/1xGA3--CTxIXa_nYx94on2k5S6hPrY-Q4/view?usp=sharing"
   },
   {
     "id": "roka-photo-58",
@@ -1050,7 +1176,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: WhatsApp Image 2026-11-17 at 12.39.10 AM (11).jpeg | Dual Tag: Roka_Moment_58_orig_WhatsApp_Image_2026-11-17_at_12.39.10_AM_11_.jpeg_.jpg",
     "originalFilename": "WhatsApp Image 2026-11-17 at 12.39.10 AM (11).jpeg",
     "curatedFilename": "Roka Celebration #58",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1ARB_ghAXuxc6sbBXefa2NrY60pyE-JQ1",
+    "gdriveUrl": "https://drive.google.com/file/d/1ARB_ghAXuxc6sbBXefa2NrY60pyE-JQ1/view?usp=sharing"
   },
   {
     "id": "roka-photo-59",
@@ -1066,7 +1194,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: WhatsApp Image 2026-11-17 at 12.39.10 AM (12).jpeg | Dual Tag: Roka_Moment_59_orig_WhatsApp_Image_2026-11-17_at_12.39.10_AM_12_.jpeg_.jpg",
     "originalFilename": "WhatsApp Image 2026-11-17 at 12.39.10 AM (12).jpeg",
     "curatedFilename": "Roka Celebration #59",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1aJKY7BLlp1W6qRXWDxpf9kEHysEQCJyt",
+    "gdriveUrl": "https://drive.google.com/file/d/1aJKY7BLlp1W6qRXWDxpf9kEHysEQCJyt/view?usp=sharing"
   },
   {
     "id": "roka-photo-60",
@@ -1082,7 +1212,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: WhatsApp Image 2026-11-17 at 12.39.10 AM (13).jpeg | Dual Tag: Roka_Moment_60_orig_WhatsApp_Image_2026-11-17_at_12.39.10_AM_13_.jpeg_.jpg",
     "originalFilename": "WhatsApp Image 2026-11-17 at 12.39.10 AM (13).jpeg",
     "curatedFilename": "Roka Celebration #60",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1tYxbOZ3dkr8IApfAzXgz-gNszqrWBKQV",
+    "gdriveUrl": "https://drive.google.com/file/d/1tYxbOZ3dkr8IApfAzXgz-gNszqrWBKQV/view?usp=sharing"
   },
   {
     "id": "roka-photo-61",
@@ -1098,7 +1230,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: WhatsApp Image 2026-11-17 at 12.39.10 AM (14).jpeg | Dual Tag: Roka_Moment_61_orig_WhatsApp_Image_2026-11-17_at_12.39.10_AM_14_.jpeg_.jpg",
     "originalFilename": "WhatsApp Image 2026-11-17 at 12.39.10 AM (14).jpeg",
     "curatedFilename": "Roka Celebration #61",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1td11nxNq_DdjlGad4kGAaS58-sJs9wAk",
+    "gdriveUrl": "https://drive.google.com/file/d/1td11nxNq_DdjlGad4kGAaS58-sJs9wAk/view?usp=sharing"
   },
   {
     "id": "roka-photo-62",
@@ -1114,7 +1248,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: WhatsApp Image 2026-11-17 at 12.39.10 AM (15).jpeg | Dual Tag: Roka_Moment_62_orig_WhatsApp_Image_2026-11-17_at_12.39.10_AM_15_.jpeg_.jpg",
     "originalFilename": "WhatsApp Image 2026-11-17 at 12.39.10 AM (15).jpeg",
     "curatedFilename": "Roka Celebration #62",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1soFPqTZ1BQQhizv_oYKAza5iGYOdYkNO",
+    "gdriveUrl": "https://drive.google.com/file/d/1soFPqTZ1BQQhizv_oYKAza5iGYOdYkNO/view?usp=sharing"
   },
   {
     "id": "roka-photo-63",
@@ -1130,7 +1266,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: WhatsApp Image 2026-11-17 at 12.39.10 AM (16).jpeg | Dual Tag: Roka_Moment_63_orig_WhatsApp_Image_2026-11-17_at_12.39.10_AM_16_.jpeg_.jpg",
     "originalFilename": "WhatsApp Image 2026-11-17 at 12.39.10 AM (16).jpeg",
     "curatedFilename": "Roka Celebration #63",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1WS5lPHTp36M1N1llu7Fvlw_OBdBHRi9f",
+    "gdriveUrl": "https://drive.google.com/file/d/1WS5lPHTp36M1N1llu7Fvlw_OBdBHRi9f/view?usp=sharing"
   },
   {
     "id": "roka-photo-64",
@@ -1146,7 +1284,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: WhatsApp Image 2026-11-17 at 12.39.10 AM (2).jpeg | Dual Tag: Roka_Moment_64_orig_WhatsApp_Image_2026-11-17_at_12.39.10_AM_2_.jpeg_.jpg",
     "originalFilename": "WhatsApp Image 2026-11-17 at 12.39.10 AM (2).jpeg",
     "curatedFilename": "Roka Celebration #64",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1KDQ9drJ21dH4oyi1V_KmW41tnjaPgM0k",
+    "gdriveUrl": "https://drive.google.com/file/d/1KDQ9drJ21dH4oyi1V_KmW41tnjaPgM0k/view?usp=sharing"
   },
   {
     "id": "roka-photo-65",
@@ -1162,7 +1302,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: WhatsApp Image 2026-11-17 at 12.39.10 AM (3).jpeg | Dual Tag: Roka_Moment_65_orig_WhatsApp_Image_2026-11-17_at_12.39.10_AM_3_.jpeg_.jpg",
     "originalFilename": "WhatsApp Image 2026-11-17 at 12.39.10 AM (3).jpeg",
     "curatedFilename": "Roka Celebration #65",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1qkeAie8oQqjdDf_tXPgtWyt4_HCAC1fB",
+    "gdriveUrl": "https://drive.google.com/file/d/1qkeAie8oQqjdDf_tXPgtWyt4_HCAC1fB/view?usp=sharing"
   },
   {
     "id": "roka-photo-66",
@@ -1178,7 +1320,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: WhatsApp Image 2026-11-17 at 12.39.10 AM (4).jpeg | Dual Tag: Roka_Moment_66_orig_WhatsApp_Image_2026-11-17_at_12.39.10_AM_4_.jpeg_.jpg",
     "originalFilename": "WhatsApp Image 2026-11-17 at 12.39.10 AM (4).jpeg",
     "curatedFilename": "Roka Celebration #66",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1c8xOm1x53KH3Yf1SBtVGfaYjYAHXTPaR",
+    "gdriveUrl": "https://drive.google.com/file/d/1c8xOm1x53KH3Yf1SBtVGfaYjYAHXTPaR/view?usp=sharing"
   },
   {
     "id": "roka-photo-67",
@@ -1194,7 +1338,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: WhatsApp Image 2026-11-17 at 12.39.10 AM (5).jpeg | Dual Tag: Roka_Moment_67_orig_WhatsApp_Image_2026-11-17_at_12.39.10_AM_5_.jpeg_.jpg",
     "originalFilename": "WhatsApp Image 2026-11-17 at 12.39.10 AM (5).jpeg",
     "curatedFilename": "Roka Celebration #67",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1CSVPbMpSiRvmZC9UIpUzbzw9DTwuwxI_",
+    "gdriveUrl": "https://drive.google.com/file/d/1CSVPbMpSiRvmZC9UIpUzbzw9DTwuwxI_/view?usp=sharing"
   },
   {
     "id": "roka-photo-68",
@@ -1210,7 +1356,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: WhatsApp Image 2026-11-17 at 12.39.10 AM (6).jpeg | Dual Tag: Roka_Moment_68_orig_WhatsApp_Image_2026-11-17_at_12.39.10_AM_6_.jpeg_.jpg",
     "originalFilename": "WhatsApp Image 2026-11-17 at 12.39.10 AM (6).jpeg",
     "curatedFilename": "Roka Celebration #68",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1oJEny7adhVd5xYAQucXUuczk-jz0WBmv",
+    "gdriveUrl": "https://drive.google.com/file/d/1oJEny7adhVd5xYAQucXUuczk-jz0WBmv/view?usp=sharing"
   },
   {
     "id": "roka-photo-69",
@@ -1226,7 +1374,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: WhatsApp Image 2026-11-17 at 12.39.10 AM (7).jpeg | Dual Tag: Roka_Moment_69_orig_WhatsApp_Image_2026-11-17_at_12.39.10_AM_7_.jpeg_.jpg",
     "originalFilename": "WhatsApp Image 2026-11-17 at 12.39.10 AM (7).jpeg",
     "curatedFilename": "Roka Celebration #69",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1jcSFKBVeqeZLtuF5lgBun8ZnAnEJDcC8",
+    "gdriveUrl": "https://drive.google.com/file/d/1jcSFKBVeqeZLtuF5lgBun8ZnAnEJDcC8/view?usp=sharing"
   },
   {
     "id": "roka-photo-70",
@@ -1242,7 +1392,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: WhatsApp Image 2026-11-17 at 12.39.10 AM (8).jpeg | Dual Tag: Roka_Moment_70_orig_WhatsApp_Image_2026-11-17_at_12.39.10_AM_8_.jpeg_.jpg",
     "originalFilename": "WhatsApp Image 2026-11-17 at 12.39.10 AM (8).jpeg",
     "curatedFilename": "Roka Celebration #70",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1J9mSmgwayVzByatbeJMMZTfHiSvyorlD",
+    "gdriveUrl": "https://drive.google.com/file/d/1J9mSmgwayVzByatbeJMMZTfHiSvyorlD/view?usp=sharing"
   },
   {
     "id": "roka-photo-71",
@@ -1258,7 +1410,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: WhatsApp Image 2026-11-17 at 12.39.10 AM (9).jpeg | Dual Tag: Roka_Moment_71_orig_WhatsApp_Image_2026-11-17_at_12.39.10_AM_9_.jpeg_.jpg",
     "originalFilename": "WhatsApp Image 2026-11-17 at 12.39.10 AM (9).jpeg",
     "curatedFilename": "Roka Celebration #71",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1DQK1_Ce7slGIk6lnAZjzTuv0OvmA3UJ0",
+    "gdriveUrl": "https://drive.google.com/file/d/1DQK1_Ce7slGIk6lnAZjzTuv0OvmA3UJ0/view?usp=sharing"
   },
   {
     "id": "roka-photo-72",
@@ -1274,7 +1428,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Family & Whatsapp | Original: WhatsApp Image 2026-11-17 at 12.39.10 AM.jpeg | Dual Tag: Roka_Moment_72_orig_WhatsApp_Image_2026-11-17_at_12.39.10_AM.jpeg_.jpg",
     "originalFilename": "WhatsApp Image 2026-11-17 at 12.39.10 AM.jpeg",
     "curatedFilename": "Roka Celebration #72",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "11XpZb1sKIyOt4xmRoX1PoW3AdGqlvfTs",
+    "gdriveUrl": "https://drive.google.com/file/d/11XpZb1sKIyOt4xmRoX1PoW3AdGqlvfTs/view?usp=sharing"
   },
   {
     "id": "roka-photo-p1-73",
@@ -8328,7 +8484,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0028.JPG | Dual Tag: Roka_P2_Photo_464_orig_P2_IMG_0028.JPG.jpg",
     "originalFilename": "P2_IMG_0028.JPG",
     "curatedFilename": "Roka Masterpiece #464",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1gQjByd4YG8ku7SijDtKJVH7SHLoYqldZ",
+    "gdriveUrl": "https://drive.google.com/file/d/1gQjByd4YG8ku7SijDtKJVH7SHLoYqldZ/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-465",
@@ -8344,7 +8502,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0029.JPG | Dual Tag: Roka_P2_Photo_465_orig_P2_IMG_0029.JPG.jpg",
     "originalFilename": "P2_IMG_0029.JPG",
     "curatedFilename": "Roka Masterpiece #465",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1vveQcmcIBMBO_0fAiUoYAI-W7klPsrh9",
+    "gdriveUrl": "https://drive.google.com/file/d/1vveQcmcIBMBO_0fAiUoYAI-W7klPsrh9/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-466",
@@ -8360,7 +8520,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0030.JPG | Dual Tag: Roka_P2_Photo_466_orig_P2_IMG_0030.JPG.jpg",
     "originalFilename": "P2_IMG_0030.JPG",
     "curatedFilename": "Roka Masterpiece #466",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1WfVtb4QYlPX2NgCIJzqCxDhenpeS0_Tm",
+    "gdriveUrl": "https://drive.google.com/file/d/1WfVtb4QYlPX2NgCIJzqCxDhenpeS0_Tm/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-467",
@@ -8376,7 +8538,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0031.JPG | Dual Tag: Roka_P2_Photo_467_orig_P2_IMG_0031.JPG.jpg",
     "originalFilename": "P2_IMG_0031.JPG",
     "curatedFilename": "Roka Masterpiece #467",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1YS4-BK10Oc9q9UBF8NYfh8W2nEqHFUuZ",
+    "gdriveUrl": "https://drive.google.com/file/d/1YS4-BK10Oc9q9UBF8NYfh8W2nEqHFUuZ/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-468",
@@ -8392,7 +8556,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0032.JPG | Dual Tag: Roka_P2_Photo_468_orig_P2_IMG_0032.JPG.jpg",
     "originalFilename": "P2_IMG_0032.JPG",
     "curatedFilename": "Roka Masterpiece #468",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1IxtI5YNklSjmJU-wnQlArMll9fpClzrK",
+    "gdriveUrl": "https://drive.google.com/file/d/1IxtI5YNklSjmJU-wnQlArMll9fpClzrK/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-469",
@@ -8408,7 +8574,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0035.JPG | Dual Tag: Roka_P2_Photo_469_orig_P2_IMG_0035.JPG.jpg",
     "originalFilename": "P2_IMG_0035.JPG",
     "curatedFilename": "Roka Masterpiece #469",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1cXGPeq_vBph3UudFvNmV-LcBAPoRAqTe",
+    "gdriveUrl": "https://drive.google.com/file/d/1cXGPeq_vBph3UudFvNmV-LcBAPoRAqTe/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-470",
@@ -8424,7 +8592,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0036.JPG | Dual Tag: Roka_P2_Photo_470_orig_P2_IMG_0036.JPG.jpg",
     "originalFilename": "P2_IMG_0036.JPG",
     "curatedFilename": "Roka Masterpiece #470",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1V4wKgoPGTIt_ZeF8ojFr-iJkFX2xXyFB",
+    "gdriveUrl": "https://drive.google.com/file/d/1V4wKgoPGTIt_ZeF8ojFr-iJkFX2xXyFB/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-471",
@@ -8440,7 +8610,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0037.JPG | Dual Tag: Roka_P2_Photo_471_orig_P2_IMG_0037.JPG.jpg",
     "originalFilename": "P2_IMG_0037.JPG",
     "curatedFilename": "Roka Masterpiece #471",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1v3VshUAgTNFRZfqDXJ7KMBWidbaWntx_",
+    "gdriveUrl": "https://drive.google.com/file/d/1v3VshUAgTNFRZfqDXJ7KMBWidbaWntx_/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-472",
@@ -8456,7 +8628,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0038.JPG | Dual Tag: Roka_P2_Photo_472_orig_P2_IMG_0038.JPG.jpg",
     "originalFilename": "P2_IMG_0038.JPG",
     "curatedFilename": "Roka Masterpiece #472",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1kUCKSrRgcpP6OvQhLDEGyPt3gf8z0F2i",
+    "gdriveUrl": "https://drive.google.com/file/d/1kUCKSrRgcpP6OvQhLDEGyPt3gf8z0F2i/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-473",
@@ -8472,7 +8646,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0039.JPG | Dual Tag: Roka_P2_Photo_473_orig_P2_IMG_0039.JPG.jpg",
     "originalFilename": "P2_IMG_0039.JPG",
     "curatedFilename": "Roka Masterpiece #473",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1SEhXCg9weCHITIohh2DJTS3OFj6eODF8",
+    "gdriveUrl": "https://drive.google.com/file/d/1SEhXCg9weCHITIohh2DJTS3OFj6eODF8/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-474",
@@ -8488,7 +8664,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0042.JPG | Dual Tag: Roka_P2_Photo_474_orig_P2_IMG_0042.JPG.jpg",
     "originalFilename": "P2_IMG_0042.JPG",
     "curatedFilename": "Roka Masterpiece #474",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1-yQhMfbC7HLFmvcYPHF9lJIzV9yQ2Qid",
+    "gdriveUrl": "https://drive.google.com/file/d/1-yQhMfbC7HLFmvcYPHF9lJIzV9yQ2Qid/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-475",
@@ -8504,7 +8682,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0043.JPG | Dual Tag: Roka_P2_Photo_475_orig_P2_IMG_0043.JPG.jpg",
     "originalFilename": "P2_IMG_0043.JPG",
     "curatedFilename": "Roka Masterpiece #475",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1XIh6_gcrqVoYzWYzCwoed9xhAc498BaS",
+    "gdriveUrl": "https://drive.google.com/file/d/1XIh6_gcrqVoYzWYzCwoed9xhAc498BaS/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-476",
@@ -8520,7 +8700,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0044.JPG | Dual Tag: Roka_P2_Photo_476_orig_P2_IMG_0044.JPG.jpg",
     "originalFilename": "P2_IMG_0044.JPG",
     "curatedFilename": "Roka Masterpiece #476",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1f7mBXc9Goo4mNAyKcRg7lhKAjStVPM6e",
+    "gdriveUrl": "https://drive.google.com/file/d/1f7mBXc9Goo4mNAyKcRg7lhKAjStVPM6e/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-477",
@@ -8536,7 +8718,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0045.JPG | Dual Tag: Roka_P2_Photo_477_orig_P2_IMG_0045.JPG.jpg",
     "originalFilename": "P2_IMG_0045.JPG",
     "curatedFilename": "Roka Masterpiece #477",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1m6Y82si2XesexApuE85viAOLvTXVGhjC",
+    "gdriveUrl": "https://drive.google.com/file/d/1m6Y82si2XesexApuE85viAOLvTXVGhjC/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-478",
@@ -8552,7 +8736,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0046.JPG | Dual Tag: Roka_P2_Photo_478_orig_P2_IMG_0046.JPG.jpg",
     "originalFilename": "P2_IMG_0046.JPG",
     "curatedFilename": "Roka Masterpiece #478",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1PJeO9uEwa_EnW-nUNPIHv8YDbIoEw_YN",
+    "gdriveUrl": "https://drive.google.com/file/d/1PJeO9uEwa_EnW-nUNPIHv8YDbIoEw_YN/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-479",
@@ -8568,7 +8754,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0047.JPG | Dual Tag: Roka_P2_Photo_479_orig_P2_IMG_0047.JPG.jpg",
     "originalFilename": "P2_IMG_0047.JPG",
     "curatedFilename": "Roka Masterpiece #479",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1D34eVTFQ8NduugzabNLVjw-qNv3f1Aqa",
+    "gdriveUrl": "https://drive.google.com/file/d/1D34eVTFQ8NduugzabNLVjw-qNv3f1Aqa/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-480",
@@ -8584,7 +8772,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0048.JPG | Dual Tag: Roka_P2_Photo_480_orig_P2_IMG_0048.JPG.jpg",
     "originalFilename": "P2_IMG_0048.JPG",
     "curatedFilename": "Roka Masterpiece #480",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1hygvQ_Klxd_qTzwpbY8A_9tfLNUWJh4T",
+    "gdriveUrl": "https://drive.google.com/file/d/1hygvQ_Klxd_qTzwpbY8A_9tfLNUWJh4T/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-481",
@@ -8600,7 +8790,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0049.JPG | Dual Tag: Roka_P2_Photo_481_orig_P2_IMG_0049.JPG.jpg",
     "originalFilename": "P2_IMG_0049.JPG",
     "curatedFilename": "Roka Masterpiece #481",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1rhyUaI1SWHnvdZp5ktonhePRAT9Ok4OZ",
+    "gdriveUrl": "https://drive.google.com/file/d/1rhyUaI1SWHnvdZp5ktonhePRAT9Ok4OZ/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-482",
@@ -8616,7 +8808,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0050.JPG | Dual Tag: Roka_P2_Photo_482_orig_P2_IMG_0050.JPG.jpg",
     "originalFilename": "P2_IMG_0050.JPG",
     "curatedFilename": "Roka Masterpiece #482",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1CwoyRO2v1Sg8VNf0ikudk_NOCBEuQRQw",
+    "gdriveUrl": "https://drive.google.com/file/d/1CwoyRO2v1Sg8VNf0ikudk_NOCBEuQRQw/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-483",
@@ -8632,7 +8826,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0051.JPG | Dual Tag: Roka_P2_Photo_483_orig_P2_IMG_0051.JPG.jpg",
     "originalFilename": "P2_IMG_0051.JPG",
     "curatedFilename": "Roka Masterpiece #483",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "12_nvBzb1nRxDNoPVSYXqq4uDC8q22JLw",
+    "gdriveUrl": "https://drive.google.com/file/d/12_nvBzb1nRxDNoPVSYXqq4uDC8q22JLw/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-484",
@@ -8648,7 +8844,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0052.JPG | Dual Tag: Roka_P2_Photo_484_orig_P2_IMG_0052.JPG.jpg",
     "originalFilename": "P2_IMG_0052.JPG",
     "curatedFilename": "Roka Masterpiece #484",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1_4zEmpEBWQXuhEJIHyntVImexjzSXD5c",
+    "gdriveUrl": "https://drive.google.com/file/d/1_4zEmpEBWQXuhEJIHyntVImexjzSXD5c/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-485",
@@ -8664,7 +8862,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0053.JPG | Dual Tag: Roka_P2_Photo_485_orig_P2_IMG_0053.JPG.jpg",
     "originalFilename": "P2_IMG_0053.JPG",
     "curatedFilename": "Roka Masterpiece #485",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "10jSD6KuRBy8mHICSbZzDJyH2pmewtd64",
+    "gdriveUrl": "https://drive.google.com/file/d/10jSD6KuRBy8mHICSbZzDJyH2pmewtd64/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-486",
@@ -8680,7 +8880,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0054.JPG | Dual Tag: Roka_P2_Photo_486_orig_P2_IMG_0054.JPG.jpg",
     "originalFilename": "P2_IMG_0054.JPG",
     "curatedFilename": "Roka Masterpiece #486",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1bYiwgwr_XuzCUY6c8AC7_ocuvZKfnDfF",
+    "gdriveUrl": "https://drive.google.com/file/d/1bYiwgwr_XuzCUY6c8AC7_ocuvZKfnDfF/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-487",
@@ -8696,7 +8898,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0056.JPG | Dual Tag: Roka_P2_Photo_487_orig_P2_IMG_0056.JPG.jpg",
     "originalFilename": "P2_IMG_0056.JPG",
     "curatedFilename": "Roka Masterpiece #487",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1Az7PWWVWjJudfc8vrPyY1jnfZjwd8mg-",
+    "gdriveUrl": "https://drive.google.com/file/d/1Az7PWWVWjJudfc8vrPyY1jnfZjwd8mg-/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-488",
@@ -8712,7 +8916,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0057.JPG | Dual Tag: Roka_P2_Photo_488_orig_P2_IMG_0057.JPG.jpg",
     "originalFilename": "P2_IMG_0057.JPG",
     "curatedFilename": "Roka Masterpiece #488",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1dAAplE4sCK2tHF9Unsk0pC6AicB3qsJx",
+    "gdriveUrl": "https://drive.google.com/file/d/1dAAplE4sCK2tHF9Unsk0pC6AicB3qsJx/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-489",
@@ -8728,7 +8934,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0059.JPG | Dual Tag: Roka_P2_Photo_489_orig_P2_IMG_0059.JPG.jpg",
     "originalFilename": "P2_IMG_0059.JPG",
     "curatedFilename": "Roka Masterpiece #489",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1PdU8bgsuTEeajb60cLaLQnx1hzkKJheQ",
+    "gdriveUrl": "https://drive.google.com/file/d/1PdU8bgsuTEeajb60cLaLQnx1hzkKJheQ/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-490",
@@ -8744,7 +8952,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0060.JPG | Dual Tag: Roka_P2_Photo_490_orig_P2_IMG_0060.JPG.jpg",
     "originalFilename": "P2_IMG_0060.JPG",
     "curatedFilename": "Roka Masterpiece #490",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1j8eHeYkNSo8dRYRvG3OihDcYr-txoOYP",
+    "gdriveUrl": "https://drive.google.com/file/d/1j8eHeYkNSo8dRYRvG3OihDcYr-txoOYP/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-491",
@@ -8760,7 +8970,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0061.JPG | Dual Tag: Roka_P2_Photo_491_orig_P2_IMG_0061.JPG.jpg",
     "originalFilename": "P2_IMG_0061.JPG",
     "curatedFilename": "Roka Masterpiece #491",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1QxqByNw6iGwD8Xx4pkDBoGHCZZ9VDLsU",
+    "gdriveUrl": "https://drive.google.com/file/d/1QxqByNw6iGwD8Xx4pkDBoGHCZZ9VDLsU/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-492",
@@ -8776,7 +8988,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0062.JPG | Dual Tag: Roka_P2_Photo_492_orig_P2_IMG_0062.JPG.jpg",
     "originalFilename": "P2_IMG_0062.JPG",
     "curatedFilename": "Roka Masterpiece #492",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1yPZst2ibJV4aG7DdotC3CST5E7pFShZ9",
+    "gdriveUrl": "https://drive.google.com/file/d/1yPZst2ibJV4aG7DdotC3CST5E7pFShZ9/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-493",
@@ -8792,7 +9006,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0063.JPG | Dual Tag: Roka_P2_Photo_493_orig_P2_IMG_0063.JPG.jpg",
     "originalFilename": "P2_IMG_0063.JPG",
     "curatedFilename": "Roka Masterpiece #493",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1cOsNscvGgvdAraJpd_p3M3HDj5wJvuKJ",
+    "gdriveUrl": "https://drive.google.com/file/d/1cOsNscvGgvdAraJpd_p3M3HDj5wJvuKJ/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-494",
@@ -8808,7 +9024,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0064.JPG | Dual Tag: Roka_P2_Photo_494_orig_P2_IMG_0064.JPG.jpg",
     "originalFilename": "P2_IMG_0064.JPG",
     "curatedFilename": "Roka Masterpiece #494",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1JenMUTeMjCrn-AylbOhU-H-WSlhYhgku",
+    "gdriveUrl": "https://drive.google.com/file/d/1JenMUTeMjCrn-AylbOhU-H-WSlhYhgku/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-495",
@@ -8824,7 +9042,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0065.JPG | Dual Tag: Roka_P2_Photo_495_orig_P2_IMG_0065.JPG.jpg",
     "originalFilename": "P2_IMG_0065.JPG",
     "curatedFilename": "Roka Masterpiece #495",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "194CKl5h44rgJjrWfrRtBn5k2sL0F8pQQ",
+    "gdriveUrl": "https://drive.google.com/file/d/194CKl5h44rgJjrWfrRtBn5k2sL0F8pQQ/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-496",
@@ -8840,7 +9060,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0066.JPG | Dual Tag: Roka_P2_Photo_496_orig_P2_IMG_0066.JPG.jpg",
     "originalFilename": "P2_IMG_0066.JPG",
     "curatedFilename": "Roka Masterpiece #496",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1b5zRLRUGCq9wOo7MCONTGDXJQSsK4CSW",
+    "gdriveUrl": "https://drive.google.com/file/d/1b5zRLRUGCq9wOo7MCONTGDXJQSsK4CSW/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-497",
@@ -8856,7 +9078,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0067.JPG | Dual Tag: Roka_P2_Photo_497_orig_P2_IMG_0067.JPG.jpg",
     "originalFilename": "P2_IMG_0067.JPG",
     "curatedFilename": "Roka Masterpiece #497",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "14dbgYoVR-6KGqnpJYPnLxI6leRJGNRbv",
+    "gdriveUrl": "https://drive.google.com/file/d/14dbgYoVR-6KGqnpJYPnLxI6leRJGNRbv/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-498",
@@ -8872,7 +9096,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0068.JPG | Dual Tag: Roka_P2_Photo_498_orig_P2_IMG_0068.JPG.jpg",
     "originalFilename": "P2_IMG_0068.JPG",
     "curatedFilename": "Roka Masterpiece #498",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1MaCh5dqv1RiZMGDBGQ8DcZbTOA8DAW43",
+    "gdriveUrl": "https://drive.google.com/file/d/1MaCh5dqv1RiZMGDBGQ8DcZbTOA8DAW43/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-499",
@@ -8888,7 +9114,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0069.JPG | Dual Tag: Roka_P2_Photo_499_orig_P2_IMG_0069.JPG.jpg",
     "originalFilename": "P2_IMG_0069.JPG",
     "curatedFilename": "Roka Masterpiece #499",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1nN8Xr-YYuDbgvJImEAEteRfDvNP6ZY-x",
+    "gdriveUrl": "https://drive.google.com/file/d/1nN8Xr-YYuDbgvJImEAEteRfDvNP6ZY-x/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-500",
@@ -8904,7 +9132,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0070.JPG | Dual Tag: Roka_P2_Photo_500_orig_P2_IMG_0070.JPG.jpg",
     "originalFilename": "P2_IMG_0070.JPG",
     "curatedFilename": "Roka Masterpiece #500",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1uMN-ZS6yiwiTnT65gGBQgmHXehwS5lsL",
+    "gdriveUrl": "https://drive.google.com/file/d/1uMN-ZS6yiwiTnT65gGBQgmHXehwS5lsL/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-501",
@@ -8920,7 +9150,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0072.JPG | Dual Tag: Roka_P2_Photo_501_orig_P2_IMG_0072.JPG.jpg",
     "originalFilename": "P2_IMG_0072.JPG",
     "curatedFilename": "Roka Masterpiece #501",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "11qEdECrbJLUU-lovEGaWz3XOqloMSfrZ",
+    "gdriveUrl": "https://drive.google.com/file/d/11qEdECrbJLUU-lovEGaWz3XOqloMSfrZ/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-502",
@@ -8936,7 +9168,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0073.JPG | Dual Tag: Roka_P2_Photo_502_orig_P2_IMG_0073.JPG.jpg",
     "originalFilename": "P2_IMG_0073.JPG",
     "curatedFilename": "Roka Masterpiece #502",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1vKXnLdYSI8AGKzrJSHyejvi6llDqY2m9",
+    "gdriveUrl": "https://drive.google.com/file/d/1vKXnLdYSI8AGKzrJSHyejvi6llDqY2m9/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-503",
@@ -8952,7 +9186,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0074.JPG | Dual Tag: Roka_P2_Photo_503_orig_P2_IMG_0074.JPG.jpg",
     "originalFilename": "P2_IMG_0074.JPG",
     "curatedFilename": "Roka Masterpiece #503",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1_NdZRJyyPwDNMNyukwviGalfJ5_1T82Y",
+    "gdriveUrl": "https://drive.google.com/file/d/1_NdZRJyyPwDNMNyukwviGalfJ5_1T82Y/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-504",
@@ -8968,7 +9204,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0075.JPG | Dual Tag: Roka_P2_Photo_504_orig_P2_IMG_0075.JPG.jpg",
     "originalFilename": "P2_IMG_0075.JPG",
     "curatedFilename": "Roka Masterpiece #504",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1KKSV57OpUvoNsAXPHWQct0M1JzQ4g6l6",
+    "gdriveUrl": "https://drive.google.com/file/d/1KKSV57OpUvoNsAXPHWQct0M1JzQ4g6l6/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-505",
@@ -8984,7 +9222,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0076.JPG | Dual Tag: Roka_P2_Photo_505_orig_P2_IMG_0076.JPG.jpg",
     "originalFilename": "P2_IMG_0076.JPG",
     "curatedFilename": "Roka Masterpiece #505",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1J8uzXrhQ_3G7bA6D90PBBRq6gnJYSS6C",
+    "gdriveUrl": "https://drive.google.com/file/d/1J8uzXrhQ_3G7bA6D90PBBRq6gnJYSS6C/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-506",
@@ -9000,7 +9240,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0077.JPG | Dual Tag: Roka_P2_Photo_506_orig_P2_IMG_0077.JPG.jpg",
     "originalFilename": "P2_IMG_0077.JPG",
     "curatedFilename": "Roka Masterpiece #506",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1BtKYNqQx4plGZgCk-XIfbW4PMLFHdtP_",
+    "gdriveUrl": "https://drive.google.com/file/d/1BtKYNqQx4plGZgCk-XIfbW4PMLFHdtP_/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-507",
@@ -9016,7 +9258,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0078.JPG | Dual Tag: Roka_P2_Photo_507_orig_P2_IMG_0078.JPG.jpg",
     "originalFilename": "P2_IMG_0078.JPG",
     "curatedFilename": "Roka Masterpiece #507",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1QzHaA5Tc27tQvstqKZ95JDlQrpPAOQqg",
+    "gdriveUrl": "https://drive.google.com/file/d/1QzHaA5Tc27tQvstqKZ95JDlQrpPAOQqg/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-508",
@@ -9032,7 +9276,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0079.JPG | Dual Tag: Roka_P2_Photo_508_orig_P2_IMG_0079.JPG.jpg",
     "originalFilename": "P2_IMG_0079.JPG",
     "curatedFilename": "Roka Masterpiece #508",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "19lxCEgzYn5r79Em3Ny69OFVtr78U_1f8",
+    "gdriveUrl": "https://drive.google.com/file/d/19lxCEgzYn5r79Em3Ny69OFVtr78U_1f8/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-509",
@@ -9048,7 +9294,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0081.JPG | Dual Tag: Roka_P2_Photo_509_orig_P2_IMG_0081.JPG.jpg",
     "originalFilename": "P2_IMG_0081.JPG",
     "curatedFilename": "Roka Masterpiece #509",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "17jafnQMWbcer-0CFH0UMMg0k0k3WbcIN",
+    "gdriveUrl": "https://drive.google.com/file/d/17jafnQMWbcer-0CFH0UMMg0k0k3WbcIN/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-510",
@@ -9064,7 +9312,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0082.JPG | Dual Tag: Roka_P2_Photo_510_orig_P2_IMG_0082.JPG.jpg",
     "originalFilename": "P2_IMG_0082.JPG",
     "curatedFilename": "Roka Masterpiece #510",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1jpdN1Q7nv6e3hPIUK6mPjHvE7fRwfLCG",
+    "gdriveUrl": "https://drive.google.com/file/d/1jpdN1Q7nv6e3hPIUK6mPjHvE7fRwfLCG/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-511",
@@ -9080,7 +9330,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0083.JPG | Dual Tag: Roka_P2_Photo_511_orig_P2_IMG_0083.JPG.jpg",
     "originalFilename": "P2_IMG_0083.JPG",
     "curatedFilename": "Roka Masterpiece #511",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1KjnotrS3ze5srolojfH6s65BBNOeksSB",
+    "gdriveUrl": "https://drive.google.com/file/d/1KjnotrS3ze5srolojfH6s65BBNOeksSB/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-512",
@@ -9096,7 +9348,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0084.JPG | Dual Tag: Roka_P2_Photo_512_orig_P2_IMG_0084.JPG.jpg",
     "originalFilename": "P2_IMG_0084.JPG",
     "curatedFilename": "Roka Masterpiece #512",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1BmoUh_FDAwMzcZhQdWicF9ukTgHz2caE",
+    "gdriveUrl": "https://drive.google.com/file/d/1BmoUh_FDAwMzcZhQdWicF9ukTgHz2caE/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-513",
@@ -9112,7 +9366,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0085.JPG | Dual Tag: Roka_P2_Photo_513_orig_P2_IMG_0085.JPG.jpg",
     "originalFilename": "P2_IMG_0085.JPG",
     "curatedFilename": "Roka Masterpiece #513",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1J6RgDH-pqNL5gOqzZDUpo9gngPssbK2c",
+    "gdriveUrl": "https://drive.google.com/file/d/1J6RgDH-pqNL5gOqzZDUpo9gngPssbK2c/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-514",
@@ -9128,7 +9384,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0086.JPG | Dual Tag: Roka_P2_Photo_514_orig_P2_IMG_0086.JPG.jpg",
     "originalFilename": "P2_IMG_0086.JPG",
     "curatedFilename": "Roka Masterpiece #514",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1ZlEH7vkb2t1rLQ_uFTTMh_evI_yxv-R2",
+    "gdriveUrl": "https://drive.google.com/file/d/1ZlEH7vkb2t1rLQ_uFTTMh_evI_yxv-R2/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-515",
@@ -9144,7 +9402,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0088.JPG | Dual Tag: Roka_P2_Photo_515_orig_P2_IMG_0088.JPG.jpg",
     "originalFilename": "P2_IMG_0088.JPG",
     "curatedFilename": "Roka Masterpiece #515",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1bD-7n2WG_qzWgmjOzl5i_74o33T2yLup",
+    "gdriveUrl": "https://drive.google.com/file/d/1bD-7n2WG_qzWgmjOzl5i_74o33T2yLup/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-516",
@@ -9160,7 +9420,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0089.JPG | Dual Tag: Roka_P2_Photo_516_orig_P2_IMG_0089.JPG.jpg",
     "originalFilename": "P2_IMG_0089.JPG",
     "curatedFilename": "Roka Masterpiece #516",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1H00FMHZBnokTrZarJ2Z5mKeOB3KB8ly7",
+    "gdriveUrl": "https://drive.google.com/file/d/1H00FMHZBnokTrZarJ2Z5mKeOB3KB8ly7/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-517",
@@ -9176,7 +9438,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0091.JPG | Dual Tag: Roka_P2_Photo_517_orig_P2_IMG_0091.JPG.jpg",
     "originalFilename": "P2_IMG_0091.JPG",
     "curatedFilename": "Roka Masterpiece #517",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1Z7U_kyWf0YUEMq25ZOrMWI-MJviOl6j8",
+    "gdriveUrl": "https://drive.google.com/file/d/1Z7U_kyWf0YUEMq25ZOrMWI-MJviOl6j8/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-518",
@@ -9192,7 +9456,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0093.JPG | Dual Tag: Roka_P2_Photo_518_orig_P2_IMG_0093.JPG.jpg",
     "originalFilename": "P2_IMG_0093.JPG",
     "curatedFilename": "Roka Masterpiece #518",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1wnj8wEqjCpKl9hywQZ6S5yzxrHAqKNyb",
+    "gdriveUrl": "https://drive.google.com/file/d/1wnj8wEqjCpKl9hywQZ6S5yzxrHAqKNyb/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-519",
@@ -9208,7 +9474,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0094.JPG | Dual Tag: Roka_P2_Photo_519_orig_P2_IMG_0094.JPG.jpg",
     "originalFilename": "P2_IMG_0094.JPG",
     "curatedFilename": "Roka Masterpiece #519",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1iKj32ECYTcbM18cb4iPb9HccrmZheOpb",
+    "gdriveUrl": "https://drive.google.com/file/d/1iKj32ECYTcbM18cb4iPb9HccrmZheOpb/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-520",
@@ -9224,7 +9492,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0095.JPG | Dual Tag: Roka_P2_Photo_520_orig_P2_IMG_0095.JPG.jpg",
     "originalFilename": "P2_IMG_0095.JPG",
     "curatedFilename": "Roka Masterpiece #520",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1HB7T3Nl97noZcw4tUVulhleIDBIg9D-Q",
+    "gdriveUrl": "https://drive.google.com/file/d/1HB7T3Nl97noZcw4tUVulhleIDBIg9D-Q/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-521",
@@ -9240,7 +9510,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0096.JPG | Dual Tag: Roka_P2_Photo_521_orig_P2_IMG_0096.JPG.jpg",
     "originalFilename": "P2_IMG_0096.JPG",
     "curatedFilename": "Roka Masterpiece #521",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1u2yx176lA9_pfXffrykSpSpKDlI0TfmZ",
+    "gdriveUrl": "https://drive.google.com/file/d/1u2yx176lA9_pfXffrykSpSpKDlI0TfmZ/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-522",
@@ -9256,7 +9528,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0101.JPG | Dual Tag: Roka_P2_Photo_522_orig_P2_IMG_0101.JPG.jpg",
     "originalFilename": "P2_IMG_0101.JPG",
     "curatedFilename": "Roka Masterpiece #522",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1f2T1Bhy1YvDXZuQfUIndeKT1ZFTbjSFS",
+    "gdriveUrl": "https://drive.google.com/file/d/1f2T1Bhy1YvDXZuQfUIndeKT1ZFTbjSFS/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-523",
@@ -9272,7 +9546,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0102.JPG | Dual Tag: Roka_P2_Photo_523_orig_P2_IMG_0102.JPG.jpg",
     "originalFilename": "P2_IMG_0102.JPG",
     "curatedFilename": "Roka Masterpiece #523",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1UQBaoFJDG2Y2o78n5vPOLWOqmyz2j2Df",
+    "gdriveUrl": "https://drive.google.com/file/d/1UQBaoFJDG2Y2o78n5vPOLWOqmyz2j2Df/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-524",
@@ -9288,7 +9564,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0103.JPG | Dual Tag: Roka_P2_Photo_524_orig_P2_IMG_0103.JPG.jpg",
     "originalFilename": "P2_IMG_0103.JPG",
     "curatedFilename": "Roka Masterpiece #524",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1I7pvwiulbuvun5Gg6WxyxFruxs7gy2f_",
+    "gdriveUrl": "https://drive.google.com/file/d/1I7pvwiulbuvun5Gg6WxyxFruxs7gy2f_/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-525",
@@ -9304,7 +9582,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0104.JPG | Dual Tag: Roka_P2_Photo_525_orig_P2_IMG_0104.JPG.jpg",
     "originalFilename": "P2_IMG_0104.JPG",
     "curatedFilename": "Roka Masterpiece #525",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1cHm1jMvmKtml0SBYPzX9V2SGYb6RBtX8",
+    "gdriveUrl": "https://drive.google.com/file/d/1cHm1jMvmKtml0SBYPzX9V2SGYb6RBtX8/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-526",
@@ -9320,7 +9600,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0105.JPG | Dual Tag: Roka_P2_Photo_526_orig_P2_IMG_0105.JPG.jpg",
     "originalFilename": "P2_IMG_0105.JPG",
     "curatedFilename": "Roka Masterpiece #526",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1W2GE3gmcLGVpV4N_Y_MvEgQzgQtJDYmD",
+    "gdriveUrl": "https://drive.google.com/file/d/1W2GE3gmcLGVpV4N_Y_MvEgQzgQtJDYmD/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-527",
@@ -9336,7 +9618,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0106.JPG | Dual Tag: Roka_P2_Photo_527_orig_P2_IMG_0106.JPG.jpg",
     "originalFilename": "P2_IMG_0106.JPG",
     "curatedFilename": "Roka Masterpiece #527",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1HcmmtFTd2tVgQz3ORjs-lOvQbMs0Kyk1",
+    "gdriveUrl": "https://drive.google.com/file/d/1HcmmtFTd2tVgQz3ORjs-lOvQbMs0Kyk1/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-528",
@@ -9352,7 +9636,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0107.JPG | Dual Tag: Roka_P2_Photo_528_orig_P2_IMG_0107.JPG.jpg",
     "originalFilename": "P2_IMG_0107.JPG",
     "curatedFilename": "Roka Masterpiece #528",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1YxM2g_eRaOlYWMdwdHhY_VYkEVnFz8X1",
+    "gdriveUrl": "https://drive.google.com/file/d/1YxM2g_eRaOlYWMdwdHhY_VYkEVnFz8X1/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-529",
@@ -9368,7 +9654,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0108.JPG | Dual Tag: Roka_P2_Photo_529_orig_P2_IMG_0108.JPG.jpg",
     "originalFilename": "P2_IMG_0108.JPG",
     "curatedFilename": "Roka Masterpiece #529",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1YSLj47Iuvx4RdlmWdcbrTcNyd3JKIzYa",
+    "gdriveUrl": "https://drive.google.com/file/d/1YSLj47Iuvx4RdlmWdcbrTcNyd3JKIzYa/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-530",
@@ -9384,7 +9672,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0114.JPG | Dual Tag: Roka_P2_Photo_530_orig_P2_IMG_0114.JPG.jpg",
     "originalFilename": "P2_IMG_0114.JPG",
     "curatedFilename": "Roka Masterpiece #530",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "10jsrJ5yb2hdu_c0FE6rVB2k1FdUqR4ZA",
+    "gdriveUrl": "https://drive.google.com/file/d/10jsrJ5yb2hdu_c0FE6rVB2k1FdUqR4ZA/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-531",
@@ -9400,7 +9690,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0115.JPG | Dual Tag: Roka_P2_Photo_531_orig_P2_IMG_0115.JPG.jpg",
     "originalFilename": "P2_IMG_0115.JPG",
     "curatedFilename": "Roka Masterpiece #531",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "16Ooa0UhwZFMG78iSfJoB8cu6y420YJwl",
+    "gdriveUrl": "https://drive.google.com/file/d/16Ooa0UhwZFMG78iSfJoB8cu6y420YJwl/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-532",
@@ -9416,7 +9708,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0116.JPG | Dual Tag: Roka_P2_Photo_532_orig_P2_IMG_0116.JPG.jpg",
     "originalFilename": "P2_IMG_0116.JPG",
     "curatedFilename": "Roka Masterpiece #532",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1KH06oLKNwaPYNfWv-RFRVZ8XFHhjnn6m",
+    "gdriveUrl": "https://drive.google.com/file/d/1KH06oLKNwaPYNfWv-RFRVZ8XFHhjnn6m/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-533",
@@ -9432,7 +9726,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0117.JPG | Dual Tag: Roka_P2_Photo_533_orig_P2_IMG_0117.JPG.jpg",
     "originalFilename": "P2_IMG_0117.JPG",
     "curatedFilename": "Roka Masterpiece #533",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1Y3Y8QuJYNWPVnD_n0xPPlcotW5D7zjFC",
+    "gdriveUrl": "https://drive.google.com/file/d/1Y3Y8QuJYNWPVnD_n0xPPlcotW5D7zjFC/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-534",
@@ -9448,7 +9744,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0118.JPG | Dual Tag: Roka_P2_Photo_534_orig_P2_IMG_0118.JPG.jpg",
     "originalFilename": "P2_IMG_0118.JPG",
     "curatedFilename": "Roka Masterpiece #534",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1akzzSCCbw8heQ-dKxffJqSxxlJaWqANd",
+    "gdriveUrl": "https://drive.google.com/file/d/1akzzSCCbw8heQ-dKxffJqSxxlJaWqANd/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-535",
@@ -9464,7 +9762,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0121.JPG | Dual Tag: Roka_P2_Photo_535_orig_P2_IMG_0121.JPG.jpg",
     "originalFilename": "P2_IMG_0121.JPG",
     "curatedFilename": "Roka Masterpiece #535",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "17yGlVKT_TEQwHtxjlgkmgmhjZxM-73UD",
+    "gdriveUrl": "https://drive.google.com/file/d/17yGlVKT_TEQwHtxjlgkmgmhjZxM-73UD/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-536",
@@ -9480,7 +9780,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0122.JPG | Dual Tag: Roka_P2_Photo_536_orig_P2_IMG_0122.JPG.jpg",
     "originalFilename": "P2_IMG_0122.JPG",
     "curatedFilename": "Roka Masterpiece #536",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1D_bLEHEcVv04ghrQX1xQvu_U88q_yvYS",
+    "gdriveUrl": "https://drive.google.com/file/d/1D_bLEHEcVv04ghrQX1xQvu_U88q_yvYS/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-537",
@@ -9496,7 +9798,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0123.JPG | Dual Tag: Roka_P2_Photo_537_orig_P2_IMG_0123.JPG.jpg",
     "originalFilename": "P2_IMG_0123.JPG",
     "curatedFilename": "Roka Masterpiece #537",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "13-Vay3UEnyAh7aygELQkoig-tiXDLX61",
+    "gdriveUrl": "https://drive.google.com/file/d/13-Vay3UEnyAh7aygELQkoig-tiXDLX61/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-538",
@@ -9512,7 +9816,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0124.JPG | Dual Tag: Roka_P2_Photo_538_orig_P2_IMG_0124.JPG.jpg",
     "originalFilename": "P2_IMG_0124.JPG",
     "curatedFilename": "Roka Masterpiece #538",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "17aiu-Lvio7k1haoEVXoP0vlsix5J5mcQ",
+    "gdriveUrl": "https://drive.google.com/file/d/17aiu-Lvio7k1haoEVXoP0vlsix5J5mcQ/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-539",
@@ -9528,7 +9834,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0125.JPG | Dual Tag: Roka_P2_Photo_539_orig_P2_IMG_0125.JPG.jpg",
     "originalFilename": "P2_IMG_0125.JPG",
     "curatedFilename": "Roka Masterpiece #539",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "17KseEdG9z9Y1FA14lnGeF8Du9G1Touz5",
+    "gdriveUrl": "https://drive.google.com/file/d/17KseEdG9z9Y1FA14lnGeF8Du9G1Touz5/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-540",
@@ -9544,7 +9852,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0126.JPG | Dual Tag: Roka_P2_Photo_540_orig_P2_IMG_0126.JPG.jpg",
     "originalFilename": "P2_IMG_0126.JPG",
     "curatedFilename": "Roka Masterpiece #540",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1bmdRqRjvix6TOzslTyvWlif1inFuIWh3",
+    "gdriveUrl": "https://drive.google.com/file/d/1bmdRqRjvix6TOzslTyvWlif1inFuIWh3/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-541",
@@ -9560,7 +9870,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0127.JPG | Dual Tag: Roka_P2_Photo_541_orig_P2_IMG_0127.JPG.jpg",
     "originalFilename": "P2_IMG_0127.JPG",
     "curatedFilename": "Roka Masterpiece #541",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1PTawQhoZYmHPyaNbCsv52cOrkG4vO7FQ",
+    "gdriveUrl": "https://drive.google.com/file/d/1PTawQhoZYmHPyaNbCsv52cOrkG4vO7FQ/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-542",
@@ -9576,7 +9888,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0128.JPG | Dual Tag: Roka_P2_Photo_542_orig_P2_IMG_0128.JPG.jpg",
     "originalFilename": "P2_IMG_0128.JPG",
     "curatedFilename": "Roka Masterpiece #542",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1YWrp14hxlCQC8lQfvsfjS4279UNODYeX",
+    "gdriveUrl": "https://drive.google.com/file/d/1YWrp14hxlCQC8lQfvsfjS4279UNODYeX/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-543",
@@ -9592,7 +9906,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0129.JPG | Dual Tag: Roka_P2_Photo_543_orig_P2_IMG_0129.JPG.jpg",
     "originalFilename": "P2_IMG_0129.JPG",
     "curatedFilename": "Roka Masterpiece #543",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1R3nxznbZsYvXQGZtuWCAfJK_OsNsn-wb",
+    "gdriveUrl": "https://drive.google.com/file/d/1R3nxznbZsYvXQGZtuWCAfJK_OsNsn-wb/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-544",
@@ -9608,7 +9924,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0130.JPG | Dual Tag: Roka_P2_Photo_544_orig_P2_IMG_0130.JPG.jpg",
     "originalFilename": "P2_IMG_0130.JPG",
     "curatedFilename": "Roka Masterpiece #544",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1eLWOF_VlEmBa5ZiPfGNoUGsG58qya5RD",
+    "gdriveUrl": "https://drive.google.com/file/d/1eLWOF_VlEmBa5ZiPfGNoUGsG58qya5RD/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-545",
@@ -9624,7 +9942,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0131.JPG | Dual Tag: Roka_P2_Photo_545_orig_P2_IMG_0131.JPG.jpg",
     "originalFilename": "P2_IMG_0131.JPG",
     "curatedFilename": "Roka Masterpiece #545",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1ssau673moZILORWhLjgciUlHBnvgbAzM",
+    "gdriveUrl": "https://drive.google.com/file/d/1ssau673moZILORWhLjgciUlHBnvgbAzM/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-546",
@@ -9640,7 +9960,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0132.JPG | Dual Tag: Roka_P2_Photo_546_orig_P2_IMG_0132.JPG.jpg",
     "originalFilename": "P2_IMG_0132.JPG",
     "curatedFilename": "Roka Masterpiece #546",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1ATyC0x9iSBc2j6Uii630yEsN5FsA_qh0",
+    "gdriveUrl": "https://drive.google.com/file/d/1ATyC0x9iSBc2j6Uii630yEsN5FsA_qh0/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-547",
@@ -9656,7 +9978,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0133.JPG | Dual Tag: Roka_P2_Photo_547_orig_P2_IMG_0133.JPG.jpg",
     "originalFilename": "P2_IMG_0133.JPG",
     "curatedFilename": "Roka Masterpiece #547",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1PJmwlEWucoH9OgZqJhk43k5Ow9eVWkhT",
+    "gdriveUrl": "https://drive.google.com/file/d/1PJmwlEWucoH9OgZqJhk43k5Ow9eVWkhT/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-548",
@@ -9672,7 +9996,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0134.JPG | Dual Tag: Roka_P2_Photo_548_orig_P2_IMG_0134.JPG.jpg",
     "originalFilename": "P2_IMG_0134.JPG",
     "curatedFilename": "Roka Masterpiece #548",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1WCecvKZB1fpKo7tGpTg1txsgWAaDkQI1",
+    "gdriveUrl": "https://drive.google.com/file/d/1WCecvKZB1fpKo7tGpTg1txsgWAaDkQI1/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-549",
@@ -9688,7 +10014,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0137.JPG | Dual Tag: Roka_P2_Photo_549_orig_P2_IMG_0137.JPG.jpg",
     "originalFilename": "P2_IMG_0137.JPG",
     "curatedFilename": "Roka Masterpiece #549",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1Eh_D2t3jSvKwCPWnN_HeVmlKBaGSv8VE",
+    "gdriveUrl": "https://drive.google.com/file/d/1Eh_D2t3jSvKwCPWnN_HeVmlKBaGSv8VE/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-550",
@@ -9704,7 +10032,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0138.JPG | Dual Tag: Roka_P2_Photo_550_orig_P2_IMG_0138.JPG.jpg",
     "originalFilename": "P2_IMG_0138.JPG",
     "curatedFilename": "Roka Masterpiece #550",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1HENQHbWg0Rv_RC_hgVBzZpsUtWd1MfWA",
+    "gdriveUrl": "https://drive.google.com/file/d/1HENQHbWg0Rv_RC_hgVBzZpsUtWd1MfWA/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-551",
@@ -9720,7 +10050,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0139.JPG | Dual Tag: Roka_P2_Photo_551_orig_P2_IMG_0139.JPG.jpg",
     "originalFilename": "P2_IMG_0139.JPG",
     "curatedFilename": "Roka Masterpiece #551",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1mVfAkLRUFu6iLjy3b0Dm6KV3X9OKEvpg",
+    "gdriveUrl": "https://drive.google.com/file/d/1mVfAkLRUFu6iLjy3b0Dm6KV3X9OKEvpg/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-552",
@@ -9736,7 +10068,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0141.JPG | Dual Tag: Roka_P2_Photo_552_orig_P2_IMG_0141.JPG.jpg",
     "originalFilename": "P2_IMG_0141.JPG",
     "curatedFilename": "Roka Masterpiece #552",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1c-Vu3dwyzZTTD5IYsxkhpLBJ_3vKKQJ4",
+    "gdriveUrl": "https://drive.google.com/file/d/1c-Vu3dwyzZTTD5IYsxkhpLBJ_3vKKQJ4/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-553",
@@ -9752,7 +10086,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0142.JPG | Dual Tag: Roka_P2_Photo_553_orig_P2_IMG_0142.JPG.jpg",
     "originalFilename": "P2_IMG_0142.JPG",
     "curatedFilename": "Roka Masterpiece #553",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1aPgHytp0BW_R63oxm1OUR_t2GD_245rX",
+    "gdriveUrl": "https://drive.google.com/file/d/1aPgHytp0BW_R63oxm1OUR_t2GD_245rX/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-554",
@@ -9768,7 +10104,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0143.JPG | Dual Tag: Roka_P2_Photo_554_orig_P2_IMG_0143.JPG.jpg",
     "originalFilename": "P2_IMG_0143.JPG",
     "curatedFilename": "Roka Masterpiece #554",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "13g8m1InQSj3lzuKLJd000JSp94e8tCYG",
+    "gdriveUrl": "https://drive.google.com/file/d/13g8m1InQSj3lzuKLJd000JSp94e8tCYG/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-555",
@@ -9784,7 +10122,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0144.JPG | Dual Tag: Roka_P2_Photo_555_orig_P2_IMG_0144.JPG.jpg",
     "originalFilename": "P2_IMG_0144.JPG",
     "curatedFilename": "Roka Masterpiece #555",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "18jS1RXEkIziFEuHpZ5BVVMwt6MCqq6pt",
+    "gdriveUrl": "https://drive.google.com/file/d/18jS1RXEkIziFEuHpZ5BVVMwt6MCqq6pt/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-556",
@@ -9800,7 +10140,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0145.JPG | Dual Tag: Roka_P2_Photo_556_orig_P2_IMG_0145.JPG.jpg",
     "originalFilename": "P2_IMG_0145.JPG",
     "curatedFilename": "Roka Masterpiece #556",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1O0hL_FH11hrf9vcm90kXJaOUCE6UKoW5",
+    "gdriveUrl": "https://drive.google.com/file/d/1O0hL_FH11hrf9vcm90kXJaOUCE6UKoW5/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-557",
@@ -9816,7 +10158,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0147.JPG | Dual Tag: Roka_P2_Photo_557_orig_P2_IMG_0147.JPG.jpg",
     "originalFilename": "P2_IMG_0147.JPG",
     "curatedFilename": "Roka Masterpiece #557",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "18Feqr-kDaAaqINdV2CeXllHjs2n8JP4b",
+    "gdriveUrl": "https://drive.google.com/file/d/18Feqr-kDaAaqINdV2CeXllHjs2n8JP4b/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-558",
@@ -9832,7 +10176,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0148.JPG | Dual Tag: Roka_P2_Photo_558_orig_P2_IMG_0148.JPG.jpg",
     "originalFilename": "P2_IMG_0148.JPG",
     "curatedFilename": "Roka Masterpiece #558",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1HtjVrp__gDltkpmu1bUY464JbQRwBdNw",
+    "gdriveUrl": "https://drive.google.com/file/d/1HtjVrp__gDltkpmu1bUY464JbQRwBdNw/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-559",
@@ -9848,7 +10194,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0149.JPG | Dual Tag: Roka_P2_Photo_559_orig_P2_IMG_0149.JPG.jpg",
     "originalFilename": "P2_IMG_0149.JPG",
     "curatedFilename": "Roka Masterpiece #559",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1p-OIYezRMd3MBRY4AkLixdAh-oYpeyiy",
+    "gdriveUrl": "https://drive.google.com/file/d/1p-OIYezRMd3MBRY4AkLixdAh-oYpeyiy/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-560",
@@ -9864,7 +10212,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0151.JPG | Dual Tag: Roka_P2_Photo_560_orig_P2_IMG_0151.JPG.jpg",
     "originalFilename": "P2_IMG_0151.JPG",
     "curatedFilename": "Roka Masterpiece #560",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "13mm5q7gjnmQET7E2gkx-Ig7dgh0245Yo",
+    "gdriveUrl": "https://drive.google.com/file/d/13mm5q7gjnmQET7E2gkx-Ig7dgh0245Yo/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-561",
@@ -9880,7 +10230,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0152.JPG | Dual Tag: Roka_P2_Photo_561_orig_P2_IMG_0152.JPG.jpg",
     "originalFilename": "P2_IMG_0152.JPG",
     "curatedFilename": "Roka Masterpiece #561",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1SAeqs7ZGG9YD0A_Sr9YtgQjj354jZvy6",
+    "gdriveUrl": "https://drive.google.com/file/d/1SAeqs7ZGG9YD0A_Sr9YtgQjj354jZvy6/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-562",
@@ -9896,7 +10248,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0155.JPG | Dual Tag: Roka_P2_Photo_562_orig_P2_IMG_0155.JPG.jpg",
     "originalFilename": "P2_IMG_0155.JPG",
     "curatedFilename": "Roka Masterpiece #562",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1O0IH8JhyNcMgiRY2NXlzu0bEPUHzODtV",
+    "gdriveUrl": "https://drive.google.com/file/d/1O0IH8JhyNcMgiRY2NXlzu0bEPUHzODtV/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-563",
@@ -9912,7 +10266,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0158.JPG | Dual Tag: Roka_P2_Photo_563_orig_P2_IMG_0158.JPG.jpg",
     "originalFilename": "P2_IMG_0158.JPG",
     "curatedFilename": "Roka Masterpiece #563",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1_W06EHA0Nlj2fWCbuWQVNabvziVsSmvE",
+    "gdriveUrl": "https://drive.google.com/file/d/1_W06EHA0Nlj2fWCbuWQVNabvziVsSmvE/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-564",
@@ -9928,7 +10284,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0160.JPG | Dual Tag: Roka_P2_Photo_564_orig_P2_IMG_0160.JPG.jpg",
     "originalFilename": "P2_IMG_0160.JPG",
     "curatedFilename": "Roka Masterpiece #564",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1a7fxz8EQxZTBdy9-UbmaH2V0S9Hlm-dG",
+    "gdriveUrl": "https://drive.google.com/file/d/1a7fxz8EQxZTBdy9-UbmaH2V0S9Hlm-dG/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-565",
@@ -9944,7 +10302,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0161.JPG | Dual Tag: Roka_P2_Photo_565_orig_P2_IMG_0161.JPG.jpg",
     "originalFilename": "P2_IMG_0161.JPG",
     "curatedFilename": "Roka Masterpiece #565",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1XOKoARc3E9n0S0ZtUlntDvtrRk3i0je-",
+    "gdriveUrl": "https://drive.google.com/file/d/1XOKoARc3E9n0S0ZtUlntDvtrRk3i0je-/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-566",
@@ -9960,7 +10320,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0162.JPG | Dual Tag: Roka_P2_Photo_566_orig_P2_IMG_0162.JPG.jpg",
     "originalFilename": "P2_IMG_0162.JPG",
     "curatedFilename": "Roka Masterpiece #566",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1kz54Axc1w6QgVXaiJmnEnO-VgdQR0FeP",
+    "gdriveUrl": "https://drive.google.com/file/d/1kz54Axc1w6QgVXaiJmnEnO-VgdQR0FeP/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-567",
@@ -9976,7 +10338,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0163.JPG | Dual Tag: Roka_P2_Photo_567_orig_P2_IMG_0163.JPG.jpg",
     "originalFilename": "P2_IMG_0163.JPG",
     "curatedFilename": "Roka Masterpiece #567",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1dBXzYTQ2KjDOd65YOwWS1bqaq_g5qHMZ",
+    "gdriveUrl": "https://drive.google.com/file/d/1dBXzYTQ2KjDOd65YOwWS1bqaq_g5qHMZ/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-568",
@@ -9992,7 +10356,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0164.JPG | Dual Tag: Roka_P2_Photo_568_orig_P2_IMG_0164.JPG.jpg",
     "originalFilename": "P2_IMG_0164.JPG",
     "curatedFilename": "Roka Masterpiece #568",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1ccvx_Zmv-SV3Wp4igDeZL6QK8OB3F7o5",
+    "gdriveUrl": "https://drive.google.com/file/d/1ccvx_Zmv-SV3Wp4igDeZL6QK8OB3F7o5/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-569",
@@ -10008,7 +10374,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0167.JPG | Dual Tag: Roka_P2_Photo_569_orig_P2_IMG_0167.JPG.jpg",
     "originalFilename": "P2_IMG_0167.JPG",
     "curatedFilename": "Roka Masterpiece #569",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1mZyjOWmX9HOjT4iy23R3bhp81BJQ-ibA",
+    "gdriveUrl": "https://drive.google.com/file/d/1mZyjOWmX9HOjT4iy23R3bhp81BJQ-ibA/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-570",
@@ -10024,7 +10392,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0168.JPG | Dual Tag: Roka_P2_Photo_570_orig_P2_IMG_0168.JPG.jpg",
     "originalFilename": "P2_IMG_0168.JPG",
     "curatedFilename": "Roka Masterpiece #570",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1mMPuRH91rcGF431-mRLZFYiaRH_cZCUn",
+    "gdriveUrl": "https://drive.google.com/file/d/1mMPuRH91rcGF431-mRLZFYiaRH_cZCUn/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-571",
@@ -10040,7 +10410,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0169.JPG | Dual Tag: Roka_P2_Photo_571_orig_P2_IMG_0169.JPG.jpg",
     "originalFilename": "P2_IMG_0169.JPG",
     "curatedFilename": "Roka Masterpiece #571",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1sJBRRHPz-TCCH9Vn-zuuC0uIlLTR4E0b",
+    "gdriveUrl": "https://drive.google.com/file/d/1sJBRRHPz-TCCH9Vn-zuuC0uIlLTR4E0b/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-572",
@@ -10056,7 +10428,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0170.JPG | Dual Tag: Roka_P2_Photo_572_orig_P2_IMG_0170.JPG.jpg",
     "originalFilename": "P2_IMG_0170.JPG",
     "curatedFilename": "Roka Masterpiece #572",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1pWan50BCj-9_RVO5QUcmWpGqA4RbN7Qn",
+    "gdriveUrl": "https://drive.google.com/file/d/1pWan50BCj-9_RVO5QUcmWpGqA4RbN7Qn/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-573",
@@ -10072,7 +10446,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0171.JPG | Dual Tag: Roka_P2_Photo_573_orig_P2_IMG_0171.JPG.jpg",
     "originalFilename": "P2_IMG_0171.JPG",
     "curatedFilename": "Roka Masterpiece #573",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1OVARgKbI_-abnFfB9dSMhCdLolpL2dPX",
+    "gdriveUrl": "https://drive.google.com/file/d/1OVARgKbI_-abnFfB9dSMhCdLolpL2dPX/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-574",
@@ -10088,7 +10464,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0172.JPG | Dual Tag: Roka_P2_Photo_574_orig_P2_IMG_0172.JPG.jpg",
     "originalFilename": "P2_IMG_0172.JPG",
     "curatedFilename": "Roka Masterpiece #574",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1pKyvHtpAYWKJMcOen2XT7HFf_z7VbqOG",
+    "gdriveUrl": "https://drive.google.com/file/d/1pKyvHtpAYWKJMcOen2XT7HFf_z7VbqOG/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-575",
@@ -10104,7 +10482,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0173.JPG | Dual Tag: Roka_P2_Photo_575_orig_P2_IMG_0173.JPG.jpg",
     "originalFilename": "P2_IMG_0173.JPG",
     "curatedFilename": "Roka Masterpiece #575",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1o7dSaVXv4a_0H7aiPghrrI_7z_g_LErh",
+    "gdriveUrl": "https://drive.google.com/file/d/1o7dSaVXv4a_0H7aiPghrrI_7z_g_LErh/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-576",
@@ -10120,7 +10500,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0174.JPG | Dual Tag: Roka_P2_Photo_576_orig_P2_IMG_0174.JPG.jpg",
     "originalFilename": "P2_IMG_0174.JPG",
     "curatedFilename": "Roka Masterpiece #576",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1K5WS97vK-A8MiuccOPd9QTSVYC8C72Im",
+    "gdriveUrl": "https://drive.google.com/file/d/1K5WS97vK-A8MiuccOPd9QTSVYC8C72Im/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-577",
@@ -10136,7 +10518,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0175.JPG | Dual Tag: Roka_P2_Photo_577_orig_P2_IMG_0175.JPG.jpg",
     "originalFilename": "P2_IMG_0175.JPG",
     "curatedFilename": "Roka Masterpiece #577",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1v1hbF-S39QQCtAh3zVwN_PyxZQ-sJMLV",
+    "gdriveUrl": "https://drive.google.com/file/d/1v1hbF-S39QQCtAh3zVwN_PyxZQ-sJMLV/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-578",
@@ -10152,7 +10536,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0176.JPG | Dual Tag: Roka_P2_Photo_578_orig_P2_IMG_0176.JPG.jpg",
     "originalFilename": "P2_IMG_0176.JPG",
     "curatedFilename": "Roka Masterpiece #578",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1mEEfZAPJ885diucexNRJnjcZaORhC-D5",
+    "gdriveUrl": "https://drive.google.com/file/d/1mEEfZAPJ885diucexNRJnjcZaORhC-D5/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-579",
@@ -10168,7 +10554,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0178.JPG | Dual Tag: Roka_P2_Photo_579_orig_P2_IMG_0178.JPG.jpg",
     "originalFilename": "P2_IMG_0178.JPG",
     "curatedFilename": "Roka Masterpiece #579",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1Cb1PD8ELv4sEQK87zOXlg4Ik9Lh3tIeK",
+    "gdriveUrl": "https://drive.google.com/file/d/1Cb1PD8ELv4sEQK87zOXlg4Ik9Lh3tIeK/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-580",
@@ -10184,7 +10572,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0179.JPG | Dual Tag: Roka_P2_Photo_580_orig_P2_IMG_0179.JPG.jpg",
     "originalFilename": "P2_IMG_0179.JPG",
     "curatedFilename": "Roka Masterpiece #580",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1Cr9TW7U2R9VtUeBO2V-gGx_QGUAR1yYt",
+    "gdriveUrl": "https://drive.google.com/file/d/1Cr9TW7U2R9VtUeBO2V-gGx_QGUAR1yYt/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-581",
@@ -10200,7 +10590,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0180.JPG | Dual Tag: Roka_P2_Photo_581_orig_P2_IMG_0180.JPG.jpg",
     "originalFilename": "P2_IMG_0180.JPG",
     "curatedFilename": "Roka Masterpiece #581",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1q-4B-MHzjRVfMCRADlNAZ9CK4gUjnU_w",
+    "gdriveUrl": "https://drive.google.com/file/d/1q-4B-MHzjRVfMCRADlNAZ9CK4gUjnU_w/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-582",
@@ -10216,7 +10608,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0183.JPG | Dual Tag: Roka_P2_Photo_582_orig_P2_IMG_0183.JPG.jpg",
     "originalFilename": "P2_IMG_0183.JPG",
     "curatedFilename": "Roka Masterpiece #582",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "190j5nd4Ok72GgpCPdHUNZvjp5HMUaumX",
+    "gdriveUrl": "https://drive.google.com/file/d/190j5nd4Ok72GgpCPdHUNZvjp5HMUaumX/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-583",
@@ -10232,7 +10626,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0184.JPG | Dual Tag: Roka_P2_Photo_583_orig_P2_IMG_0184.JPG.jpg",
     "originalFilename": "P2_IMG_0184.JPG",
     "curatedFilename": "Roka Masterpiece #583",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1ScpQeuAyC-o3rGIs0TuGUQPqfKy6BsKi",
+    "gdriveUrl": "https://drive.google.com/file/d/1ScpQeuAyC-o3rGIs0TuGUQPqfKy6BsKi/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-584",
@@ -10248,7 +10644,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0185.JPG | Dual Tag: Roka_P2_Photo_584_orig_P2_IMG_0185.JPG.jpg",
     "originalFilename": "P2_IMG_0185.JPG",
     "curatedFilename": "Roka Masterpiece #584",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1vHZ5bf32MhEGf0Wj6j6arn914--2vD_y",
+    "gdriveUrl": "https://drive.google.com/file/d/1vHZ5bf32MhEGf0Wj6j6arn914--2vD_y/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-585",
@@ -10264,7 +10662,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0186.JPG | Dual Tag: Roka_P2_Photo_585_orig_P2_IMG_0186.JPG.jpg",
     "originalFilename": "P2_IMG_0186.JPG",
     "curatedFilename": "Roka Masterpiece #585",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1oPrCRshFcw5fD5nnctAVYtkk-N7PoSP3",
+    "gdriveUrl": "https://drive.google.com/file/d/1oPrCRshFcw5fD5nnctAVYtkk-N7PoSP3/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-586",
@@ -10280,7 +10680,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0188.JPG | Dual Tag: Roka_P2_Photo_586_orig_P2_IMG_0188.JPG.jpg",
     "originalFilename": "P2_IMG_0188.JPG",
     "curatedFilename": "Roka Masterpiece #586",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1EM6cg5-Q1OqL8pO2Z5SAKMjrdN4YD3Ez",
+    "gdriveUrl": "https://drive.google.com/file/d/1EM6cg5-Q1OqL8pO2Z5SAKMjrdN4YD3Ez/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-587",
@@ -10296,7 +10698,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0189.JPG | Dual Tag: Roka_P2_Photo_587_orig_P2_IMG_0189.JPG.jpg",
     "originalFilename": "P2_IMG_0189.JPG",
     "curatedFilename": "Roka Masterpiece #587",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1H05mHGgnJrEdewUA7_JMA-aBaopV6Dlu",
+    "gdriveUrl": "https://drive.google.com/file/d/1H05mHGgnJrEdewUA7_JMA-aBaopV6Dlu/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-588",
@@ -10312,7 +10716,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0190.JPG | Dual Tag: Roka_P2_Photo_588_orig_P2_IMG_0190.JPG.jpg",
     "originalFilename": "P2_IMG_0190.JPG",
     "curatedFilename": "Roka Masterpiece #588",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1QL50I3sdw5lA3md381FOEmbda2YX797-",
+    "gdriveUrl": "https://drive.google.com/file/d/1QL50I3sdw5lA3md381FOEmbda2YX797-/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-589",
@@ -10328,7 +10734,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0191.JPG | Dual Tag: Roka_P2_Photo_589_orig_P2_IMG_0191.JPG.jpg",
     "originalFilename": "P2_IMG_0191.JPG",
     "curatedFilename": "Roka Masterpiece #589",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1uuBpOSY-xNc-d4nzJMuiZegMYTJdGL0E",
+    "gdriveUrl": "https://drive.google.com/file/d/1uuBpOSY-xNc-d4nzJMuiZegMYTJdGL0E/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-590",
@@ -10344,7 +10752,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0192.JPG | Dual Tag: Roka_P2_Photo_590_orig_P2_IMG_0192.JPG.jpg",
     "originalFilename": "P2_IMG_0192.JPG",
     "curatedFilename": "Roka Masterpiece #590",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1dfc4-39OKTM2R14tfuBb8T9INkSKrqf-",
+    "gdriveUrl": "https://drive.google.com/file/d/1dfc4-39OKTM2R14tfuBb8T9INkSKrqf-/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-591",
@@ -10360,7 +10770,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0195.JPG | Dual Tag: Roka_P2_Photo_591_orig_P2_IMG_0195.JPG.jpg",
     "originalFilename": "P2_IMG_0195.JPG",
     "curatedFilename": "Roka Masterpiece #591",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1_AC2K4FM1FG8kSEv8ktribYopzJuJC-H",
+    "gdriveUrl": "https://drive.google.com/file/d/1_AC2K4FM1FG8kSEv8ktribYopzJuJC-H/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-592",
@@ -10376,7 +10788,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0196.JPG | Dual Tag: Roka_P2_Photo_592_orig_P2_IMG_0196.JPG.jpg",
     "originalFilename": "P2_IMG_0196.JPG",
     "curatedFilename": "Roka Masterpiece #592",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1VXm1J5PpSEqOD6wL71UxNoXo2E0c4jKY",
+    "gdriveUrl": "https://drive.google.com/file/d/1VXm1J5PpSEqOD6wL71UxNoXo2E0c4jKY/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-593",
@@ -10392,7 +10806,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0197.JPG | Dual Tag: Roka_P2_Photo_593_orig_P2_IMG_0197.JPG.jpg",
     "originalFilename": "P2_IMG_0197.JPG",
     "curatedFilename": "Roka Masterpiece #593",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1RbzbwXi3qruWFj_gCGBbYGPwzlGCcylF",
+    "gdriveUrl": "https://drive.google.com/file/d/1RbzbwXi3qruWFj_gCGBbYGPwzlGCcylF/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-594",
@@ -10408,7 +10824,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0198.JPG | Dual Tag: Roka_P2_Photo_594_orig_P2_IMG_0198.JPG.jpg",
     "originalFilename": "P2_IMG_0198.JPG",
     "curatedFilename": "Roka Masterpiece #594",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1u4u3m-Q1jbNL9wAeMTmECYoMRFWOkbho",
+    "gdriveUrl": "https://drive.google.com/file/d/1u4u3m-Q1jbNL9wAeMTmECYoMRFWOkbho/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-595",
@@ -10424,7 +10842,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0199.JPG | Dual Tag: Roka_P2_Photo_595_orig_P2_IMG_0199.JPG.jpg",
     "originalFilename": "P2_IMG_0199.JPG",
     "curatedFilename": "Roka Masterpiece #595",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1PPXEnqiZ0UTaBSJluPmrGIEw11WmDsTo",
+    "gdriveUrl": "https://drive.google.com/file/d/1PPXEnqiZ0UTaBSJluPmrGIEw11WmDsTo/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-596",
@@ -10440,7 +10860,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0200.JPG | Dual Tag: Roka_P2_Photo_596_orig_P2_IMG_0200.JPG.jpg",
     "originalFilename": "P2_IMG_0200.JPG",
     "curatedFilename": "Roka Masterpiece #596",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1X6kapj2YL213zPaIBTC-0b4Th-_Suh0X",
+    "gdriveUrl": "https://drive.google.com/file/d/1X6kapj2YL213zPaIBTC-0b4Th-_Suh0X/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-597",
@@ -10456,7 +10878,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0201.JPG | Dual Tag: Roka_P2_Photo_597_orig_P2_IMG_0201.JPG.jpg",
     "originalFilename": "P2_IMG_0201.JPG",
     "curatedFilename": "Roka Masterpiece #597",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1dAeluRKl1AW0Xr4tqvqD2pDelROoIB-8",
+    "gdriveUrl": "https://drive.google.com/file/d/1dAeluRKl1AW0Xr4tqvqD2pDelROoIB-8/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-598",
@@ -10472,7 +10896,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0202.JPG | Dual Tag: Roka_P2_Photo_598_orig_P2_IMG_0202.JPG.jpg",
     "originalFilename": "P2_IMG_0202.JPG",
     "curatedFilename": "Roka Masterpiece #598",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1neY6G0jK3D_agtuO7gXOlScXw2TADJbl",
+    "gdriveUrl": "https://drive.google.com/file/d/1neY6G0jK3D_agtuO7gXOlScXw2TADJbl/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-599",
@@ -10488,7 +10914,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0203.JPG | Dual Tag: Roka_P2_Photo_599_orig_P2_IMG_0203.JPG.jpg",
     "originalFilename": "P2_IMG_0203.JPG",
     "curatedFilename": "Roka Masterpiece #599",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1h0J_8vJYXyMTwzG4rM_kyQU7p8Ae0FKv",
+    "gdriveUrl": "https://drive.google.com/file/d/1h0J_8vJYXyMTwzG4rM_kyQU7p8Ae0FKv/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-600",
@@ -10504,7 +10932,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0204.JPG | Dual Tag: Roka_P2_Photo_600_orig_P2_IMG_0204.JPG.jpg",
     "originalFilename": "P2_IMG_0204.JPG",
     "curatedFilename": "Roka Masterpiece #600",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1HMe1MSvW4PBF6XMOnOHjPTlo7pYnXWnt",
+    "gdriveUrl": "https://drive.google.com/file/d/1HMe1MSvW4PBF6XMOnOHjPTlo7pYnXWnt/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-601",
@@ -10520,7 +10950,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0205.JPG | Dual Tag: Roka_P2_Photo_601_orig_P2_IMG_0205.JPG.jpg",
     "originalFilename": "P2_IMG_0205.JPG",
     "curatedFilename": "Roka Masterpiece #601",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "12vTO_1_0g6vIk1-WkJOPrg18FSZCH8Xj",
+    "gdriveUrl": "https://drive.google.com/file/d/12vTO_1_0g6vIk1-WkJOPrg18FSZCH8Xj/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-602",
@@ -10536,7 +10968,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0206.JPG | Dual Tag: Roka_P2_Photo_602_orig_P2_IMG_0206.JPG.jpg",
     "originalFilename": "P2_IMG_0206.JPG",
     "curatedFilename": "Roka Masterpiece #602",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1rSqGhRRTWKrIr9H9__mcV9Mn-wgAMGh9",
+    "gdriveUrl": "https://drive.google.com/file/d/1rSqGhRRTWKrIr9H9__mcV9Mn-wgAMGh9/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-603",
@@ -10552,7 +10986,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0207.JPG | Dual Tag: Roka_P2_Photo_603_orig_P2_IMG_0207.JPG.jpg",
     "originalFilename": "P2_IMG_0207.JPG",
     "curatedFilename": "Roka Masterpiece #603",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1EartpMQk3FW_FT3FxZnMckSmL7wev542",
+    "gdriveUrl": "https://drive.google.com/file/d/1EartpMQk3FW_FT3FxZnMckSmL7wev542/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-604",
@@ -10568,7 +11004,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0208.JPG | Dual Tag: Roka_P2_Photo_604_orig_P2_IMG_0208.JPG.jpg",
     "originalFilename": "P2_IMG_0208.JPG",
     "curatedFilename": "Roka Masterpiece #604",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1DEtiGGOvrONhbqA-9NYPdFZDmtwX_ly6",
+    "gdriveUrl": "https://drive.google.com/file/d/1DEtiGGOvrONhbqA-9NYPdFZDmtwX_ly6/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-605",
@@ -10584,7 +11022,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0209.JPG | Dual Tag: Roka_P2_Photo_605_orig_P2_IMG_0209.JPG.jpg",
     "originalFilename": "P2_IMG_0209.JPG",
     "curatedFilename": "Roka Masterpiece #605",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "13ZWkzcbiIZg4xVq9XH3jpPAnhkz5VFph",
+    "gdriveUrl": "https://drive.google.com/file/d/13ZWkzcbiIZg4xVq9XH3jpPAnhkz5VFph/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-606",
@@ -10600,7 +11040,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0210.JPG | Dual Tag: Roka_P2_Photo_606_orig_P2_IMG_0210.JPG.jpg",
     "originalFilename": "P2_IMG_0210.JPG",
     "curatedFilename": "Roka Masterpiece #606",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1rQOWTfj8nU9R88xn_93CVnjSxA_umHKz",
+    "gdriveUrl": "https://drive.google.com/file/d/1rQOWTfj8nU9R88xn_93CVnjSxA_umHKz/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-607",
@@ -10616,7 +11058,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0211.JPG | Dual Tag: Roka_P2_Photo_607_orig_P2_IMG_0211.JPG.jpg",
     "originalFilename": "P2_IMG_0211.JPG",
     "curatedFilename": "Roka Masterpiece #607",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1dsCu2NonBW8at4wU4tDCq2vpIFTXWoha",
+    "gdriveUrl": "https://drive.google.com/file/d/1dsCu2NonBW8at4wU4tDCq2vpIFTXWoha/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-608",
@@ -10632,7 +11076,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0212.JPG | Dual Tag: Roka_P2_Photo_608_orig_P2_IMG_0212.JPG.jpg",
     "originalFilename": "P2_IMG_0212.JPG",
     "curatedFilename": "Roka Masterpiece #608",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1zwz_QIWRZMwvov_f1pKn02ZbCSicKOwb",
+    "gdriveUrl": "https://drive.google.com/file/d/1zwz_QIWRZMwvov_f1pKn02ZbCSicKOwb/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-609",
@@ -10648,7 +11094,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0215.JPG | Dual Tag: Roka_P2_Photo_609_orig_P2_IMG_0215.JPG.jpg",
     "originalFilename": "P2_IMG_0215.JPG",
     "curatedFilename": "Roka Masterpiece #609",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1AbwOBfN6nzvCwaJBBEpwZ-IIdotJt49b",
+    "gdriveUrl": "https://drive.google.com/file/d/1AbwOBfN6nzvCwaJBBEpwZ-IIdotJt49b/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-610",
@@ -10664,7 +11112,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0216.JPG | Dual Tag: Roka_P2_Photo_610_orig_P2_IMG_0216.JPG.jpg",
     "originalFilename": "P2_IMG_0216.JPG",
     "curatedFilename": "Roka Masterpiece #610",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1KUJPI4nHhIE7QMhZ5ub2yx60S443-BE1",
+    "gdriveUrl": "https://drive.google.com/file/d/1KUJPI4nHhIE7QMhZ5ub2yx60S443-BE1/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-611",
@@ -10680,7 +11130,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0217.JPG | Dual Tag: Roka_P2_Photo_611_orig_P2_IMG_0217.JPG.jpg",
     "originalFilename": "P2_IMG_0217.JPG",
     "curatedFilename": "Roka Masterpiece #611",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1CCY9C0jdRbVT_L0OlZ3TAJgDhGEhsNSo",
+    "gdriveUrl": "https://drive.google.com/file/d/1CCY9C0jdRbVT_L0OlZ3TAJgDhGEhsNSo/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-612",
@@ -10696,7 +11148,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0218.JPG | Dual Tag: Roka_P2_Photo_612_orig_P2_IMG_0218.JPG.jpg",
     "originalFilename": "P2_IMG_0218.JPG",
     "curatedFilename": "Roka Masterpiece #612",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1NokgYpH-voeI0fy-zV_UFYvVh8DMjwhS",
+    "gdriveUrl": "https://drive.google.com/file/d/1NokgYpH-voeI0fy-zV_UFYvVh8DMjwhS/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-613",
@@ -10712,7 +11166,9 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0219.JPG | Dual Tag: Roka_P2_Photo_613_orig_P2_IMG_0219.JPG.jpg",
     "originalFilename": "P2_IMG_0219.JPG",
     "curatedFilename": "Roka Masterpiece #613",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1QA5ZKtGrzjQY9H6gBszxiUJZ_LOtNliY",
+    "gdriveUrl": "https://drive.google.com/file/d/1QA5ZKtGrzjQY9H6gBszxiUJZ_LOtNliY/view?usp=sharing"
   },
   {
     "id": "roka-photo-p2-614",
@@ -10728,6 +11184,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "description": "Collection: Photographer 2 | Original: P2_IMG_0220.JPG | Dual Tag: Roka_P2_Photo_614_orig_P2_IMG_0220.JPG.jpg",
     "originalFilename": "P2_IMG_0220.JPG",
     "curatedFilename": "Roka Masterpiece #614",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "gdriveId": "1zFSZopPNXLWLtPRD0PqRqwWPdWDT2S4W",
+    "gdriveUrl": "https://drive.google.com/file/d/1zFSZopPNXLWLtPRD0PqRqwWPdWDT2S4W/view?usp=sharing"
   }
 ];
