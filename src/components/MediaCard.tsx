@@ -19,11 +19,15 @@ export const MediaCard: React.FC<MediaCardProps> = ({
   const [isHovered, setIsHovered] = useState(false);
   const [hasError, setHasError] = useState(() => AssetManager.isFailed(item.url));
   const [isLoaded, setIsLoaded] = useState(() => AssetManager.isLoaded(item.url));
+  const [isThumbLoaded, setIsThumbLoaded] = useState(false);
+
   const isVideo = item.type === 'video';
   const imgRef = useRef<HTMLImageElement | null>(null);
 
+  // Progressive low-quality thumbnail URL (Apple/Unsplash style LQIP)
+  const thumbUrl = item.url.replace('/media/roka/photos/', '/media/roka/thumbs/');
+
   useEffect(() => {
-    // If browser already has cached image complete, mark loaded immediately
     if (imgRef.current && imgRef.current.complete && imgRef.current.naturalWidth > 0) {
       setIsLoaded(true);
       AssetManager.preloadImage(item.url);
@@ -45,7 +49,6 @@ export const MediaCard: React.FC<MediaCardProps> = ({
       className="group relative overflow-hidden rounded-xl bg-[#141824] border border-white/5 transition-all duration-500 hover:border-[#c5a059]/40 hover:shadow-2xl hover:shadow-[#c5a059]/10 cursor-pointer break-inside-avoid mb-6"
       onClick={handleClick}
     >
-      {/* Media container with guaranteed minimum height */}
       <div className="relative w-full overflow-hidden bg-[#10131d] min-h-[280px] flex items-center justify-center">
         {isVideo ? (
           <div className="relative w-full min-h-[280px] aspect-[16/10] bg-black">
@@ -67,7 +70,7 @@ export const MediaCard: React.FC<MediaCardProps> = ({
                 preload="metadata"
               />
             )}
-            {/* Video Play Pill */}
+            {/* Play Pill */}
             <div className="absolute inset-0 flex items-center justify-center bg-black/30 group-hover:bg-black/10 transition-colors">
               <div className="w-14 h-14 rounded-full bg-black/60 backdrop-blur-md border border-[#c5a059]/60 flex items-center justify-center text-[#f3e5ab] group-hover:scale-110 group-hover:bg-[#c5a059] group-hover:text-black transition-all duration-300 shadow-xl">
                 <Play className="w-6 h-6 ml-0.5 fill-current" />
@@ -79,15 +82,26 @@ export const MediaCard: React.FC<MediaCardProps> = ({
             </span>
           </div>
         ) : (
-          <div className="w-full relative min-h-[280px] bg-[#0e111a] flex items-center justify-center">
-            {/* Elegant Luxury Shimmer Skeleton loader while loading */}
+          <div className="w-full relative min-h-[280px] bg-[#0e111a] flex items-center justify-center overflow-hidden">
+            {/* 1. Low-Quality Blur Placeholder (LQIP ~10KB) */}
             {!isLoaded && !hasError && (
-              <div className="absolute inset-0 skeleton-shimmer z-0 flex flex-col items-center justify-center p-4">
-                <div className="w-8 h-8 rounded-full border border-[#c5a059]/40 border-t-[#c5a059] animate-spin mb-2" />
-                <span className="text-[10px] font-serif tracking-widest text-[#f3e5ab]/50 uppercase">Loading Memoir...</span>
-              </div>
+              <img
+                src={thumbUrl}
+                alt=""
+                aria-hidden="true"
+                onLoad={() => setIsThumbLoaded(true)}
+                className={`absolute inset-0 w-full h-full object-cover filter blur-lg scale-110 transition-opacity duration-700 z-0 ${
+                  isThumbLoaded ? 'opacity-85' : 'opacity-0'
+                }`}
+              />
             )}
 
+            {/* Shimmer skeleton while initial thumbnail connects */}
+            {!isThumbLoaded && !isLoaded && !hasError && (
+              <div className="absolute inset-0 skeleton-shimmer z-0" />
+            )}
+
+            {/* 2. High-Resolution Full HD Image (Gradually fades in over the blurred thumbnail) */}
             {!hasError ? (
               <img
                 ref={imgRef}
@@ -103,12 +117,12 @@ export const MediaCard: React.FC<MediaCardProps> = ({
                   setHasError(true);
                   setIsLoaded(true);
                 }}
-                className={`w-full h-auto min-h-[280px] max-h-[580px] object-cover transition-all duration-700 ease-out group-hover:scale-105 ${
-                  isLoaded ? 'opacity-100' : 'opacity-0'
+                className={`relative z-10 w-full h-auto min-h-[280px] max-h-[580px] object-cover transition-all duration-700 ease-out group-hover:scale-105 ${
+                  isLoaded ? 'opacity-100 filter-none' : 'opacity-0'
                 }`}
               />
             ) : (
-              <div className="py-20 flex flex-col items-center justify-center text-center p-6 text-white/40">
+              <div className="py-20 flex flex-col items-center justify-center text-center p-6 text-white/40 z-10">
                 <ImageOff className="w-8 h-8 text-[#c5a059]/60 mb-2" />
                 <span className="text-xs font-serif text-white/60">{item.title}</span>
                 <span className="text-[10px] font-mono text-white/30 mt-1">{item.originalFilename}</span>
@@ -140,7 +154,7 @@ export const MediaCard: React.FC<MediaCardProps> = ({
 
         {/* Hover Overlay with Dual-name Metadata */}
         <div
-          className={`absolute inset-0 bg-gradient-to-t from-black/95 via-black/50 to-transparent p-5 flex flex-col justify-end transition-opacity duration-300 z-10 ${
+          className={`absolute inset-0 bg-gradient-to-t from-black/95 via-black/50 to-transparent p-5 flex flex-col justify-end transition-opacity duration-300 z-20 ${
             isHovered ? 'opacity-100' : 'opacity-0'
           }`}
         >
