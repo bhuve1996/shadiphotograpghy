@@ -7,7 +7,11 @@ import {
   Layers, 
   Play,
   RefreshCw,
-  ArrowUp
+  ArrowUp,
+  LayoutGrid,
+  Grid3X3,
+  Columns4,
+  SlidersHorizontal
 } from 'lucide-react';
 import type { EventCategory, MediaItem, CoupleCollection } from './types/media';
 import { MediaService } from './services/mediaService';
@@ -17,6 +21,7 @@ import { CollectionsSection } from './components/CollectionsSection';
 import { MediaCard } from './components/MediaCard';
 import { MediaLightbox } from './components/MediaLightbox';
 import { HighEndVideoPlayer } from './components/HighEndVideoPlayer';
+import { HighlightsCarousel } from './components/HighlightsCarousel';
 
 const EVENT_CATEGORIES: EventCategory[] = [
   'All',
@@ -29,6 +34,8 @@ export function App() {
   const [typeFilter, setTypeFilter] = useState<'all' | 'image' | 'video'>('all');
   const [searchQuery, setSearchQuery] = useState('');
   const [showScrollTop, setShowScrollTop] = useState(false);
+  const [gridColumns, setGridColumns] = useState<'3' | '4' | '2'>('3');
+  const [showCarousel, setShowCarousel] = useState(true);
   
   // Track scroll position to reveal "Scroll to Top" button
   useEffect(() => {
@@ -269,40 +276,95 @@ export function App() {
                 <Video className="w-3.5 h-3.5" /> Films
               </button>
             </div>
+
+            {/* Grid Column Selector Controls */}
+            <div className="hidden sm:flex items-center bg-[#141824] border border-white/10 rounded-full p-1 text-xs">
+              <button
+                onClick={() => setGridColumns('2')}
+                className={`p-1.5 rounded-full transition-all ${
+                  gridColumns === '2' ? 'bg-[#c5a059] text-black font-semibold' : 'text-white/60 hover:text-white'
+                }`}
+                title="Large 2-Column Grid"
+              >
+                <LayoutGrid className="w-3.5 h-3.5" />
+              </button>
+              <button
+                onClick={() => setGridColumns('3')}
+                className={`p-1.5 rounded-full transition-all ${
+                  gridColumns === '3' ? 'bg-[#c5a059] text-black font-semibold' : 'text-white/60 hover:text-white'
+                }`}
+                title="Standard 3-Column Grid"
+              >
+                <Grid3X3 className="w-3.5 h-3.5" />
+              </button>
+              <button
+                onClick={() => setGridColumns('4')}
+                className={`p-1.5 rounded-full transition-all ${
+                  gridColumns === '4' ? 'bg-[#c5a059] text-black font-semibold' : 'text-white/60 hover:text-white'
+                }`}
+                title="Compact 4-Column Grid"
+              >
+                <Columns4 className="w-3.5 h-3.5" />
+              </button>
+            </div>
           </div>
         </div>
 
-        {/* Category Pill Tabs */}
-        <div className="flex items-center gap-3 overflow-x-auto pb-4 mb-10 no-scrollbar">
-          {EVENT_CATEGORIES.map((cat) => {
-            const count = mediaItems.filter(
-              (m) => (cat === 'All' || m.category === cat) && (typeFilter === 'all' || m.type === typeFilter)
-            ).length;
+        {/* Category Pill Tabs & Carousel Toggle */}
+        <div className="flex items-center justify-between gap-4 pb-4 mb-8">
+          <div className="flex items-center gap-3 overflow-x-auto no-scrollbar">
+            {EVENT_CATEGORIES.map((cat) => {
+              const count = mediaItems.filter(
+                (m) => (cat === 'All' || m.category === cat) && (typeFilter === 'all' || m.type === typeFilter)
+              ).length;
 
-            return (
-              <button
-                key={cat}
-                onClick={() => setSelectedCategory(cat)}
-                className={`px-6 py-2.5 rounded-full text-xs uppercase tracking-wider font-medium whitespace-nowrap transition-all duration-300 border flex items-center gap-2 ${
-                  selectedCategory === cat
-                    ? 'bg-gradient-to-r from-[#c5a059] to-[#dfba73] text-black border-[#dfba73] font-semibold shadow-lg shadow-[#c5a059]/20 scale-105'
-                    : 'bg-[#121622] hover:bg-white/10 text-white/70 hover:text-white border-white/5'
-                }`}
-              >
-                <span>{cat}</span>
-                <span
-                  className={`text-[10px] px-1.5 py-0.2 rounded-full font-mono ${
-                    selectedCategory === cat ? 'bg-black/20 text-black' : 'bg-white/10 text-white/50'
+              return (
+                <button
+                  key={cat}
+                  onClick={() => setSelectedCategory(cat)}
+                  className={`px-6 py-2.5 rounded-full text-xs uppercase tracking-wider font-medium whitespace-nowrap transition-all duration-300 border flex items-center gap-2 ${
+                    selectedCategory === cat
+                      ? 'bg-gradient-to-r from-[#c5a059] to-[#dfba73] text-black border-[#dfba73] font-semibold shadow-lg shadow-[#c5a059]/20 scale-105'
+                      : 'bg-[#121622] hover:bg-white/10 text-white/70 hover:text-white border-white/5'
                   }`}
                 >
-                  {count}
-                </span>
-              </button>
-            );
-          })}
+                  <span>{cat}</span>
+                  <span
+                    className={`text-[10px] px-1.5 py-0.2 rounded-full font-mono ${
+                      selectedCategory === cat ? 'bg-black/20 text-black' : 'bg-white/10 text-white/50'
+                    }`}
+                  >
+                    {count}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+
+          {/* Toggle Carousel Stream Button */}
+          <button
+            onClick={() => setShowCarousel(!showCarousel)}
+            className={`hidden md:inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full border text-xs font-mono transition-all shrink-0 ${
+              showCarousel
+                ? 'bg-[#c5a059]/15 text-[#f3e5ab] border-[#c5a059]/40'
+                : 'bg-white/5 text-white/60 border-white/10 hover:text-white'
+            }`}
+          >
+            <SlidersHorizontal className="w-3.5 h-3.5 text-[#c5a059]" />
+            <span>{showCarousel ? 'Hide Carousel' : 'Show Carousel'}</span>
+          </button>
         </div>
 
-        {/* Gallery Masonry Layout */}
+        {/* Story Highlights Carousel */}
+        {showCarousel && filteredItems.length > 0 && (
+          <HighlightsCarousel
+            items={filteredItems.slice(0, 20)}
+            onOpenLightbox={(selected) => setActiveLightboxItem(selected)}
+            onPlayFilm={handlePlayFilm}
+          />
+        )}
+
+        {/* Dynamic Multi-Column Grid Layout */}
         {filteredItems.length === 0 ? (
           <div className="text-center py-24 bg-[#121520] rounded-2xl border border-dashed border-white/10 p-12">
             <div className="w-14 h-14 rounded-full bg-white/5 flex items-center justify-center mx-auto mb-4 text-[#c5a059]">
@@ -324,14 +386,20 @@ export function App() {
             </button>
           </div>
         ) : (
-          <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6">
+          <div className={`gap-6 space-y-6 ${
+            gridColumns === '2'
+              ? 'columns-1 sm:columns-2'
+              : gridColumns === '4'
+              ? 'columns-1 sm:columns-2 md:columns-3 lg:columns-4'
+              : 'columns-1 sm:columns-2 lg:columns-3'
+          }`}>
             {filteredItems.map((item) => (
               <MediaCard
                 key={item.id}
                 item={item}
                 onOpenLightbox={(selected) => setActiveLightboxItem(selected)}
                 onOpenVideoPlayer={(selected) =>
-                  handlePlayFilm(selected.url, selected.title, selected.coupleName || 'Harsha & Bhuvesh')
+                  handlePlayFilm(selected.url, selected.title, selected.coupleName || 'Harsha & Bhuvesh', selected.thumbnailUrl, selected.gdriveId)
                 }
                 onDelete={handleDeleteMedia}
               />
