@@ -153,93 +153,8 @@ export function App() {
         }}
       />
 
-      {/* Signature Couple Stories Collections */}
-      <CollectionsSection
-        onSelectCollection={handleSelectCollection}
-        onPlayFilm={handlePlayFilm}
-      />
-
-      {/* Featured Cinematic Showcase Section */}
-      <section className="py-20 px-6 bg-gradient-to-b from-[#0b0c10] via-[#10131d] to-[#0b0c10] border-y border-white/5">
-        <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
-            <div>
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#c5a059]/10 border border-[#c5a059]/30 text-[#f3e5ab] text-xs uppercase tracking-widest font-medium mb-3">
-                <Video className="w-3.5 h-3.5 text-[#c5a059]" /> 4K Cinema Suite
-              </div>
-              <h2 className="text-3xl sm:text-4xl font-serif text-white tracking-wide font-normal">
-                Cinematic Roka Films & Reels
-              </h2>
-              <p className="text-sm text-gray-400 mt-2">
-                Experience high-bitrate color graded reels of Harsha & Bhuvesh’s auspicious Roka ceremony.
-              </p>
-            </div>
-          </div>
-
-          {/* Master Video Feature Display */}
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <div className="lg:col-span-2">
-              <HighEndVideoPlayer
-                src={cinemaVideos[0]?.url || '/media/roka/videos/Roka_Cinema_Highlight_01__[orig__IMG_4344.MOV].mp4'}
-                poster={cinemaVideos[0]?.thumbnailUrl || '/media/roka/video_thumbs/IMG_9347_thumb.jpg'}
-                coupleName={cinemaVideos[0]?.coupleName || 'Harsha & Bhuvesh'}
-                title={cinemaVideos[0]?.title || 'The Roka Ceremony Film'}
-                className="w-full aspect-video"
-              />
-            </div>
-
-            {/* Side Playlist */}
-            <div className="flex flex-col gap-4">
-              <span className="text-xs uppercase tracking-widest text-[#c5a059] font-medium">
-                Cinema Highlights ({cinemaVideos.length} Films)
-              </span>
-
-              <div className="space-y-3.5 overflow-y-auto max-h-[460px] pr-2">
-                {cinemaVideos.map((vid) => (
-                  <div
-                    key={vid.id}
-                    onClick={() => handlePlayFilm(vid.url, vid.title, vid.coupleName || 'Harsha & Bhuvesh', vid.thumbnailUrl, vid.gdriveId)}
-                    className="group flex items-center gap-4 p-3 rounded-xl bg-[#141824] hover:bg-[#1c2233] border border-white/5 hover:border-[#c5a059]/40 cursor-pointer transition-all"
-                  >
-                    <div className="relative w-28 h-20 rounded-lg overflow-hidden shrink-0 bg-black">
-                      <img
-                        src={vid.thumbnailUrl || '/media/roka/video_thumbs/IMG_9347_thumb.jpg'}
-                        alt={vid.title}
-                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                      />
-                      <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
-                        <div className="w-8 h-8 rounded-full bg-black/60 group-hover:bg-[#c5a059] text-white group-hover:text-black flex items-center justify-center transition-colors">
-                          <Play className="w-3.5 h-3.5 ml-0.5 fill-current" />
-                        </div>
-                      </div>
-                      {vid.duration && (
-                        <span className="absolute bottom-1 right-1 text-[10px] font-mono bg-black/80 px-1 rounded text-[#f3e5ab]">
-                          {vid.duration}
-                        </span>
-                      )}
-                    </div>
-
-                    <div className="flex-1 min-w-0">
-                      <span className="text-[10px] font-mono uppercase tracking-wider text-[#c5a059]">
-                        {vid.category}
-                      </span>
-                      <h4 className="text-sm font-serif text-white group-hover:text-[#f3e5ab] truncate transition-colors">
-                        {vid.title}
-                      </h4>
-                      <p className="text-xs text-white/50 truncate mt-0.5">
-                        {vid.coupleName} • {vid.location}
-                      </p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Main Gallery Exploration Section */}
-      <section id="gallery-section" className="py-24 px-6 max-w-7xl mx-auto scroll-mt-24">
+      {/* 1. TOP: Main Gallery Exploration Section (Images & Memories) */}
+      <section id="gallery-section" className="py-20 px-6 max-w-7xl mx-auto scroll-mt-24">
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-6">
           <div>
@@ -552,6 +467,91 @@ export function App() {
             >
               <RefreshCw className="w-3.5 h-3.5" /> Restore Default Gallery
             </button>
+          </div>
+        </div>
+      </section>
+
+      {/* 2. THEN: The Ceremony Section (A bespoke archive dedicated exclusively to Harsha & Bhuvesh’s Roka day) */}
+      <CollectionsSection
+        onSelectCollection={handleSelectCollection}
+        onPlayFilm={handlePlayFilm}
+      />
+
+      {/* 3. AND THEN: Cinematic Roka Films & Reels Section */}
+      <section className="py-20 px-6 bg-gradient-to-b from-[#0b0c10] via-[#10131d] to-[#0b0c10] border-y border-white/5">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+            <div>
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#c5a059]/10 border border-[#c5a059]/30 text-[#f3e5ab] text-xs uppercase tracking-widest font-medium mb-3">
+                <Video className="w-3.5 h-3.5 text-[#c5a059]" /> 4K Cinema Suite
+              </div>
+              <h2 className="text-3xl sm:text-4xl font-serif text-white tracking-wide font-normal">
+                Cinematic Roka Films & Reels
+              </h2>
+              <p className="text-sm text-gray-400 mt-2">
+                Experience high-bitrate color graded reels of Harsha & Bhuvesh’s auspicious Roka ceremony.
+              </p>
+            </div>
+          </div>
+
+          {/* Master Video Feature Display */}
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div className="lg:col-span-2">
+              <HighEndVideoPlayer
+                src={cinemaVideos[0]?.url || '/media/roka/videos/Roka_Cinema_Highlight_01__[orig__IMG_4344.MOV].mp4'}
+                poster={cinemaVideos[0]?.thumbnailUrl || '/media/roka/video_thumbs/IMG_9347_thumb.jpg'}
+                coupleName={cinemaVideos[0]?.coupleName || 'Harsha & Bhuvesh'}
+                title={cinemaVideos[0]?.title || 'The Roka Ceremony Film'}
+                className="w-full aspect-video"
+              />
+            </div>
+
+            {/* Side Playlist */}
+            <div className="flex flex-col gap-4">
+              <span className="text-xs uppercase tracking-widest text-[#c5a059] font-medium">
+                Cinema Highlights ({cinemaVideos.length} Films)
+              </span>
+
+              <div className="space-y-3.5 overflow-y-auto max-h-[460px] pr-2">
+                {cinemaVideos.map((vid) => (
+                  <div
+                    key={vid.id}
+                    onClick={() => handlePlayFilm(vid.url, vid.title, vid.coupleName || 'Harsha & Bhuvesh', vid.thumbnailUrl, vid.gdriveId)}
+                    className="group flex items-center gap-4 p-3 rounded-xl bg-[#141824] hover:bg-[#1c2233] border border-white/5 hover:border-[#c5a059]/40 cursor-pointer transition-all"
+                  >
+                    <div className="relative w-28 h-20 rounded-lg overflow-hidden shrink-0 bg-black">
+                      <img
+                        src={vid.thumbnailUrl || '/media/roka/video_thumbs/IMG_9347_thumb.jpg'}
+                        alt={vid.title}
+                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                      />
+                      <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
+                        <div className="w-8 h-8 rounded-full bg-black/60 group-hover:bg-[#c5a059] text-white group-hover:text-black flex items-center justify-center transition-colors">
+                          <Play className="w-3.5 h-3.5 ml-0.5 fill-current" />
+                        </div>
+                      </div>
+                      {vid.duration && (
+                        <span className="absolute bottom-1 right-1 text-[10px] font-mono bg-black/80 px-1 rounded text-[#f3e5ab]">
+                          {vid.duration}
+                        </span>
+                      )}
+                    </div>
+
+                    <div className="flex-1 min-w-0">
+                      <span className="text-[10px] font-mono uppercase tracking-wider text-[#c5a059]">
+                        {vid.category}
+                      </span>
+                      <h4 className="text-sm font-serif text-white group-hover:text-[#f3e5ab] truncate transition-colors">
+                        {vid.title}
+                      </h4>
+                      <p className="text-xs text-white/50 truncate mt-0.5">
+                        {vid.coupleName} • {vid.location}
+                      </p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </section>
