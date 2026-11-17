@@ -17,924 +17,6 @@ export const INITIAL_COLLECTIONS: CoupleCollection[] = [
 
 export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
   {
-    "id": "roka-photo-1",
-    "title": "Roka Celebration #1 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_01_orig_IMG_4345.JPG.jpeg_.jpg",
-    "aspectRatio": "portrait",
-    "featured": true,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_4345.JPG.jpeg | Dual Tag: Roka_Moment_01_orig_IMG_4345.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_4345.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #1",
-    "sourceType": "local-public",
-    "gdriveId": "10HJNPnjZilJaKt1Id-oRHDhawQnj9l1B",
-    "gdriveUrl": "https://drive.google.com/file/d/10HJNPnjZilJaKt1Id-oRHDhawQnj9l1B/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-2",
-    "title": "Roka Celebration #2 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_02_orig_IMG_8219.JPG.jpeg_.jpg",
-    "aspectRatio": "landscape",
-    "featured": true,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8219.JPG.jpeg | Dual Tag: Roka_Moment_02_orig_IMG_8219.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8219.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #2",
-    "sourceType": "local-public",
-    "gdriveId": "10wHtxG-1YxqbIVfW7JIB6fKTaVsgX276",
-    "gdriveUrl": "https://drive.google.com/file/d/10wHtxG-1YxqbIVfW7JIB6fKTaVsgX276/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-3",
-    "title": "Roka Celebration #3 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_03_orig_IMG_8220.JPG.jpeg_.jpg",
-    "aspectRatio": "landscape",
-    "featured": true,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8220.JPG.jpeg | Dual Tag: Roka_Moment_03_orig_IMG_8220.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8220.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #3",
-    "sourceType": "local-public",
-    "gdriveId": "1RP2Qxm0alxDJBtgfRUa5f3Bl2EFxUcmI",
-    "gdriveUrl": "https://drive.google.com/file/d/1RP2Qxm0alxDJBtgfRUa5f3Bl2EFxUcmI/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-4",
-    "title": "Roka Celebration #4 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_04_orig_IMG_8221.JPG.jpeg_.jpg",
-    "aspectRatio": "portrait",
-    "featured": true,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8221.JPG.jpeg | Dual Tag: Roka_Moment_04_orig_IMG_8221.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8221.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #4",
-    "sourceType": "local-public",
-    "gdriveId": "1aKL86gjKE9oihQzoTwvtZiyxrjCxaoHy",
-    "gdriveUrl": "https://drive.google.com/file/d/1aKL86gjKE9oihQzoTwvtZiyxrjCxaoHy/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-5",
-    "title": "Roka Celebration #5 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_05_orig_IMG_8222.JPG.jpeg_.jpg",
-    "aspectRatio": "landscape",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8222.JPG.jpeg | Dual Tag: Roka_Moment_05_orig_IMG_8222.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8222.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #5",
-    "sourceType": "local-public",
-    "gdriveId": "1Mua6lGi2z05CdG4lA6LZEFPtyRl2-Yqi",
-    "gdriveUrl": "https://drive.google.com/file/d/1Mua6lGi2z05CdG4lA6LZEFPtyRl2-Yqi/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-6",
-    "title": "Roka Celebration #6 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_06_orig_IMG_8223.JPG.jpeg_.jpg",
-    "aspectRatio": "landscape",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8223.JPG.jpeg | Dual Tag: Roka_Moment_06_orig_IMG_8223.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8223.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #6",
-    "sourceType": "local-public",
-    "gdriveId": "1TnPswCiMDBRvmB3Rw3lpCp2NbVD7qNhc",
-    "gdriveUrl": "https://drive.google.com/file/d/1TnPswCiMDBRvmB3Rw3lpCp2NbVD7qNhc/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-7",
-    "title": "Roka Celebration #7 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_07_orig_IMG_8224.JPG.jpeg_.jpg",
-    "aspectRatio": "portrait",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8224.JPG.jpeg | Dual Tag: Roka_Moment_07_orig_IMG_8224.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8224.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #7",
-    "sourceType": "local-public",
-    "gdriveId": "1b7wS3vvH_GXoTH-Yn2Ej56sHKqI7tlpB",
-    "gdriveUrl": "https://drive.google.com/file/d/1b7wS3vvH_GXoTH-Yn2Ej56sHKqI7tlpB/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-8",
-    "title": "Roka Celebration #8 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_08_orig_IMG_8227.JPG.jpeg_.jpg",
-    "aspectRatio": "landscape",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8227.JPG.jpeg | Dual Tag: Roka_Moment_08_orig_IMG_8227.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8227.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #8",
-    "sourceType": "local-public",
-    "gdriveId": "1oN0WyjexnIpicfIVdLbDr1eHeuYD4FPz",
-    "gdriveUrl": "https://drive.google.com/file/d/1oN0WyjexnIpicfIVdLbDr1eHeuYD4FPz/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-9",
-    "title": "Roka Celebration #9 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_09_orig_IMG_8228.JPG.jpeg_.jpg",
-    "aspectRatio": "landscape",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8228.JPG.jpeg | Dual Tag: Roka_Moment_09_orig_IMG_8228.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8228.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #9",
-    "sourceType": "local-public",
-    "gdriveId": "1-HCttJlMDjBIzZkwKLx_HLx9ItU1bcS9",
-    "gdriveUrl": "https://drive.google.com/file/d/1-HCttJlMDjBIzZkwKLx_HLx9ItU1bcS9/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-10",
-    "title": "Roka Celebration #10 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_10_orig_IMG_8229.JPG.jpeg_.jpg",
-    "aspectRatio": "portrait",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8229.JPG.jpeg | Dual Tag: Roka_Moment_10_orig_IMG_8229.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8229.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #10",
-    "sourceType": "local-public",
-    "gdriveId": "1rmSsLZqcCbDGzHsBGHpDuk3lSvZejkRf",
-    "gdriveUrl": "https://drive.google.com/file/d/1rmSsLZqcCbDGzHsBGHpDuk3lSvZejkRf/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-11",
-    "title": "Roka Celebration #11 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_11_orig_IMG_8230.JPG.jpeg_.jpg",
-    "aspectRatio": "landscape",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8230.JPG.jpeg | Dual Tag: Roka_Moment_11_orig_IMG_8230.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8230.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #11",
-    "sourceType": "local-public",
-    "gdriveId": "1AHRuzh5UKBaR2AoO9x6zbgoKY-doBGUB",
-    "gdriveUrl": "https://drive.google.com/file/d/1AHRuzh5UKBaR2AoO9x6zbgoKY-doBGUB/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-12",
-    "title": "Roka Celebration #12 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_12_orig_IMG_8231.JPG.jpeg_.jpg",
-    "aspectRatio": "landscape",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8231.JPG.jpeg | Dual Tag: Roka_Moment_12_orig_IMG_8231.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8231.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #12",
-    "sourceType": "local-public",
-    "gdriveId": "1_swyJGUdtkQGVyAg3holUgCm2Me_6Bt0",
-    "gdriveUrl": "https://drive.google.com/file/d/1_swyJGUdtkQGVyAg3holUgCm2Me_6Bt0/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-13",
-    "title": "Roka Celebration #13 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_13_orig_IMG_8232.JPG.jpeg_.jpg",
-    "aspectRatio": "portrait",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8232.JPG.jpeg | Dual Tag: Roka_Moment_13_orig_IMG_8232.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8232.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #13",
-    "sourceType": "local-public",
-    "gdriveId": "1iro8Z-ofWVT_6e58KG9cBVGn8WPIq14a",
-    "gdriveUrl": "https://drive.google.com/file/d/1iro8Z-ofWVT_6e58KG9cBVGn8WPIq14a/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-14",
-    "title": "Roka Celebration #14 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_14_orig_IMG_8233.JPG.jpeg_.jpg",
-    "aspectRatio": "landscape",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8233.JPG.jpeg | Dual Tag: Roka_Moment_14_orig_IMG_8233.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8233.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #14",
-    "sourceType": "local-public",
-    "gdriveId": "1SNtJklRwuCqUylF1dfJn26oNl_gqSZaV",
-    "gdriveUrl": "https://drive.google.com/file/d/1SNtJklRwuCqUylF1dfJn26oNl_gqSZaV/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-15",
-    "title": "Roka Celebration #15 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_15_orig_IMG_8234.JPG.jpeg_.jpg",
-    "aspectRatio": "landscape",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8234.JPG.jpeg | Dual Tag: Roka_Moment_15_orig_IMG_8234.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8234.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #15",
-    "sourceType": "local-public",
-    "gdriveId": "1MhLSKAmhKWTX4CvnPd0iLNkgWEXEPBjT",
-    "gdriveUrl": "https://drive.google.com/file/d/1MhLSKAmhKWTX4CvnPd0iLNkgWEXEPBjT/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-16",
-    "title": "Roka Celebration #16 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_16_orig_IMG_8235.JPG.jpeg_.jpg",
-    "aspectRatio": "portrait",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8235.JPG.jpeg | Dual Tag: Roka_Moment_16_orig_IMG_8235.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8235.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #16",
-    "sourceType": "local-public",
-    "gdriveId": "1_gH-P6CeQMJXnZty9a18vCNidU_DCsqJ",
-    "gdriveUrl": "https://drive.google.com/file/d/1_gH-P6CeQMJXnZty9a18vCNidU_DCsqJ/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-17",
-    "title": "Roka Celebration #17 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_17_orig_IMG_8236.JPG.jpeg_.jpg",
-    "aspectRatio": "landscape",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8236.JPG.jpeg | Dual Tag: Roka_Moment_17_orig_IMG_8236.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8236.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #17",
-    "sourceType": "local-public",
-    "gdriveId": "1x8zwp-LunrpGDbON17I5mwnA7EMTWJln",
-    "gdriveUrl": "https://drive.google.com/file/d/1x8zwp-LunrpGDbON17I5mwnA7EMTWJln/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-18",
-    "title": "Roka Celebration #18 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_18_orig_IMG_8237.JPG.jpeg_.jpg",
-    "aspectRatio": "landscape",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8237.JPG.jpeg | Dual Tag: Roka_Moment_18_orig_IMG_8237.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8237.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #18",
-    "sourceType": "local-public",
-    "gdriveId": "1Vwebwt6W8CQsvpKNtI1acyqrw_d_A_lQ",
-    "gdriveUrl": "https://drive.google.com/file/d/1Vwebwt6W8CQsvpKNtI1acyqrw_d_A_lQ/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-19",
-    "title": "Roka Celebration #19 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_19_orig_IMG_8238.JPG.jpeg_.jpg",
-    "aspectRatio": "portrait",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8238.JPG.jpeg | Dual Tag: Roka_Moment_19_orig_IMG_8238.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8238.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #19",
-    "sourceType": "local-public",
-    "gdriveId": "1gLfiPPpCfCXZM3xkPRckw3ow34FBiVTc",
-    "gdriveUrl": "https://drive.google.com/file/d/1gLfiPPpCfCXZM3xkPRckw3ow34FBiVTc/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-20",
-    "title": "Roka Celebration #20 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_20_orig_IMG_8239.JPG.jpeg_.jpg",
-    "aspectRatio": "landscape",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8239.JPG.jpeg | Dual Tag: Roka_Moment_20_orig_IMG_8239.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8239.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #20",
-    "sourceType": "local-public",
-    "gdriveId": "15w5ksG06Z_hCXMOsQCGitG2IFicIamL2",
-    "gdriveUrl": "https://drive.google.com/file/d/15w5ksG06Z_hCXMOsQCGitG2IFicIamL2/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-21",
-    "title": "Roka Celebration #21 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_21_orig_IMG_8240.JPG.jpeg_.jpg",
-    "aspectRatio": "landscape",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8240.JPG.jpeg | Dual Tag: Roka_Moment_21_orig_IMG_8240.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8240.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #21",
-    "sourceType": "local-public",
-    "gdriveId": "1q4cKvvrHAMvso87Ppb5JlWtME3SpMKGm",
-    "gdriveUrl": "https://drive.google.com/file/d/1q4cKvvrHAMvso87Ppb5JlWtME3SpMKGm/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-22",
-    "title": "Roka Celebration #22 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_22_orig_IMG_8241.JPG.jpeg_.jpg",
-    "aspectRatio": "portrait",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8241.JPG.jpeg | Dual Tag: Roka_Moment_22_orig_IMG_8241.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8241.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #22",
-    "sourceType": "local-public",
-    "gdriveId": "1dxiPenUbGXxEUulE0bi3FhupH-b8kSzu",
-    "gdriveUrl": "https://drive.google.com/file/d/1dxiPenUbGXxEUulE0bi3FhupH-b8kSzu/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-23",
-    "title": "Roka Celebration #23 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_23_orig_IMG_8242.JPG.jpeg_.jpg",
-    "aspectRatio": "landscape",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8242.JPG.jpeg | Dual Tag: Roka_Moment_23_orig_IMG_8242.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8242.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #23",
-    "sourceType": "local-public",
-    "gdriveId": "1Wf-29IjK08ieKtcf8DuhbsXmZ8Dj69LB",
-    "gdriveUrl": "https://drive.google.com/file/d/1Wf-29IjK08ieKtcf8DuhbsXmZ8Dj69LB/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-24",
-    "title": "Roka Celebration #24 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_24_orig_IMG_8243.JPG.jpeg_.jpg",
-    "aspectRatio": "landscape",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8243.JPG.jpeg | Dual Tag: Roka_Moment_24_orig_IMG_8243.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8243.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #24",
-    "sourceType": "local-public",
-    "gdriveId": "1PZ_mOQB_CRi6_zYdBx5Y0QhBrueM-07k",
-    "gdriveUrl": "https://drive.google.com/file/d/1PZ_mOQB_CRi6_zYdBx5Y0QhBrueM-07k/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-25",
-    "title": "Roka Celebration #25 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_25_orig_IMG_8244.JPG.jpeg_.jpg",
-    "aspectRatio": "portrait",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8244.JPG.jpeg | Dual Tag: Roka_Moment_25_orig_IMG_8244.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8244.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #25",
-    "sourceType": "local-public",
-    "gdriveId": "14creGevp9Pep_5n26v9PZ2ospO-pvlHr",
-    "gdriveUrl": "https://drive.google.com/file/d/14creGevp9Pep_5n26v9PZ2ospO-pvlHr/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-26",
-    "title": "Roka Celebration #26 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_26_orig_IMG_8245.JPG.jpeg_.jpg",
-    "aspectRatio": "landscape",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8245.JPG.jpeg | Dual Tag: Roka_Moment_26_orig_IMG_8245.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8245.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #26",
-    "sourceType": "local-public",
-    "gdriveId": "1Kf6XiodGsQLeLKwX7TlVzNQpg0c0S4eq",
-    "gdriveUrl": "https://drive.google.com/file/d/1Kf6XiodGsQLeLKwX7TlVzNQpg0c0S4eq/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-27",
-    "title": "Roka Celebration #27 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_27_orig_IMG_8246.JPG.jpeg_.jpg",
-    "aspectRatio": "landscape",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8246.JPG.jpeg | Dual Tag: Roka_Moment_27_orig_IMG_8246.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8246.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #27",
-    "sourceType": "local-public",
-    "gdriveId": "1rSFMmFAThjR_sBna2OtI4pZ9dDNGf4H6",
-    "gdriveUrl": "https://drive.google.com/file/d/1rSFMmFAThjR_sBna2OtI4pZ9dDNGf4H6/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-28",
-    "title": "Roka Celebration #28 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_28_orig_IMG_8247.JPG.jpeg_.jpg",
-    "aspectRatio": "portrait",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8247.JPG.jpeg | Dual Tag: Roka_Moment_28_orig_IMG_8247.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8247.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #28",
-    "sourceType": "local-public",
-    "gdriveId": "1K1H-oTduESaxGJzw_VYaZht_Fr3kGHHQ",
-    "gdriveUrl": "https://drive.google.com/file/d/1K1H-oTduESaxGJzw_VYaZht_Fr3kGHHQ/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-29",
-    "title": "Roka Celebration #29 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_29_orig_IMG_8248.JPG.jpeg_.jpg",
-    "aspectRatio": "landscape",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8248.JPG.jpeg | Dual Tag: Roka_Moment_29_orig_IMG_8248.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8248.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #29",
-    "sourceType": "local-public",
-    "gdriveId": "1Q8NdKaRcduRGKGj3NdFgAhfOcHQOZWjO",
-    "gdriveUrl": "https://drive.google.com/file/d/1Q8NdKaRcduRGKGj3NdFgAhfOcHQOZWjO/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-30",
-    "title": "Roka Celebration #30 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_30_orig_IMG_8249.JPG.jpeg_.jpg",
-    "aspectRatio": "landscape",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8249.JPG.jpeg | Dual Tag: Roka_Moment_30_orig_IMG_8249.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8249.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #30",
-    "sourceType": "local-public",
-    "gdriveId": "19SZFgNZkelSUTGHElsdWQPpQVT9gROtD",
-    "gdriveUrl": "https://drive.google.com/file/d/19SZFgNZkelSUTGHElsdWQPpQVT9gROtD/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-31",
-    "title": "Roka Celebration #31 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_31_orig_IMG_8250.JPG.jpeg_.jpg",
-    "aspectRatio": "portrait",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8250.JPG.jpeg | Dual Tag: Roka_Moment_31_orig_IMG_8250.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8250.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #31",
-    "sourceType": "local-public",
-    "gdriveId": "1JoWIlyTQoxAsdhEbh1wBG0WZeRoWhccZ",
-    "gdriveUrl": "https://drive.google.com/file/d/1JoWIlyTQoxAsdhEbh1wBG0WZeRoWhccZ/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-32",
-    "title": "Roka Celebration #32 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_32_orig_IMG_8251.JPG.jpeg_.jpg",
-    "aspectRatio": "landscape",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8251.JPG.jpeg | Dual Tag: Roka_Moment_32_orig_IMG_8251.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8251.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #32",
-    "sourceType": "local-public",
-    "gdriveId": "1zbpwa5SUvis1jkP1cW-KcqwPlILN5Q5n",
-    "gdriveUrl": "https://drive.google.com/file/d/1zbpwa5SUvis1jkP1cW-KcqwPlILN5Q5n/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-33",
-    "title": "Roka Celebration #33 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_33_orig_IMG_8252.JPG.jpeg_.jpg",
-    "aspectRatio": "landscape",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8252.JPG.jpeg | Dual Tag: Roka_Moment_33_orig_IMG_8252.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8252.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #33",
-    "sourceType": "local-public",
-    "gdriveId": "1xcFhEgEv-LhcuXami219xrvVIhP0lQHg",
-    "gdriveUrl": "https://drive.google.com/file/d/1xcFhEgEv-LhcuXami219xrvVIhP0lQHg/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-34",
-    "title": "Roka Celebration #34 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_34_orig_IMG_8253.JPG.jpeg_.jpg",
-    "aspectRatio": "portrait",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8253.JPG.jpeg | Dual Tag: Roka_Moment_34_orig_IMG_8253.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8253.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #34",
-    "sourceType": "local-public",
-    "gdriveId": "1pOZSuVddwlEyT8PXDpjczQmQ8XZ315BP",
-    "gdriveUrl": "https://drive.google.com/file/d/1pOZSuVddwlEyT8PXDpjczQmQ8XZ315BP/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-35",
-    "title": "Roka Celebration #35 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_35_orig_IMG_8254.JPG.jpeg_.jpg",
-    "aspectRatio": "landscape",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8254.JPG.jpeg | Dual Tag: Roka_Moment_35_orig_IMG_8254.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8254.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #35",
-    "sourceType": "local-public",
-    "gdriveId": "1MaP02YIowxvVIa8e2Zje6fG1mJKKxIFI",
-    "gdriveUrl": "https://drive.google.com/file/d/1MaP02YIowxvVIa8e2Zje6fG1mJKKxIFI/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-36",
-    "title": "Roka Celebration #36 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_36_orig_IMG_8255.JPG.jpeg_.jpg",
-    "aspectRatio": "landscape",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8255.JPG.jpeg | Dual Tag: Roka_Moment_36_orig_IMG_8255.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8255.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #36",
-    "sourceType": "local-public",
-    "gdriveId": "1MYWInWxMNBjBTt45bVIx1OMdmdwsImoi",
-    "gdriveUrl": "https://drive.google.com/file/d/1MYWInWxMNBjBTt45bVIx1OMdmdwsImoi/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-37",
-    "title": "Roka Celebration #37 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_37_orig_IMG_8257.JPG.jpeg_.jpg",
-    "aspectRatio": "portrait",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8257.JPG.jpeg | Dual Tag: Roka_Moment_37_orig_IMG_8257.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8257.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #37",
-    "sourceType": "local-public",
-    "gdriveId": "1kvi9Nv2bQqL5jcr46HYwrCfNb0TtaJUe",
-    "gdriveUrl": "https://drive.google.com/file/d/1kvi9Nv2bQqL5jcr46HYwrCfNb0TtaJUe/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-38",
-    "title": "Roka Celebration #38 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_38_orig_IMG_8258.JPG.jpeg_.jpg",
-    "aspectRatio": "landscape",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8258.JPG.jpeg | Dual Tag: Roka_Moment_38_orig_IMG_8258.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8258.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #38",
-    "sourceType": "local-public",
-    "gdriveId": "1ejz0RQzokYQYxjr39myyl_2Pjv0QA5U2",
-    "gdriveUrl": "https://drive.google.com/file/d/1ejz0RQzokYQYxjr39myyl_2Pjv0QA5U2/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-39",
-    "title": "Roka Celebration #39 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_39_orig_IMG_8259.JPG.jpeg_.jpg",
-    "aspectRatio": "landscape",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8259.JPG.jpeg | Dual Tag: Roka_Moment_39_orig_IMG_8259.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8259.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #39",
-    "sourceType": "local-public",
-    "gdriveId": "1B6EhnHELjhRWC5IZSOpEv2Y7h4XC3HHL",
-    "gdriveUrl": "https://drive.google.com/file/d/1B6EhnHELjhRWC5IZSOpEv2Y7h4XC3HHL/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-40",
-    "title": "Roka Celebration #40 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_40_orig_IMG_8260.JPG.jpeg_.jpg",
-    "aspectRatio": "portrait",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8260.JPG.jpeg | Dual Tag: Roka_Moment_40_orig_IMG_8260.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8260.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #40",
-    "sourceType": "local-public",
-    "gdriveId": "19Ihr62qc3zo3j1lDL0Fx-4kOlIItzhEL",
-    "gdriveUrl": "https://drive.google.com/file/d/19Ihr62qc3zo3j1lDL0Fx-4kOlIItzhEL/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-41",
-    "title": "Roka Celebration #41 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_41_orig_IMG_8262.JPG.jpeg_.jpg",
-    "aspectRatio": "landscape",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_8262.JPG.jpeg | Dual Tag: Roka_Moment_41_orig_IMG_8262.JPG.jpeg_.jpg",
-    "originalFilename": "IMG_8262.JPG.jpeg",
-    "curatedFilename": "Roka Celebration #41",
-    "sourceType": "local-public",
-    "gdriveId": "15wA5tfikxcyG9mIMWn0rkNTOXmwVETvP",
-    "gdriveUrl": "https://drive.google.com/file/d/15wA5tfikxcyG9mIMWn0rkNTOXmwVETvP/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-42",
-    "title": "Roka Celebration #42 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_42_orig_IMG_9324.HEIC_.jpg",
-    "aspectRatio": "landscape",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_9324.HEIC | Dual Tag: Roka_Moment_42_orig_IMG_9324.HEIC_.jpg",
-    "originalFilename": "IMG_9324.HEIC",
-    "curatedFilename": "Roka Celebration #42",
-    "sourceType": "local-public",
-    "gdriveId": "1XjB-1iUCM9nyf3mlR-PzJf1grm7RBVMt",
-    "gdriveUrl": "https://drive.google.com/file/d/1XjB-1iUCM9nyf3mlR-PzJf1grm7RBVMt/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-43",
-    "title": "Roka Celebration #43 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_43_orig_IMG_9325.HEIC_.jpg",
-    "aspectRatio": "portrait",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_9325.HEIC | Dual Tag: Roka_Moment_43_orig_IMG_9325.HEIC_.jpg",
-    "originalFilename": "IMG_9325.HEIC",
-    "curatedFilename": "Roka Celebration #43",
-    "sourceType": "local-public",
-    "gdriveId": "15CZX0fgVTY4pijADNqn50jzYkKWFSP1M",
-    "gdriveUrl": "https://drive.google.com/file/d/15CZX0fgVTY4pijADNqn50jzYkKWFSP1M/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-44",
-    "title": "Roka Celebration #44 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_44_orig_IMG_9328.HEIC_.jpg",
-    "aspectRatio": "landscape",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_9328.HEIC | Dual Tag: Roka_Moment_44_orig_IMG_9328.HEIC_.jpg",
-    "originalFilename": "IMG_9328.HEIC",
-    "curatedFilename": "Roka Celebration #44",
-    "sourceType": "local-public",
-    "gdriveId": "1tEthd9YuU_VhdQto030Du7eXRZ4NTm5i",
-    "gdriveUrl": "https://drive.google.com/file/d/1tEthd9YuU_VhdQto030Du7eXRZ4NTm5i/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-45",
-    "title": "Roka Celebration #45 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_45_orig_IMG_9329.HEIC_.jpg",
-    "aspectRatio": "landscape",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_9329.HEIC | Dual Tag: Roka_Moment_45_orig_IMG_9329.HEIC_.jpg",
-    "originalFilename": "IMG_9329.HEIC",
-    "curatedFilename": "Roka Celebration #45",
-    "sourceType": "local-public",
-    "gdriveId": "12esfLN5oTCxSnH1Ab6RYAxZ2q1MuCEul",
-    "gdriveUrl": "https://drive.google.com/file/d/12esfLN5oTCxSnH1Ab6RYAxZ2q1MuCEul/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-46",
-    "title": "Roka Celebration #46 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_46_orig_IMG_9330.HEIC_.jpg",
-    "aspectRatio": "portrait",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_9330.HEIC | Dual Tag: Roka_Moment_46_orig_IMG_9330.HEIC_.jpg",
-    "originalFilename": "IMG_9330.HEIC",
-    "curatedFilename": "Roka Celebration #46",
-    "sourceType": "local-public",
-    "gdriveId": "1pLM1RNFao7puRYOzCBicL-kHw4_WCWyf",
-    "gdriveUrl": "https://drive.google.com/file/d/1pLM1RNFao7puRYOzCBicL-kHw4_WCWyf/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-47",
-    "title": "Roka Celebration #47 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_47_orig_IMG_9331.HEIC_.jpg",
-    "aspectRatio": "landscape",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_9331.HEIC | Dual Tag: Roka_Moment_47_orig_IMG_9331.HEIC_.jpg",
-    "originalFilename": "IMG_9331.HEIC",
-    "curatedFilename": "Roka Celebration #47",
-    "sourceType": "local-public",
-    "gdriveId": "1ebg8EuyPkNlIwLQJBqdERSBHOlIB7c_4",
-    "gdriveUrl": "https://drive.google.com/file/d/1ebg8EuyPkNlIwLQJBqdERSBHOlIB7c_4/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-48",
-    "title": "Roka Celebration #48 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_48_orig_IMG_9333.HEIC_.jpg",
-    "aspectRatio": "landscape",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_9333.HEIC | Dual Tag: Roka_Moment_48_orig_IMG_9333.HEIC_.jpg",
-    "originalFilename": "IMG_9333.HEIC",
-    "curatedFilename": "Roka Celebration #48",
-    "sourceType": "local-public",
-    "gdriveId": "1_TdZqAAayKfYZQzqHDGO0HiFONOe4x6w",
-    "gdriveUrl": "https://drive.google.com/file/d/1_TdZqAAayKfYZQzqHDGO0HiFONOe4x6w/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-49",
-    "title": "Roka Celebration #49 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_49_orig_IMG_9335.HEIC_.jpg",
-    "aspectRatio": "portrait",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_9335.HEIC | Dual Tag: Roka_Moment_49_orig_IMG_9335.HEIC_.jpg",
-    "originalFilename": "IMG_9335.HEIC",
-    "curatedFilename": "Roka Celebration #49",
-    "sourceType": "local-public",
-    "gdriveId": "196saQBtHpbTpFInQdCns1bR34ltt4ZP2",
-    "gdriveUrl": "https://drive.google.com/file/d/196saQBtHpbTpFInQdCns1bR34ltt4ZP2/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-50",
-    "title": "Roka Celebration #50 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_50_orig_IMG_9336.HEIC_.jpg",
-    "aspectRatio": "landscape",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_9336.HEIC | Dual Tag: Roka_Moment_50_orig_IMG_9336.HEIC_.jpg",
-    "originalFilename": "IMG_9336.HEIC",
-    "curatedFilename": "Roka Celebration #50",
-    "sourceType": "local-public",
-    "gdriveId": "1trbElLGv_v_3xWCkVdnDLzQ5iGSLx9aD",
-    "gdriveUrl": "https://drive.google.com/file/d/1trbElLGv_v_3xWCkVdnDLzQ5iGSLx9aD/view?usp=sharing"
-  },
-  {
-    "id": "roka-photo-51",
-    "title": "Roka Celebration #51 (Harsha & Bhuvesh)",
-    "category": "Roka Ceremony",
-    "type": "image",
-    "url": "/media/roka/photos/Roka_Moment_51_orig_IMG_9338.HEIC_.jpg",
-    "aspectRatio": "landscape",
-    "featured": false,
-    "coupleName": "Harsha & Bhuvesh",
-    "location": "Taj Palace, New Delhi",
-    "date": "Feb 2026",
-    "description": "Collection: Family & Whatsapp | Original: IMG_9338.HEIC | Dual Tag: Roka_Moment_51_orig_IMG_9338.HEIC_.jpg",
-    "originalFilename": "IMG_9338.HEIC",
-    "curatedFilename": "Roka Celebration #51",
-    "sourceType": "local-public",
-    "gdriveId": "1tH7s8lO9NgYh3lEt_ZRVx_M8WCvQBTtZ",
-    "gdriveUrl": "https://drive.google.com/file/d/1tH7s8lO9NgYh3lEt_ZRVx_M8WCvQBTtZ/view?usp=sharing"
-  },
-  {
     "id": "roka-photo-p1-73",
     "title": "Roka Masterpiece #73 (Harsha & Bhuvesh)",
     "category": "Roka Ceremony",
@@ -950,7 +32,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #73",
     "sourceType": "local-public",
     "gdriveId": "1jptBDQ7_3wPPBNERSHZ3uqNWiYeuxHx7",
-    "gdriveUrl": "https://drive.google.com/file/d/1jptBDQ7_3wPPBNERSHZ3uqNWiYeuxHx7/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1jptBDQ7_3wPPBNERSHZ3uqNWiYeuxHx7/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-74",
@@ -968,7 +51,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #74",
     "sourceType": "local-public",
     "gdriveId": "1Z3edNlMkQ2TxwNglNAv73e0UCenheAea",
-    "gdriveUrl": "https://drive.google.com/file/d/1Z3edNlMkQ2TxwNglNAv73e0UCenheAea/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1Z3edNlMkQ2TxwNglNAv73e0UCenheAea/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-75",
@@ -986,7 +70,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #75",
     "sourceType": "local-public",
     "gdriveId": "1DDTni3cSk6s9CT3xTx5K2H_Sq6AAQny3",
-    "gdriveUrl": "https://drive.google.com/file/d/1DDTni3cSk6s9CT3xTx5K2H_Sq6AAQny3/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1DDTni3cSk6s9CT3xTx5K2H_Sq6AAQny3/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-76",
@@ -1004,7 +89,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #76",
     "sourceType": "local-public",
     "gdriveId": "10h6DktRcg43X1XDs4T3fGRD6UTyaxqxp",
-    "gdriveUrl": "https://drive.google.com/file/d/10h6DktRcg43X1XDs4T3fGRD6UTyaxqxp/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/10h6DktRcg43X1XDs4T3fGRD6UTyaxqxp/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-77",
@@ -1022,7 +108,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #77",
     "sourceType": "local-public",
     "gdriveId": "1Qfe7t1Fg4a_6WeJ6FEDcjJ3IITTg-vko",
-    "gdriveUrl": "https://drive.google.com/file/d/1Qfe7t1Fg4a_6WeJ6FEDcjJ3IITTg-vko/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1Qfe7t1Fg4a_6WeJ6FEDcjJ3IITTg-vko/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-78",
@@ -1040,7 +127,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #78",
     "sourceType": "local-public",
     "gdriveId": "1vA0kkGqGz-GetsB2v9GcgUdEb8Rmvc9K",
-    "gdriveUrl": "https://drive.google.com/file/d/1vA0kkGqGz-GetsB2v9GcgUdEb8Rmvc9K/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1vA0kkGqGz-GetsB2v9GcgUdEb8Rmvc9K/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-79",
@@ -1058,7 +146,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #79",
     "sourceType": "local-public",
     "gdriveId": "1geZt3IjznOPr_XP0YXDN0rVuG5hCVf2z",
-    "gdriveUrl": "https://drive.google.com/file/d/1geZt3IjznOPr_XP0YXDN0rVuG5hCVf2z/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1geZt3IjznOPr_XP0YXDN0rVuG5hCVf2z/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-80",
@@ -1076,7 +165,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #80",
     "sourceType": "local-public",
     "gdriveId": "19gtQyMSH3DNXchv0eiTFf6fAAK5wl6cg",
-    "gdriveUrl": "https://drive.google.com/file/d/19gtQyMSH3DNXchv0eiTFf6fAAK5wl6cg/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/19gtQyMSH3DNXchv0eiTFf6fAAK5wl6cg/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-81",
@@ -1094,7 +184,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #81",
     "sourceType": "local-public",
     "gdriveId": "1zNEhQYxrY6dKypcDnFdehXE5MxxlGL7y",
-    "gdriveUrl": "https://drive.google.com/file/d/1zNEhQYxrY6dKypcDnFdehXE5MxxlGL7y/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1zNEhQYxrY6dKypcDnFdehXE5MxxlGL7y/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-82",
@@ -1112,7 +203,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #82",
     "sourceType": "local-public",
     "gdriveId": "13oh9NFYgTm35Wlev0TV8PIE7Ik0NHTz-",
-    "gdriveUrl": "https://drive.google.com/file/d/13oh9NFYgTm35Wlev0TV8PIE7Ik0NHTz-/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/13oh9NFYgTm35Wlev0TV8PIE7Ik0NHTz-/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-83",
@@ -1130,7 +222,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #83",
     "sourceType": "local-public",
     "gdriveId": "1nmmX4ZQDcRbY3A_mhw1Y5kCuaMqULe7-",
-    "gdriveUrl": "https://drive.google.com/file/d/1nmmX4ZQDcRbY3A_mhw1Y5kCuaMqULe7-/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1nmmX4ZQDcRbY3A_mhw1Y5kCuaMqULe7-/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-84",
@@ -1148,7 +241,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #84",
     "sourceType": "local-public",
     "gdriveId": "1b8XGlEmkummLzbf5rrXqpeUOkFI3XNqC",
-    "gdriveUrl": "https://drive.google.com/file/d/1b8XGlEmkummLzbf5rrXqpeUOkFI3XNqC/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1b8XGlEmkummLzbf5rrXqpeUOkFI3XNqC/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-85",
@@ -1166,7 +260,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #85",
     "sourceType": "local-public",
     "gdriveId": "1tnpcnfnf2Z7yPoOU3_PT7rvMEQDgQL8E",
-    "gdriveUrl": "https://drive.google.com/file/d/1tnpcnfnf2Z7yPoOU3_PT7rvMEQDgQL8E/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1tnpcnfnf2Z7yPoOU3_PT7rvMEQDgQL8E/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-86",
@@ -1184,7 +279,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #86",
     "sourceType": "local-public",
     "gdriveId": "17zjA5pX-WgMM1qPooMMOSMhGtwFdAz-X",
-    "gdriveUrl": "https://drive.google.com/file/d/17zjA5pX-WgMM1qPooMMOSMhGtwFdAz-X/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/17zjA5pX-WgMM1qPooMMOSMhGtwFdAz-X/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-87",
@@ -1202,7 +298,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #87",
     "sourceType": "local-public",
     "gdriveId": "13YwbKZFrv2Sux2ERG3rIR8pTbpBY7iez",
-    "gdriveUrl": "https://drive.google.com/file/d/13YwbKZFrv2Sux2ERG3rIR8pTbpBY7iez/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/13YwbKZFrv2Sux2ERG3rIR8pTbpBY7iez/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-88",
@@ -1220,7 +317,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #88",
     "sourceType": "local-public",
     "gdriveId": "1ky45FqKMibdBON9cFPxDBG0rSb3Al7fz",
-    "gdriveUrl": "https://drive.google.com/file/d/1ky45FqKMibdBON9cFPxDBG0rSb3Al7fz/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1ky45FqKMibdBON9cFPxDBG0rSb3Al7fz/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-89",
@@ -1238,7 +336,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #89",
     "sourceType": "local-public",
     "gdriveId": "1iUBdUZaGEddGlmQjCYTFukYF3-PBOFUk",
-    "gdriveUrl": "https://drive.google.com/file/d/1iUBdUZaGEddGlmQjCYTFukYF3-PBOFUk/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1iUBdUZaGEddGlmQjCYTFukYF3-PBOFUk/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-90",
@@ -1256,7 +355,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #90",
     "sourceType": "local-public",
     "gdriveId": "1aHPKHHbrSOuX4L-IJul8JZserWq-TuGf",
-    "gdriveUrl": "https://drive.google.com/file/d/1aHPKHHbrSOuX4L-IJul8JZserWq-TuGf/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1aHPKHHbrSOuX4L-IJul8JZserWq-TuGf/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-91",
@@ -1274,7 +374,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #91",
     "sourceType": "local-public",
     "gdriveId": "1BfK6JeYmwYGxOWeQIlC5OoqohOfarAEo",
-    "gdriveUrl": "https://drive.google.com/file/d/1BfK6JeYmwYGxOWeQIlC5OoqohOfarAEo/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1BfK6JeYmwYGxOWeQIlC5OoqohOfarAEo/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-92",
@@ -1292,7 +393,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #92",
     "sourceType": "local-public",
     "gdriveId": "1PcUTLid41ztSnWbpBVUrSQWCOaQEc14s",
-    "gdriveUrl": "https://drive.google.com/file/d/1PcUTLid41ztSnWbpBVUrSQWCOaQEc14s/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1PcUTLid41ztSnWbpBVUrSQWCOaQEc14s/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-93",
@@ -1310,7 +412,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #93",
     "sourceType": "local-public",
     "gdriveId": "15Xcg9A6r00d3fFJdMDNTUX7iQVCOgk1X",
-    "gdriveUrl": "https://drive.google.com/file/d/15Xcg9A6r00d3fFJdMDNTUX7iQVCOgk1X/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/15Xcg9A6r00d3fFJdMDNTUX7iQVCOgk1X/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-94",
@@ -1328,7 +431,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #94",
     "sourceType": "local-public",
     "gdriveId": "11M_nOUfycD7HGE_1GqNTzMlecB6ME05T",
-    "gdriveUrl": "https://drive.google.com/file/d/11M_nOUfycD7HGE_1GqNTzMlecB6ME05T/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/11M_nOUfycD7HGE_1GqNTzMlecB6ME05T/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-95",
@@ -1346,7 +450,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #95",
     "sourceType": "local-public",
     "gdriveId": "1vXCtaIWMHd9_1fyCg9F60p8djNs1Dwgh",
-    "gdriveUrl": "https://drive.google.com/file/d/1vXCtaIWMHd9_1fyCg9F60p8djNs1Dwgh/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1vXCtaIWMHd9_1fyCg9F60p8djNs1Dwgh/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-96",
@@ -1364,7 +469,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #96",
     "sourceType": "local-public",
     "gdriveId": "1-b9RKmquyABgTBux1jrfJCf8KYIEreys",
-    "gdriveUrl": "https://drive.google.com/file/d/1-b9RKmquyABgTBux1jrfJCf8KYIEreys/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1-b9RKmquyABgTBux1jrfJCf8KYIEreys/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-97",
@@ -1382,7 +488,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #97",
     "sourceType": "local-public",
     "gdriveId": "1cyq-Un2M-5RlsiXA2S0eQnyMUrGpSk1H",
-    "gdriveUrl": "https://drive.google.com/file/d/1cyq-Un2M-5RlsiXA2S0eQnyMUrGpSk1H/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1cyq-Un2M-5RlsiXA2S0eQnyMUrGpSk1H/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-98",
@@ -1400,7 +507,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #98",
     "sourceType": "local-public",
     "gdriveId": "1ysbr4K2dEAZuvZydUltxUWd2Bh4GaOSK",
-    "gdriveUrl": "https://drive.google.com/file/d/1ysbr4K2dEAZuvZydUltxUWd2Bh4GaOSK/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1ysbr4K2dEAZuvZydUltxUWd2Bh4GaOSK/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-99",
@@ -1418,7 +526,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #99",
     "sourceType": "local-public",
     "gdriveId": "1cs1ENsjQsiWn9-UiIhvMZctBIDLiSvoq",
-    "gdriveUrl": "https://drive.google.com/file/d/1cs1ENsjQsiWn9-UiIhvMZctBIDLiSvoq/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1cs1ENsjQsiWn9-UiIhvMZctBIDLiSvoq/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-100",
@@ -1436,7 +545,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #100",
     "sourceType": "local-public",
     "gdriveId": "1hrKczg41d7iG9TrybdfC3-Y9xZGt57Xu",
-    "gdriveUrl": "https://drive.google.com/file/d/1hrKczg41d7iG9TrybdfC3-Y9xZGt57Xu/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1hrKczg41d7iG9TrybdfC3-Y9xZGt57Xu/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-101",
@@ -1454,7 +564,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #101",
     "sourceType": "local-public",
     "gdriveId": "1PJYZr-TEiNA9nLEzmx5SYXdOtZJ057re",
-    "gdriveUrl": "https://drive.google.com/file/d/1PJYZr-TEiNA9nLEzmx5SYXdOtZJ057re/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1PJYZr-TEiNA9nLEzmx5SYXdOtZJ057re/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-102",
@@ -1472,7 +583,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #102",
     "sourceType": "local-public",
     "gdriveId": "1FclHCzMopqUgKgiiwvhav1MadZPhU8Bj",
-    "gdriveUrl": "https://drive.google.com/file/d/1FclHCzMopqUgKgiiwvhav1MadZPhU8Bj/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1FclHCzMopqUgKgiiwvhav1MadZPhU8Bj/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-103",
@@ -1490,7 +602,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #103",
     "sourceType": "local-public",
     "gdriveId": "1AWT_Var5GhqzEpMcXZDduZod2og-LMYm",
-    "gdriveUrl": "https://drive.google.com/file/d/1AWT_Var5GhqzEpMcXZDduZod2og-LMYm/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1AWT_Var5GhqzEpMcXZDduZod2og-LMYm/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-104",
@@ -1508,7 +621,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #104",
     "sourceType": "local-public",
     "gdriveId": "1_-t3EYjWZn1kR-Q9bqMLnLLWKf6nhJd7",
-    "gdriveUrl": "https://drive.google.com/file/d/1_-t3EYjWZn1kR-Q9bqMLnLLWKf6nhJd7/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1_-t3EYjWZn1kR-Q9bqMLnLLWKf6nhJd7/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-105",
@@ -1526,7 +640,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #105",
     "sourceType": "local-public",
     "gdriveId": "163r3C05kVx9D0KYTC45AxzserkpHNlFw",
-    "gdriveUrl": "https://drive.google.com/file/d/163r3C05kVx9D0KYTC45AxzserkpHNlFw/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/163r3C05kVx9D0KYTC45AxzserkpHNlFw/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-106",
@@ -1544,7 +659,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #106",
     "sourceType": "local-public",
     "gdriveId": "1bs9g0h0_of6kPbzx7E0vP62sI5wEWixx",
-    "gdriveUrl": "https://drive.google.com/file/d/1bs9g0h0_of6kPbzx7E0vP62sI5wEWixx/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1bs9g0h0_of6kPbzx7E0vP62sI5wEWixx/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-107",
@@ -1562,7 +678,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #107",
     "sourceType": "local-public",
     "gdriveId": "1LmKwNnhWhBsJsrTGKqeB9XV_JZ7_9eJs",
-    "gdriveUrl": "https://drive.google.com/file/d/1LmKwNnhWhBsJsrTGKqeB9XV_JZ7_9eJs/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1LmKwNnhWhBsJsrTGKqeB9XV_JZ7_9eJs/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-108",
@@ -1580,7 +697,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #108",
     "sourceType": "local-public",
     "gdriveId": "1Ts2i-y1H86p0Sg-n4PxnhO1ZQ4nwWuQw",
-    "gdriveUrl": "https://drive.google.com/file/d/1Ts2i-y1H86p0Sg-n4PxnhO1ZQ4nwWuQw/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1Ts2i-y1H86p0Sg-n4PxnhO1ZQ4nwWuQw/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-109",
@@ -1598,7 +716,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #109",
     "sourceType": "local-public",
     "gdriveId": "1UdXWrlDUcnl2D3v6M5SbSZEzp8bz5nZu",
-    "gdriveUrl": "https://drive.google.com/file/d/1UdXWrlDUcnl2D3v6M5SbSZEzp8bz5nZu/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1UdXWrlDUcnl2D3v6M5SbSZEzp8bz5nZu/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-110",
@@ -1616,7 +735,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #110",
     "sourceType": "local-public",
     "gdriveId": "1j8AUnoCCuwv_0ihpDPPJQ38i8FrL1_Kt",
-    "gdriveUrl": "https://drive.google.com/file/d/1j8AUnoCCuwv_0ihpDPPJQ38i8FrL1_Kt/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1j8AUnoCCuwv_0ihpDPPJQ38i8FrL1_Kt/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-111",
@@ -1634,7 +754,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #111",
     "sourceType": "local-public",
     "gdriveId": "1gm2fLw4PZDU0TAl9asJjpLQRp9r5zK-b",
-    "gdriveUrl": "https://drive.google.com/file/d/1gm2fLw4PZDU0TAl9asJjpLQRp9r5zK-b/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1gm2fLw4PZDU0TAl9asJjpLQRp9r5zK-b/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-112",
@@ -1652,7 +773,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #112",
     "sourceType": "local-public",
     "gdriveId": "19nI-WIF-4Bac1__bgIN8FrTwagYoyk0P",
-    "gdriveUrl": "https://drive.google.com/file/d/19nI-WIF-4Bac1__bgIN8FrTwagYoyk0P/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/19nI-WIF-4Bac1__bgIN8FrTwagYoyk0P/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-113",
@@ -1670,7 +792,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #113",
     "sourceType": "local-public",
     "gdriveId": "1NfkiUs6MEibhM2orAU7M60Uq47xUEKnd",
-    "gdriveUrl": "https://drive.google.com/file/d/1NfkiUs6MEibhM2orAU7M60Uq47xUEKnd/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1NfkiUs6MEibhM2orAU7M60Uq47xUEKnd/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-114",
@@ -1688,7 +811,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #114",
     "sourceType": "local-public",
     "gdriveId": "1nFVKzdraDZ6WUgEwYibnYtuNiztqKWIe",
-    "gdriveUrl": "https://drive.google.com/file/d/1nFVKzdraDZ6WUgEwYibnYtuNiztqKWIe/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1nFVKzdraDZ6WUgEwYibnYtuNiztqKWIe/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-115",
@@ -1706,7 +830,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #115",
     "sourceType": "local-public",
     "gdriveId": "1K0ZR4Atqy62fAvmSI4Q7hcWPax8t0UEX",
-    "gdriveUrl": "https://drive.google.com/file/d/1K0ZR4Atqy62fAvmSI4Q7hcWPax8t0UEX/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1K0ZR4Atqy62fAvmSI4Q7hcWPax8t0UEX/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-116",
@@ -1724,7 +849,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #116",
     "sourceType": "local-public",
     "gdriveId": "1ZK2iMF-fXKPpy9e1VEurjQ-TzRF4SlvT",
-    "gdriveUrl": "https://drive.google.com/file/d/1ZK2iMF-fXKPpy9e1VEurjQ-TzRF4SlvT/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1ZK2iMF-fXKPpy9e1VEurjQ-TzRF4SlvT/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-117",
@@ -1742,7 +868,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #117",
     "sourceType": "local-public",
     "gdriveId": "1MVFa2xEEA5atRkMVsu_He2jM8hP1fsh4",
-    "gdriveUrl": "https://drive.google.com/file/d/1MVFa2xEEA5atRkMVsu_He2jM8hP1fsh4/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1MVFa2xEEA5atRkMVsu_He2jM8hP1fsh4/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-118",
@@ -1760,7 +887,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #118",
     "sourceType": "local-public",
     "gdriveId": "1XAp1SYaWluV_bMRsPh9diLTS5rb1tILI",
-    "gdriveUrl": "https://drive.google.com/file/d/1XAp1SYaWluV_bMRsPh9diLTS5rb1tILI/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1XAp1SYaWluV_bMRsPh9diLTS5rb1tILI/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-119",
@@ -1778,7 +906,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #119",
     "sourceType": "local-public",
     "gdriveId": "1fMmK4nKFZWtCvcde_gxo5KB7lS8VnPLo",
-    "gdriveUrl": "https://drive.google.com/file/d/1fMmK4nKFZWtCvcde_gxo5KB7lS8VnPLo/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1fMmK4nKFZWtCvcde_gxo5KB7lS8VnPLo/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-120",
@@ -1796,7 +925,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #120",
     "sourceType": "local-public",
     "gdriveId": "1zKR3ylaFTtnquoUnOvTK70ca2ekQ6EZb",
-    "gdriveUrl": "https://drive.google.com/file/d/1zKR3ylaFTtnquoUnOvTK70ca2ekQ6EZb/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1zKR3ylaFTtnquoUnOvTK70ca2ekQ6EZb/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-121",
@@ -1814,7 +944,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #121",
     "sourceType": "local-public",
     "gdriveId": "1gpTtjzyQqGwqpMDQxPKUZ3VWBoZqU_Ul",
-    "gdriveUrl": "https://drive.google.com/file/d/1gpTtjzyQqGwqpMDQxPKUZ3VWBoZqU_Ul/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1gpTtjzyQqGwqpMDQxPKUZ3VWBoZqU_Ul/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-122",
@@ -1832,7 +963,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #122",
     "sourceType": "local-public",
     "gdriveId": "1LlJC1CIoUe_tCafeGLzySHX1pAWphjqV",
-    "gdriveUrl": "https://drive.google.com/file/d/1LlJC1CIoUe_tCafeGLzySHX1pAWphjqV/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1LlJC1CIoUe_tCafeGLzySHX1pAWphjqV/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-123",
@@ -1850,7 +982,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #123",
     "sourceType": "local-public",
     "gdriveId": "1mjVUVA9LmgE24zqiJRb5roqIYyFAemBI",
-    "gdriveUrl": "https://drive.google.com/file/d/1mjVUVA9LmgE24zqiJRb5roqIYyFAemBI/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1mjVUVA9LmgE24zqiJRb5roqIYyFAemBI/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-124",
@@ -1868,7 +1001,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #124",
     "sourceType": "local-public",
     "gdriveId": "146FupRyh9UFdwr3iX4uMqqT2ABeWvzvp",
-    "gdriveUrl": "https://drive.google.com/file/d/146FupRyh9UFdwr3iX4uMqqT2ABeWvzvp/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/146FupRyh9UFdwr3iX4uMqqT2ABeWvzvp/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-125",
@@ -1886,7 +1020,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #125",
     "sourceType": "local-public",
     "gdriveId": "1GNpU_pgZQT-AiPVuit8tivl1ENErqYsL",
-    "gdriveUrl": "https://drive.google.com/file/d/1GNpU_pgZQT-AiPVuit8tivl1ENErqYsL/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1GNpU_pgZQT-AiPVuit8tivl1ENErqYsL/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-126",
@@ -1904,7 +1039,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #126",
     "sourceType": "local-public",
     "gdriveId": "1TnUcgp6uNgSoUlSmRTDUa5oSCfaJ01eZ",
-    "gdriveUrl": "https://drive.google.com/file/d/1TnUcgp6uNgSoUlSmRTDUa5oSCfaJ01eZ/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1TnUcgp6uNgSoUlSmRTDUa5oSCfaJ01eZ/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-127",
@@ -1922,7 +1058,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #127",
     "sourceType": "local-public",
     "gdriveId": "16c_EdSNkAblwVwFsxMViV-_jj44qKeeP",
-    "gdriveUrl": "https://drive.google.com/file/d/16c_EdSNkAblwVwFsxMViV-_jj44qKeeP/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/16c_EdSNkAblwVwFsxMViV-_jj44qKeeP/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-128",
@@ -1940,7 +1077,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #128",
     "sourceType": "local-public",
     "gdriveId": "1BXGwi6lvRLAOKMRnOr9Lfi5Plb96YMkN",
-    "gdriveUrl": "https://drive.google.com/file/d/1BXGwi6lvRLAOKMRnOr9Lfi5Plb96YMkN/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1BXGwi6lvRLAOKMRnOr9Lfi5Plb96YMkN/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-129",
@@ -1958,7 +1096,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #129",
     "sourceType": "local-public",
     "gdriveId": "1tDMWFxNO0rtpXCXZu4k_jDWeOVsPAx1u",
-    "gdriveUrl": "https://drive.google.com/file/d/1tDMWFxNO0rtpXCXZu4k_jDWeOVsPAx1u/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1tDMWFxNO0rtpXCXZu4k_jDWeOVsPAx1u/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-130",
@@ -1976,7 +1115,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #130",
     "sourceType": "local-public",
     "gdriveId": "1Eb7uYBmns-xPf9iQYsNZZMf3mS4gR-qK",
-    "gdriveUrl": "https://drive.google.com/file/d/1Eb7uYBmns-xPf9iQYsNZZMf3mS4gR-qK/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1Eb7uYBmns-xPf9iQYsNZZMf3mS4gR-qK/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-131",
@@ -1994,7 +1134,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #131",
     "sourceType": "local-public",
     "gdriveId": "1FKAG3ziluJRcIbxuDxlY1jaIFJeFS1L3",
-    "gdriveUrl": "https://drive.google.com/file/d/1FKAG3ziluJRcIbxuDxlY1jaIFJeFS1L3/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1FKAG3ziluJRcIbxuDxlY1jaIFJeFS1L3/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-132",
@@ -2012,7 +1153,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #132",
     "sourceType": "local-public",
     "gdriveId": "1SBNA_3EFO1e6nhwmnCJwjR2RlHLeYvt5",
-    "gdriveUrl": "https://drive.google.com/file/d/1SBNA_3EFO1e6nhwmnCJwjR2RlHLeYvt5/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1SBNA_3EFO1e6nhwmnCJwjR2RlHLeYvt5/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-133",
@@ -2030,7 +1172,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #133",
     "sourceType": "local-public",
     "gdriveId": "1f-7IL2-PG6AXh9r8QXlkgeZoiXumSHK9",
-    "gdriveUrl": "https://drive.google.com/file/d/1f-7IL2-PG6AXh9r8QXlkgeZoiXumSHK9/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1f-7IL2-PG6AXh9r8QXlkgeZoiXumSHK9/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-134",
@@ -2048,7 +1191,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #134",
     "sourceType": "local-public",
     "gdriveId": "10-yJ-1lZxLB7JxRt1GN0mVaY_LLEWT_z",
-    "gdriveUrl": "https://drive.google.com/file/d/10-yJ-1lZxLB7JxRt1GN0mVaY_LLEWT_z/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/10-yJ-1lZxLB7JxRt1GN0mVaY_LLEWT_z/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-135",
@@ -2066,7 +1210,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #135",
     "sourceType": "local-public",
     "gdriveId": "1MIdKFT9AZoVsjvRh1Q4M8Nx7Fjg5-GYW",
-    "gdriveUrl": "https://drive.google.com/file/d/1MIdKFT9AZoVsjvRh1Q4M8Nx7Fjg5-GYW/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1MIdKFT9AZoVsjvRh1Q4M8Nx7Fjg5-GYW/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-136",
@@ -2084,7 +1229,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #136",
     "sourceType": "local-public",
     "gdriveId": "1I-lO0mtDt_CHIFFpX1Iwy1vydTUVMkc8",
-    "gdriveUrl": "https://drive.google.com/file/d/1I-lO0mtDt_CHIFFpX1Iwy1vydTUVMkc8/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1I-lO0mtDt_CHIFFpX1Iwy1vydTUVMkc8/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-137",
@@ -2102,7 +1248,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #137",
     "sourceType": "local-public",
     "gdriveId": "1zDxzapkb-T1vA8fcHk9lrr6GhPEW4esU",
-    "gdriveUrl": "https://drive.google.com/file/d/1zDxzapkb-T1vA8fcHk9lrr6GhPEW4esU/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1zDxzapkb-T1vA8fcHk9lrr6GhPEW4esU/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-138",
@@ -2120,7 +1267,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #138",
     "sourceType": "local-public",
     "gdriveId": "1g7nnK9pbEFc_Q7BBSWoNDejoNV04d9NF",
-    "gdriveUrl": "https://drive.google.com/file/d/1g7nnK9pbEFc_Q7BBSWoNDejoNV04d9NF/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1g7nnK9pbEFc_Q7BBSWoNDejoNV04d9NF/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-139",
@@ -2138,7 +1286,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #139",
     "sourceType": "local-public",
     "gdriveId": "1aNv3nUNJm0SdaFn9z_AOOR3L73plfoE2",
-    "gdriveUrl": "https://drive.google.com/file/d/1aNv3nUNJm0SdaFn9z_AOOR3L73plfoE2/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1aNv3nUNJm0SdaFn9z_AOOR3L73plfoE2/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-140",
@@ -2156,7 +1305,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #140",
     "sourceType": "local-public",
     "gdriveId": "1kE0EIB_X4ANBfF9yB7c8k5Mm6FRIdUiZ",
-    "gdriveUrl": "https://drive.google.com/file/d/1kE0EIB_X4ANBfF9yB7c8k5Mm6FRIdUiZ/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1kE0EIB_X4ANBfF9yB7c8k5Mm6FRIdUiZ/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-141",
@@ -2174,7 +1324,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #141",
     "sourceType": "local-public",
     "gdriveId": "1lBEXqoZ2uOxuSvr_EGTcrMIXyjIHQeLY",
-    "gdriveUrl": "https://drive.google.com/file/d/1lBEXqoZ2uOxuSvr_EGTcrMIXyjIHQeLY/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1lBEXqoZ2uOxuSvr_EGTcrMIXyjIHQeLY/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-142",
@@ -2192,7 +1343,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #142",
     "sourceType": "local-public",
     "gdriveId": "1Oao7Ezz1OakVn7et_B9c_eEL2-WZsnIK",
-    "gdriveUrl": "https://drive.google.com/file/d/1Oao7Ezz1OakVn7et_B9c_eEL2-WZsnIK/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1Oao7Ezz1OakVn7et_B9c_eEL2-WZsnIK/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-143",
@@ -2210,7 +1362,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #143",
     "sourceType": "local-public",
     "gdriveId": "1wObrlhHvZqgUIb2EAI4VYJG9cYaDsfDJ",
-    "gdriveUrl": "https://drive.google.com/file/d/1wObrlhHvZqgUIb2EAI4VYJG9cYaDsfDJ/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1wObrlhHvZqgUIb2EAI4VYJG9cYaDsfDJ/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-144",
@@ -2228,7 +1381,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #144",
     "sourceType": "local-public",
     "gdriveId": "1YbZOwv3rzXBpc4-F7WZbgn55R2pAsuiH",
-    "gdriveUrl": "https://drive.google.com/file/d/1YbZOwv3rzXBpc4-F7WZbgn55R2pAsuiH/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1YbZOwv3rzXBpc4-F7WZbgn55R2pAsuiH/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-145",
@@ -2246,7 +1400,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #145",
     "sourceType": "local-public",
     "gdriveId": "1SQOD4tHwBhh0VDZI_xwspE-mJdQXsiKC",
-    "gdriveUrl": "https://drive.google.com/file/d/1SQOD4tHwBhh0VDZI_xwspE-mJdQXsiKC/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1SQOD4tHwBhh0VDZI_xwspE-mJdQXsiKC/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-146",
@@ -2264,7 +1419,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #146",
     "sourceType": "local-public",
     "gdriveId": "1lGDIky2i6Q9AmZRBmBE4VZiHfTFiIkm1",
-    "gdriveUrl": "https://drive.google.com/file/d/1lGDIky2i6Q9AmZRBmBE4VZiHfTFiIkm1/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1lGDIky2i6Q9AmZRBmBE4VZiHfTFiIkm1/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-147",
@@ -2282,7 +1438,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #147",
     "sourceType": "local-public",
     "gdriveId": "1vC5rrmrL5hdgTUunQ4QSBmZakjjW_KLa",
-    "gdriveUrl": "https://drive.google.com/file/d/1vC5rrmrL5hdgTUunQ4QSBmZakjjW_KLa/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1vC5rrmrL5hdgTUunQ4QSBmZakjjW_KLa/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-148",
@@ -2300,7 +1457,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #148",
     "sourceType": "local-public",
     "gdriveId": "1o5TzgF6ufWMaj2X_qDRcLIZJCx23kLj7",
-    "gdriveUrl": "https://drive.google.com/file/d/1o5TzgF6ufWMaj2X_qDRcLIZJCx23kLj7/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1o5TzgF6ufWMaj2X_qDRcLIZJCx23kLj7/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-149",
@@ -2318,7 +1476,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #149",
     "sourceType": "local-public",
     "gdriveId": "1wV3cLUknbUKe8TLhs0VPzolFfUVkcedu",
-    "gdriveUrl": "https://drive.google.com/file/d/1wV3cLUknbUKe8TLhs0VPzolFfUVkcedu/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1wV3cLUknbUKe8TLhs0VPzolFfUVkcedu/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-150",
@@ -2336,7 +1495,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #150",
     "sourceType": "local-public",
     "gdriveId": "1m16nwUbBEbX6cWL9Dr8WWzj6g2WVsU1j",
-    "gdriveUrl": "https://drive.google.com/file/d/1m16nwUbBEbX6cWL9Dr8WWzj6g2WVsU1j/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1m16nwUbBEbX6cWL9Dr8WWzj6g2WVsU1j/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-151",
@@ -2354,7 +1514,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #151",
     "sourceType": "local-public",
     "gdriveId": "1Ok4G1NFhNQ8dpXiCDCz26A5y9gBEKzw_",
-    "gdriveUrl": "https://drive.google.com/file/d/1Ok4G1NFhNQ8dpXiCDCz26A5y9gBEKzw_/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1Ok4G1NFhNQ8dpXiCDCz26A5y9gBEKzw_/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-152",
@@ -2372,7 +1533,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #152",
     "sourceType": "local-public",
     "gdriveId": "1CHhumFZLJB7U60cf8p5OcwRu1sWSvK6M",
-    "gdriveUrl": "https://drive.google.com/file/d/1CHhumFZLJB7U60cf8p5OcwRu1sWSvK6M/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1CHhumFZLJB7U60cf8p5OcwRu1sWSvK6M/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-153",
@@ -2390,7 +1552,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #153",
     "sourceType": "local-public",
     "gdriveId": "1EmEK40RbHq0uab80mxGHy0h5HwkzuQtD",
-    "gdriveUrl": "https://drive.google.com/file/d/1EmEK40RbHq0uab80mxGHy0h5HwkzuQtD/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1EmEK40RbHq0uab80mxGHy0h5HwkzuQtD/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-154",
@@ -2408,7 +1571,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #154",
     "sourceType": "local-public",
     "gdriveId": "1dw2M2c-hzXRn2y9Q8tiCbcHVeI1iiQOD",
-    "gdriveUrl": "https://drive.google.com/file/d/1dw2M2c-hzXRn2y9Q8tiCbcHVeI1iiQOD/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1dw2M2c-hzXRn2y9Q8tiCbcHVeI1iiQOD/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-155",
@@ -2426,7 +1590,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #155",
     "sourceType": "local-public",
     "gdriveId": "1D2heBRy3L4Q9KzOoPRi90C_HTDAtc-UN",
-    "gdriveUrl": "https://drive.google.com/file/d/1D2heBRy3L4Q9KzOoPRi90C_HTDAtc-UN/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1D2heBRy3L4Q9KzOoPRi90C_HTDAtc-UN/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-156",
@@ -2444,7 +1609,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #156",
     "sourceType": "local-public",
     "gdriveId": "1f4gY4sQowQRBeo190-jUqBj_salOUlkZ",
-    "gdriveUrl": "https://drive.google.com/file/d/1f4gY4sQowQRBeo190-jUqBj_salOUlkZ/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1f4gY4sQowQRBeo190-jUqBj_salOUlkZ/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-157",
@@ -2462,7 +1628,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #157",
     "sourceType": "local-public",
     "gdriveId": "1vQdLIeoFCMzwdxUBeXLwKVvuA0rAREYg",
-    "gdriveUrl": "https://drive.google.com/file/d/1vQdLIeoFCMzwdxUBeXLwKVvuA0rAREYg/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1vQdLIeoFCMzwdxUBeXLwKVvuA0rAREYg/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-158",
@@ -2480,7 +1647,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #158",
     "sourceType": "local-public",
     "gdriveId": "1A4CkVXr74Jcv1eVOb3_VUKlSfH9JodF2",
-    "gdriveUrl": "https://drive.google.com/file/d/1A4CkVXr74Jcv1eVOb3_VUKlSfH9JodF2/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1A4CkVXr74Jcv1eVOb3_VUKlSfH9JodF2/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-159",
@@ -2498,7 +1666,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #159",
     "sourceType": "local-public",
     "gdriveId": "1VZRxFIvdHS1dp1HE3ltuK17Qc3YYRDFD",
-    "gdriveUrl": "https://drive.google.com/file/d/1VZRxFIvdHS1dp1HE3ltuK17Qc3YYRDFD/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1VZRxFIvdHS1dp1HE3ltuK17Qc3YYRDFD/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-160",
@@ -2516,7 +1685,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #160",
     "sourceType": "local-public",
     "gdriveId": "1IZkwJXLkI2hugaVRrOTD89KjELCSNSpP",
-    "gdriveUrl": "https://drive.google.com/file/d/1IZkwJXLkI2hugaVRrOTD89KjELCSNSpP/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1IZkwJXLkI2hugaVRrOTD89KjELCSNSpP/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-161",
@@ -2534,7 +1704,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #161",
     "sourceType": "local-public",
     "gdriveId": "1sfIDlXyKYrv3V7g0_i8iIRAgxXKa8P6f",
-    "gdriveUrl": "https://drive.google.com/file/d/1sfIDlXyKYrv3V7g0_i8iIRAgxXKa8P6f/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1sfIDlXyKYrv3V7g0_i8iIRAgxXKa8P6f/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-162",
@@ -2552,7 +1723,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #162",
     "sourceType": "local-public",
     "gdriveId": "1Vui-lnChhqoDhKQybFKdYtxvEtG02cDD",
-    "gdriveUrl": "https://drive.google.com/file/d/1Vui-lnChhqoDhKQybFKdYtxvEtG02cDD/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1Vui-lnChhqoDhKQybFKdYtxvEtG02cDD/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-163",
@@ -2570,7 +1742,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #163",
     "sourceType": "local-public",
     "gdriveId": "1f57WAAF2wXjDOqLMyRRRGpDla_VTQLC0",
-    "gdriveUrl": "https://drive.google.com/file/d/1f57WAAF2wXjDOqLMyRRRGpDla_VTQLC0/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1f57WAAF2wXjDOqLMyRRRGpDla_VTQLC0/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-164",
@@ -2588,7 +1761,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #164",
     "sourceType": "local-public",
     "gdriveId": "1ROi4Rkl6RFQO4zgRZLNtHCYQ1rQsAIBv",
-    "gdriveUrl": "https://drive.google.com/file/d/1ROi4Rkl6RFQO4zgRZLNtHCYQ1rQsAIBv/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1ROi4Rkl6RFQO4zgRZLNtHCYQ1rQsAIBv/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-165",
@@ -2606,7 +1780,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #165",
     "sourceType": "local-public",
     "gdriveId": "1PQna4p2Od2uoTfuHV0ittvMKtV0pWnZr",
-    "gdriveUrl": "https://drive.google.com/file/d/1PQna4p2Od2uoTfuHV0ittvMKtV0pWnZr/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1PQna4p2Od2uoTfuHV0ittvMKtV0pWnZr/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-166",
@@ -2624,7 +1799,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #166",
     "sourceType": "local-public",
     "gdriveId": "1va-CaVhMlKM4_Lva1zDNq4PvN8NWQsqS",
-    "gdriveUrl": "https://drive.google.com/file/d/1va-CaVhMlKM4_Lva1zDNq4PvN8NWQsqS/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1va-CaVhMlKM4_Lva1zDNq4PvN8NWQsqS/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-167",
@@ -2642,7 +1818,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #167",
     "sourceType": "local-public",
     "gdriveId": "1N9lBzQ43LUb4ijrkMXVSrktarJxtQFHU",
-    "gdriveUrl": "https://drive.google.com/file/d/1N9lBzQ43LUb4ijrkMXVSrktarJxtQFHU/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1N9lBzQ43LUb4ijrkMXVSrktarJxtQFHU/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-168",
@@ -2660,7 +1837,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #168",
     "sourceType": "local-public",
     "gdriveId": "1wx43n_PRe5twspHLcaOn7cDUtJF4AYQS",
-    "gdriveUrl": "https://drive.google.com/file/d/1wx43n_PRe5twspHLcaOn7cDUtJF4AYQS/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1wx43n_PRe5twspHLcaOn7cDUtJF4AYQS/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-169",
@@ -2678,7 +1856,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #169",
     "sourceType": "local-public",
     "gdriveId": "11cJjAbNVPMNk37tf9jLBe61GpwlKw-Yw",
-    "gdriveUrl": "https://drive.google.com/file/d/11cJjAbNVPMNk37tf9jLBe61GpwlKw-Yw/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/11cJjAbNVPMNk37tf9jLBe61GpwlKw-Yw/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-170",
@@ -2696,7 +1875,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #170",
     "sourceType": "local-public",
     "gdriveId": "1AKDMQsLj1T45PRLJDfvLUD3AO92y8B6Y",
-    "gdriveUrl": "https://drive.google.com/file/d/1AKDMQsLj1T45PRLJDfvLUD3AO92y8B6Y/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1AKDMQsLj1T45PRLJDfvLUD3AO92y8B6Y/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-171",
@@ -2714,7 +1894,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #171",
     "sourceType": "local-public",
     "gdriveId": "1Wl6YAxhw_eCFZVcVwccnpXFGK5FDsfJQ",
-    "gdriveUrl": "https://drive.google.com/file/d/1Wl6YAxhw_eCFZVcVwccnpXFGK5FDsfJQ/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1Wl6YAxhw_eCFZVcVwccnpXFGK5FDsfJQ/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-172",
@@ -2732,7 +1913,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #172",
     "sourceType": "local-public",
     "gdriveId": "1iEJhrpGTmfp_3c5hNKls1mSrzCGgm_vt",
-    "gdriveUrl": "https://drive.google.com/file/d/1iEJhrpGTmfp_3c5hNKls1mSrzCGgm_vt/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1iEJhrpGTmfp_3c5hNKls1mSrzCGgm_vt/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-173",
@@ -2750,7 +1932,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #173",
     "sourceType": "local-public",
     "gdriveId": "12f85f7Sr8bY9cMLOLf8c8Dx6oIfl9i1q",
-    "gdriveUrl": "https://drive.google.com/file/d/12f85f7Sr8bY9cMLOLf8c8Dx6oIfl9i1q/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/12f85f7Sr8bY9cMLOLf8c8Dx6oIfl9i1q/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-174",
@@ -2768,7 +1951,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #174",
     "sourceType": "local-public",
     "gdriveId": "1iWOKEBn7LmYIqxuQl9uyhhVsYQXsDe5p",
-    "gdriveUrl": "https://drive.google.com/file/d/1iWOKEBn7LmYIqxuQl9uyhhVsYQXsDe5p/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1iWOKEBn7LmYIqxuQl9uyhhVsYQXsDe5p/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-175",
@@ -2786,7 +1970,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #175",
     "sourceType": "local-public",
     "gdriveId": "1Edkb6YuD4IM6m4EfF5BZ7zeOz61BquTl",
-    "gdriveUrl": "https://drive.google.com/file/d/1Edkb6YuD4IM6m4EfF5BZ7zeOz61BquTl/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1Edkb6YuD4IM6m4EfF5BZ7zeOz61BquTl/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-176",
@@ -2804,7 +1989,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #176",
     "sourceType": "local-public",
     "gdriveId": "1z_kXt_Yyy-wKXEJotp3ouHA0yaeifPhr",
-    "gdriveUrl": "https://drive.google.com/file/d/1z_kXt_Yyy-wKXEJotp3ouHA0yaeifPhr/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1z_kXt_Yyy-wKXEJotp3ouHA0yaeifPhr/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-177",
@@ -2822,7 +2008,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #177",
     "sourceType": "local-public",
     "gdriveId": "1hK4UkMkeYKoilq2-6v2Io9pxWrYOMIOo",
-    "gdriveUrl": "https://drive.google.com/file/d/1hK4UkMkeYKoilq2-6v2Io9pxWrYOMIOo/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1hK4UkMkeYKoilq2-6v2Io9pxWrYOMIOo/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-178",
@@ -2840,7 +2027,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #178",
     "sourceType": "local-public",
     "gdriveId": "1KxYp8qdBbpWQUo89IkqCuHPW3mwXDE-C",
-    "gdriveUrl": "https://drive.google.com/file/d/1KxYp8qdBbpWQUo89IkqCuHPW3mwXDE-C/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1KxYp8qdBbpWQUo89IkqCuHPW3mwXDE-C/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-179",
@@ -2858,7 +2046,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #179",
     "sourceType": "local-public",
     "gdriveId": "1yidEmQO8BJfXptHxxYlUosptiQgGMFlz",
-    "gdriveUrl": "https://drive.google.com/file/d/1yidEmQO8BJfXptHxxYlUosptiQgGMFlz/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1yidEmQO8BJfXptHxxYlUosptiQgGMFlz/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-180",
@@ -2876,7 +2065,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #180",
     "sourceType": "local-public",
     "gdriveId": "1fPblIXP_hmdDzopHhCwMG66iEmaMcuDR",
-    "gdriveUrl": "https://drive.google.com/file/d/1fPblIXP_hmdDzopHhCwMG66iEmaMcuDR/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1fPblIXP_hmdDzopHhCwMG66iEmaMcuDR/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-181",
@@ -2894,7 +2084,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #181",
     "sourceType": "local-public",
     "gdriveId": "1XhWuMQxtLIf6BuKji-v0xT1oZSl2ph-p",
-    "gdriveUrl": "https://drive.google.com/file/d/1XhWuMQxtLIf6BuKji-v0xT1oZSl2ph-p/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1XhWuMQxtLIf6BuKji-v0xT1oZSl2ph-p/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-182",
@@ -2912,7 +2103,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #182",
     "sourceType": "local-public",
     "gdriveId": "1LqCuLlMSS-XhxM87m8jFC0yuGNq3T8jC",
-    "gdriveUrl": "https://drive.google.com/file/d/1LqCuLlMSS-XhxM87m8jFC0yuGNq3T8jC/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1LqCuLlMSS-XhxM87m8jFC0yuGNq3T8jC/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-183",
@@ -2930,7 +2122,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #183",
     "sourceType": "local-public",
     "gdriveId": "1XPkxzpZFoWI2XXL8aNjwSC2_RV8DqMif",
-    "gdriveUrl": "https://drive.google.com/file/d/1XPkxzpZFoWI2XXL8aNjwSC2_RV8DqMif/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1XPkxzpZFoWI2XXL8aNjwSC2_RV8DqMif/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-184",
@@ -2948,7 +2141,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #184",
     "sourceType": "local-public",
     "gdriveId": "1y95CkYW8Vcnqc6yhw9BBICLMN78VSZw0",
-    "gdriveUrl": "https://drive.google.com/file/d/1y95CkYW8Vcnqc6yhw9BBICLMN78VSZw0/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1y95CkYW8Vcnqc6yhw9BBICLMN78VSZw0/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-185",
@@ -2966,7 +2160,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #185",
     "sourceType": "local-public",
     "gdriveId": "1PV3ktbzmkkgp0YTjK8W-ySGSSHT9bbxB",
-    "gdriveUrl": "https://drive.google.com/file/d/1PV3ktbzmkkgp0YTjK8W-ySGSSHT9bbxB/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1PV3ktbzmkkgp0YTjK8W-ySGSSHT9bbxB/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-186",
@@ -2984,7 +2179,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #186",
     "sourceType": "local-public",
     "gdriveId": "1e_6jYdJu0axxPyH0Eg64GQfjhjMg_L_R",
-    "gdriveUrl": "https://drive.google.com/file/d/1e_6jYdJu0axxPyH0Eg64GQfjhjMg_L_R/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1e_6jYdJu0axxPyH0Eg64GQfjhjMg_L_R/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-187",
@@ -3002,7 +2198,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #187",
     "sourceType": "local-public",
     "gdriveId": "1tk-WJ3QiNoctjdrzMtYp953HlUFX6e97",
-    "gdriveUrl": "https://drive.google.com/file/d/1tk-WJ3QiNoctjdrzMtYp953HlUFX6e97/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1tk-WJ3QiNoctjdrzMtYp953HlUFX6e97/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-188",
@@ -3020,7 +2217,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #188",
     "sourceType": "local-public",
     "gdriveId": "1ZVLh6GqfYyaTO6dt89xnaHmLy4uycmuT",
-    "gdriveUrl": "https://drive.google.com/file/d/1ZVLh6GqfYyaTO6dt89xnaHmLy4uycmuT/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1ZVLh6GqfYyaTO6dt89xnaHmLy4uycmuT/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-189",
@@ -3038,7 +2236,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #189",
     "sourceType": "local-public",
     "gdriveId": "1y4iCfc3Jr_GO4ZMcVrjD-q1pdLe7rVa_",
-    "gdriveUrl": "https://drive.google.com/file/d/1y4iCfc3Jr_GO4ZMcVrjD-q1pdLe7rVa_/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1y4iCfc3Jr_GO4ZMcVrjD-q1pdLe7rVa_/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-190",
@@ -3056,7 +2255,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #190",
     "sourceType": "local-public",
     "gdriveId": "1EPfA6sWmwn8B5_G_RHMu8j2v_B-lSHhA",
-    "gdriveUrl": "https://drive.google.com/file/d/1EPfA6sWmwn8B5_G_RHMu8j2v_B-lSHhA/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1EPfA6sWmwn8B5_G_RHMu8j2v_B-lSHhA/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-191",
@@ -3074,7 +2274,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #191",
     "sourceType": "local-public",
     "gdriveId": "1Em5HimbFEJIMc1DUfTxKFtMkF6oKMhQf",
-    "gdriveUrl": "https://drive.google.com/file/d/1Em5HimbFEJIMc1DUfTxKFtMkF6oKMhQf/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1Em5HimbFEJIMc1DUfTxKFtMkF6oKMhQf/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-192",
@@ -3092,7 +2293,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #192",
     "sourceType": "local-public",
     "gdriveId": "13OumGzI5FY27K7bKzW5rTwy0Jf4g1q_P",
-    "gdriveUrl": "https://drive.google.com/file/d/13OumGzI5FY27K7bKzW5rTwy0Jf4g1q_P/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/13OumGzI5FY27K7bKzW5rTwy0Jf4g1q_P/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-193",
@@ -3110,7 +2312,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #193",
     "sourceType": "local-public",
     "gdriveId": "1Kj7sKhW2d-DCIdDq0GELnzkEt0_7uYjw",
-    "gdriveUrl": "https://drive.google.com/file/d/1Kj7sKhW2d-DCIdDq0GELnzkEt0_7uYjw/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1Kj7sKhW2d-DCIdDq0GELnzkEt0_7uYjw/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-194",
@@ -3128,7 +2331,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #194",
     "sourceType": "local-public",
     "gdriveId": "1rzUHasPas9kahc7O5tS-rqKw_okrIZ9m",
-    "gdriveUrl": "https://drive.google.com/file/d/1rzUHasPas9kahc7O5tS-rqKw_okrIZ9m/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1rzUHasPas9kahc7O5tS-rqKw_okrIZ9m/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-195",
@@ -3146,7 +2350,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #195",
     "sourceType": "local-public",
     "gdriveId": "1LrJpGABcsCfe2BxaAeJm0qa7yn3XwsS6",
-    "gdriveUrl": "https://drive.google.com/file/d/1LrJpGABcsCfe2BxaAeJm0qa7yn3XwsS6/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1LrJpGABcsCfe2BxaAeJm0qa7yn3XwsS6/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-196",
@@ -3164,7 +2369,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #196",
     "sourceType": "local-public",
     "gdriveId": "1tW3snv6uhL-ItNZSz2TvzL6IEJuCB_hp",
-    "gdriveUrl": "https://drive.google.com/file/d/1tW3snv6uhL-ItNZSz2TvzL6IEJuCB_hp/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1tW3snv6uhL-ItNZSz2TvzL6IEJuCB_hp/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-197",
@@ -3182,7 +2388,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #197",
     "sourceType": "local-public",
     "gdriveId": "1_xYHImChcO5pPoowdagKwDmve5YsnULN",
-    "gdriveUrl": "https://drive.google.com/file/d/1_xYHImChcO5pPoowdagKwDmve5YsnULN/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1_xYHImChcO5pPoowdagKwDmve5YsnULN/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-198",
@@ -3200,7 +2407,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #198",
     "sourceType": "local-public",
     "gdriveId": "11Kv1uL5eu8dzeDbYqEhi_v257mqUKZi5",
-    "gdriveUrl": "https://drive.google.com/file/d/11Kv1uL5eu8dzeDbYqEhi_v257mqUKZi5/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/11Kv1uL5eu8dzeDbYqEhi_v257mqUKZi5/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-199",
@@ -3218,7 +2426,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #199",
     "sourceType": "local-public",
     "gdriveId": "1uNNjROIFQRi8CtNOBl7SE0U9wgsj49Tx",
-    "gdriveUrl": "https://drive.google.com/file/d/1uNNjROIFQRi8CtNOBl7SE0U9wgsj49Tx/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1uNNjROIFQRi8CtNOBl7SE0U9wgsj49Tx/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-200",
@@ -3236,7 +2445,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #200",
     "sourceType": "local-public",
     "gdriveId": "1z5YWZn-KZ0LbL30MTMuoZFdeySo9VX0O",
-    "gdriveUrl": "https://drive.google.com/file/d/1z5YWZn-KZ0LbL30MTMuoZFdeySo9VX0O/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1z5YWZn-KZ0LbL30MTMuoZFdeySo9VX0O/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-201",
@@ -3254,7 +2464,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #201",
     "sourceType": "local-public",
     "gdriveId": "12fAem6oZM-yaMMV0SSxlm3HdGl-IwIBy",
-    "gdriveUrl": "https://drive.google.com/file/d/12fAem6oZM-yaMMV0SSxlm3HdGl-IwIBy/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/12fAem6oZM-yaMMV0SSxlm3HdGl-IwIBy/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-202",
@@ -3272,7 +2483,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #202",
     "sourceType": "local-public",
     "gdriveId": "14MaUC3kx0DKAVbVEEZXPbuSg-qKZUCIt",
-    "gdriveUrl": "https://drive.google.com/file/d/14MaUC3kx0DKAVbVEEZXPbuSg-qKZUCIt/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/14MaUC3kx0DKAVbVEEZXPbuSg-qKZUCIt/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-203",
@@ -3290,7 +2502,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #203",
     "sourceType": "local-public",
     "gdriveId": "1nwC47UbkpjfqTjxT2vzSufVh4eUWCuro",
-    "gdriveUrl": "https://drive.google.com/file/d/1nwC47UbkpjfqTjxT2vzSufVh4eUWCuro/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1nwC47UbkpjfqTjxT2vzSufVh4eUWCuro/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-204",
@@ -3308,7 +2521,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #204",
     "sourceType": "local-public",
     "gdriveId": "1AHd7Y1zd1Su2Lk_UreZCTcO1vl5y9gfu",
-    "gdriveUrl": "https://drive.google.com/file/d/1AHd7Y1zd1Su2Lk_UreZCTcO1vl5y9gfu/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1AHd7Y1zd1Su2Lk_UreZCTcO1vl5y9gfu/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-205",
@@ -3326,7 +2540,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #205",
     "sourceType": "local-public",
     "gdriveId": "1Dbibi2lE-P-DGMAo8HPKR4I4FgR6ODn9",
-    "gdriveUrl": "https://drive.google.com/file/d/1Dbibi2lE-P-DGMAo8HPKR4I4FgR6ODn9/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1Dbibi2lE-P-DGMAo8HPKR4I4FgR6ODn9/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-206",
@@ -3344,7 +2559,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #206",
     "sourceType": "local-public",
     "gdriveId": "1sWlCUX6fWPiEC_oa67uyMQI1n-Obq1nI",
-    "gdriveUrl": "https://drive.google.com/file/d/1sWlCUX6fWPiEC_oa67uyMQI1n-Obq1nI/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1sWlCUX6fWPiEC_oa67uyMQI1n-Obq1nI/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-207",
@@ -3362,7 +2578,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #207",
     "sourceType": "local-public",
     "gdriveId": "1W0rCvTndar0beTEHtCizd8xic8sw6Fc8",
-    "gdriveUrl": "https://drive.google.com/file/d/1W0rCvTndar0beTEHtCizd8xic8sw6Fc8/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1W0rCvTndar0beTEHtCizd8xic8sw6Fc8/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-208",
@@ -3380,7 +2597,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #208",
     "sourceType": "local-public",
     "gdriveId": "1bO30uaA70MrCZVsrBo_HKYSvnLtJyOK-",
-    "gdriveUrl": "https://drive.google.com/file/d/1bO30uaA70MrCZVsrBo_HKYSvnLtJyOK-/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1bO30uaA70MrCZVsrBo_HKYSvnLtJyOK-/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-209",
@@ -3398,7 +2616,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #209",
     "sourceType": "local-public",
     "gdriveId": "1gYdiLe8f2AuMfcm68xafIMwFHG4glwIP",
-    "gdriveUrl": "https://drive.google.com/file/d/1gYdiLe8f2AuMfcm68xafIMwFHG4glwIP/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1gYdiLe8f2AuMfcm68xafIMwFHG4glwIP/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-210",
@@ -3416,7 +2635,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #210",
     "sourceType": "local-public",
     "gdriveId": "1ZX4FY7K1DFv9fkIcXKsHtbvXs7oe55cP",
-    "gdriveUrl": "https://drive.google.com/file/d/1ZX4FY7K1DFv9fkIcXKsHtbvXs7oe55cP/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1ZX4FY7K1DFv9fkIcXKsHtbvXs7oe55cP/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-211",
@@ -3434,7 +2654,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #211",
     "sourceType": "local-public",
     "gdriveId": "1s2w3Rl8i5bGAOZYCnQZcEBshjgyDPfVR",
-    "gdriveUrl": "https://drive.google.com/file/d/1s2w3Rl8i5bGAOZYCnQZcEBshjgyDPfVR/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1s2w3Rl8i5bGAOZYCnQZcEBshjgyDPfVR/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-212",
@@ -3452,7 +2673,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #212",
     "sourceType": "local-public",
     "gdriveId": "1pBNJHne1MQtdvOo0IQlnQNf4RChNLh6-",
-    "gdriveUrl": "https://drive.google.com/file/d/1pBNJHne1MQtdvOo0IQlnQNf4RChNLh6-/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1pBNJHne1MQtdvOo0IQlnQNf4RChNLh6-/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-213",
@@ -3470,7 +2692,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #213",
     "sourceType": "local-public",
     "gdriveId": "1aQhTwRNKnwb-IpyWd648hwenzOpmAJly",
-    "gdriveUrl": "https://drive.google.com/file/d/1aQhTwRNKnwb-IpyWd648hwenzOpmAJly/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1aQhTwRNKnwb-IpyWd648hwenzOpmAJly/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-214",
@@ -3488,7 +2711,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #214",
     "sourceType": "local-public",
     "gdriveId": "1wbK6b9uHFoWP-Rkj5X9_76emwPWom5dP",
-    "gdriveUrl": "https://drive.google.com/file/d/1wbK6b9uHFoWP-Rkj5X9_76emwPWom5dP/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1wbK6b9uHFoWP-Rkj5X9_76emwPWom5dP/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-215",
@@ -3506,7 +2730,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #215",
     "sourceType": "local-public",
     "gdriveId": "1s5w5NEZGAlm9XqsQdIiJzEVlh2MlUIvz",
-    "gdriveUrl": "https://drive.google.com/file/d/1s5w5NEZGAlm9XqsQdIiJzEVlh2MlUIvz/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1s5w5NEZGAlm9XqsQdIiJzEVlh2MlUIvz/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-216",
@@ -3524,7 +2749,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #216",
     "sourceType": "local-public",
     "gdriveId": "12EgOgkCOAPhEzZN8QpNoU6TA1lYDjGij",
-    "gdriveUrl": "https://drive.google.com/file/d/12EgOgkCOAPhEzZN8QpNoU6TA1lYDjGij/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/12EgOgkCOAPhEzZN8QpNoU6TA1lYDjGij/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-217",
@@ -3542,7 +2768,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #217",
     "sourceType": "local-public",
     "gdriveId": "1uF6UmJ5TKlwiCKrKQ7c-r-zOueM4iAAk",
-    "gdriveUrl": "https://drive.google.com/file/d/1uF6UmJ5TKlwiCKrKQ7c-r-zOueM4iAAk/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1uF6UmJ5TKlwiCKrKQ7c-r-zOueM4iAAk/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-218",
@@ -3560,7 +2787,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #218",
     "sourceType": "local-public",
     "gdriveId": "1tOMc6VwkawViHQ5BuCWCS14PxXfEvc4Q",
-    "gdriveUrl": "https://drive.google.com/file/d/1tOMc6VwkawViHQ5BuCWCS14PxXfEvc4Q/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1tOMc6VwkawViHQ5BuCWCS14PxXfEvc4Q/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-219",
@@ -3578,7 +2806,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #219",
     "sourceType": "local-public",
     "gdriveId": "1cMpSr5juGu19o6Le18rvDbj_xC3lAgZ2",
-    "gdriveUrl": "https://drive.google.com/file/d/1cMpSr5juGu19o6Le18rvDbj_xC3lAgZ2/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1cMpSr5juGu19o6Le18rvDbj_xC3lAgZ2/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-220",
@@ -3596,7 +2825,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #220",
     "sourceType": "local-public",
     "gdriveId": "1Ji3NoQojRGKxi6jzLbnbK382fl_pAH5L",
-    "gdriveUrl": "https://drive.google.com/file/d/1Ji3NoQojRGKxi6jzLbnbK382fl_pAH5L/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1Ji3NoQojRGKxi6jzLbnbK382fl_pAH5L/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-221",
@@ -3614,7 +2844,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #221",
     "sourceType": "local-public",
     "gdriveId": "16z2pH_c-SnTaB--cpU7EN7fNc40ExCU0",
-    "gdriveUrl": "https://drive.google.com/file/d/16z2pH_c-SnTaB--cpU7EN7fNc40ExCU0/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/16z2pH_c-SnTaB--cpU7EN7fNc40ExCU0/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-222",
@@ -3632,7 +2863,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #222",
     "sourceType": "local-public",
     "gdriveId": "1FYeX9f7NWzUkTACoQAkkGGZ7itHDs1Hh",
-    "gdriveUrl": "https://drive.google.com/file/d/1FYeX9f7NWzUkTACoQAkkGGZ7itHDs1Hh/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1FYeX9f7NWzUkTACoQAkkGGZ7itHDs1Hh/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-223",
@@ -3650,7 +2882,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #223",
     "sourceType": "local-public",
     "gdriveId": "1vNLEozMdjlkKs1X7DMiMSov-j0Ng4mIA",
-    "gdriveUrl": "https://drive.google.com/file/d/1vNLEozMdjlkKs1X7DMiMSov-j0Ng4mIA/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1vNLEozMdjlkKs1X7DMiMSov-j0Ng4mIA/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-224",
@@ -3668,7 +2901,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #224",
     "sourceType": "local-public",
     "gdriveId": "1ABOwfa-sTLOLUWhNdnTipkIW0nfwnBMy",
-    "gdriveUrl": "https://drive.google.com/file/d/1ABOwfa-sTLOLUWhNdnTipkIW0nfwnBMy/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1ABOwfa-sTLOLUWhNdnTipkIW0nfwnBMy/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-225",
@@ -3686,7 +2920,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #225",
     "sourceType": "local-public",
     "gdriveId": "1Xuj8rKmSxH0fQLATqi-A-ulg2A8If6Ng",
-    "gdriveUrl": "https://drive.google.com/file/d/1Xuj8rKmSxH0fQLATqi-A-ulg2A8If6Ng/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1Xuj8rKmSxH0fQLATqi-A-ulg2A8If6Ng/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-226",
@@ -3704,7 +2939,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #226",
     "sourceType": "local-public",
     "gdriveId": "1loEPiaonINBXJDK-HSKj-JBfjeBe2ZjG",
-    "gdriveUrl": "https://drive.google.com/file/d/1loEPiaonINBXJDK-HSKj-JBfjeBe2ZjG/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1loEPiaonINBXJDK-HSKj-JBfjeBe2ZjG/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-227",
@@ -3722,7 +2958,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #227",
     "sourceType": "local-public",
     "gdriveId": "1EBwhbvdktAHwE6OeRILQT12I-nm7oxqu",
-    "gdriveUrl": "https://drive.google.com/file/d/1EBwhbvdktAHwE6OeRILQT12I-nm7oxqu/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1EBwhbvdktAHwE6OeRILQT12I-nm7oxqu/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-228",
@@ -3740,7 +2977,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #228",
     "sourceType": "local-public",
     "gdriveId": "1SrnuNjabU0bUp_6xYoTrKPw2fOgJNdEW",
-    "gdriveUrl": "https://drive.google.com/file/d/1SrnuNjabU0bUp_6xYoTrKPw2fOgJNdEW/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1SrnuNjabU0bUp_6xYoTrKPw2fOgJNdEW/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-229",
@@ -3758,7 +2996,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #229",
     "sourceType": "local-public",
     "gdriveId": "1IWOxMd1Og2ph3LwRyLCQib4GHXuP4t21",
-    "gdriveUrl": "https://drive.google.com/file/d/1IWOxMd1Og2ph3LwRyLCQib4GHXuP4t21/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1IWOxMd1Og2ph3LwRyLCQib4GHXuP4t21/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-230",
@@ -3776,7 +3015,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #230",
     "sourceType": "local-public",
     "gdriveId": "1x-1ohB8k_US0XDddzaQFsVaEOkaldmIn",
-    "gdriveUrl": "https://drive.google.com/file/d/1x-1ohB8k_US0XDddzaQFsVaEOkaldmIn/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1x-1ohB8k_US0XDddzaQFsVaEOkaldmIn/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-231",
@@ -3794,7 +3034,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #231",
     "sourceType": "local-public",
     "gdriveId": "1hYLsefggtu_V8ADzUtqfzJ650AYsA9as",
-    "gdriveUrl": "https://drive.google.com/file/d/1hYLsefggtu_V8ADzUtqfzJ650AYsA9as/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1hYLsefggtu_V8ADzUtqfzJ650AYsA9as/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-232",
@@ -3812,7 +3053,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #232",
     "sourceType": "local-public",
     "gdriveId": "1FFpOTSWC5Lwb90V_MXCuw8_AlpgNsBl7",
-    "gdriveUrl": "https://drive.google.com/file/d/1FFpOTSWC5Lwb90V_MXCuw8_AlpgNsBl7/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1FFpOTSWC5Lwb90V_MXCuw8_AlpgNsBl7/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-233",
@@ -3830,7 +3072,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #233",
     "sourceType": "local-public",
     "gdriveId": "1IzK5a1r7G8breHavMU2hygkbD4cuXN-e",
-    "gdriveUrl": "https://drive.google.com/file/d/1IzK5a1r7G8breHavMU2hygkbD4cuXN-e/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1IzK5a1r7G8breHavMU2hygkbD4cuXN-e/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-234",
@@ -3848,7 +3091,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #234",
     "sourceType": "local-public",
     "gdriveId": "1MRQ_QBZp76h0Lu636KrdQqWrhEEQe2vW",
-    "gdriveUrl": "https://drive.google.com/file/d/1MRQ_QBZp76h0Lu636KrdQqWrhEEQe2vW/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1MRQ_QBZp76h0Lu636KrdQqWrhEEQe2vW/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-235",
@@ -3866,7 +3110,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #235",
     "sourceType": "local-public",
     "gdriveId": "1va6zfgXyv_Yk27V1rI76vKlxiqmrQdOQ",
-    "gdriveUrl": "https://drive.google.com/file/d/1va6zfgXyv_Yk27V1rI76vKlxiqmrQdOQ/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1va6zfgXyv_Yk27V1rI76vKlxiqmrQdOQ/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-236",
@@ -3884,7 +3129,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #236",
     "sourceType": "local-public",
     "gdriveId": "12gIqs8uAGYzQq8NZgRDGoSmwSfEcS3wQ",
-    "gdriveUrl": "https://drive.google.com/file/d/12gIqs8uAGYzQq8NZgRDGoSmwSfEcS3wQ/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/12gIqs8uAGYzQq8NZgRDGoSmwSfEcS3wQ/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-237",
@@ -3902,7 +3148,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #237",
     "sourceType": "local-public",
     "gdriveId": "1kzlBAAkRRgER2lMuuYWBUo8UNFYaYrJd",
-    "gdriveUrl": "https://drive.google.com/file/d/1kzlBAAkRRgER2lMuuYWBUo8UNFYaYrJd/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1kzlBAAkRRgER2lMuuYWBUo8UNFYaYrJd/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-238",
@@ -3920,7 +3167,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #238",
     "sourceType": "local-public",
     "gdriveId": "18ylqZeOt6jlFG0EvddDJfWVXDOFbwyrT",
-    "gdriveUrl": "https://drive.google.com/file/d/18ylqZeOt6jlFG0EvddDJfWVXDOFbwyrT/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/18ylqZeOt6jlFG0EvddDJfWVXDOFbwyrT/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-239",
@@ -3938,7 +3186,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #239",
     "sourceType": "local-public",
     "gdriveId": "1g0AIUIgmNYK80V4aH5dFWQzQWd5YUmBG",
-    "gdriveUrl": "https://drive.google.com/file/d/1g0AIUIgmNYK80V4aH5dFWQzQWd5YUmBG/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1g0AIUIgmNYK80V4aH5dFWQzQWd5YUmBG/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-240",
@@ -3956,7 +3205,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #240",
     "sourceType": "local-public",
     "gdriveId": "1RGwexYpcFjxYv67zbvk4DZazqqu37pE5",
-    "gdriveUrl": "https://drive.google.com/file/d/1RGwexYpcFjxYv67zbvk4DZazqqu37pE5/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1RGwexYpcFjxYv67zbvk4DZazqqu37pE5/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-241",
@@ -3974,7 +3224,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #241",
     "sourceType": "local-public",
     "gdriveId": "1RUDyg_TPvhR0xcFTKqsrOaLt2cASELMs",
-    "gdriveUrl": "https://drive.google.com/file/d/1RUDyg_TPvhR0xcFTKqsrOaLt2cASELMs/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1RUDyg_TPvhR0xcFTKqsrOaLt2cASELMs/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-242",
@@ -3992,7 +3243,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #242",
     "sourceType": "local-public",
     "gdriveId": "1reOa9f8L-n8fE1SVr1y96paNj3HME-Yj",
-    "gdriveUrl": "https://drive.google.com/file/d/1reOa9f8L-n8fE1SVr1y96paNj3HME-Yj/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1reOa9f8L-n8fE1SVr1y96paNj3HME-Yj/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-243",
@@ -4010,7 +3262,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #243",
     "sourceType": "local-public",
     "gdriveId": "1fmbWdek9Ds-Ur_i4RgSIKPixueMW8-Ii",
-    "gdriveUrl": "https://drive.google.com/file/d/1fmbWdek9Ds-Ur_i4RgSIKPixueMW8-Ii/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1fmbWdek9Ds-Ur_i4RgSIKPixueMW8-Ii/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-244",
@@ -4028,7 +3281,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #244",
     "sourceType": "local-public",
     "gdriveId": "1BHvIo50fjy-ApIAADiUJHm8WIhds0yL5",
-    "gdriveUrl": "https://drive.google.com/file/d/1BHvIo50fjy-ApIAADiUJHm8WIhds0yL5/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1BHvIo50fjy-ApIAADiUJHm8WIhds0yL5/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-245",
@@ -4046,7 +3300,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #245",
     "sourceType": "local-public",
     "gdriveId": "1y3CJ-LcnaLLvALTyOcufOPZo_RJzEMjt",
-    "gdriveUrl": "https://drive.google.com/file/d/1y3CJ-LcnaLLvALTyOcufOPZo_RJzEMjt/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1y3CJ-LcnaLLvALTyOcufOPZo_RJzEMjt/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-246",
@@ -4064,7 +3319,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #246",
     "sourceType": "local-public",
     "gdriveId": "1vyKed4pO9mQdE6aFpoOxcG_hNR7GspRA",
-    "gdriveUrl": "https://drive.google.com/file/d/1vyKed4pO9mQdE6aFpoOxcG_hNR7GspRA/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1vyKed4pO9mQdE6aFpoOxcG_hNR7GspRA/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-247",
@@ -4082,7 +3338,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #247",
     "sourceType": "local-public",
     "gdriveId": "1_zUhNkwy0r_UriM_8qZxByJgdcFr3Uf8",
-    "gdriveUrl": "https://drive.google.com/file/d/1_zUhNkwy0r_UriM_8qZxByJgdcFr3Uf8/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1_zUhNkwy0r_UriM_8qZxByJgdcFr3Uf8/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-248",
@@ -4100,7 +3357,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #248",
     "sourceType": "local-public",
     "gdriveId": "1FQ0Ej6nrIearwlFwgGZBjD_L7lkCO5xI",
-    "gdriveUrl": "https://drive.google.com/file/d/1FQ0Ej6nrIearwlFwgGZBjD_L7lkCO5xI/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1FQ0Ej6nrIearwlFwgGZBjD_L7lkCO5xI/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-249",
@@ -4118,7 +3376,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #249",
     "sourceType": "local-public",
     "gdriveId": "1LUncvI5Biwt-lwyXhYMJQQSpJ_4gCmJZ",
-    "gdriveUrl": "https://drive.google.com/file/d/1LUncvI5Biwt-lwyXhYMJQQSpJ_4gCmJZ/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1LUncvI5Biwt-lwyXhYMJQQSpJ_4gCmJZ/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-250",
@@ -4136,7 +3395,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #250",
     "sourceType": "local-public",
     "gdriveId": "1wCAByZMTWvkIyveQyGZS5kJlwWQqMTVm",
-    "gdriveUrl": "https://drive.google.com/file/d/1wCAByZMTWvkIyveQyGZS5kJlwWQqMTVm/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1wCAByZMTWvkIyveQyGZS5kJlwWQqMTVm/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-251",
@@ -4154,7 +3414,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #251",
     "sourceType": "local-public",
     "gdriveId": "1uT2eY_heocWJX-6TC-To8L5C6C9MUi47",
-    "gdriveUrl": "https://drive.google.com/file/d/1uT2eY_heocWJX-6TC-To8L5C6C9MUi47/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1uT2eY_heocWJX-6TC-To8L5C6C9MUi47/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-252",
@@ -4172,7 +3433,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #252",
     "sourceType": "local-public",
     "gdriveId": "19Vac0KBfxBq3VssIUu_qB9Q4BIL4u_xj",
-    "gdriveUrl": "https://drive.google.com/file/d/19Vac0KBfxBq3VssIUu_qB9Q4BIL4u_xj/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/19Vac0KBfxBq3VssIUu_qB9Q4BIL4u_xj/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-253",
@@ -4190,7 +3452,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #253",
     "sourceType": "local-public",
     "gdriveId": "1k10O6PYqg7epxfLWVGNhZ8EWH7H7d6uF",
-    "gdriveUrl": "https://drive.google.com/file/d/1k10O6PYqg7epxfLWVGNhZ8EWH7H7d6uF/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1k10O6PYqg7epxfLWVGNhZ8EWH7H7d6uF/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-254",
@@ -4208,7 +3471,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #254",
     "sourceType": "local-public",
     "gdriveId": "1Bg9pWe66V6HjtpuTn4PesrQ7gZRbzRb4",
-    "gdriveUrl": "https://drive.google.com/file/d/1Bg9pWe66V6HjtpuTn4PesrQ7gZRbzRb4/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1Bg9pWe66V6HjtpuTn4PesrQ7gZRbzRb4/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-255",
@@ -4226,7 +3490,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #255",
     "sourceType": "local-public",
     "gdriveId": "1-KP8E-23DLzCEnsP0hqMhKYlf38UH2_u",
-    "gdriveUrl": "https://drive.google.com/file/d/1-KP8E-23DLzCEnsP0hqMhKYlf38UH2_u/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1-KP8E-23DLzCEnsP0hqMhKYlf38UH2_u/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-256",
@@ -4244,7 +3509,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #256",
     "sourceType": "local-public",
     "gdriveId": "1hCQem7BmVUokJtPQC5sN4UbuNO9eopVj",
-    "gdriveUrl": "https://drive.google.com/file/d/1hCQem7BmVUokJtPQC5sN4UbuNO9eopVj/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1hCQem7BmVUokJtPQC5sN4UbuNO9eopVj/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-257",
@@ -4262,7 +3528,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #257",
     "sourceType": "local-public",
     "gdriveId": "1KKkz46166KpenqYv7OohJSfKewvLl5a0",
-    "gdriveUrl": "https://drive.google.com/file/d/1KKkz46166KpenqYv7OohJSfKewvLl5a0/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1KKkz46166KpenqYv7OohJSfKewvLl5a0/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-258",
@@ -4280,7 +3547,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #258",
     "sourceType": "local-public",
     "gdriveId": "1mpYY3rrb5zVjwjq5a2eRt4X6mM8ftGR0",
-    "gdriveUrl": "https://drive.google.com/file/d/1mpYY3rrb5zVjwjq5a2eRt4X6mM8ftGR0/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1mpYY3rrb5zVjwjq5a2eRt4X6mM8ftGR0/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-259",
@@ -4298,7 +3566,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #259",
     "sourceType": "local-public",
     "gdriveId": "1iDbTG9ruFbekEuVVrEU_hRwb1HEjgyj3",
-    "gdriveUrl": "https://drive.google.com/file/d/1iDbTG9ruFbekEuVVrEU_hRwb1HEjgyj3/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1iDbTG9ruFbekEuVVrEU_hRwb1HEjgyj3/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-260",
@@ -4316,7 +3585,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #260",
     "sourceType": "local-public",
     "gdriveId": "1awd2Jdw2BWAIYvAjnH4iIH_1ZwRb7PgI",
-    "gdriveUrl": "https://drive.google.com/file/d/1awd2Jdw2BWAIYvAjnH4iIH_1ZwRb7PgI/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1awd2Jdw2BWAIYvAjnH4iIH_1ZwRb7PgI/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-261",
@@ -4334,7 +3604,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #261",
     "sourceType": "local-public",
     "gdriveId": "1w49EM3KdMexoBCcGoAdv3lG44jRRtUif",
-    "gdriveUrl": "https://drive.google.com/file/d/1w49EM3KdMexoBCcGoAdv3lG44jRRtUif/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1w49EM3KdMexoBCcGoAdv3lG44jRRtUif/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-262",
@@ -4352,7 +3623,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #262",
     "sourceType": "local-public",
     "gdriveId": "1m0p3lfi7qAiw9CxJxx5qfEiswPOzhcFB",
-    "gdriveUrl": "https://drive.google.com/file/d/1m0p3lfi7qAiw9CxJxx5qfEiswPOzhcFB/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1m0p3lfi7qAiw9CxJxx5qfEiswPOzhcFB/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-263",
@@ -4370,7 +3642,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #263",
     "sourceType": "local-public",
     "gdriveId": "1E4qSejntZ1iUiwnraraK4QiCU_Gvvz29",
-    "gdriveUrl": "https://drive.google.com/file/d/1E4qSejntZ1iUiwnraraK4QiCU_Gvvz29/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1E4qSejntZ1iUiwnraraK4QiCU_Gvvz29/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-264",
@@ -4388,7 +3661,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #264",
     "sourceType": "local-public",
     "gdriveId": "1URJXZH1Ai-4tt7Lik9_S442ksQqgH8J_",
-    "gdriveUrl": "https://drive.google.com/file/d/1URJXZH1Ai-4tt7Lik9_S442ksQqgH8J_/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1URJXZH1Ai-4tt7Lik9_S442ksQqgH8J_/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-265",
@@ -4406,7 +3680,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #265",
     "sourceType": "local-public",
     "gdriveId": "1_GZRdGCfJwnr6SGuw4XcAiSY5NgtJ3PL",
-    "gdriveUrl": "https://drive.google.com/file/d/1_GZRdGCfJwnr6SGuw4XcAiSY5NgtJ3PL/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1_GZRdGCfJwnr6SGuw4XcAiSY5NgtJ3PL/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-266",
@@ -4424,7 +3699,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #266",
     "sourceType": "local-public",
     "gdriveId": "1jwLaUoYekB1CzY9OLXK_JZ_jbPh3Lyo1",
-    "gdriveUrl": "https://drive.google.com/file/d/1jwLaUoYekB1CzY9OLXK_JZ_jbPh3Lyo1/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1jwLaUoYekB1CzY9OLXK_JZ_jbPh3Lyo1/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-267",
@@ -4442,7 +3718,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #267",
     "sourceType": "local-public",
     "gdriveId": "1Xe_9E9SwUBe5IMVVPm-roN3Jv5nsJBSv",
-    "gdriveUrl": "https://drive.google.com/file/d/1Xe_9E9SwUBe5IMVVPm-roN3Jv5nsJBSv/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1Xe_9E9SwUBe5IMVVPm-roN3Jv5nsJBSv/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-268",
@@ -4460,7 +3737,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #268",
     "sourceType": "local-public",
     "gdriveId": "1vLqsL50goPICNr52C5kuFptKSM5KYVWJ",
-    "gdriveUrl": "https://drive.google.com/file/d/1vLqsL50goPICNr52C5kuFptKSM5KYVWJ/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1vLqsL50goPICNr52C5kuFptKSM5KYVWJ/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-269",
@@ -4478,7 +3756,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #269",
     "sourceType": "local-public",
     "gdriveId": "1233WarJYXlfoAmoXaAH2vWC8fvy9tbPs",
-    "gdriveUrl": "https://drive.google.com/file/d/1233WarJYXlfoAmoXaAH2vWC8fvy9tbPs/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1233WarJYXlfoAmoXaAH2vWC8fvy9tbPs/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-270",
@@ -4496,7 +3775,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #270",
     "sourceType": "local-public",
     "gdriveId": "1YrmnHSrOe8VIWl3Ebp5w20VUVkdv-NDC",
-    "gdriveUrl": "https://drive.google.com/file/d/1YrmnHSrOe8VIWl3Ebp5w20VUVkdv-NDC/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1YrmnHSrOe8VIWl3Ebp5w20VUVkdv-NDC/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-271",
@@ -4514,7 +3794,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #271",
     "sourceType": "local-public",
     "gdriveId": "1SV077eu9n8q28mfJl1MN4sE9wCDNkcEw",
-    "gdriveUrl": "https://drive.google.com/file/d/1SV077eu9n8q28mfJl1MN4sE9wCDNkcEw/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1SV077eu9n8q28mfJl1MN4sE9wCDNkcEw/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-272",
@@ -4532,7 +3813,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #272",
     "sourceType": "local-public",
     "gdriveId": "1OiO9xB3-m9Xr64Eh0K-ENXT-cnNcKrg8",
-    "gdriveUrl": "https://drive.google.com/file/d/1OiO9xB3-m9Xr64Eh0K-ENXT-cnNcKrg8/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1OiO9xB3-m9Xr64Eh0K-ENXT-cnNcKrg8/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-273",
@@ -4550,7 +3832,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #273",
     "sourceType": "local-public",
     "gdriveId": "1okGbmz_iZdJ-MfI7mLHbAKFZvejt-KmA",
-    "gdriveUrl": "https://drive.google.com/file/d/1okGbmz_iZdJ-MfI7mLHbAKFZvejt-KmA/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1okGbmz_iZdJ-MfI7mLHbAKFZvejt-KmA/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-274",
@@ -4568,7 +3851,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #274",
     "sourceType": "local-public",
     "gdriveId": "1I1Qb1bfqbaKEQt63Bvbz99wotMIsrT5y",
-    "gdriveUrl": "https://drive.google.com/file/d/1I1Qb1bfqbaKEQt63Bvbz99wotMIsrT5y/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1I1Qb1bfqbaKEQt63Bvbz99wotMIsrT5y/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-275",
@@ -4586,7 +3870,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #275",
     "sourceType": "local-public",
     "gdriveId": "1qeR-sWw0BYwbcKL5PdSP3papQ79oAugR",
-    "gdriveUrl": "https://drive.google.com/file/d/1qeR-sWw0BYwbcKL5PdSP3papQ79oAugR/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1qeR-sWw0BYwbcKL5PdSP3papQ79oAugR/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-276",
@@ -4604,7 +3889,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #276",
     "sourceType": "local-public",
     "gdriveId": "1WvxGbkVVJgSD_bEpOySgDpkq0o0c8bp_",
-    "gdriveUrl": "https://drive.google.com/file/d/1WvxGbkVVJgSD_bEpOySgDpkq0o0c8bp_/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1WvxGbkVVJgSD_bEpOySgDpkq0o0c8bp_/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-277",
@@ -4622,7 +3908,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #277",
     "sourceType": "local-public",
     "gdriveId": "1wmXWUxHm1nTxW6A7fzCeuhDQsqQ8LKKc",
-    "gdriveUrl": "https://drive.google.com/file/d/1wmXWUxHm1nTxW6A7fzCeuhDQsqQ8LKKc/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1wmXWUxHm1nTxW6A7fzCeuhDQsqQ8LKKc/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-278",
@@ -4640,7 +3927,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #278",
     "sourceType": "local-public",
     "gdriveId": "1m_qTsmDC_69DLgv7fwrlCXJA4ZcHWao3",
-    "gdriveUrl": "https://drive.google.com/file/d/1m_qTsmDC_69DLgv7fwrlCXJA4ZcHWao3/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1m_qTsmDC_69DLgv7fwrlCXJA4ZcHWao3/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-279",
@@ -4658,7 +3946,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #279",
     "sourceType": "local-public",
     "gdriveId": "1nQtY4CSeOvGHD5Kdy419IJBJdInRxSeI",
-    "gdriveUrl": "https://drive.google.com/file/d/1nQtY4CSeOvGHD5Kdy419IJBJdInRxSeI/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1nQtY4CSeOvGHD5Kdy419IJBJdInRxSeI/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-280",
@@ -4676,7 +3965,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #280",
     "sourceType": "local-public",
     "gdriveId": "1HNxEviD3lZ9S10UKdI7CCRi9HE-t0D22",
-    "gdriveUrl": "https://drive.google.com/file/d/1HNxEviD3lZ9S10UKdI7CCRi9HE-t0D22/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1HNxEviD3lZ9S10UKdI7CCRi9HE-t0D22/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-281",
@@ -4694,7 +3984,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #281",
     "sourceType": "local-public",
     "gdriveId": "1E-XYUJS1uKt9MGQrm4bQElniJk3cBwN_",
-    "gdriveUrl": "https://drive.google.com/file/d/1E-XYUJS1uKt9MGQrm4bQElniJk3cBwN_/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1E-XYUJS1uKt9MGQrm4bQElniJk3cBwN_/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-282",
@@ -4712,7 +4003,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #282",
     "sourceType": "local-public",
     "gdriveId": "10Bzdlcgtj4UlApcOOlHkP4Cp0BhBmLuE",
-    "gdriveUrl": "https://drive.google.com/file/d/10Bzdlcgtj4UlApcOOlHkP4Cp0BhBmLuE/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/10Bzdlcgtj4UlApcOOlHkP4Cp0BhBmLuE/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-283",
@@ -4730,7 +4022,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #283",
     "sourceType": "local-public",
     "gdriveId": "1vrYVg9pz9EauoXoE58AIvTT8puZ6wm-1",
-    "gdriveUrl": "https://drive.google.com/file/d/1vrYVg9pz9EauoXoE58AIvTT8puZ6wm-1/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1vrYVg9pz9EauoXoE58AIvTT8puZ6wm-1/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-284",
@@ -4748,7 +4041,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #284",
     "sourceType": "local-public",
     "gdriveId": "1iQdpYiGJyb8MHc5bvqwHee9hX15YUjIy",
-    "gdriveUrl": "https://drive.google.com/file/d/1iQdpYiGJyb8MHc5bvqwHee9hX15YUjIy/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1iQdpYiGJyb8MHc5bvqwHee9hX15YUjIy/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-285",
@@ -4766,7 +4060,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #285",
     "sourceType": "local-public",
     "gdriveId": "1gU1zbKRejJKYLf-PG7CnWq6kJE2ELsop",
-    "gdriveUrl": "https://drive.google.com/file/d/1gU1zbKRejJKYLf-PG7CnWq6kJE2ELsop/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1gU1zbKRejJKYLf-PG7CnWq6kJE2ELsop/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-286",
@@ -4784,7 +4079,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #286",
     "sourceType": "local-public",
     "gdriveId": "1MXt2I4hiqadpXvG5leNZhbaEhHuojAW8",
-    "gdriveUrl": "https://drive.google.com/file/d/1MXt2I4hiqadpXvG5leNZhbaEhHuojAW8/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1MXt2I4hiqadpXvG5leNZhbaEhHuojAW8/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-287",
@@ -4802,7 +4098,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #287",
     "sourceType": "local-public",
     "gdriveId": "1pXXVs9ixnAvhEfIDWb7KiI6ktpiGC-d3",
-    "gdriveUrl": "https://drive.google.com/file/d/1pXXVs9ixnAvhEfIDWb7KiI6ktpiGC-d3/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1pXXVs9ixnAvhEfIDWb7KiI6ktpiGC-d3/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-288",
@@ -4820,7 +4117,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #288",
     "sourceType": "local-public",
     "gdriveId": "1HT3IyyBUiIHYk3jA9r0urQ7fTnKzZzv3",
-    "gdriveUrl": "https://drive.google.com/file/d/1HT3IyyBUiIHYk3jA9r0urQ7fTnKzZzv3/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1HT3IyyBUiIHYk3jA9r0urQ7fTnKzZzv3/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-289",
@@ -4838,7 +4136,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #289",
     "sourceType": "local-public",
     "gdriveId": "1jX8MnnDuDKgqpQ-L47h_KS1GpB1Vru_4",
-    "gdriveUrl": "https://drive.google.com/file/d/1jX8MnnDuDKgqpQ-L47h_KS1GpB1Vru_4/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1jX8MnnDuDKgqpQ-L47h_KS1GpB1Vru_4/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-290",
@@ -4856,7 +4155,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #290",
     "sourceType": "local-public",
     "gdriveId": "1DxeWdr8zHn8GSTm22LzUhMp4186dB3cI",
-    "gdriveUrl": "https://drive.google.com/file/d/1DxeWdr8zHn8GSTm22LzUhMp4186dB3cI/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1DxeWdr8zHn8GSTm22LzUhMp4186dB3cI/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-291",
@@ -4874,7 +4174,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #291",
     "sourceType": "local-public",
     "gdriveId": "1jze6orTkUSPTqCRhwUVz3FQqgdtrYBzq",
-    "gdriveUrl": "https://drive.google.com/file/d/1jze6orTkUSPTqCRhwUVz3FQqgdtrYBzq/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1jze6orTkUSPTqCRhwUVz3FQqgdtrYBzq/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-292",
@@ -4892,7 +4193,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #292",
     "sourceType": "local-public",
     "gdriveId": "1MksaRSW23z4VmCEixqDtXRLuBRA4rfHB",
-    "gdriveUrl": "https://drive.google.com/file/d/1MksaRSW23z4VmCEixqDtXRLuBRA4rfHB/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1MksaRSW23z4VmCEixqDtXRLuBRA4rfHB/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-293",
@@ -4910,7 +4212,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #293",
     "sourceType": "local-public",
     "gdriveId": "1vdRncK2gn7N0VBUT-YxKReZeKMZybuiv",
-    "gdriveUrl": "https://drive.google.com/file/d/1vdRncK2gn7N0VBUT-YxKReZeKMZybuiv/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1vdRncK2gn7N0VBUT-YxKReZeKMZybuiv/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-294",
@@ -4928,7 +4231,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #294",
     "sourceType": "local-public",
     "gdriveId": "18r3-c_lFrClft4H1k0-hKAx2wH9GOkWL",
-    "gdriveUrl": "https://drive.google.com/file/d/18r3-c_lFrClft4H1k0-hKAx2wH9GOkWL/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/18r3-c_lFrClft4H1k0-hKAx2wH9GOkWL/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-295",
@@ -4946,7 +4250,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #295",
     "sourceType": "local-public",
     "gdriveId": "1XZAGW-SOQCN7RylOdTP7I_vKD3RquCIz",
-    "gdriveUrl": "https://drive.google.com/file/d/1XZAGW-SOQCN7RylOdTP7I_vKD3RquCIz/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1XZAGW-SOQCN7RylOdTP7I_vKD3RquCIz/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-296",
@@ -4964,7 +4269,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #296",
     "sourceType": "local-public",
     "gdriveId": "1u6z6R5mHtxFTPtyFQHJQ1rDSIVUVSjRm",
-    "gdriveUrl": "https://drive.google.com/file/d/1u6z6R5mHtxFTPtyFQHJQ1rDSIVUVSjRm/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1u6z6R5mHtxFTPtyFQHJQ1rDSIVUVSjRm/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-297",
@@ -4982,7 +4288,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #297",
     "sourceType": "local-public",
     "gdriveId": "1M3Cyc2nN2tQ-Z09Rckp4r0J3tz2qIP3I",
-    "gdriveUrl": "https://drive.google.com/file/d/1M3Cyc2nN2tQ-Z09Rckp4r0J3tz2qIP3I/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1M3Cyc2nN2tQ-Z09Rckp4r0J3tz2qIP3I/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-298",
@@ -5000,7 +4307,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #298",
     "sourceType": "local-public",
     "gdriveId": "1f25qBpV69WfJO14Tdyps44dpqWeddOTz",
-    "gdriveUrl": "https://drive.google.com/file/d/1f25qBpV69WfJO14Tdyps44dpqWeddOTz/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1f25qBpV69WfJO14Tdyps44dpqWeddOTz/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-299",
@@ -5018,7 +4326,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #299",
     "sourceType": "local-public",
     "gdriveId": "1O4P8RpaxFYksC7Trkno2TT0deDsxHMHm",
-    "gdriveUrl": "https://drive.google.com/file/d/1O4P8RpaxFYksC7Trkno2TT0deDsxHMHm/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1O4P8RpaxFYksC7Trkno2TT0deDsxHMHm/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-300",
@@ -5036,7 +4345,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #300",
     "sourceType": "local-public",
     "gdriveId": "1dO-i40td6qjizyYi8Lh2NrD018L706V4",
-    "gdriveUrl": "https://drive.google.com/file/d/1dO-i40td6qjizyYi8Lh2NrD018L706V4/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1dO-i40td6qjizyYi8Lh2NrD018L706V4/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-301",
@@ -5054,7 +4364,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #301",
     "sourceType": "local-public",
     "gdriveId": "1xBMIYJbDZMCqrS4jPLW9QbHZxxCA2ACQ",
-    "gdriveUrl": "https://drive.google.com/file/d/1xBMIYJbDZMCqrS4jPLW9QbHZxxCA2ACQ/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1xBMIYJbDZMCqrS4jPLW9QbHZxxCA2ACQ/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-302",
@@ -5072,7 +4383,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #302",
     "sourceType": "local-public",
     "gdriveId": "1JXOIVqzvqxmSKDED1pLUMmCHAThFqH82",
-    "gdriveUrl": "https://drive.google.com/file/d/1JXOIVqzvqxmSKDED1pLUMmCHAThFqH82/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1JXOIVqzvqxmSKDED1pLUMmCHAThFqH82/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-303",
@@ -5090,7 +4402,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #303",
     "sourceType": "local-public",
     "gdriveId": "1gJ3BXthHrPMou8FxzCYRbKPGc5j9gKUj",
-    "gdriveUrl": "https://drive.google.com/file/d/1gJ3BXthHrPMou8FxzCYRbKPGc5j9gKUj/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1gJ3BXthHrPMou8FxzCYRbKPGc5j9gKUj/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-304",
@@ -5108,7 +4421,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #304",
     "sourceType": "local-public",
     "gdriveId": "14ZnEh_oiQIKHmdmQ7S3J6i6E0dL4ek73",
-    "gdriveUrl": "https://drive.google.com/file/d/14ZnEh_oiQIKHmdmQ7S3J6i6E0dL4ek73/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/14ZnEh_oiQIKHmdmQ7S3J6i6E0dL4ek73/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-305",
@@ -5126,7 +4440,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #305",
     "sourceType": "local-public",
     "gdriveId": "1V5ZWc23hcUoViAYPGJgWgN07nYP_7u5p",
-    "gdriveUrl": "https://drive.google.com/file/d/1V5ZWc23hcUoViAYPGJgWgN07nYP_7u5p/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1V5ZWc23hcUoViAYPGJgWgN07nYP_7u5p/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-306",
@@ -5144,7 +4459,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #306",
     "sourceType": "local-public",
     "gdriveId": "1yB434qg5kGA1kOlw-3hucjfovc8rRHAu",
-    "gdriveUrl": "https://drive.google.com/file/d/1yB434qg5kGA1kOlw-3hucjfovc8rRHAu/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1yB434qg5kGA1kOlw-3hucjfovc8rRHAu/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-307",
@@ -5162,7 +4478,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #307",
     "sourceType": "local-public",
     "gdriveId": "1aVOi9vbwqUT8MdNDIVyhYH3EWpPPGr53",
-    "gdriveUrl": "https://drive.google.com/file/d/1aVOi9vbwqUT8MdNDIVyhYH3EWpPPGr53/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1aVOi9vbwqUT8MdNDIVyhYH3EWpPPGr53/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-308",
@@ -5180,7 +4497,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #308",
     "sourceType": "local-public",
     "gdriveId": "1J25eiy7-4xpRJ-3EfXAt3Z0E09x5efiq",
-    "gdriveUrl": "https://drive.google.com/file/d/1J25eiy7-4xpRJ-3EfXAt3Z0E09x5efiq/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1J25eiy7-4xpRJ-3EfXAt3Z0E09x5efiq/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-309",
@@ -5198,7 +4516,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #309",
     "sourceType": "local-public",
     "gdriveId": "1hwAxhdKSQExsSqznpudVIqojQNMWNUdm",
-    "gdriveUrl": "https://drive.google.com/file/d/1hwAxhdKSQExsSqznpudVIqojQNMWNUdm/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1hwAxhdKSQExsSqznpudVIqojQNMWNUdm/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-310",
@@ -5216,7 +4535,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #310",
     "sourceType": "local-public",
     "gdriveId": "1ONxZpqIjO_TRT3_YdAwlbJukzyq2ie3k",
-    "gdriveUrl": "https://drive.google.com/file/d/1ONxZpqIjO_TRT3_YdAwlbJukzyq2ie3k/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1ONxZpqIjO_TRT3_YdAwlbJukzyq2ie3k/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-311",
@@ -5234,7 +4554,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #311",
     "sourceType": "local-public",
     "gdriveId": "1pwwfjOoM0p8AJionE-ruNv41ELDtI2sN",
-    "gdriveUrl": "https://drive.google.com/file/d/1pwwfjOoM0p8AJionE-ruNv41ELDtI2sN/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1pwwfjOoM0p8AJionE-ruNv41ELDtI2sN/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-312",
@@ -5252,7 +4573,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #312",
     "sourceType": "local-public",
     "gdriveId": "169MyUNUwl3PVFR1PLfDbLtk7WL85Yt_C",
-    "gdriveUrl": "https://drive.google.com/file/d/169MyUNUwl3PVFR1PLfDbLtk7WL85Yt_C/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/169MyUNUwl3PVFR1PLfDbLtk7WL85Yt_C/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-313",
@@ -5270,7 +4592,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #313",
     "sourceType": "local-public",
     "gdriveId": "1EJOeei9DY_5H8iUR38NGet-xgQLbBIR0",
-    "gdriveUrl": "https://drive.google.com/file/d/1EJOeei9DY_5H8iUR38NGet-xgQLbBIR0/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1EJOeei9DY_5H8iUR38NGet-xgQLbBIR0/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-314",
@@ -5288,7 +4611,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #314",
     "sourceType": "local-public",
     "gdriveId": "15xxgXvSW1OKLxSAmEA0zcg899INNdqvJ",
-    "gdriveUrl": "https://drive.google.com/file/d/15xxgXvSW1OKLxSAmEA0zcg899INNdqvJ/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/15xxgXvSW1OKLxSAmEA0zcg899INNdqvJ/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-315",
@@ -5306,7 +4630,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #315",
     "sourceType": "local-public",
     "gdriveId": "1u7gIU_3W5_S1vUUwmC0zy_4dk3At9NjB",
-    "gdriveUrl": "https://drive.google.com/file/d/1u7gIU_3W5_S1vUUwmC0zy_4dk3At9NjB/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1u7gIU_3W5_S1vUUwmC0zy_4dk3At9NjB/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-316",
@@ -5324,7 +4649,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #316",
     "sourceType": "local-public",
     "gdriveId": "1aYiRDU3xqWWvRz8QHlq7UlgLfCm0EgSH",
-    "gdriveUrl": "https://drive.google.com/file/d/1aYiRDU3xqWWvRz8QHlq7UlgLfCm0EgSH/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1aYiRDU3xqWWvRz8QHlq7UlgLfCm0EgSH/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-317",
@@ -5342,7 +4668,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #317",
     "sourceType": "local-public",
     "gdriveId": "1EWfriPcb8pxjGGpsMu6LPgdJ81rOk32O",
-    "gdriveUrl": "https://drive.google.com/file/d/1EWfriPcb8pxjGGpsMu6LPgdJ81rOk32O/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1EWfriPcb8pxjGGpsMu6LPgdJ81rOk32O/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-318",
@@ -5360,7 +4687,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #318",
     "sourceType": "local-public",
     "gdriveId": "1GqRSEEGVSesmmR2ECTiy-1EcPwBAOZFt",
-    "gdriveUrl": "https://drive.google.com/file/d/1GqRSEEGVSesmmR2ECTiy-1EcPwBAOZFt/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1GqRSEEGVSesmmR2ECTiy-1EcPwBAOZFt/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-319",
@@ -5378,7 +4706,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #319",
     "sourceType": "local-public",
     "gdriveId": "1B8aOEKgDil7KGfCzPSn1_is5NNxTNf3T",
-    "gdriveUrl": "https://drive.google.com/file/d/1B8aOEKgDil7KGfCzPSn1_is5NNxTNf3T/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1B8aOEKgDil7KGfCzPSn1_is5NNxTNf3T/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-320",
@@ -5396,7 +4725,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #320",
     "sourceType": "local-public",
     "gdriveId": "19dEPciXR2GXvMnCGX1d-CLGhDMD2JNTQ",
-    "gdriveUrl": "https://drive.google.com/file/d/19dEPciXR2GXvMnCGX1d-CLGhDMD2JNTQ/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/19dEPciXR2GXvMnCGX1d-CLGhDMD2JNTQ/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-321",
@@ -5414,7 +4744,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #321",
     "sourceType": "local-public",
     "gdriveId": "1SfKBWQUeC0rci2SfdVPhCKRcINstv2aC",
-    "gdriveUrl": "https://drive.google.com/file/d/1SfKBWQUeC0rci2SfdVPhCKRcINstv2aC/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1SfKBWQUeC0rci2SfdVPhCKRcINstv2aC/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-322",
@@ -5432,7 +4763,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #322",
     "sourceType": "local-public",
     "gdriveId": "1m61Rwf4QwpShf5mnlIFNJa8sS5ncUi8x",
-    "gdriveUrl": "https://drive.google.com/file/d/1m61Rwf4QwpShf5mnlIFNJa8sS5ncUi8x/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1m61Rwf4QwpShf5mnlIFNJa8sS5ncUi8x/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-323",
@@ -5450,7 +4782,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #323",
     "sourceType": "local-public",
     "gdriveId": "1Ztn3yjUsOmuGHINvmftY5DGMS8UdNm6Q",
-    "gdriveUrl": "https://drive.google.com/file/d/1Ztn3yjUsOmuGHINvmftY5DGMS8UdNm6Q/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1Ztn3yjUsOmuGHINvmftY5DGMS8UdNm6Q/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-324",
@@ -5468,7 +4801,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #324",
     "sourceType": "local-public",
     "gdriveId": "1nLv4MrLhcTV5W7VJP6ECFgc5L5BIhzYB",
-    "gdriveUrl": "https://drive.google.com/file/d/1nLv4MrLhcTV5W7VJP6ECFgc5L5BIhzYB/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1nLv4MrLhcTV5W7VJP6ECFgc5L5BIhzYB/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-325",
@@ -5486,7 +4820,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #325",
     "sourceType": "local-public",
     "gdriveId": "1PqVImW2PpVNtCRDv3ZWZvvPZMyYPGU0V",
-    "gdriveUrl": "https://drive.google.com/file/d/1PqVImW2PpVNtCRDv3ZWZvvPZMyYPGU0V/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1PqVImW2PpVNtCRDv3ZWZvvPZMyYPGU0V/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-326",
@@ -5504,7 +4839,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #326",
     "sourceType": "local-public",
     "gdriveId": "1IlzmFyF_aMSaHU5ScIjJ-FbauLXEZRP-",
-    "gdriveUrl": "https://drive.google.com/file/d/1IlzmFyF_aMSaHU5ScIjJ-FbauLXEZRP-/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1IlzmFyF_aMSaHU5ScIjJ-FbauLXEZRP-/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-327",
@@ -5522,7 +4858,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #327",
     "sourceType": "local-public",
     "gdriveId": "1-SuteEfiQoKUvZkoL5eaQnfUFjcBjvYh",
-    "gdriveUrl": "https://drive.google.com/file/d/1-SuteEfiQoKUvZkoL5eaQnfUFjcBjvYh/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1-SuteEfiQoKUvZkoL5eaQnfUFjcBjvYh/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-328",
@@ -5540,7 +4877,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #328",
     "sourceType": "local-public",
     "gdriveId": "1ZuK7HrX2Vvgpn1BDxtHloVw9un2542BM",
-    "gdriveUrl": "https://drive.google.com/file/d/1ZuK7HrX2Vvgpn1BDxtHloVw9un2542BM/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1ZuK7HrX2Vvgpn1BDxtHloVw9un2542BM/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-329",
@@ -5558,7 +4896,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #329",
     "sourceType": "local-public",
     "gdriveId": "1Rn_LfzSJotNcOiBUUawQ5WQIaGgKuGWJ",
-    "gdriveUrl": "https://drive.google.com/file/d/1Rn_LfzSJotNcOiBUUawQ5WQIaGgKuGWJ/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1Rn_LfzSJotNcOiBUUawQ5WQIaGgKuGWJ/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-330",
@@ -5576,7 +4915,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #330",
     "sourceType": "local-public",
     "gdriveId": "1pjaOI5IhmiHaXJ8ApP4edJ22TwguZSDL",
-    "gdriveUrl": "https://drive.google.com/file/d/1pjaOI5IhmiHaXJ8ApP4edJ22TwguZSDL/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1pjaOI5IhmiHaXJ8ApP4edJ22TwguZSDL/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-331",
@@ -5594,7 +4934,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #331",
     "sourceType": "local-public",
     "gdriveId": "17SLygn-2qQqcC5NyDkXh8QdA2XnTpe9S",
-    "gdriveUrl": "https://drive.google.com/file/d/17SLygn-2qQqcC5NyDkXh8QdA2XnTpe9S/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/17SLygn-2qQqcC5NyDkXh8QdA2XnTpe9S/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-332",
@@ -5612,7 +4953,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #332",
     "sourceType": "local-public",
     "gdriveId": "1CXvTlMZXXcQpcXNBvLL3Rojs2BLfwS3w",
-    "gdriveUrl": "https://drive.google.com/file/d/1CXvTlMZXXcQpcXNBvLL3Rojs2BLfwS3w/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1CXvTlMZXXcQpcXNBvLL3Rojs2BLfwS3w/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-333",
@@ -5630,7 +4972,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #333",
     "sourceType": "local-public",
     "gdriveId": "1iOnAL6RyIvF9cppjJEgYeXumvWkbfGrj",
-    "gdriveUrl": "https://drive.google.com/file/d/1iOnAL6RyIvF9cppjJEgYeXumvWkbfGrj/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1iOnAL6RyIvF9cppjJEgYeXumvWkbfGrj/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-334",
@@ -5648,7 +4991,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #334",
     "sourceType": "local-public",
     "gdriveId": "1f5DD6ZB_WEylGTUtZlYvnz13AXoymYOj",
-    "gdriveUrl": "https://drive.google.com/file/d/1f5DD6ZB_WEylGTUtZlYvnz13AXoymYOj/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1f5DD6ZB_WEylGTUtZlYvnz13AXoymYOj/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-335",
@@ -5666,7 +5010,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #335",
     "sourceType": "local-public",
     "gdriveId": "1N-_jkBZxHunbPvmG8KCWspE8k5BwyHzM",
-    "gdriveUrl": "https://drive.google.com/file/d/1N-_jkBZxHunbPvmG8KCWspE8k5BwyHzM/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1N-_jkBZxHunbPvmG8KCWspE8k5BwyHzM/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-336",
@@ -5684,7 +5029,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #336",
     "sourceType": "local-public",
     "gdriveId": "1eBXfoHYiTgEXYNGY2gLuXw5HiHgMcT9V",
-    "gdriveUrl": "https://drive.google.com/file/d/1eBXfoHYiTgEXYNGY2gLuXw5HiHgMcT9V/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1eBXfoHYiTgEXYNGY2gLuXw5HiHgMcT9V/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-337",
@@ -5702,7 +5048,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #337",
     "sourceType": "local-public",
     "gdriveId": "1DWCrqn2l2t3jdQ2VUIruuzSqTWi_p-rs",
-    "gdriveUrl": "https://drive.google.com/file/d/1DWCrqn2l2t3jdQ2VUIruuzSqTWi_p-rs/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1DWCrqn2l2t3jdQ2VUIruuzSqTWi_p-rs/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-338",
@@ -5720,7 +5067,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #338",
     "sourceType": "local-public",
     "gdriveId": "1P24NlgCHiHwfi4-wAGgEZ_OxHgH5jA05",
-    "gdriveUrl": "https://drive.google.com/file/d/1P24NlgCHiHwfi4-wAGgEZ_OxHgH5jA05/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1P24NlgCHiHwfi4-wAGgEZ_OxHgH5jA05/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-339",
@@ -5738,7 +5086,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #339",
     "sourceType": "local-public",
     "gdriveId": "1-52GuJYqVg72w3Tlgb8efiM1gPrOXS7u",
-    "gdriveUrl": "https://drive.google.com/file/d/1-52GuJYqVg72w3Tlgb8efiM1gPrOXS7u/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1-52GuJYqVg72w3Tlgb8efiM1gPrOXS7u/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-340",
@@ -5756,7 +5105,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #340",
     "sourceType": "local-public",
     "gdriveId": "1c23DWUuvT1Y-ZMTL6qdDjUzODZt4v3wI",
-    "gdriveUrl": "https://drive.google.com/file/d/1c23DWUuvT1Y-ZMTL6qdDjUzODZt4v3wI/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1c23DWUuvT1Y-ZMTL6qdDjUzODZt4v3wI/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-341",
@@ -5774,7 +5124,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #341",
     "sourceType": "local-public",
     "gdriveId": "1GqYpRyI-KHLI96uQaGPkG4-qfYV-PO3-",
-    "gdriveUrl": "https://drive.google.com/file/d/1GqYpRyI-KHLI96uQaGPkG4-qfYV-PO3-/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1GqYpRyI-KHLI96uQaGPkG4-qfYV-PO3-/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-342",
@@ -5792,7 +5143,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #342",
     "sourceType": "local-public",
     "gdriveId": "1mQuHIMVxfCD7Rj0JE0XxcABhGULK90sH",
-    "gdriveUrl": "https://drive.google.com/file/d/1mQuHIMVxfCD7Rj0JE0XxcABhGULK90sH/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1mQuHIMVxfCD7Rj0JE0XxcABhGULK90sH/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-343",
@@ -5810,7 +5162,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #343",
     "sourceType": "local-public",
     "gdriveId": "1SSDNbSWIdfRnDNuffDUtnqHcAFmhbSJ1",
-    "gdriveUrl": "https://drive.google.com/file/d/1SSDNbSWIdfRnDNuffDUtnqHcAFmhbSJ1/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1SSDNbSWIdfRnDNuffDUtnqHcAFmhbSJ1/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-344",
@@ -5828,7 +5181,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #344",
     "sourceType": "local-public",
     "gdriveId": "1pzBLOK6waxxA57zVG7yhHU8tr7panRzn",
-    "gdriveUrl": "https://drive.google.com/file/d/1pzBLOK6waxxA57zVG7yhHU8tr7panRzn/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1pzBLOK6waxxA57zVG7yhHU8tr7panRzn/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-345",
@@ -5846,7 +5200,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #345",
     "sourceType": "local-public",
     "gdriveId": "1OtWZpWCdD2A88NIscWKld6EzqXAKzVIP",
-    "gdriveUrl": "https://drive.google.com/file/d/1OtWZpWCdD2A88NIscWKld6EzqXAKzVIP/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1OtWZpWCdD2A88NIscWKld6EzqXAKzVIP/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-346",
@@ -5864,7 +5219,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #346",
     "sourceType": "local-public",
     "gdriveId": "1tTfd47PBqEjlFzfImmPzIglx7YQ8Yebr",
-    "gdriveUrl": "https://drive.google.com/file/d/1tTfd47PBqEjlFzfImmPzIglx7YQ8Yebr/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1tTfd47PBqEjlFzfImmPzIglx7YQ8Yebr/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-347",
@@ -5882,7 +5238,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #347",
     "sourceType": "local-public",
     "gdriveId": "1bnYjTejLK_5svzLt5r129mLcgr_usT8u",
-    "gdriveUrl": "https://drive.google.com/file/d/1bnYjTejLK_5svzLt5r129mLcgr_usT8u/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1bnYjTejLK_5svzLt5r129mLcgr_usT8u/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-348",
@@ -5900,7 +5257,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #348",
     "sourceType": "local-public",
     "gdriveId": "1ht5-GKGOFJSmiCwjLA6yxVXvKcGESkF5",
-    "gdriveUrl": "https://drive.google.com/file/d/1ht5-GKGOFJSmiCwjLA6yxVXvKcGESkF5/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1ht5-GKGOFJSmiCwjLA6yxVXvKcGESkF5/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-349",
@@ -5918,7 +5276,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #349",
     "sourceType": "local-public",
     "gdriveId": "1S8ZiCNkbKxQ_wo3BeboS17Rh31a_tv9X",
-    "gdriveUrl": "https://drive.google.com/file/d/1S8ZiCNkbKxQ_wo3BeboS17Rh31a_tv9X/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1S8ZiCNkbKxQ_wo3BeboS17Rh31a_tv9X/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-350",
@@ -5936,7 +5295,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #350",
     "sourceType": "local-public",
     "gdriveId": "1AQG_53C349TFGl1o1jVmRwqbWFOsdRNw",
-    "gdriveUrl": "https://drive.google.com/file/d/1AQG_53C349TFGl1o1jVmRwqbWFOsdRNw/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1AQG_53C349TFGl1o1jVmRwqbWFOsdRNw/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-351",
@@ -5954,7 +5314,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #351",
     "sourceType": "local-public",
     "gdriveId": "1GalMhwAgYsmaTw4bvL21C28y0EeS5c_2",
-    "gdriveUrl": "https://drive.google.com/file/d/1GalMhwAgYsmaTw4bvL21C28y0EeS5c_2/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1GalMhwAgYsmaTw4bvL21C28y0EeS5c_2/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-352",
@@ -5972,7 +5333,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #352",
     "sourceType": "local-public",
     "gdriveId": "1-Mx6rrtvqJ-tM3ieGEpYDBuMbmUbtnWU",
-    "gdriveUrl": "https://drive.google.com/file/d/1-Mx6rrtvqJ-tM3ieGEpYDBuMbmUbtnWU/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1-Mx6rrtvqJ-tM3ieGEpYDBuMbmUbtnWU/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-353",
@@ -5990,7 +5352,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #353",
     "sourceType": "local-public",
     "gdriveId": "1YgBGQlUH8i8YRz9sRDK0CEaAbsmWpPca",
-    "gdriveUrl": "https://drive.google.com/file/d/1YgBGQlUH8i8YRz9sRDK0CEaAbsmWpPca/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1YgBGQlUH8i8YRz9sRDK0CEaAbsmWpPca/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-354",
@@ -6008,7 +5371,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #354",
     "sourceType": "local-public",
     "gdriveId": "1HiThwgzos940Hlmcs7LAbnP6jRaTe5mD",
-    "gdriveUrl": "https://drive.google.com/file/d/1HiThwgzos940Hlmcs7LAbnP6jRaTe5mD/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1HiThwgzos940Hlmcs7LAbnP6jRaTe5mD/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-355",
@@ -6026,7 +5390,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #355",
     "sourceType": "local-public",
     "gdriveId": "1x2ZaXqLKkZHP-VCdUwjLSklTDeNvk9F-",
-    "gdriveUrl": "https://drive.google.com/file/d/1x2ZaXqLKkZHP-VCdUwjLSklTDeNvk9F-/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1x2ZaXqLKkZHP-VCdUwjLSklTDeNvk9F-/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-356",
@@ -6044,7 +5409,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #356",
     "sourceType": "local-public",
     "gdriveId": "1aeqMAsqui2iaDSiuVBE6zshHGUsKkTaG",
-    "gdriveUrl": "https://drive.google.com/file/d/1aeqMAsqui2iaDSiuVBE6zshHGUsKkTaG/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1aeqMAsqui2iaDSiuVBE6zshHGUsKkTaG/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-357",
@@ -6062,7 +5428,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #357",
     "sourceType": "local-public",
     "gdriveId": "1ydipjWJooIQUqpECMq47O6M_3TE5xLHr",
-    "gdriveUrl": "https://drive.google.com/file/d/1ydipjWJooIQUqpECMq47O6M_3TE5xLHr/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1ydipjWJooIQUqpECMq47O6M_3TE5xLHr/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-358",
@@ -6080,7 +5447,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #358",
     "sourceType": "local-public",
     "gdriveId": "12HF1ZdufImDfJVb29qqVq76fj14O3X0u",
-    "gdriveUrl": "https://drive.google.com/file/d/12HF1ZdufImDfJVb29qqVq76fj14O3X0u/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/12HF1ZdufImDfJVb29qqVq76fj14O3X0u/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-359",
@@ -6098,7 +5466,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #359",
     "sourceType": "local-public",
     "gdriveId": "1CQqIIFfrPQOrz7KKG88Hb-rtKaToZ9Sc",
-    "gdriveUrl": "https://drive.google.com/file/d/1CQqIIFfrPQOrz7KKG88Hb-rtKaToZ9Sc/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1CQqIIFfrPQOrz7KKG88Hb-rtKaToZ9Sc/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-360",
@@ -6116,7 +5485,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #360",
     "sourceType": "local-public",
     "gdriveId": "1EyNr0bQGe9DJoGiKVfmjzch_xb0Rk4h_",
-    "gdriveUrl": "https://drive.google.com/file/d/1EyNr0bQGe9DJoGiKVfmjzch_xb0Rk4h_/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1EyNr0bQGe9DJoGiKVfmjzch_xb0Rk4h_/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-361",
@@ -6134,7 +5504,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #361",
     "sourceType": "local-public",
     "gdriveId": "1dW_L8BNjo884oWo7VwIKzdP7mASkmfZC",
-    "gdriveUrl": "https://drive.google.com/file/d/1dW_L8BNjo884oWo7VwIKzdP7mASkmfZC/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1dW_L8BNjo884oWo7VwIKzdP7mASkmfZC/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-362",
@@ -6152,7 +5523,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #362",
     "sourceType": "local-public",
     "gdriveId": "19xusfUj21ToOwn4O-IyV3u90gT429aNM",
-    "gdriveUrl": "https://drive.google.com/file/d/19xusfUj21ToOwn4O-IyV3u90gT429aNM/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/19xusfUj21ToOwn4O-IyV3u90gT429aNM/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-363",
@@ -6170,7 +5542,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #363",
     "sourceType": "local-public",
     "gdriveId": "1qPpIDVxC5BRpkvkLFAP3Qx-Ejgx3OHcZ",
-    "gdriveUrl": "https://drive.google.com/file/d/1qPpIDVxC5BRpkvkLFAP3Qx-Ejgx3OHcZ/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1qPpIDVxC5BRpkvkLFAP3Qx-Ejgx3OHcZ/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-364",
@@ -6188,7 +5561,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #364",
     "sourceType": "local-public",
     "gdriveId": "1yq89jKfZXW5YD6RfZ1RfBEjSnbUy2oXI",
-    "gdriveUrl": "https://drive.google.com/file/d/1yq89jKfZXW5YD6RfZ1RfBEjSnbUy2oXI/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1yq89jKfZXW5YD6RfZ1RfBEjSnbUy2oXI/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-365",
@@ -6206,7 +5580,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #365",
     "sourceType": "local-public",
     "gdriveId": "1i5dUEbZEVZTgiZk7ICxvwJ4uCIByCk2m",
-    "gdriveUrl": "https://drive.google.com/file/d/1i5dUEbZEVZTgiZk7ICxvwJ4uCIByCk2m/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1i5dUEbZEVZTgiZk7ICxvwJ4uCIByCk2m/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-366",
@@ -6224,7 +5599,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #366",
     "sourceType": "local-public",
     "gdriveId": "1JZNnGOagJ7tyqRxqas3Az-aqdl3naxEX",
-    "gdriveUrl": "https://drive.google.com/file/d/1JZNnGOagJ7tyqRxqas3Az-aqdl3naxEX/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1JZNnGOagJ7tyqRxqas3Az-aqdl3naxEX/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-367",
@@ -6242,7 +5618,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #367",
     "sourceType": "local-public",
     "gdriveId": "1BatkbpCBWVBUQB8rhz8-zwhSeS2Jzujp",
-    "gdriveUrl": "https://drive.google.com/file/d/1BatkbpCBWVBUQB8rhz8-zwhSeS2Jzujp/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1BatkbpCBWVBUQB8rhz8-zwhSeS2Jzujp/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-368",
@@ -6260,7 +5637,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #368",
     "sourceType": "local-public",
     "gdriveId": "1RnYis0OrzczTNh6-DWD0kyD7RaPQiV6m",
-    "gdriveUrl": "https://drive.google.com/file/d/1RnYis0OrzczTNh6-DWD0kyD7RaPQiV6m/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1RnYis0OrzczTNh6-DWD0kyD7RaPQiV6m/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-369",
@@ -6278,7 +5656,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #369",
     "sourceType": "local-public",
     "gdriveId": "1GR62WDIaPieaUNubIdwr-4i5pBrt2Mah",
-    "gdriveUrl": "https://drive.google.com/file/d/1GR62WDIaPieaUNubIdwr-4i5pBrt2Mah/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1GR62WDIaPieaUNubIdwr-4i5pBrt2Mah/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-370",
@@ -6296,7 +5675,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #370",
     "sourceType": "local-public",
     "gdriveId": "1BhG7r0c0lijZAysBCgDqcYrGPk42PIRE",
-    "gdriveUrl": "https://drive.google.com/file/d/1BhG7r0c0lijZAysBCgDqcYrGPk42PIRE/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1BhG7r0c0lijZAysBCgDqcYrGPk42PIRE/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-371",
@@ -6314,7 +5694,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #371",
     "sourceType": "local-public",
     "gdriveId": "1p-ql59bCLuNqcmEVOyFYUZex4cR-PBbI",
-    "gdriveUrl": "https://drive.google.com/file/d/1p-ql59bCLuNqcmEVOyFYUZex4cR-PBbI/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1p-ql59bCLuNqcmEVOyFYUZex4cR-PBbI/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-372",
@@ -6332,7 +5713,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #372",
     "sourceType": "local-public",
     "gdriveId": "1He9EHwleZ6y2oOd_Sldwsf8y6LHn-YtO",
-    "gdriveUrl": "https://drive.google.com/file/d/1He9EHwleZ6y2oOd_Sldwsf8y6LHn-YtO/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1He9EHwleZ6y2oOd_Sldwsf8y6LHn-YtO/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-373",
@@ -6350,7 +5732,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #373",
     "sourceType": "local-public",
     "gdriveId": "1tRJf-b-usxEeGbFCayL4pWOP76yrgy1m",
-    "gdriveUrl": "https://drive.google.com/file/d/1tRJf-b-usxEeGbFCayL4pWOP76yrgy1m/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1tRJf-b-usxEeGbFCayL4pWOP76yrgy1m/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-374",
@@ -6368,7 +5751,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #374",
     "sourceType": "local-public",
     "gdriveId": "1jCtO9QC6vEqg5cqI-h_CrQLl-LT6sSln",
-    "gdriveUrl": "https://drive.google.com/file/d/1jCtO9QC6vEqg5cqI-h_CrQLl-LT6sSln/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1jCtO9QC6vEqg5cqI-h_CrQLl-LT6sSln/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-375",
@@ -6386,7 +5770,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #375",
     "sourceType": "local-public",
     "gdriveId": "1nxWoC3U2e6MtvrFrqE0iXF02jF6REnuS",
-    "gdriveUrl": "https://drive.google.com/file/d/1nxWoC3U2e6MtvrFrqE0iXF02jF6REnuS/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1nxWoC3U2e6MtvrFrqE0iXF02jF6REnuS/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-376",
@@ -6404,7 +5789,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #376",
     "sourceType": "local-public",
     "gdriveId": "1IZSqgM_TfJMXZCyOQG8oU3aP135O2m6-",
-    "gdriveUrl": "https://drive.google.com/file/d/1IZSqgM_TfJMXZCyOQG8oU3aP135O2m6-/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1IZSqgM_TfJMXZCyOQG8oU3aP135O2m6-/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-377",
@@ -6422,7 +5808,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #377",
     "sourceType": "local-public",
     "gdriveId": "14Ayrhxw8neJGNXLYMjwd_GpuixxpA98V",
-    "gdriveUrl": "https://drive.google.com/file/d/14Ayrhxw8neJGNXLYMjwd_GpuixxpA98V/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/14Ayrhxw8neJGNXLYMjwd_GpuixxpA98V/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-378",
@@ -6440,7 +5827,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #378",
     "sourceType": "local-public",
     "gdriveId": "1kc-zrWSLCZRXhVJRzxZr8It3YrQvxyhw",
-    "gdriveUrl": "https://drive.google.com/file/d/1kc-zrWSLCZRXhVJRzxZr8It3YrQvxyhw/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1kc-zrWSLCZRXhVJRzxZr8It3YrQvxyhw/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-379",
@@ -6458,7 +5846,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #379",
     "sourceType": "local-public",
     "gdriveId": "1vR9Le0ALIdFUTrEINY5KWbqEW7aeET7U",
-    "gdriveUrl": "https://drive.google.com/file/d/1vR9Le0ALIdFUTrEINY5KWbqEW7aeET7U/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1vR9Le0ALIdFUTrEINY5KWbqEW7aeET7U/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-380",
@@ -6476,7 +5865,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #380",
     "sourceType": "local-public",
     "gdriveId": "1iCkEhUCVheWB65JNv6PMWtJxHa_gtIJD",
-    "gdriveUrl": "https://drive.google.com/file/d/1iCkEhUCVheWB65JNv6PMWtJxHa_gtIJD/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1iCkEhUCVheWB65JNv6PMWtJxHa_gtIJD/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-381",
@@ -6494,7 +5884,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #381",
     "sourceType": "local-public",
     "gdriveId": "1nnOGLWZq7WVPIDd_xKpkZmnfdKZKv70P",
-    "gdriveUrl": "https://drive.google.com/file/d/1nnOGLWZq7WVPIDd_xKpkZmnfdKZKv70P/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1nnOGLWZq7WVPIDd_xKpkZmnfdKZKv70P/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-382",
@@ -6512,7 +5903,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #382",
     "sourceType": "local-public",
     "gdriveId": "1so9LV4OHBmvpT7MfUS34MFlL_jYDPMrt",
-    "gdriveUrl": "https://drive.google.com/file/d/1so9LV4OHBmvpT7MfUS34MFlL_jYDPMrt/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1so9LV4OHBmvpT7MfUS34MFlL_jYDPMrt/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-383",
@@ -6530,7 +5922,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #383",
     "sourceType": "local-public",
     "gdriveId": "1bcK2yu4iWNxGld1hIrr7IKxu5Rk9T1NN",
-    "gdriveUrl": "https://drive.google.com/file/d/1bcK2yu4iWNxGld1hIrr7IKxu5Rk9T1NN/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1bcK2yu4iWNxGld1hIrr7IKxu5Rk9T1NN/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-384",
@@ -6548,7 +5941,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #384",
     "sourceType": "local-public",
     "gdriveId": "1cNaLjpo0nVAf_UZRZLRCdxLH37gm20tY",
-    "gdriveUrl": "https://drive.google.com/file/d/1cNaLjpo0nVAf_UZRZLRCdxLH37gm20tY/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1cNaLjpo0nVAf_UZRZLRCdxLH37gm20tY/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-385",
@@ -6566,7 +5960,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #385",
     "sourceType": "local-public",
     "gdriveId": "1f1TuQ0eKVg-HfFuYe-E7NoihNeSJuW8a",
-    "gdriveUrl": "https://drive.google.com/file/d/1f1TuQ0eKVg-HfFuYe-E7NoihNeSJuW8a/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1f1TuQ0eKVg-HfFuYe-E7NoihNeSJuW8a/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-386",
@@ -6584,7 +5979,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #386",
     "sourceType": "local-public",
     "gdriveId": "1A5EG3YpSW46eo-SXZEuzJx_X7WuW3S50",
-    "gdriveUrl": "https://drive.google.com/file/d/1A5EG3YpSW46eo-SXZEuzJx_X7WuW3S50/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1A5EG3YpSW46eo-SXZEuzJx_X7WuW3S50/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-387",
@@ -6602,7 +5998,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #387",
     "sourceType": "local-public",
     "gdriveId": "1OPPNPt_1Jv5D7v-_WBeBs0P856NtgmZZ",
-    "gdriveUrl": "https://drive.google.com/file/d/1OPPNPt_1Jv5D7v-_WBeBs0P856NtgmZZ/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1OPPNPt_1Jv5D7v-_WBeBs0P856NtgmZZ/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-388",
@@ -6620,7 +6017,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #388",
     "sourceType": "local-public",
     "gdriveId": "13NYsvX7WMPKd4AvsdF7A8o6jMh_g6TuQ",
-    "gdriveUrl": "https://drive.google.com/file/d/13NYsvX7WMPKd4AvsdF7A8o6jMh_g6TuQ/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/13NYsvX7WMPKd4AvsdF7A8o6jMh_g6TuQ/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-389",
@@ -6638,7 +6036,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #389",
     "sourceType": "local-public",
     "gdriveId": "1nUwa5dmj3fSX_y-6DaIFBDzAowtLpSPg",
-    "gdriveUrl": "https://drive.google.com/file/d/1nUwa5dmj3fSX_y-6DaIFBDzAowtLpSPg/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1nUwa5dmj3fSX_y-6DaIFBDzAowtLpSPg/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-390",
@@ -6656,7 +6055,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #390",
     "sourceType": "local-public",
     "gdriveId": "1DtJy4Ck9-Lt7YqIpGvnf5S7k7vs6fyrG",
-    "gdriveUrl": "https://drive.google.com/file/d/1DtJy4Ck9-Lt7YqIpGvnf5S7k7vs6fyrG/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1DtJy4Ck9-Lt7YqIpGvnf5S7k7vs6fyrG/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-391",
@@ -6674,7 +6074,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #391",
     "sourceType": "local-public",
     "gdriveId": "1femxA1liuZPA7HIkRDUeakM1IPgVLs7y",
-    "gdriveUrl": "https://drive.google.com/file/d/1femxA1liuZPA7HIkRDUeakM1IPgVLs7y/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1femxA1liuZPA7HIkRDUeakM1IPgVLs7y/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-392",
@@ -6692,7 +6093,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #392",
     "sourceType": "local-public",
     "gdriveId": "1264HjQSbnSoKL8AL5Ee5BSYzwKJrOSxM",
-    "gdriveUrl": "https://drive.google.com/file/d/1264HjQSbnSoKL8AL5Ee5BSYzwKJrOSxM/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1264HjQSbnSoKL8AL5Ee5BSYzwKJrOSxM/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-393",
@@ -6710,7 +6112,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #393",
     "sourceType": "local-public",
     "gdriveId": "1z7SXHrWBBWxQL5b6r_IdCrgkxnlsSlTO",
-    "gdriveUrl": "https://drive.google.com/file/d/1z7SXHrWBBWxQL5b6r_IdCrgkxnlsSlTO/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1z7SXHrWBBWxQL5b6r_IdCrgkxnlsSlTO/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-394",
@@ -6728,7 +6131,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #394",
     "sourceType": "local-public",
     "gdriveId": "1w87868sPVEFgHWR67EenherYeV9DEkmb",
-    "gdriveUrl": "https://drive.google.com/file/d/1w87868sPVEFgHWR67EenherYeV9DEkmb/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1w87868sPVEFgHWR67EenherYeV9DEkmb/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-395",
@@ -6746,7 +6150,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #395",
     "sourceType": "local-public",
     "gdriveId": "1cUSEwAS5iHP7onL2-Et14hZG3ZiR9MKT",
-    "gdriveUrl": "https://drive.google.com/file/d/1cUSEwAS5iHP7onL2-Et14hZG3ZiR9MKT/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1cUSEwAS5iHP7onL2-Et14hZG3ZiR9MKT/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-396",
@@ -6764,7 +6169,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #396",
     "sourceType": "local-public",
     "gdriveId": "1gI1c0BlinpuyOkLV4a5haWQMoc0_PYH6",
-    "gdriveUrl": "https://drive.google.com/file/d/1gI1c0BlinpuyOkLV4a5haWQMoc0_PYH6/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1gI1c0BlinpuyOkLV4a5haWQMoc0_PYH6/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-397",
@@ -6782,7 +6188,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #397",
     "sourceType": "local-public",
     "gdriveId": "1wRF8bA0VD_gNAkg8Pf467FqBwloDW29V",
-    "gdriveUrl": "https://drive.google.com/file/d/1wRF8bA0VD_gNAkg8Pf467FqBwloDW29V/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1wRF8bA0VD_gNAkg8Pf467FqBwloDW29V/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-398",
@@ -6800,7 +6207,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #398",
     "sourceType": "local-public",
     "gdriveId": "1hO5DNJSns_34j5mv_CNMZf28LyyZ7KE7",
-    "gdriveUrl": "https://drive.google.com/file/d/1hO5DNJSns_34j5mv_CNMZf28LyyZ7KE7/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1hO5DNJSns_34j5mv_CNMZf28LyyZ7KE7/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-399",
@@ -6818,7 +6226,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #399",
     "sourceType": "local-public",
     "gdriveId": "1akM_CnYgBlasOGMxXj7XhFboPwxIGrej",
-    "gdriveUrl": "https://drive.google.com/file/d/1akM_CnYgBlasOGMxXj7XhFboPwxIGrej/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1akM_CnYgBlasOGMxXj7XhFboPwxIGrej/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-400",
@@ -6836,7 +6245,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #400",
     "sourceType": "local-public",
     "gdriveId": "13HAKIsEmqjXL8yVhPHWVt2q54gSl2e9n",
-    "gdriveUrl": "https://drive.google.com/file/d/13HAKIsEmqjXL8yVhPHWVt2q54gSl2e9n/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/13HAKIsEmqjXL8yVhPHWVt2q54gSl2e9n/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-401",
@@ -6854,7 +6264,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #401",
     "sourceType": "local-public",
     "gdriveId": "1Rt-iEUBV-vg2uR8PnEQ-TcBLzK3ogH22",
-    "gdriveUrl": "https://drive.google.com/file/d/1Rt-iEUBV-vg2uR8PnEQ-TcBLzK3ogH22/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1Rt-iEUBV-vg2uR8PnEQ-TcBLzK3ogH22/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-402",
@@ -6872,7 +6283,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #402",
     "sourceType": "local-public",
     "gdriveId": "1pLXRIWaD4JAlDfCQWQswYQZ-2Gt2EE6E",
-    "gdriveUrl": "https://drive.google.com/file/d/1pLXRIWaD4JAlDfCQWQswYQZ-2Gt2EE6E/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1pLXRIWaD4JAlDfCQWQswYQZ-2Gt2EE6E/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-403",
@@ -6890,7 +6302,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #403",
     "sourceType": "local-public",
     "gdriveId": "1N2YZMT_h0KuHK1BzZqjQR5TFR7Rzf_m_",
-    "gdriveUrl": "https://drive.google.com/file/d/1N2YZMT_h0KuHK1BzZqjQR5TFR7Rzf_m_/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1N2YZMT_h0KuHK1BzZqjQR5TFR7Rzf_m_/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-404",
@@ -6908,7 +6321,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #404",
     "sourceType": "local-public",
     "gdriveId": "1XymQX213bdqWXfjL4Ks_tTN2G7PbhMzY",
-    "gdriveUrl": "https://drive.google.com/file/d/1XymQX213bdqWXfjL4Ks_tTN2G7PbhMzY/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1XymQX213bdqWXfjL4Ks_tTN2G7PbhMzY/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-405",
@@ -6926,7 +6340,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #405",
     "sourceType": "local-public",
     "gdriveId": "1NfhJes7WvmpqupnL8I6ULhTsG8lUGIOO",
-    "gdriveUrl": "https://drive.google.com/file/d/1NfhJes7WvmpqupnL8I6ULhTsG8lUGIOO/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1NfhJes7WvmpqupnL8I6ULhTsG8lUGIOO/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-406",
@@ -6944,7 +6359,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #406",
     "sourceType": "local-public",
     "gdriveId": "1Fn2ZG75nodnfmiYQl2JQFiVSJFdgei8m",
-    "gdriveUrl": "https://drive.google.com/file/d/1Fn2ZG75nodnfmiYQl2JQFiVSJFdgei8m/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1Fn2ZG75nodnfmiYQl2JQFiVSJFdgei8m/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-407",
@@ -6962,7 +6378,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #407",
     "sourceType": "local-public",
     "gdriveId": "1WyDU7uRXT_ot8P3RnTMeuHnQu35OSnHU",
-    "gdriveUrl": "https://drive.google.com/file/d/1WyDU7uRXT_ot8P3RnTMeuHnQu35OSnHU/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1WyDU7uRXT_ot8P3RnTMeuHnQu35OSnHU/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-408",
@@ -6980,7 +6397,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #408",
     "sourceType": "local-public",
     "gdriveId": "1ep9y0f9cWfDlPVNzPqKnbe_kZRC_--BE",
-    "gdriveUrl": "https://drive.google.com/file/d/1ep9y0f9cWfDlPVNzPqKnbe_kZRC_--BE/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1ep9y0f9cWfDlPVNzPqKnbe_kZRC_--BE/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-409",
@@ -6998,7 +6416,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #409",
     "sourceType": "local-public",
     "gdriveId": "1p7f45XrRrFoSJUDP2gbQbBEg1yiPu8gR",
-    "gdriveUrl": "https://drive.google.com/file/d/1p7f45XrRrFoSJUDP2gbQbBEg1yiPu8gR/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1p7f45XrRrFoSJUDP2gbQbBEg1yiPu8gR/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-410",
@@ -7016,7 +6435,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #410",
     "sourceType": "local-public",
     "gdriveId": "1jUulc94zZn3AsbuHFBlwg-Tj5QogfaZQ",
-    "gdriveUrl": "https://drive.google.com/file/d/1jUulc94zZn3AsbuHFBlwg-Tj5QogfaZQ/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1jUulc94zZn3AsbuHFBlwg-Tj5QogfaZQ/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-411",
@@ -7034,7 +6454,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #411",
     "sourceType": "local-public",
     "gdriveId": "1UHFwyUgsHAaS1BzlfG44_RbZairrysrO",
-    "gdriveUrl": "https://drive.google.com/file/d/1UHFwyUgsHAaS1BzlfG44_RbZairrysrO/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1UHFwyUgsHAaS1BzlfG44_RbZairrysrO/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-412",
@@ -7052,7 +6473,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #412",
     "sourceType": "local-public",
     "gdriveId": "1j0cMRyTNeezJBreEmer7ukPVVCV-XvaX",
-    "gdriveUrl": "https://drive.google.com/file/d/1j0cMRyTNeezJBreEmer7ukPVVCV-XvaX/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1j0cMRyTNeezJBreEmer7ukPVVCV-XvaX/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-413",
@@ -7070,7 +6492,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #413",
     "sourceType": "local-public",
     "gdriveId": "1q6p2--w_owaK6Ab9aGYD8ydIn_fCm98F",
-    "gdriveUrl": "https://drive.google.com/file/d/1q6p2--w_owaK6Ab9aGYD8ydIn_fCm98F/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1q6p2--w_owaK6Ab9aGYD8ydIn_fCm98F/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-414",
@@ -7088,7 +6511,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #414",
     "sourceType": "local-public",
     "gdriveId": "1qGWBO3FAGpueAPZCF1xm50RuwNA61SwX",
-    "gdriveUrl": "https://drive.google.com/file/d/1qGWBO3FAGpueAPZCF1xm50RuwNA61SwX/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1qGWBO3FAGpueAPZCF1xm50RuwNA61SwX/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-415",
@@ -7106,7 +6530,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #415",
     "sourceType": "local-public",
     "gdriveId": "1XcQuY_tRHKGugw5FadWn2l-pe_-J32Xt",
-    "gdriveUrl": "https://drive.google.com/file/d/1XcQuY_tRHKGugw5FadWn2l-pe_-J32Xt/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1XcQuY_tRHKGugw5FadWn2l-pe_-J32Xt/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-416",
@@ -7124,7 +6549,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #416",
     "sourceType": "local-public",
     "gdriveId": "1FDU4j_lHYA7beyTcCWiB0n4a0NBtLXxD",
-    "gdriveUrl": "https://drive.google.com/file/d/1FDU4j_lHYA7beyTcCWiB0n4a0NBtLXxD/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1FDU4j_lHYA7beyTcCWiB0n4a0NBtLXxD/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-417",
@@ -7142,7 +6568,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #417",
     "sourceType": "local-public",
     "gdriveId": "1dnz1je9laUH4p0E8OW621IymfW2tbK64",
-    "gdriveUrl": "https://drive.google.com/file/d/1dnz1je9laUH4p0E8OW621IymfW2tbK64/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1dnz1je9laUH4p0E8OW621IymfW2tbK64/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-418",
@@ -7160,7 +6587,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #418",
     "sourceType": "local-public",
     "gdriveId": "1ndspucHNXZmExc085P8pUem9vtc4BjXp",
-    "gdriveUrl": "https://drive.google.com/file/d/1ndspucHNXZmExc085P8pUem9vtc4BjXp/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1ndspucHNXZmExc085P8pUem9vtc4BjXp/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-419",
@@ -7178,7 +6606,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #419",
     "sourceType": "local-public",
     "gdriveId": "1hNzDpMF9QaMUtH3aJY3wroEF-BJaeiKE",
-    "gdriveUrl": "https://drive.google.com/file/d/1hNzDpMF9QaMUtH3aJY3wroEF-BJaeiKE/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1hNzDpMF9QaMUtH3aJY3wroEF-BJaeiKE/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-420",
@@ -7196,7 +6625,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #420",
     "sourceType": "local-public",
     "gdriveId": "1iQPWjAUFhXmyGA3pI8UlzsWN_qLfN2vs",
-    "gdriveUrl": "https://drive.google.com/file/d/1iQPWjAUFhXmyGA3pI8UlzsWN_qLfN2vs/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1iQPWjAUFhXmyGA3pI8UlzsWN_qLfN2vs/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-421",
@@ -7214,7 +6644,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #421",
     "sourceType": "local-public",
     "gdriveId": "1D0Ldr9Q1aG9-SXACDfUKSQK6CGApWruQ",
-    "gdriveUrl": "https://drive.google.com/file/d/1D0Ldr9Q1aG9-SXACDfUKSQK6CGApWruQ/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1D0Ldr9Q1aG9-SXACDfUKSQK6CGApWruQ/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-422",
@@ -7232,7 +6663,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #422",
     "sourceType": "local-public",
     "gdriveId": "1-UBF28z6B7VW7XIDzQRmKlc95X0JQPj_",
-    "gdriveUrl": "https://drive.google.com/file/d/1-UBF28z6B7VW7XIDzQRmKlc95X0JQPj_/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1-UBF28z6B7VW7XIDzQRmKlc95X0JQPj_/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-423",
@@ -7250,7 +6682,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #423",
     "sourceType": "local-public",
     "gdriveId": "1-uhm4b_zhbDmf9upI-ORPzRM6us3RtZz",
-    "gdriveUrl": "https://drive.google.com/file/d/1-uhm4b_zhbDmf9upI-ORPzRM6us3RtZz/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1-uhm4b_zhbDmf9upI-ORPzRM6us3RtZz/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-424",
@@ -7268,7 +6701,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #424",
     "sourceType": "local-public",
     "gdriveId": "105VF2ZAEiXeEEvdPl8F8bS6CIXbUqXqv",
-    "gdriveUrl": "https://drive.google.com/file/d/105VF2ZAEiXeEEvdPl8F8bS6CIXbUqXqv/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/105VF2ZAEiXeEEvdPl8F8bS6CIXbUqXqv/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-425",
@@ -7286,7 +6720,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #425",
     "sourceType": "local-public",
     "gdriveId": "1z1wLZ5mVZgGzfXlkvj3xFnoWroW_5C49",
-    "gdriveUrl": "https://drive.google.com/file/d/1z1wLZ5mVZgGzfXlkvj3xFnoWroW_5C49/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1z1wLZ5mVZgGzfXlkvj3xFnoWroW_5C49/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-426",
@@ -7304,7 +6739,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #426",
     "sourceType": "local-public",
     "gdriveId": "1gRiyLu5iqN33MQNYZHIMVrZzgkGlJc7g",
-    "gdriveUrl": "https://drive.google.com/file/d/1gRiyLu5iqN33MQNYZHIMVrZzgkGlJc7g/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1gRiyLu5iqN33MQNYZHIMVrZzgkGlJc7g/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-427",
@@ -7322,7 +6758,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #427",
     "sourceType": "local-public",
     "gdriveId": "1EpiNKgeXX5F3XzuDCRuAksP1l3RK7E5k",
-    "gdriveUrl": "https://drive.google.com/file/d/1EpiNKgeXX5F3XzuDCRuAksP1l3RK7E5k/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1EpiNKgeXX5F3XzuDCRuAksP1l3RK7E5k/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-428",
@@ -7340,7 +6777,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #428",
     "sourceType": "local-public",
     "gdriveId": "1It9gzLvm9qcyaBkjbuUoM5ZmWFFy1s7H",
-    "gdriveUrl": "https://drive.google.com/file/d/1It9gzLvm9qcyaBkjbuUoM5ZmWFFy1s7H/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1It9gzLvm9qcyaBkjbuUoM5ZmWFFy1s7H/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-429",
@@ -7358,7 +6796,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #429",
     "sourceType": "local-public",
     "gdriveId": "1LekWSib7Z3VoBcHvA7rmeTchnDj61S-S",
-    "gdriveUrl": "https://drive.google.com/file/d/1LekWSib7Z3VoBcHvA7rmeTchnDj61S-S/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1LekWSib7Z3VoBcHvA7rmeTchnDj61S-S/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-430",
@@ -7376,7 +6815,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #430",
     "sourceType": "local-public",
     "gdriveId": "1_Cl3mkV6QAi-_2uW9vwP0MnNE5aZRIna",
-    "gdriveUrl": "https://drive.google.com/file/d/1_Cl3mkV6QAi-_2uW9vwP0MnNE5aZRIna/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1_Cl3mkV6QAi-_2uW9vwP0MnNE5aZRIna/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-431",
@@ -7394,7 +6834,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #431",
     "sourceType": "local-public",
     "gdriveId": "1OShLdATyJhU2Q3FgKf_Ukgqrfh6hZGFJ",
-    "gdriveUrl": "https://drive.google.com/file/d/1OShLdATyJhU2Q3FgKf_Ukgqrfh6hZGFJ/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1OShLdATyJhU2Q3FgKf_Ukgqrfh6hZGFJ/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-432",
@@ -7412,7 +6853,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #432",
     "sourceType": "local-public",
     "gdriveId": "1l_xkpTDBlrifY8CDWsIWpYd7yONUfJKl",
-    "gdriveUrl": "https://drive.google.com/file/d/1l_xkpTDBlrifY8CDWsIWpYd7yONUfJKl/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1l_xkpTDBlrifY8CDWsIWpYd7yONUfJKl/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-433",
@@ -7430,7 +6872,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #433",
     "sourceType": "local-public",
     "gdriveId": "1mz6Cfw0mHT7ngfjASNVIAY6o9Sz-QmXm",
-    "gdriveUrl": "https://drive.google.com/file/d/1mz6Cfw0mHT7ngfjASNVIAY6o9Sz-QmXm/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1mz6Cfw0mHT7ngfjASNVIAY6o9Sz-QmXm/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-434",
@@ -7448,7 +6891,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #434",
     "sourceType": "local-public",
     "gdriveId": "1v6csbtdL3D2X2iorupdozDNWCmouIPMI",
-    "gdriveUrl": "https://drive.google.com/file/d/1v6csbtdL3D2X2iorupdozDNWCmouIPMI/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1v6csbtdL3D2X2iorupdozDNWCmouIPMI/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-435",
@@ -7466,7 +6910,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #435",
     "sourceType": "local-public",
     "gdriveId": "12-KHsa_KBEVAcRz87_32i-AtQXU-Asvw",
-    "gdriveUrl": "https://drive.google.com/file/d/12-KHsa_KBEVAcRz87_32i-AtQXU-Asvw/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/12-KHsa_KBEVAcRz87_32i-AtQXU-Asvw/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-436",
@@ -7484,7 +6929,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #436",
     "sourceType": "local-public",
     "gdriveId": "1oGSgBMLUdhA5aXkjH9xhCK9EBrpEWRN4",
-    "gdriveUrl": "https://drive.google.com/file/d/1oGSgBMLUdhA5aXkjH9xhCK9EBrpEWRN4/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1oGSgBMLUdhA5aXkjH9xhCK9EBrpEWRN4/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-437",
@@ -7502,7 +6948,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #437",
     "sourceType": "local-public",
     "gdriveId": "1-BC9aD_e7DDk7Zngp4RR57s0KL_iZZuw",
-    "gdriveUrl": "https://drive.google.com/file/d/1-BC9aD_e7DDk7Zngp4RR57s0KL_iZZuw/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1-BC9aD_e7DDk7Zngp4RR57s0KL_iZZuw/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-438",
@@ -7520,7 +6967,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #438",
     "sourceType": "local-public",
     "gdriveId": "1fY9h7lJRnId6dllcaUMvtnult7EUH2Lu",
-    "gdriveUrl": "https://drive.google.com/file/d/1fY9h7lJRnId6dllcaUMvtnult7EUH2Lu/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1fY9h7lJRnId6dllcaUMvtnult7EUH2Lu/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-439",
@@ -7538,7 +6986,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #439",
     "sourceType": "local-public",
     "gdriveId": "1QbM9-K7R3ok-ox0oFM03wG1fVzMv77Be",
-    "gdriveUrl": "https://drive.google.com/file/d/1QbM9-K7R3ok-ox0oFM03wG1fVzMv77Be/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1QbM9-K7R3ok-ox0oFM03wG1fVzMv77Be/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-440",
@@ -7556,7 +7005,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #440",
     "sourceType": "local-public",
     "gdriveId": "1AggAdY83GrsJ2Tpw3Yws9FubM84KXdBK",
-    "gdriveUrl": "https://drive.google.com/file/d/1AggAdY83GrsJ2Tpw3Yws9FubM84KXdBK/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1AggAdY83GrsJ2Tpw3Yws9FubM84KXdBK/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-441",
@@ -7574,7 +7024,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #441",
     "sourceType": "local-public",
     "gdriveId": "1PQm70X_PwKJHZWC9JuJuKtESHvECNLOz",
-    "gdriveUrl": "https://drive.google.com/file/d/1PQm70X_PwKJHZWC9JuJuKtESHvECNLOz/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1PQm70X_PwKJHZWC9JuJuKtESHvECNLOz/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-442",
@@ -7592,7 +7043,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #442",
     "sourceType": "local-public",
     "gdriveId": "1FzMjENE-DgXp5HkHAhj1UPNleuwEPRXB",
-    "gdriveUrl": "https://drive.google.com/file/d/1FzMjENE-DgXp5HkHAhj1UPNleuwEPRXB/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1FzMjENE-DgXp5HkHAhj1UPNleuwEPRXB/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p1-443",
@@ -7610,7 +7062,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #443",
     "sourceType": "local-public",
     "gdriveId": "1PHTUzyZqeRniyuHwE569Hqa-gJGFAbgO",
-    "gdriveUrl": "https://drive.google.com/file/d/1PHTUzyZqeRniyuHwE569Hqa-gJGFAbgO/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1PHTUzyZqeRniyuHwE569Hqa-gJGFAbgO/view?usp=sharing",
+    "sourceGroup": "photographer1"
   },
   {
     "id": "roka-photo-p2-444",
@@ -7628,7 +7081,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #444",
     "sourceType": "local-public",
     "gdriveId": "1eLxY37wTjm4V_7NMY33nc97rT5forAdD",
-    "gdriveUrl": "https://drive.google.com/file/d/1eLxY37wTjm4V_7NMY33nc97rT5forAdD/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1eLxY37wTjm4V_7NMY33nc97rT5forAdD/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-445",
@@ -7646,7 +7100,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #445",
     "sourceType": "local-public",
     "gdriveId": "1_FbOpLMEeDmmAGKucsGmb_O-ChIvzNq0",
-    "gdriveUrl": "https://drive.google.com/file/d/1_FbOpLMEeDmmAGKucsGmb_O-ChIvzNq0/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1_FbOpLMEeDmmAGKucsGmb_O-ChIvzNq0/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-446",
@@ -7664,7 +7119,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #446",
     "sourceType": "local-public",
     "gdriveId": "17TewCYTdaaq1_qOqdqpdkWCDbLGgA8Yn",
-    "gdriveUrl": "https://drive.google.com/file/d/17TewCYTdaaq1_qOqdqpdkWCDbLGgA8Yn/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/17TewCYTdaaq1_qOqdqpdkWCDbLGgA8Yn/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-447",
@@ -7682,7 +7138,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #447",
     "sourceType": "local-public",
     "gdriveId": "1OEXq8yvLGPCk33EoxU_gvpON1CcyJlQF",
-    "gdriveUrl": "https://drive.google.com/file/d/1OEXq8yvLGPCk33EoxU_gvpON1CcyJlQF/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1OEXq8yvLGPCk33EoxU_gvpON1CcyJlQF/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-448",
@@ -7700,7 +7157,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #448",
     "sourceType": "local-public",
     "gdriveId": "1v8rppTzeF-bS78seWM7O1dOKdhCv9gHt",
-    "gdriveUrl": "https://drive.google.com/file/d/1v8rppTzeF-bS78seWM7O1dOKdhCv9gHt/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1v8rppTzeF-bS78seWM7O1dOKdhCv9gHt/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-449",
@@ -7718,7 +7176,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #449",
     "sourceType": "local-public",
     "gdriveId": "1sNxcxXt6D856wOVGQiUchPIm6-EWtYHf",
-    "gdriveUrl": "https://drive.google.com/file/d/1sNxcxXt6D856wOVGQiUchPIm6-EWtYHf/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1sNxcxXt6D856wOVGQiUchPIm6-EWtYHf/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-450",
@@ -7736,7 +7195,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #450",
     "sourceType": "local-public",
     "gdriveId": "1RGLEgWRhKlm_KjCzGWCd7tYvyhTaaBtn",
-    "gdriveUrl": "https://drive.google.com/file/d/1RGLEgWRhKlm_KjCzGWCd7tYvyhTaaBtn/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1RGLEgWRhKlm_KjCzGWCd7tYvyhTaaBtn/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-451",
@@ -7754,7 +7214,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #451",
     "sourceType": "local-public",
     "gdriveId": "1fUo7PJ8GaGKQJFNs6Tw0nWQeFAUKc-Ok",
-    "gdriveUrl": "https://drive.google.com/file/d/1fUo7PJ8GaGKQJFNs6Tw0nWQeFAUKc-Ok/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1fUo7PJ8GaGKQJFNs6Tw0nWQeFAUKc-Ok/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-452",
@@ -7772,7 +7233,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #452",
     "sourceType": "local-public",
     "gdriveId": "1mMbQcQ81K8QRRnnAN_Rm-5QxmD25W5-_",
-    "gdriveUrl": "https://drive.google.com/file/d/1mMbQcQ81K8QRRnnAN_Rm-5QxmD25W5-_/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1mMbQcQ81K8QRRnnAN_Rm-5QxmD25W5-_/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-453",
@@ -7790,7 +7252,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #453",
     "sourceType": "local-public",
     "gdriveId": "10BzUJHGZHNIbVKdCCp4BJ0Fohldln3e9",
-    "gdriveUrl": "https://drive.google.com/file/d/10BzUJHGZHNIbVKdCCp4BJ0Fohldln3e9/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/10BzUJHGZHNIbVKdCCp4BJ0Fohldln3e9/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-454",
@@ -7808,7 +7271,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #454",
     "sourceType": "local-public",
     "gdriveId": "1F0g8awHjdzdJKusYTE0kpsP_0Yf7tV6c",
-    "gdriveUrl": "https://drive.google.com/file/d/1F0g8awHjdzdJKusYTE0kpsP_0Yf7tV6c/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1F0g8awHjdzdJKusYTE0kpsP_0Yf7tV6c/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-455",
@@ -7826,7 +7290,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #455",
     "sourceType": "local-public",
     "gdriveId": "1Z-JP1fnl8JYoexT-mREhH9IdzXb5RkT3",
-    "gdriveUrl": "https://drive.google.com/file/d/1Z-JP1fnl8JYoexT-mREhH9IdzXb5RkT3/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1Z-JP1fnl8JYoexT-mREhH9IdzXb5RkT3/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-456",
@@ -7844,7 +7309,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #456",
     "sourceType": "local-public",
     "gdriveId": "1mEhjnagD7_6RFwrUgAk6cGCV8ntFxFhS",
-    "gdriveUrl": "https://drive.google.com/file/d/1mEhjnagD7_6RFwrUgAk6cGCV8ntFxFhS/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1mEhjnagD7_6RFwrUgAk6cGCV8ntFxFhS/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-457",
@@ -7862,7 +7328,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #457",
     "sourceType": "local-public",
     "gdriveId": "10rkJ_kfUeA2Bl1Fqrd9QM-OD6b5i_y2J",
-    "gdriveUrl": "https://drive.google.com/file/d/10rkJ_kfUeA2Bl1Fqrd9QM-OD6b5i_y2J/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/10rkJ_kfUeA2Bl1Fqrd9QM-OD6b5i_y2J/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-458",
@@ -7880,7 +7347,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #458",
     "sourceType": "local-public",
     "gdriveId": "1KbpZWh17TyQ9urW8SkRtgzXwFvWeHdX4",
-    "gdriveUrl": "https://drive.google.com/file/d/1KbpZWh17TyQ9urW8SkRtgzXwFvWeHdX4/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1KbpZWh17TyQ9urW8SkRtgzXwFvWeHdX4/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-459",
@@ -7898,7 +7366,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #459",
     "sourceType": "local-public",
     "gdriveId": "1PX6iQ9pacpPLpl1pOiVmeOaKfyGb7wVn",
-    "gdriveUrl": "https://drive.google.com/file/d/1PX6iQ9pacpPLpl1pOiVmeOaKfyGb7wVn/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1PX6iQ9pacpPLpl1pOiVmeOaKfyGb7wVn/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-460",
@@ -7916,7 +7385,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #460",
     "sourceType": "local-public",
     "gdriveId": "1r_CkV3CIVwyzCbEG5ZWxvwZZNzCGuaNH",
-    "gdriveUrl": "https://drive.google.com/file/d/1r_CkV3CIVwyzCbEG5ZWxvwZZNzCGuaNH/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1r_CkV3CIVwyzCbEG5ZWxvwZZNzCGuaNH/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-461",
@@ -7934,7 +7404,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #461",
     "sourceType": "local-public",
     "gdriveId": "1q2xCb_VToX4jNFvcMuqj_fXCE1vEjBtb",
-    "gdriveUrl": "https://drive.google.com/file/d/1q2xCb_VToX4jNFvcMuqj_fXCE1vEjBtb/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1q2xCb_VToX4jNFvcMuqj_fXCE1vEjBtb/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-462",
@@ -7952,7 +7423,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #462",
     "sourceType": "local-public",
     "gdriveId": "1wElpJ0S6kTrueksuiHxcuBs0QkemoBCC",
-    "gdriveUrl": "https://drive.google.com/file/d/1wElpJ0S6kTrueksuiHxcuBs0QkemoBCC/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1wElpJ0S6kTrueksuiHxcuBs0QkemoBCC/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-463",
@@ -7970,7 +7442,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #463",
     "sourceType": "local-public",
     "gdriveId": "1MsCMz2xyQVYetiSKQias_SbEvCZPf76a",
-    "gdriveUrl": "https://drive.google.com/file/d/1MsCMz2xyQVYetiSKQias_SbEvCZPf76a/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1MsCMz2xyQVYetiSKQias_SbEvCZPf76a/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-464",
@@ -7988,7 +7461,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #464",
     "sourceType": "local-public",
     "gdriveId": "1gQjByd4YG8ku7SijDtKJVH7SHLoYqldZ",
-    "gdriveUrl": "https://drive.google.com/file/d/1gQjByd4YG8ku7SijDtKJVH7SHLoYqldZ/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1gQjByd4YG8ku7SijDtKJVH7SHLoYqldZ/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-465",
@@ -8006,7 +7480,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #465",
     "sourceType": "local-public",
     "gdriveId": "1vveQcmcIBMBO_0fAiUoYAI-W7klPsrh9",
-    "gdriveUrl": "https://drive.google.com/file/d/1vveQcmcIBMBO_0fAiUoYAI-W7klPsrh9/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1vveQcmcIBMBO_0fAiUoYAI-W7klPsrh9/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-466",
@@ -8024,7 +7499,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #466",
     "sourceType": "local-public",
     "gdriveId": "1WfVtb4QYlPX2NgCIJzqCxDhenpeS0_Tm",
-    "gdriveUrl": "https://drive.google.com/file/d/1WfVtb4QYlPX2NgCIJzqCxDhenpeS0_Tm/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1WfVtb4QYlPX2NgCIJzqCxDhenpeS0_Tm/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-467",
@@ -8042,7 +7518,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #467",
     "sourceType": "local-public",
     "gdriveId": "1YS4-BK10Oc9q9UBF8NYfh8W2nEqHFUuZ",
-    "gdriveUrl": "https://drive.google.com/file/d/1YS4-BK10Oc9q9UBF8NYfh8W2nEqHFUuZ/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1YS4-BK10Oc9q9UBF8NYfh8W2nEqHFUuZ/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-468",
@@ -8060,7 +7537,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #468",
     "sourceType": "local-public",
     "gdriveId": "1IxtI5YNklSjmJU-wnQlArMll9fpClzrK",
-    "gdriveUrl": "https://drive.google.com/file/d/1IxtI5YNklSjmJU-wnQlArMll9fpClzrK/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1IxtI5YNklSjmJU-wnQlArMll9fpClzrK/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-469",
@@ -8078,7 +7556,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #469",
     "sourceType": "local-public",
     "gdriveId": "1cXGPeq_vBph3UudFvNmV-LcBAPoRAqTe",
-    "gdriveUrl": "https://drive.google.com/file/d/1cXGPeq_vBph3UudFvNmV-LcBAPoRAqTe/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1cXGPeq_vBph3UudFvNmV-LcBAPoRAqTe/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-470",
@@ -8096,7 +7575,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #470",
     "sourceType": "local-public",
     "gdriveId": "1V4wKgoPGTIt_ZeF8ojFr-iJkFX2xXyFB",
-    "gdriveUrl": "https://drive.google.com/file/d/1V4wKgoPGTIt_ZeF8ojFr-iJkFX2xXyFB/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1V4wKgoPGTIt_ZeF8ojFr-iJkFX2xXyFB/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-471",
@@ -8114,7 +7594,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #471",
     "sourceType": "local-public",
     "gdriveId": "1v3VshUAgTNFRZfqDXJ7KMBWidbaWntx_",
-    "gdriveUrl": "https://drive.google.com/file/d/1v3VshUAgTNFRZfqDXJ7KMBWidbaWntx_/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1v3VshUAgTNFRZfqDXJ7KMBWidbaWntx_/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-472",
@@ -8132,7 +7613,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #472",
     "sourceType": "local-public",
     "gdriveId": "1kUCKSrRgcpP6OvQhLDEGyPt3gf8z0F2i",
-    "gdriveUrl": "https://drive.google.com/file/d/1kUCKSrRgcpP6OvQhLDEGyPt3gf8z0F2i/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1kUCKSrRgcpP6OvQhLDEGyPt3gf8z0F2i/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-473",
@@ -8150,7 +7632,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #473",
     "sourceType": "local-public",
     "gdriveId": "1SEhXCg9weCHITIohh2DJTS3OFj6eODF8",
-    "gdriveUrl": "https://drive.google.com/file/d/1SEhXCg9weCHITIohh2DJTS3OFj6eODF8/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1SEhXCg9weCHITIohh2DJTS3OFj6eODF8/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-474",
@@ -8168,7 +7651,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #474",
     "sourceType": "local-public",
     "gdriveId": "1-yQhMfbC7HLFmvcYPHF9lJIzV9yQ2Qid",
-    "gdriveUrl": "https://drive.google.com/file/d/1-yQhMfbC7HLFmvcYPHF9lJIzV9yQ2Qid/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1-yQhMfbC7HLFmvcYPHF9lJIzV9yQ2Qid/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-475",
@@ -8186,7 +7670,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #475",
     "sourceType": "local-public",
     "gdriveId": "1XIh6_gcrqVoYzWYzCwoed9xhAc498BaS",
-    "gdriveUrl": "https://drive.google.com/file/d/1XIh6_gcrqVoYzWYzCwoed9xhAc498BaS/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1XIh6_gcrqVoYzWYzCwoed9xhAc498BaS/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-476",
@@ -8204,7 +7689,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #476",
     "sourceType": "local-public",
     "gdriveId": "1f7mBXc9Goo4mNAyKcRg7lhKAjStVPM6e",
-    "gdriveUrl": "https://drive.google.com/file/d/1f7mBXc9Goo4mNAyKcRg7lhKAjStVPM6e/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1f7mBXc9Goo4mNAyKcRg7lhKAjStVPM6e/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-477",
@@ -8222,7 +7708,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #477",
     "sourceType": "local-public",
     "gdriveId": "1m6Y82si2XesexApuE85viAOLvTXVGhjC",
-    "gdriveUrl": "https://drive.google.com/file/d/1m6Y82si2XesexApuE85viAOLvTXVGhjC/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1m6Y82si2XesexApuE85viAOLvTXVGhjC/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-478",
@@ -8240,7 +7727,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #478",
     "sourceType": "local-public",
     "gdriveId": "1PJeO9uEwa_EnW-nUNPIHv8YDbIoEw_YN",
-    "gdriveUrl": "https://drive.google.com/file/d/1PJeO9uEwa_EnW-nUNPIHv8YDbIoEw_YN/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1PJeO9uEwa_EnW-nUNPIHv8YDbIoEw_YN/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-479",
@@ -8258,7 +7746,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #479",
     "sourceType": "local-public",
     "gdriveId": "1D34eVTFQ8NduugzabNLVjw-qNv3f1Aqa",
-    "gdriveUrl": "https://drive.google.com/file/d/1D34eVTFQ8NduugzabNLVjw-qNv3f1Aqa/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1D34eVTFQ8NduugzabNLVjw-qNv3f1Aqa/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-480",
@@ -8276,7 +7765,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #480",
     "sourceType": "local-public",
     "gdriveId": "1hygvQ_Klxd_qTzwpbY8A_9tfLNUWJh4T",
-    "gdriveUrl": "https://drive.google.com/file/d/1hygvQ_Klxd_qTzwpbY8A_9tfLNUWJh4T/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1hygvQ_Klxd_qTzwpbY8A_9tfLNUWJh4T/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-481",
@@ -8294,7 +7784,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #481",
     "sourceType": "local-public",
     "gdriveId": "1rhyUaI1SWHnvdZp5ktonhePRAT9Ok4OZ",
-    "gdriveUrl": "https://drive.google.com/file/d/1rhyUaI1SWHnvdZp5ktonhePRAT9Ok4OZ/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1rhyUaI1SWHnvdZp5ktonhePRAT9Ok4OZ/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-482",
@@ -8312,7 +7803,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #482",
     "sourceType": "local-public",
     "gdriveId": "1CwoyRO2v1Sg8VNf0ikudk_NOCBEuQRQw",
-    "gdriveUrl": "https://drive.google.com/file/d/1CwoyRO2v1Sg8VNf0ikudk_NOCBEuQRQw/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1CwoyRO2v1Sg8VNf0ikudk_NOCBEuQRQw/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-483",
@@ -8330,7 +7822,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #483",
     "sourceType": "local-public",
     "gdriveId": "12_nvBzb1nRxDNoPVSYXqq4uDC8q22JLw",
-    "gdriveUrl": "https://drive.google.com/file/d/12_nvBzb1nRxDNoPVSYXqq4uDC8q22JLw/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/12_nvBzb1nRxDNoPVSYXqq4uDC8q22JLw/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-484",
@@ -8348,7 +7841,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #484",
     "sourceType": "local-public",
     "gdriveId": "1_4zEmpEBWQXuhEJIHyntVImexjzSXD5c",
-    "gdriveUrl": "https://drive.google.com/file/d/1_4zEmpEBWQXuhEJIHyntVImexjzSXD5c/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1_4zEmpEBWQXuhEJIHyntVImexjzSXD5c/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-485",
@@ -8366,7 +7860,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #485",
     "sourceType": "local-public",
     "gdriveId": "10jSD6KuRBy8mHICSbZzDJyH2pmewtd64",
-    "gdriveUrl": "https://drive.google.com/file/d/10jSD6KuRBy8mHICSbZzDJyH2pmewtd64/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/10jSD6KuRBy8mHICSbZzDJyH2pmewtd64/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-486",
@@ -8384,7 +7879,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #486",
     "sourceType": "local-public",
     "gdriveId": "1bYiwgwr_XuzCUY6c8AC7_ocuvZKfnDfF",
-    "gdriveUrl": "https://drive.google.com/file/d/1bYiwgwr_XuzCUY6c8AC7_ocuvZKfnDfF/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1bYiwgwr_XuzCUY6c8AC7_ocuvZKfnDfF/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-487",
@@ -8402,7 +7898,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #487",
     "sourceType": "local-public",
     "gdriveId": "1Az7PWWVWjJudfc8vrPyY1jnfZjwd8mg-",
-    "gdriveUrl": "https://drive.google.com/file/d/1Az7PWWVWjJudfc8vrPyY1jnfZjwd8mg-/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1Az7PWWVWjJudfc8vrPyY1jnfZjwd8mg-/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-488",
@@ -8420,7 +7917,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #488",
     "sourceType": "local-public",
     "gdriveId": "1dAAplE4sCK2tHF9Unsk0pC6AicB3qsJx",
-    "gdriveUrl": "https://drive.google.com/file/d/1dAAplE4sCK2tHF9Unsk0pC6AicB3qsJx/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1dAAplE4sCK2tHF9Unsk0pC6AicB3qsJx/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-489",
@@ -8438,7 +7936,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #489",
     "sourceType": "local-public",
     "gdriveId": "1PdU8bgsuTEeajb60cLaLQnx1hzkKJheQ",
-    "gdriveUrl": "https://drive.google.com/file/d/1PdU8bgsuTEeajb60cLaLQnx1hzkKJheQ/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1PdU8bgsuTEeajb60cLaLQnx1hzkKJheQ/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-490",
@@ -8456,7 +7955,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #490",
     "sourceType": "local-public",
     "gdriveId": "1j8eHeYkNSo8dRYRvG3OihDcYr-txoOYP",
-    "gdriveUrl": "https://drive.google.com/file/d/1j8eHeYkNSo8dRYRvG3OihDcYr-txoOYP/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1j8eHeYkNSo8dRYRvG3OihDcYr-txoOYP/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-491",
@@ -8474,7 +7974,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #491",
     "sourceType": "local-public",
     "gdriveId": "1QxqByNw6iGwD8Xx4pkDBoGHCZZ9VDLsU",
-    "gdriveUrl": "https://drive.google.com/file/d/1QxqByNw6iGwD8Xx4pkDBoGHCZZ9VDLsU/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1QxqByNw6iGwD8Xx4pkDBoGHCZZ9VDLsU/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-492",
@@ -8492,7 +7993,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #492",
     "sourceType": "local-public",
     "gdriveId": "1yPZst2ibJV4aG7DdotC3CST5E7pFShZ9",
-    "gdriveUrl": "https://drive.google.com/file/d/1yPZst2ibJV4aG7DdotC3CST5E7pFShZ9/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1yPZst2ibJV4aG7DdotC3CST5E7pFShZ9/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-493",
@@ -8510,7 +8012,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #493",
     "sourceType": "local-public",
     "gdriveId": "1cOsNscvGgvdAraJpd_p3M3HDj5wJvuKJ",
-    "gdriveUrl": "https://drive.google.com/file/d/1cOsNscvGgvdAraJpd_p3M3HDj5wJvuKJ/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1cOsNscvGgvdAraJpd_p3M3HDj5wJvuKJ/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-494",
@@ -8528,7 +8031,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #494",
     "sourceType": "local-public",
     "gdriveId": "1JenMUTeMjCrn-AylbOhU-H-WSlhYhgku",
-    "gdriveUrl": "https://drive.google.com/file/d/1JenMUTeMjCrn-AylbOhU-H-WSlhYhgku/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1JenMUTeMjCrn-AylbOhU-H-WSlhYhgku/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-495",
@@ -8546,7 +8050,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #495",
     "sourceType": "local-public",
     "gdriveId": "194CKl5h44rgJjrWfrRtBn5k2sL0F8pQQ",
-    "gdriveUrl": "https://drive.google.com/file/d/194CKl5h44rgJjrWfrRtBn5k2sL0F8pQQ/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/194CKl5h44rgJjrWfrRtBn5k2sL0F8pQQ/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-496",
@@ -8564,7 +8069,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #496",
     "sourceType": "local-public",
     "gdriveId": "1b5zRLRUGCq9wOo7MCONTGDXJQSsK4CSW",
-    "gdriveUrl": "https://drive.google.com/file/d/1b5zRLRUGCq9wOo7MCONTGDXJQSsK4CSW/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1b5zRLRUGCq9wOo7MCONTGDXJQSsK4CSW/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-497",
@@ -8582,7 +8088,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #497",
     "sourceType": "local-public",
     "gdriveId": "14dbgYoVR-6KGqnpJYPnLxI6leRJGNRbv",
-    "gdriveUrl": "https://drive.google.com/file/d/14dbgYoVR-6KGqnpJYPnLxI6leRJGNRbv/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/14dbgYoVR-6KGqnpJYPnLxI6leRJGNRbv/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-498",
@@ -8600,7 +8107,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #498",
     "sourceType": "local-public",
     "gdriveId": "1MaCh5dqv1RiZMGDBGQ8DcZbTOA8DAW43",
-    "gdriveUrl": "https://drive.google.com/file/d/1MaCh5dqv1RiZMGDBGQ8DcZbTOA8DAW43/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1MaCh5dqv1RiZMGDBGQ8DcZbTOA8DAW43/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-499",
@@ -8618,7 +8126,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #499",
     "sourceType": "local-public",
     "gdriveId": "1nN8Xr-YYuDbgvJImEAEteRfDvNP6ZY-x",
-    "gdriveUrl": "https://drive.google.com/file/d/1nN8Xr-YYuDbgvJImEAEteRfDvNP6ZY-x/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1nN8Xr-YYuDbgvJImEAEteRfDvNP6ZY-x/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-500",
@@ -8636,7 +8145,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #500",
     "sourceType": "local-public",
     "gdriveId": "1uMN-ZS6yiwiTnT65gGBQgmHXehwS5lsL",
-    "gdriveUrl": "https://drive.google.com/file/d/1uMN-ZS6yiwiTnT65gGBQgmHXehwS5lsL/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1uMN-ZS6yiwiTnT65gGBQgmHXehwS5lsL/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-501",
@@ -8654,7 +8164,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #501",
     "sourceType": "local-public",
     "gdriveId": "11qEdECrbJLUU-lovEGaWz3XOqloMSfrZ",
-    "gdriveUrl": "https://drive.google.com/file/d/11qEdECrbJLUU-lovEGaWz3XOqloMSfrZ/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/11qEdECrbJLUU-lovEGaWz3XOqloMSfrZ/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-502",
@@ -8672,7 +8183,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #502",
     "sourceType": "local-public",
     "gdriveId": "1vKXnLdYSI8AGKzrJSHyejvi6llDqY2m9",
-    "gdriveUrl": "https://drive.google.com/file/d/1vKXnLdYSI8AGKzrJSHyejvi6llDqY2m9/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1vKXnLdYSI8AGKzrJSHyejvi6llDqY2m9/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-503",
@@ -8690,7 +8202,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #503",
     "sourceType": "local-public",
     "gdriveId": "1_NdZRJyyPwDNMNyukwviGalfJ5_1T82Y",
-    "gdriveUrl": "https://drive.google.com/file/d/1_NdZRJyyPwDNMNyukwviGalfJ5_1T82Y/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1_NdZRJyyPwDNMNyukwviGalfJ5_1T82Y/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-504",
@@ -8708,7 +8221,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #504",
     "sourceType": "local-public",
     "gdriveId": "1KKSV57OpUvoNsAXPHWQct0M1JzQ4g6l6",
-    "gdriveUrl": "https://drive.google.com/file/d/1KKSV57OpUvoNsAXPHWQct0M1JzQ4g6l6/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1KKSV57OpUvoNsAXPHWQct0M1JzQ4g6l6/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-505",
@@ -8726,7 +8240,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #505",
     "sourceType": "local-public",
     "gdriveId": "1J8uzXrhQ_3G7bA6D90PBBRq6gnJYSS6C",
-    "gdriveUrl": "https://drive.google.com/file/d/1J8uzXrhQ_3G7bA6D90PBBRq6gnJYSS6C/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1J8uzXrhQ_3G7bA6D90PBBRq6gnJYSS6C/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-506",
@@ -8744,7 +8259,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #506",
     "sourceType": "local-public",
     "gdriveId": "1BtKYNqQx4plGZgCk-XIfbW4PMLFHdtP_",
-    "gdriveUrl": "https://drive.google.com/file/d/1BtKYNqQx4plGZgCk-XIfbW4PMLFHdtP_/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1BtKYNqQx4plGZgCk-XIfbW4PMLFHdtP_/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-507",
@@ -8762,7 +8278,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #507",
     "sourceType": "local-public",
     "gdriveId": "1QzHaA5Tc27tQvstqKZ95JDlQrpPAOQqg",
-    "gdriveUrl": "https://drive.google.com/file/d/1QzHaA5Tc27tQvstqKZ95JDlQrpPAOQqg/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1QzHaA5Tc27tQvstqKZ95JDlQrpPAOQqg/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-508",
@@ -8780,7 +8297,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #508",
     "sourceType": "local-public",
     "gdriveId": "19lxCEgzYn5r79Em3Ny69OFVtr78U_1f8",
-    "gdriveUrl": "https://drive.google.com/file/d/19lxCEgzYn5r79Em3Ny69OFVtr78U_1f8/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/19lxCEgzYn5r79Em3Ny69OFVtr78U_1f8/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-509",
@@ -8798,7 +8316,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #509",
     "sourceType": "local-public",
     "gdriveId": "17jafnQMWbcer-0CFH0UMMg0k0k3WbcIN",
-    "gdriveUrl": "https://drive.google.com/file/d/17jafnQMWbcer-0CFH0UMMg0k0k3WbcIN/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/17jafnQMWbcer-0CFH0UMMg0k0k3WbcIN/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-510",
@@ -8816,7 +8335,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #510",
     "sourceType": "local-public",
     "gdriveId": "1jpdN1Q7nv6e3hPIUK6mPjHvE7fRwfLCG",
-    "gdriveUrl": "https://drive.google.com/file/d/1jpdN1Q7nv6e3hPIUK6mPjHvE7fRwfLCG/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1jpdN1Q7nv6e3hPIUK6mPjHvE7fRwfLCG/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-511",
@@ -8834,7 +8354,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #511",
     "sourceType": "local-public",
     "gdriveId": "1KjnotrS3ze5srolojfH6s65BBNOeksSB",
-    "gdriveUrl": "https://drive.google.com/file/d/1KjnotrS3ze5srolojfH6s65BBNOeksSB/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1KjnotrS3ze5srolojfH6s65BBNOeksSB/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-512",
@@ -8852,7 +8373,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #512",
     "sourceType": "local-public",
     "gdriveId": "1BmoUh_FDAwMzcZhQdWicF9ukTgHz2caE",
-    "gdriveUrl": "https://drive.google.com/file/d/1BmoUh_FDAwMzcZhQdWicF9ukTgHz2caE/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1BmoUh_FDAwMzcZhQdWicF9ukTgHz2caE/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-513",
@@ -8870,7 +8392,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #513",
     "sourceType": "local-public",
     "gdriveId": "1J6RgDH-pqNL5gOqzZDUpo9gngPssbK2c",
-    "gdriveUrl": "https://drive.google.com/file/d/1J6RgDH-pqNL5gOqzZDUpo9gngPssbK2c/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1J6RgDH-pqNL5gOqzZDUpo9gngPssbK2c/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-514",
@@ -8888,7 +8411,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #514",
     "sourceType": "local-public",
     "gdriveId": "1ZlEH7vkb2t1rLQ_uFTTMh_evI_yxv-R2",
-    "gdriveUrl": "https://drive.google.com/file/d/1ZlEH7vkb2t1rLQ_uFTTMh_evI_yxv-R2/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1ZlEH7vkb2t1rLQ_uFTTMh_evI_yxv-R2/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-515",
@@ -8906,7 +8430,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #515",
     "sourceType": "local-public",
     "gdriveId": "1bD-7n2WG_qzWgmjOzl5i_74o33T2yLup",
-    "gdriveUrl": "https://drive.google.com/file/d/1bD-7n2WG_qzWgmjOzl5i_74o33T2yLup/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1bD-7n2WG_qzWgmjOzl5i_74o33T2yLup/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-516",
@@ -8924,7 +8449,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #516",
     "sourceType": "local-public",
     "gdriveId": "1H00FMHZBnokTrZarJ2Z5mKeOB3KB8ly7",
-    "gdriveUrl": "https://drive.google.com/file/d/1H00FMHZBnokTrZarJ2Z5mKeOB3KB8ly7/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1H00FMHZBnokTrZarJ2Z5mKeOB3KB8ly7/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-517",
@@ -8942,7 +8468,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #517",
     "sourceType": "local-public",
     "gdriveId": "1Z7U_kyWf0YUEMq25ZOrMWI-MJviOl6j8",
-    "gdriveUrl": "https://drive.google.com/file/d/1Z7U_kyWf0YUEMq25ZOrMWI-MJviOl6j8/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1Z7U_kyWf0YUEMq25ZOrMWI-MJviOl6j8/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-518",
@@ -8960,7 +8487,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #518",
     "sourceType": "local-public",
     "gdriveId": "1wnj8wEqjCpKl9hywQZ6S5yzxrHAqKNyb",
-    "gdriveUrl": "https://drive.google.com/file/d/1wnj8wEqjCpKl9hywQZ6S5yzxrHAqKNyb/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1wnj8wEqjCpKl9hywQZ6S5yzxrHAqKNyb/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-519",
@@ -8978,7 +8506,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #519",
     "sourceType": "local-public",
     "gdriveId": "1iKj32ECYTcbM18cb4iPb9HccrmZheOpb",
-    "gdriveUrl": "https://drive.google.com/file/d/1iKj32ECYTcbM18cb4iPb9HccrmZheOpb/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1iKj32ECYTcbM18cb4iPb9HccrmZheOpb/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-520",
@@ -8996,7 +8525,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #520",
     "sourceType": "local-public",
     "gdriveId": "1HB7T3Nl97noZcw4tUVulhleIDBIg9D-Q",
-    "gdriveUrl": "https://drive.google.com/file/d/1HB7T3Nl97noZcw4tUVulhleIDBIg9D-Q/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1HB7T3Nl97noZcw4tUVulhleIDBIg9D-Q/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-521",
@@ -9014,7 +8544,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #521",
     "sourceType": "local-public",
     "gdriveId": "1u2yx176lA9_pfXffrykSpSpKDlI0TfmZ",
-    "gdriveUrl": "https://drive.google.com/file/d/1u2yx176lA9_pfXffrykSpSpKDlI0TfmZ/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1u2yx176lA9_pfXffrykSpSpKDlI0TfmZ/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-522",
@@ -9032,7 +8563,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #522",
     "sourceType": "local-public",
     "gdriveId": "1f2T1Bhy1YvDXZuQfUIndeKT1ZFTbjSFS",
-    "gdriveUrl": "https://drive.google.com/file/d/1f2T1Bhy1YvDXZuQfUIndeKT1ZFTbjSFS/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1f2T1Bhy1YvDXZuQfUIndeKT1ZFTbjSFS/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-523",
@@ -9050,7 +8582,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #523",
     "sourceType": "local-public",
     "gdriveId": "1UQBaoFJDG2Y2o78n5vPOLWOqmyz2j2Df",
-    "gdriveUrl": "https://drive.google.com/file/d/1UQBaoFJDG2Y2o78n5vPOLWOqmyz2j2Df/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1UQBaoFJDG2Y2o78n5vPOLWOqmyz2j2Df/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-524",
@@ -9068,7 +8601,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #524",
     "sourceType": "local-public",
     "gdriveId": "1I7pvwiulbuvun5Gg6WxyxFruxs7gy2f_",
-    "gdriveUrl": "https://drive.google.com/file/d/1I7pvwiulbuvun5Gg6WxyxFruxs7gy2f_/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1I7pvwiulbuvun5Gg6WxyxFruxs7gy2f_/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-525",
@@ -9086,7 +8620,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #525",
     "sourceType": "local-public",
     "gdriveId": "1cHm1jMvmKtml0SBYPzX9V2SGYb6RBtX8",
-    "gdriveUrl": "https://drive.google.com/file/d/1cHm1jMvmKtml0SBYPzX9V2SGYb6RBtX8/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1cHm1jMvmKtml0SBYPzX9V2SGYb6RBtX8/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-526",
@@ -9104,7 +8639,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #526",
     "sourceType": "local-public",
     "gdriveId": "1W2GE3gmcLGVpV4N_Y_MvEgQzgQtJDYmD",
-    "gdriveUrl": "https://drive.google.com/file/d/1W2GE3gmcLGVpV4N_Y_MvEgQzgQtJDYmD/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1W2GE3gmcLGVpV4N_Y_MvEgQzgQtJDYmD/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-527",
@@ -9122,7 +8658,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #527",
     "sourceType": "local-public",
     "gdriveId": "1HcmmtFTd2tVgQz3ORjs-lOvQbMs0Kyk1",
-    "gdriveUrl": "https://drive.google.com/file/d/1HcmmtFTd2tVgQz3ORjs-lOvQbMs0Kyk1/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1HcmmtFTd2tVgQz3ORjs-lOvQbMs0Kyk1/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-528",
@@ -9140,7 +8677,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #528",
     "sourceType": "local-public",
     "gdriveId": "1YxM2g_eRaOlYWMdwdHhY_VYkEVnFz8X1",
-    "gdriveUrl": "https://drive.google.com/file/d/1YxM2g_eRaOlYWMdwdHhY_VYkEVnFz8X1/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1YxM2g_eRaOlYWMdwdHhY_VYkEVnFz8X1/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-529",
@@ -9158,7 +8696,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #529",
     "sourceType": "local-public",
     "gdriveId": "1YSLj47Iuvx4RdlmWdcbrTcNyd3JKIzYa",
-    "gdriveUrl": "https://drive.google.com/file/d/1YSLj47Iuvx4RdlmWdcbrTcNyd3JKIzYa/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1YSLj47Iuvx4RdlmWdcbrTcNyd3JKIzYa/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-530",
@@ -9176,7 +8715,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #530",
     "sourceType": "local-public",
     "gdriveId": "10jsrJ5yb2hdu_c0FE6rVB2k1FdUqR4ZA",
-    "gdriveUrl": "https://drive.google.com/file/d/10jsrJ5yb2hdu_c0FE6rVB2k1FdUqR4ZA/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/10jsrJ5yb2hdu_c0FE6rVB2k1FdUqR4ZA/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-531",
@@ -9194,7 +8734,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #531",
     "sourceType": "local-public",
     "gdriveId": "16Ooa0UhwZFMG78iSfJoB8cu6y420YJwl",
-    "gdriveUrl": "https://drive.google.com/file/d/16Ooa0UhwZFMG78iSfJoB8cu6y420YJwl/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/16Ooa0UhwZFMG78iSfJoB8cu6y420YJwl/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-532",
@@ -9212,7 +8753,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #532",
     "sourceType": "local-public",
     "gdriveId": "1KH06oLKNwaPYNfWv-RFRVZ8XFHhjnn6m",
-    "gdriveUrl": "https://drive.google.com/file/d/1KH06oLKNwaPYNfWv-RFRVZ8XFHhjnn6m/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1KH06oLKNwaPYNfWv-RFRVZ8XFHhjnn6m/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-533",
@@ -9230,7 +8772,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #533",
     "sourceType": "local-public",
     "gdriveId": "1Y3Y8QuJYNWPVnD_n0xPPlcotW5D7zjFC",
-    "gdriveUrl": "https://drive.google.com/file/d/1Y3Y8QuJYNWPVnD_n0xPPlcotW5D7zjFC/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1Y3Y8QuJYNWPVnD_n0xPPlcotW5D7zjFC/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-534",
@@ -9248,7 +8791,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #534",
     "sourceType": "local-public",
     "gdriveId": "1akzzSCCbw8heQ-dKxffJqSxxlJaWqANd",
-    "gdriveUrl": "https://drive.google.com/file/d/1akzzSCCbw8heQ-dKxffJqSxxlJaWqANd/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1akzzSCCbw8heQ-dKxffJqSxxlJaWqANd/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-535",
@@ -9266,7 +8810,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #535",
     "sourceType": "local-public",
     "gdriveId": "17yGlVKT_TEQwHtxjlgkmgmhjZxM-73UD",
-    "gdriveUrl": "https://drive.google.com/file/d/17yGlVKT_TEQwHtxjlgkmgmhjZxM-73UD/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/17yGlVKT_TEQwHtxjlgkmgmhjZxM-73UD/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-536",
@@ -9284,7 +8829,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #536",
     "sourceType": "local-public",
     "gdriveId": "1D_bLEHEcVv04ghrQX1xQvu_U88q_yvYS",
-    "gdriveUrl": "https://drive.google.com/file/d/1D_bLEHEcVv04ghrQX1xQvu_U88q_yvYS/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1D_bLEHEcVv04ghrQX1xQvu_U88q_yvYS/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-537",
@@ -9302,7 +8848,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #537",
     "sourceType": "local-public",
     "gdriveId": "13-Vay3UEnyAh7aygELQkoig-tiXDLX61",
-    "gdriveUrl": "https://drive.google.com/file/d/13-Vay3UEnyAh7aygELQkoig-tiXDLX61/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/13-Vay3UEnyAh7aygELQkoig-tiXDLX61/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-538",
@@ -9320,7 +8867,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #538",
     "sourceType": "local-public",
     "gdriveId": "17aiu-Lvio7k1haoEVXoP0vlsix5J5mcQ",
-    "gdriveUrl": "https://drive.google.com/file/d/17aiu-Lvio7k1haoEVXoP0vlsix5J5mcQ/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/17aiu-Lvio7k1haoEVXoP0vlsix5J5mcQ/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-539",
@@ -9338,7 +8886,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #539",
     "sourceType": "local-public",
     "gdriveId": "17KseEdG9z9Y1FA14lnGeF8Du9G1Touz5",
-    "gdriveUrl": "https://drive.google.com/file/d/17KseEdG9z9Y1FA14lnGeF8Du9G1Touz5/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/17KseEdG9z9Y1FA14lnGeF8Du9G1Touz5/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-540",
@@ -9356,7 +8905,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #540",
     "sourceType": "local-public",
     "gdriveId": "1bmdRqRjvix6TOzslTyvWlif1inFuIWh3",
-    "gdriveUrl": "https://drive.google.com/file/d/1bmdRqRjvix6TOzslTyvWlif1inFuIWh3/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1bmdRqRjvix6TOzslTyvWlif1inFuIWh3/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-541",
@@ -9374,7 +8924,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #541",
     "sourceType": "local-public",
     "gdriveId": "1PTawQhoZYmHPyaNbCsv52cOrkG4vO7FQ",
-    "gdriveUrl": "https://drive.google.com/file/d/1PTawQhoZYmHPyaNbCsv52cOrkG4vO7FQ/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1PTawQhoZYmHPyaNbCsv52cOrkG4vO7FQ/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-542",
@@ -9392,7 +8943,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #542",
     "sourceType": "local-public",
     "gdriveId": "1YWrp14hxlCQC8lQfvsfjS4279UNODYeX",
-    "gdriveUrl": "https://drive.google.com/file/d/1YWrp14hxlCQC8lQfvsfjS4279UNODYeX/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1YWrp14hxlCQC8lQfvsfjS4279UNODYeX/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-543",
@@ -9410,7 +8962,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #543",
     "sourceType": "local-public",
     "gdriveId": "1R3nxznbZsYvXQGZtuWCAfJK_OsNsn-wb",
-    "gdriveUrl": "https://drive.google.com/file/d/1R3nxznbZsYvXQGZtuWCAfJK_OsNsn-wb/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1R3nxznbZsYvXQGZtuWCAfJK_OsNsn-wb/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-544",
@@ -9428,7 +8981,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #544",
     "sourceType": "local-public",
     "gdriveId": "1eLWOF_VlEmBa5ZiPfGNoUGsG58qya5RD",
-    "gdriveUrl": "https://drive.google.com/file/d/1eLWOF_VlEmBa5ZiPfGNoUGsG58qya5RD/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1eLWOF_VlEmBa5ZiPfGNoUGsG58qya5RD/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-545",
@@ -9446,7 +9000,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #545",
     "sourceType": "local-public",
     "gdriveId": "1ssau673moZILORWhLjgciUlHBnvgbAzM",
-    "gdriveUrl": "https://drive.google.com/file/d/1ssau673moZILORWhLjgciUlHBnvgbAzM/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1ssau673moZILORWhLjgciUlHBnvgbAzM/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-546",
@@ -9464,7 +9019,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #546",
     "sourceType": "local-public",
     "gdriveId": "1ATyC0x9iSBc2j6Uii630yEsN5FsA_qh0",
-    "gdriveUrl": "https://drive.google.com/file/d/1ATyC0x9iSBc2j6Uii630yEsN5FsA_qh0/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1ATyC0x9iSBc2j6Uii630yEsN5FsA_qh0/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-547",
@@ -9482,7 +9038,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #547",
     "sourceType": "local-public",
     "gdriveId": "1PJmwlEWucoH9OgZqJhk43k5Ow9eVWkhT",
-    "gdriveUrl": "https://drive.google.com/file/d/1PJmwlEWucoH9OgZqJhk43k5Ow9eVWkhT/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1PJmwlEWucoH9OgZqJhk43k5Ow9eVWkhT/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-548",
@@ -9500,7 +9057,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #548",
     "sourceType": "local-public",
     "gdriveId": "1WCecvKZB1fpKo7tGpTg1txsgWAaDkQI1",
-    "gdriveUrl": "https://drive.google.com/file/d/1WCecvKZB1fpKo7tGpTg1txsgWAaDkQI1/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1WCecvKZB1fpKo7tGpTg1txsgWAaDkQI1/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-549",
@@ -9518,7 +9076,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #549",
     "sourceType": "local-public",
     "gdriveId": "1Eh_D2t3jSvKwCPWnN_HeVmlKBaGSv8VE",
-    "gdriveUrl": "https://drive.google.com/file/d/1Eh_D2t3jSvKwCPWnN_HeVmlKBaGSv8VE/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1Eh_D2t3jSvKwCPWnN_HeVmlKBaGSv8VE/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-550",
@@ -9536,7 +9095,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #550",
     "sourceType": "local-public",
     "gdriveId": "1HENQHbWg0Rv_RC_hgVBzZpsUtWd1MfWA",
-    "gdriveUrl": "https://drive.google.com/file/d/1HENQHbWg0Rv_RC_hgVBzZpsUtWd1MfWA/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1HENQHbWg0Rv_RC_hgVBzZpsUtWd1MfWA/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-551",
@@ -9554,7 +9114,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #551",
     "sourceType": "local-public",
     "gdriveId": "1mVfAkLRUFu6iLjy3b0Dm6KV3X9OKEvpg",
-    "gdriveUrl": "https://drive.google.com/file/d/1mVfAkLRUFu6iLjy3b0Dm6KV3X9OKEvpg/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1mVfAkLRUFu6iLjy3b0Dm6KV3X9OKEvpg/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-552",
@@ -9572,7 +9133,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #552",
     "sourceType": "local-public",
     "gdriveId": "1c-Vu3dwyzZTTD5IYsxkhpLBJ_3vKKQJ4",
-    "gdriveUrl": "https://drive.google.com/file/d/1c-Vu3dwyzZTTD5IYsxkhpLBJ_3vKKQJ4/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1c-Vu3dwyzZTTD5IYsxkhpLBJ_3vKKQJ4/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-553",
@@ -9590,7 +9152,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #553",
     "sourceType": "local-public",
     "gdriveId": "1aPgHytp0BW_R63oxm1OUR_t2GD_245rX",
-    "gdriveUrl": "https://drive.google.com/file/d/1aPgHytp0BW_R63oxm1OUR_t2GD_245rX/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1aPgHytp0BW_R63oxm1OUR_t2GD_245rX/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-554",
@@ -9608,7 +9171,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #554",
     "sourceType": "local-public",
     "gdriveId": "13g8m1InQSj3lzuKLJd000JSp94e8tCYG",
-    "gdriveUrl": "https://drive.google.com/file/d/13g8m1InQSj3lzuKLJd000JSp94e8tCYG/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/13g8m1InQSj3lzuKLJd000JSp94e8tCYG/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-555",
@@ -9626,7 +9190,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #555",
     "sourceType": "local-public",
     "gdriveId": "18jS1RXEkIziFEuHpZ5BVVMwt6MCqq6pt",
-    "gdriveUrl": "https://drive.google.com/file/d/18jS1RXEkIziFEuHpZ5BVVMwt6MCqq6pt/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/18jS1RXEkIziFEuHpZ5BVVMwt6MCqq6pt/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-556",
@@ -9644,7 +9209,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #556",
     "sourceType": "local-public",
     "gdriveId": "1O0hL_FH11hrf9vcm90kXJaOUCE6UKoW5",
-    "gdriveUrl": "https://drive.google.com/file/d/1O0hL_FH11hrf9vcm90kXJaOUCE6UKoW5/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1O0hL_FH11hrf9vcm90kXJaOUCE6UKoW5/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-557",
@@ -9662,7 +9228,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #557",
     "sourceType": "local-public",
     "gdriveId": "18Feqr-kDaAaqINdV2CeXllHjs2n8JP4b",
-    "gdriveUrl": "https://drive.google.com/file/d/18Feqr-kDaAaqINdV2CeXllHjs2n8JP4b/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/18Feqr-kDaAaqINdV2CeXllHjs2n8JP4b/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-558",
@@ -9680,7 +9247,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #558",
     "sourceType": "local-public",
     "gdriveId": "1HtjVrp__gDltkpmu1bUY464JbQRwBdNw",
-    "gdriveUrl": "https://drive.google.com/file/d/1HtjVrp__gDltkpmu1bUY464JbQRwBdNw/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1HtjVrp__gDltkpmu1bUY464JbQRwBdNw/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-559",
@@ -9698,7 +9266,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #559",
     "sourceType": "local-public",
     "gdriveId": "1p-OIYezRMd3MBRY4AkLixdAh-oYpeyiy",
-    "gdriveUrl": "https://drive.google.com/file/d/1p-OIYezRMd3MBRY4AkLixdAh-oYpeyiy/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1p-OIYezRMd3MBRY4AkLixdAh-oYpeyiy/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-560",
@@ -9716,7 +9285,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #560",
     "sourceType": "local-public",
     "gdriveId": "13mm5q7gjnmQET7E2gkx-Ig7dgh0245Yo",
-    "gdriveUrl": "https://drive.google.com/file/d/13mm5q7gjnmQET7E2gkx-Ig7dgh0245Yo/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/13mm5q7gjnmQET7E2gkx-Ig7dgh0245Yo/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-561",
@@ -9734,7 +9304,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #561",
     "sourceType": "local-public",
     "gdriveId": "1SAeqs7ZGG9YD0A_Sr9YtgQjj354jZvy6",
-    "gdriveUrl": "https://drive.google.com/file/d/1SAeqs7ZGG9YD0A_Sr9YtgQjj354jZvy6/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1SAeqs7ZGG9YD0A_Sr9YtgQjj354jZvy6/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-562",
@@ -9752,7 +9323,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #562",
     "sourceType": "local-public",
     "gdriveId": "1O0IH8JhyNcMgiRY2NXlzu0bEPUHzODtV",
-    "gdriveUrl": "https://drive.google.com/file/d/1O0IH8JhyNcMgiRY2NXlzu0bEPUHzODtV/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1O0IH8JhyNcMgiRY2NXlzu0bEPUHzODtV/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-563",
@@ -9770,7 +9342,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #563",
     "sourceType": "local-public",
     "gdriveId": "1_W06EHA0Nlj2fWCbuWQVNabvziVsSmvE",
-    "gdriveUrl": "https://drive.google.com/file/d/1_W06EHA0Nlj2fWCbuWQVNabvziVsSmvE/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1_W06EHA0Nlj2fWCbuWQVNabvziVsSmvE/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-564",
@@ -9788,7 +9361,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #564",
     "sourceType": "local-public",
     "gdriveId": "1a7fxz8EQxZTBdy9-UbmaH2V0S9Hlm-dG",
-    "gdriveUrl": "https://drive.google.com/file/d/1a7fxz8EQxZTBdy9-UbmaH2V0S9Hlm-dG/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1a7fxz8EQxZTBdy9-UbmaH2V0S9Hlm-dG/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-565",
@@ -9806,7 +9380,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #565",
     "sourceType": "local-public",
     "gdriveId": "1XOKoARc3E9n0S0ZtUlntDvtrRk3i0je-",
-    "gdriveUrl": "https://drive.google.com/file/d/1XOKoARc3E9n0S0ZtUlntDvtrRk3i0je-/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1XOKoARc3E9n0S0ZtUlntDvtrRk3i0je-/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-566",
@@ -9824,7 +9399,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #566",
     "sourceType": "local-public",
     "gdriveId": "1kz54Axc1w6QgVXaiJmnEnO-VgdQR0FeP",
-    "gdriveUrl": "https://drive.google.com/file/d/1kz54Axc1w6QgVXaiJmnEnO-VgdQR0FeP/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1kz54Axc1w6QgVXaiJmnEnO-VgdQR0FeP/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-567",
@@ -9842,7 +9418,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #567",
     "sourceType": "local-public",
     "gdriveId": "1dBXzYTQ2KjDOd65YOwWS1bqaq_g5qHMZ",
-    "gdriveUrl": "https://drive.google.com/file/d/1dBXzYTQ2KjDOd65YOwWS1bqaq_g5qHMZ/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1dBXzYTQ2KjDOd65YOwWS1bqaq_g5qHMZ/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-568",
@@ -9860,7 +9437,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #568",
     "sourceType": "local-public",
     "gdriveId": "1ccvx_Zmv-SV3Wp4igDeZL6QK8OB3F7o5",
-    "gdriveUrl": "https://drive.google.com/file/d/1ccvx_Zmv-SV3Wp4igDeZL6QK8OB3F7o5/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1ccvx_Zmv-SV3Wp4igDeZL6QK8OB3F7o5/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-569",
@@ -9878,7 +9456,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #569",
     "sourceType": "local-public",
     "gdriveId": "1mZyjOWmX9HOjT4iy23R3bhp81BJQ-ibA",
-    "gdriveUrl": "https://drive.google.com/file/d/1mZyjOWmX9HOjT4iy23R3bhp81BJQ-ibA/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1mZyjOWmX9HOjT4iy23R3bhp81BJQ-ibA/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-570",
@@ -9896,7 +9475,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #570",
     "sourceType": "local-public",
     "gdriveId": "1mMPuRH91rcGF431-mRLZFYiaRH_cZCUn",
-    "gdriveUrl": "https://drive.google.com/file/d/1mMPuRH91rcGF431-mRLZFYiaRH_cZCUn/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1mMPuRH91rcGF431-mRLZFYiaRH_cZCUn/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-571",
@@ -9914,7 +9494,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #571",
     "sourceType": "local-public",
     "gdriveId": "1sJBRRHPz-TCCH9Vn-zuuC0uIlLTR4E0b",
-    "gdriveUrl": "https://drive.google.com/file/d/1sJBRRHPz-TCCH9Vn-zuuC0uIlLTR4E0b/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1sJBRRHPz-TCCH9Vn-zuuC0uIlLTR4E0b/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-572",
@@ -9932,7 +9513,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #572",
     "sourceType": "local-public",
     "gdriveId": "1pWan50BCj-9_RVO5QUcmWpGqA4RbN7Qn",
-    "gdriveUrl": "https://drive.google.com/file/d/1pWan50BCj-9_RVO5QUcmWpGqA4RbN7Qn/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1pWan50BCj-9_RVO5QUcmWpGqA4RbN7Qn/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-573",
@@ -9950,7 +9532,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #573",
     "sourceType": "local-public",
     "gdriveId": "1OVARgKbI_-abnFfB9dSMhCdLolpL2dPX",
-    "gdriveUrl": "https://drive.google.com/file/d/1OVARgKbI_-abnFfB9dSMhCdLolpL2dPX/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1OVARgKbI_-abnFfB9dSMhCdLolpL2dPX/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-574",
@@ -9968,7 +9551,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #574",
     "sourceType": "local-public",
     "gdriveId": "1pKyvHtpAYWKJMcOen2XT7HFf_z7VbqOG",
-    "gdriveUrl": "https://drive.google.com/file/d/1pKyvHtpAYWKJMcOen2XT7HFf_z7VbqOG/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1pKyvHtpAYWKJMcOen2XT7HFf_z7VbqOG/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-575",
@@ -9986,7 +9570,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #575",
     "sourceType": "local-public",
     "gdriveId": "1o7dSaVXv4a_0H7aiPghrrI_7z_g_LErh",
-    "gdriveUrl": "https://drive.google.com/file/d/1o7dSaVXv4a_0H7aiPghrrI_7z_g_LErh/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1o7dSaVXv4a_0H7aiPghrrI_7z_g_LErh/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-576",
@@ -10004,7 +9589,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #576",
     "sourceType": "local-public",
     "gdriveId": "1K5WS97vK-A8MiuccOPd9QTSVYC8C72Im",
-    "gdriveUrl": "https://drive.google.com/file/d/1K5WS97vK-A8MiuccOPd9QTSVYC8C72Im/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1K5WS97vK-A8MiuccOPd9QTSVYC8C72Im/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-577",
@@ -10022,7 +9608,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #577",
     "sourceType": "local-public",
     "gdriveId": "1v1hbF-S39QQCtAh3zVwN_PyxZQ-sJMLV",
-    "gdriveUrl": "https://drive.google.com/file/d/1v1hbF-S39QQCtAh3zVwN_PyxZQ-sJMLV/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1v1hbF-S39QQCtAh3zVwN_PyxZQ-sJMLV/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-578",
@@ -10040,7 +9627,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #578",
     "sourceType": "local-public",
     "gdriveId": "1mEEfZAPJ885diucexNRJnjcZaORhC-D5",
-    "gdriveUrl": "https://drive.google.com/file/d/1mEEfZAPJ885diucexNRJnjcZaORhC-D5/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1mEEfZAPJ885diucexNRJnjcZaORhC-D5/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-579",
@@ -10058,7 +9646,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #579",
     "sourceType": "local-public",
     "gdriveId": "1Cb1PD8ELv4sEQK87zOXlg4Ik9Lh3tIeK",
-    "gdriveUrl": "https://drive.google.com/file/d/1Cb1PD8ELv4sEQK87zOXlg4Ik9Lh3tIeK/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1Cb1PD8ELv4sEQK87zOXlg4Ik9Lh3tIeK/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-580",
@@ -10076,7 +9665,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #580",
     "sourceType": "local-public",
     "gdriveId": "1Cr9TW7U2R9VtUeBO2V-gGx_QGUAR1yYt",
-    "gdriveUrl": "https://drive.google.com/file/d/1Cr9TW7U2R9VtUeBO2V-gGx_QGUAR1yYt/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1Cr9TW7U2R9VtUeBO2V-gGx_QGUAR1yYt/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-581",
@@ -10094,7 +9684,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #581",
     "sourceType": "local-public",
     "gdriveId": "1q-4B-MHzjRVfMCRADlNAZ9CK4gUjnU_w",
-    "gdriveUrl": "https://drive.google.com/file/d/1q-4B-MHzjRVfMCRADlNAZ9CK4gUjnU_w/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1q-4B-MHzjRVfMCRADlNAZ9CK4gUjnU_w/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-582",
@@ -10112,7 +9703,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #582",
     "sourceType": "local-public",
     "gdriveId": "190j5nd4Ok72GgpCPdHUNZvjp5HMUaumX",
-    "gdriveUrl": "https://drive.google.com/file/d/190j5nd4Ok72GgpCPdHUNZvjp5HMUaumX/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/190j5nd4Ok72GgpCPdHUNZvjp5HMUaumX/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-583",
@@ -10130,7 +9722,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #583",
     "sourceType": "local-public",
     "gdriveId": "1ScpQeuAyC-o3rGIs0TuGUQPqfKy6BsKi",
-    "gdriveUrl": "https://drive.google.com/file/d/1ScpQeuAyC-o3rGIs0TuGUQPqfKy6BsKi/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1ScpQeuAyC-o3rGIs0TuGUQPqfKy6BsKi/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-584",
@@ -10148,7 +9741,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #584",
     "sourceType": "local-public",
     "gdriveId": "1vHZ5bf32MhEGf0Wj6j6arn914--2vD_y",
-    "gdriveUrl": "https://drive.google.com/file/d/1vHZ5bf32MhEGf0Wj6j6arn914--2vD_y/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1vHZ5bf32MhEGf0Wj6j6arn914--2vD_y/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-585",
@@ -10166,7 +9760,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #585",
     "sourceType": "local-public",
     "gdriveId": "1oPrCRshFcw5fD5nnctAVYtkk-N7PoSP3",
-    "gdriveUrl": "https://drive.google.com/file/d/1oPrCRshFcw5fD5nnctAVYtkk-N7PoSP3/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1oPrCRshFcw5fD5nnctAVYtkk-N7PoSP3/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-586",
@@ -10184,7 +9779,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #586",
     "sourceType": "local-public",
     "gdriveId": "1EM6cg5-Q1OqL8pO2Z5SAKMjrdN4YD3Ez",
-    "gdriveUrl": "https://drive.google.com/file/d/1EM6cg5-Q1OqL8pO2Z5SAKMjrdN4YD3Ez/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1EM6cg5-Q1OqL8pO2Z5SAKMjrdN4YD3Ez/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-587",
@@ -10202,7 +9798,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #587",
     "sourceType": "local-public",
     "gdriveId": "1H05mHGgnJrEdewUA7_JMA-aBaopV6Dlu",
-    "gdriveUrl": "https://drive.google.com/file/d/1H05mHGgnJrEdewUA7_JMA-aBaopV6Dlu/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1H05mHGgnJrEdewUA7_JMA-aBaopV6Dlu/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-588",
@@ -10220,7 +9817,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #588",
     "sourceType": "local-public",
     "gdriveId": "1QL50I3sdw5lA3md381FOEmbda2YX797-",
-    "gdriveUrl": "https://drive.google.com/file/d/1QL50I3sdw5lA3md381FOEmbda2YX797-/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1QL50I3sdw5lA3md381FOEmbda2YX797-/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-589",
@@ -10238,7 +9836,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #589",
     "sourceType": "local-public",
     "gdriveId": "1uuBpOSY-xNc-d4nzJMuiZegMYTJdGL0E",
-    "gdriveUrl": "https://drive.google.com/file/d/1uuBpOSY-xNc-d4nzJMuiZegMYTJdGL0E/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1uuBpOSY-xNc-d4nzJMuiZegMYTJdGL0E/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-590",
@@ -10256,7 +9855,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #590",
     "sourceType": "local-public",
     "gdriveId": "1dfc4-39OKTM2R14tfuBb8T9INkSKrqf-",
-    "gdriveUrl": "https://drive.google.com/file/d/1dfc4-39OKTM2R14tfuBb8T9INkSKrqf-/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1dfc4-39OKTM2R14tfuBb8T9INkSKrqf-/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-591",
@@ -10274,7 +9874,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #591",
     "sourceType": "local-public",
     "gdriveId": "1_AC2K4FM1FG8kSEv8ktribYopzJuJC-H",
-    "gdriveUrl": "https://drive.google.com/file/d/1_AC2K4FM1FG8kSEv8ktribYopzJuJC-H/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1_AC2K4FM1FG8kSEv8ktribYopzJuJC-H/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-592",
@@ -10292,7 +9893,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #592",
     "sourceType": "local-public",
     "gdriveId": "1VXm1J5PpSEqOD6wL71UxNoXo2E0c4jKY",
-    "gdriveUrl": "https://drive.google.com/file/d/1VXm1J5PpSEqOD6wL71UxNoXo2E0c4jKY/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1VXm1J5PpSEqOD6wL71UxNoXo2E0c4jKY/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-593",
@@ -10310,7 +9912,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #593",
     "sourceType": "local-public",
     "gdriveId": "1RbzbwXi3qruWFj_gCGBbYGPwzlGCcylF",
-    "gdriveUrl": "https://drive.google.com/file/d/1RbzbwXi3qruWFj_gCGBbYGPwzlGCcylF/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1RbzbwXi3qruWFj_gCGBbYGPwzlGCcylF/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-594",
@@ -10328,7 +9931,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #594",
     "sourceType": "local-public",
     "gdriveId": "1u4u3m-Q1jbNL9wAeMTmECYoMRFWOkbho",
-    "gdriveUrl": "https://drive.google.com/file/d/1u4u3m-Q1jbNL9wAeMTmECYoMRFWOkbho/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1u4u3m-Q1jbNL9wAeMTmECYoMRFWOkbho/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-595",
@@ -10346,7 +9950,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #595",
     "sourceType": "local-public",
     "gdriveId": "1PPXEnqiZ0UTaBSJluPmrGIEw11WmDsTo",
-    "gdriveUrl": "https://drive.google.com/file/d/1PPXEnqiZ0UTaBSJluPmrGIEw11WmDsTo/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1PPXEnqiZ0UTaBSJluPmrGIEw11WmDsTo/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-596",
@@ -10364,7 +9969,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #596",
     "sourceType": "local-public",
     "gdriveId": "1X6kapj2YL213zPaIBTC-0b4Th-_Suh0X",
-    "gdriveUrl": "https://drive.google.com/file/d/1X6kapj2YL213zPaIBTC-0b4Th-_Suh0X/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1X6kapj2YL213zPaIBTC-0b4Th-_Suh0X/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-597",
@@ -10382,7 +9988,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #597",
     "sourceType": "local-public",
     "gdriveId": "1dAeluRKl1AW0Xr4tqvqD2pDelROoIB-8",
-    "gdriveUrl": "https://drive.google.com/file/d/1dAeluRKl1AW0Xr4tqvqD2pDelROoIB-8/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1dAeluRKl1AW0Xr4tqvqD2pDelROoIB-8/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-598",
@@ -10400,7 +10007,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #598",
     "sourceType": "local-public",
     "gdriveId": "1neY6G0jK3D_agtuO7gXOlScXw2TADJbl",
-    "gdriveUrl": "https://drive.google.com/file/d/1neY6G0jK3D_agtuO7gXOlScXw2TADJbl/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1neY6G0jK3D_agtuO7gXOlScXw2TADJbl/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-599",
@@ -10418,7 +10026,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #599",
     "sourceType": "local-public",
     "gdriveId": "1h0J_8vJYXyMTwzG4rM_kyQU7p8Ae0FKv",
-    "gdriveUrl": "https://drive.google.com/file/d/1h0J_8vJYXyMTwzG4rM_kyQU7p8Ae0FKv/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1h0J_8vJYXyMTwzG4rM_kyQU7p8Ae0FKv/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-600",
@@ -10436,7 +10045,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #600",
     "sourceType": "local-public",
     "gdriveId": "1HMe1MSvW4PBF6XMOnOHjPTlo7pYnXWnt",
-    "gdriveUrl": "https://drive.google.com/file/d/1HMe1MSvW4PBF6XMOnOHjPTlo7pYnXWnt/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1HMe1MSvW4PBF6XMOnOHjPTlo7pYnXWnt/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-601",
@@ -10454,7 +10064,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #601",
     "sourceType": "local-public",
     "gdriveId": "12vTO_1_0g6vIk1-WkJOPrg18FSZCH8Xj",
-    "gdriveUrl": "https://drive.google.com/file/d/12vTO_1_0g6vIk1-WkJOPrg18FSZCH8Xj/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/12vTO_1_0g6vIk1-WkJOPrg18FSZCH8Xj/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-602",
@@ -10472,7 +10083,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #602",
     "sourceType": "local-public",
     "gdriveId": "1rSqGhRRTWKrIr9H9__mcV9Mn-wgAMGh9",
-    "gdriveUrl": "https://drive.google.com/file/d/1rSqGhRRTWKrIr9H9__mcV9Mn-wgAMGh9/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1rSqGhRRTWKrIr9H9__mcV9Mn-wgAMGh9/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-603",
@@ -10490,7 +10102,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #603",
     "sourceType": "local-public",
     "gdriveId": "1EartpMQk3FW_FT3FxZnMckSmL7wev542",
-    "gdriveUrl": "https://drive.google.com/file/d/1EartpMQk3FW_FT3FxZnMckSmL7wev542/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1EartpMQk3FW_FT3FxZnMckSmL7wev542/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-604",
@@ -10508,7 +10121,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #604",
     "sourceType": "local-public",
     "gdriveId": "1DEtiGGOvrONhbqA-9NYPdFZDmtwX_ly6",
-    "gdriveUrl": "https://drive.google.com/file/d/1DEtiGGOvrONhbqA-9NYPdFZDmtwX_ly6/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1DEtiGGOvrONhbqA-9NYPdFZDmtwX_ly6/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-605",
@@ -10526,7 +10140,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #605",
     "sourceType": "local-public",
     "gdriveId": "13ZWkzcbiIZg4xVq9XH3jpPAnhkz5VFph",
-    "gdriveUrl": "https://drive.google.com/file/d/13ZWkzcbiIZg4xVq9XH3jpPAnhkz5VFph/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/13ZWkzcbiIZg4xVq9XH3jpPAnhkz5VFph/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-606",
@@ -10544,7 +10159,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #606",
     "sourceType": "local-public",
     "gdriveId": "1rQOWTfj8nU9R88xn_93CVnjSxA_umHKz",
-    "gdriveUrl": "https://drive.google.com/file/d/1rQOWTfj8nU9R88xn_93CVnjSxA_umHKz/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1rQOWTfj8nU9R88xn_93CVnjSxA_umHKz/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-607",
@@ -10562,7 +10178,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #607",
     "sourceType": "local-public",
     "gdriveId": "1dsCu2NonBW8at4wU4tDCq2vpIFTXWoha",
-    "gdriveUrl": "https://drive.google.com/file/d/1dsCu2NonBW8at4wU4tDCq2vpIFTXWoha/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1dsCu2NonBW8at4wU4tDCq2vpIFTXWoha/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-608",
@@ -10580,7 +10197,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #608",
     "sourceType": "local-public",
     "gdriveId": "1zwz_QIWRZMwvov_f1pKn02ZbCSicKOwb",
-    "gdriveUrl": "https://drive.google.com/file/d/1zwz_QIWRZMwvov_f1pKn02ZbCSicKOwb/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1zwz_QIWRZMwvov_f1pKn02ZbCSicKOwb/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-609",
@@ -10598,7 +10216,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #609",
     "sourceType": "local-public",
     "gdriveId": "1AbwOBfN6nzvCwaJBBEpwZ-IIdotJt49b",
-    "gdriveUrl": "https://drive.google.com/file/d/1AbwOBfN6nzvCwaJBBEpwZ-IIdotJt49b/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1AbwOBfN6nzvCwaJBBEpwZ-IIdotJt49b/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-610",
@@ -10616,7 +10235,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #610",
     "sourceType": "local-public",
     "gdriveId": "1KUJPI4nHhIE7QMhZ5ub2yx60S443-BE1",
-    "gdriveUrl": "https://drive.google.com/file/d/1KUJPI4nHhIE7QMhZ5ub2yx60S443-BE1/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1KUJPI4nHhIE7QMhZ5ub2yx60S443-BE1/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-611",
@@ -10634,7 +10254,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #611",
     "sourceType": "local-public",
     "gdriveId": "1CCY9C0jdRbVT_L0OlZ3TAJgDhGEhsNSo",
-    "gdriveUrl": "https://drive.google.com/file/d/1CCY9C0jdRbVT_L0OlZ3TAJgDhGEhsNSo/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1CCY9C0jdRbVT_L0OlZ3TAJgDhGEhsNSo/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-612",
@@ -10652,7 +10273,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #612",
     "sourceType": "local-public",
     "gdriveId": "1NokgYpH-voeI0fy-zV_UFYvVh8DMjwhS",
-    "gdriveUrl": "https://drive.google.com/file/d/1NokgYpH-voeI0fy-zV_UFYvVh8DMjwhS/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1NokgYpH-voeI0fy-zV_UFYvVh8DMjwhS/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-613",
@@ -10670,7 +10292,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #613",
     "sourceType": "local-public",
     "gdriveId": "1QA5ZKtGrzjQY9H6gBszxiUJZ_LOtNliY",
-    "gdriveUrl": "https://drive.google.com/file/d/1QA5ZKtGrzjQY9H6gBszxiUJZ_LOtNliY/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1QA5ZKtGrzjQY9H6gBszxiUJZ_LOtNliY/view?usp=sharing",
+    "sourceGroup": "photographer2"
   },
   {
     "id": "roka-photo-p2-614",
@@ -10688,7 +10311,977 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Masterpiece #614",
     "sourceType": "local-public",
     "gdriveId": "1zFSZopPNXLWLtPRD0PqRqwWPdWDT2S4W",
-    "gdriveUrl": "https://drive.google.com/file/d/1zFSZopPNXLWLtPRD0PqRqwWPdWDT2S4W/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1zFSZopPNXLWLtPRD0PqRqwWPdWDT2S4W/view?usp=sharing",
+    "sourceGroup": "photographer2"
+  },
+  {
+    "id": "roka-photo-1",
+    "title": "Roka Celebration #1 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_01_orig_IMG_4345.JPG.jpeg_.jpg",
+    "aspectRatio": "portrait",
+    "featured": true,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_4345.JPG.jpeg | Dual Tag: Roka_Moment_01_orig_IMG_4345.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_4345.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #1",
+    "sourceType": "local-public",
+    "gdriveId": "10HJNPnjZilJaKt1Id-oRHDhawQnj9l1B",
+    "gdriveUrl": "https://drive.google.com/file/d/10HJNPnjZilJaKt1Id-oRHDhawQnj9l1B/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-2",
+    "title": "Roka Celebration #2 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_02_orig_IMG_8219.JPG.jpeg_.jpg",
+    "aspectRatio": "landscape",
+    "featured": true,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8219.JPG.jpeg | Dual Tag: Roka_Moment_02_orig_IMG_8219.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8219.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #2",
+    "sourceType": "local-public",
+    "gdriveId": "10wHtxG-1YxqbIVfW7JIB6fKTaVsgX276",
+    "gdriveUrl": "https://drive.google.com/file/d/10wHtxG-1YxqbIVfW7JIB6fKTaVsgX276/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-3",
+    "title": "Roka Celebration #3 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_03_orig_IMG_8220.JPG.jpeg_.jpg",
+    "aspectRatio": "landscape",
+    "featured": true,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8220.JPG.jpeg | Dual Tag: Roka_Moment_03_orig_IMG_8220.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8220.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #3",
+    "sourceType": "local-public",
+    "gdriveId": "1RP2Qxm0alxDJBtgfRUa5f3Bl2EFxUcmI",
+    "gdriveUrl": "https://drive.google.com/file/d/1RP2Qxm0alxDJBtgfRUa5f3Bl2EFxUcmI/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-4",
+    "title": "Roka Celebration #4 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_04_orig_IMG_8221.JPG.jpeg_.jpg",
+    "aspectRatio": "portrait",
+    "featured": true,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8221.JPG.jpeg | Dual Tag: Roka_Moment_04_orig_IMG_8221.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8221.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #4",
+    "sourceType": "local-public",
+    "gdriveId": "1aKL86gjKE9oihQzoTwvtZiyxrjCxaoHy",
+    "gdriveUrl": "https://drive.google.com/file/d/1aKL86gjKE9oihQzoTwvtZiyxrjCxaoHy/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-5",
+    "title": "Roka Celebration #5 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_05_orig_IMG_8222.JPG.jpeg_.jpg",
+    "aspectRatio": "landscape",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8222.JPG.jpeg | Dual Tag: Roka_Moment_05_orig_IMG_8222.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8222.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #5",
+    "sourceType": "local-public",
+    "gdriveId": "1Mua6lGi2z05CdG4lA6LZEFPtyRl2-Yqi",
+    "gdriveUrl": "https://drive.google.com/file/d/1Mua6lGi2z05CdG4lA6LZEFPtyRl2-Yqi/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-6",
+    "title": "Roka Celebration #6 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_06_orig_IMG_8223.JPG.jpeg_.jpg",
+    "aspectRatio": "landscape",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8223.JPG.jpeg | Dual Tag: Roka_Moment_06_orig_IMG_8223.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8223.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #6",
+    "sourceType": "local-public",
+    "gdriveId": "1TnPswCiMDBRvmB3Rw3lpCp2NbVD7qNhc",
+    "gdriveUrl": "https://drive.google.com/file/d/1TnPswCiMDBRvmB3Rw3lpCp2NbVD7qNhc/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-7",
+    "title": "Roka Celebration #7 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_07_orig_IMG_8224.JPG.jpeg_.jpg",
+    "aspectRatio": "portrait",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8224.JPG.jpeg | Dual Tag: Roka_Moment_07_orig_IMG_8224.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8224.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #7",
+    "sourceType": "local-public",
+    "gdriveId": "1b7wS3vvH_GXoTH-Yn2Ej56sHKqI7tlpB",
+    "gdriveUrl": "https://drive.google.com/file/d/1b7wS3vvH_GXoTH-Yn2Ej56sHKqI7tlpB/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-8",
+    "title": "Roka Celebration #8 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_08_orig_IMG_8227.JPG.jpeg_.jpg",
+    "aspectRatio": "landscape",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8227.JPG.jpeg | Dual Tag: Roka_Moment_08_orig_IMG_8227.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8227.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #8",
+    "sourceType": "local-public",
+    "gdriveId": "1oN0WyjexnIpicfIVdLbDr1eHeuYD4FPz",
+    "gdriveUrl": "https://drive.google.com/file/d/1oN0WyjexnIpicfIVdLbDr1eHeuYD4FPz/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-9",
+    "title": "Roka Celebration #9 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_09_orig_IMG_8228.JPG.jpeg_.jpg",
+    "aspectRatio": "landscape",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8228.JPG.jpeg | Dual Tag: Roka_Moment_09_orig_IMG_8228.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8228.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #9",
+    "sourceType": "local-public",
+    "gdriveId": "1-HCttJlMDjBIzZkwKLx_HLx9ItU1bcS9",
+    "gdriveUrl": "https://drive.google.com/file/d/1-HCttJlMDjBIzZkwKLx_HLx9ItU1bcS9/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-10",
+    "title": "Roka Celebration #10 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_10_orig_IMG_8229.JPG.jpeg_.jpg",
+    "aspectRatio": "portrait",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8229.JPG.jpeg | Dual Tag: Roka_Moment_10_orig_IMG_8229.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8229.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #10",
+    "sourceType": "local-public",
+    "gdriveId": "1rmSsLZqcCbDGzHsBGHpDuk3lSvZejkRf",
+    "gdriveUrl": "https://drive.google.com/file/d/1rmSsLZqcCbDGzHsBGHpDuk3lSvZejkRf/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-11",
+    "title": "Roka Celebration #11 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_11_orig_IMG_8230.JPG.jpeg_.jpg",
+    "aspectRatio": "landscape",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8230.JPG.jpeg | Dual Tag: Roka_Moment_11_orig_IMG_8230.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8230.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #11",
+    "sourceType": "local-public",
+    "gdriveId": "1AHRuzh5UKBaR2AoO9x6zbgoKY-doBGUB",
+    "gdriveUrl": "https://drive.google.com/file/d/1AHRuzh5UKBaR2AoO9x6zbgoKY-doBGUB/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-12",
+    "title": "Roka Celebration #12 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_12_orig_IMG_8231.JPG.jpeg_.jpg",
+    "aspectRatio": "landscape",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8231.JPG.jpeg | Dual Tag: Roka_Moment_12_orig_IMG_8231.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8231.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #12",
+    "sourceType": "local-public",
+    "gdriveId": "1_swyJGUdtkQGVyAg3holUgCm2Me_6Bt0",
+    "gdriveUrl": "https://drive.google.com/file/d/1_swyJGUdtkQGVyAg3holUgCm2Me_6Bt0/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-13",
+    "title": "Roka Celebration #13 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_13_orig_IMG_8232.JPG.jpeg_.jpg",
+    "aspectRatio": "portrait",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8232.JPG.jpeg | Dual Tag: Roka_Moment_13_orig_IMG_8232.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8232.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #13",
+    "sourceType": "local-public",
+    "gdriveId": "1iro8Z-ofWVT_6e58KG9cBVGn8WPIq14a",
+    "gdriveUrl": "https://drive.google.com/file/d/1iro8Z-ofWVT_6e58KG9cBVGn8WPIq14a/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-14",
+    "title": "Roka Celebration #14 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_14_orig_IMG_8233.JPG.jpeg_.jpg",
+    "aspectRatio": "landscape",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8233.JPG.jpeg | Dual Tag: Roka_Moment_14_orig_IMG_8233.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8233.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #14",
+    "sourceType": "local-public",
+    "gdriveId": "1SNtJklRwuCqUylF1dfJn26oNl_gqSZaV",
+    "gdriveUrl": "https://drive.google.com/file/d/1SNtJklRwuCqUylF1dfJn26oNl_gqSZaV/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-15",
+    "title": "Roka Celebration #15 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_15_orig_IMG_8234.JPG.jpeg_.jpg",
+    "aspectRatio": "landscape",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8234.JPG.jpeg | Dual Tag: Roka_Moment_15_orig_IMG_8234.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8234.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #15",
+    "sourceType": "local-public",
+    "gdriveId": "1MhLSKAmhKWTX4CvnPd0iLNkgWEXEPBjT",
+    "gdriveUrl": "https://drive.google.com/file/d/1MhLSKAmhKWTX4CvnPd0iLNkgWEXEPBjT/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-16",
+    "title": "Roka Celebration #16 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_16_orig_IMG_8235.JPG.jpeg_.jpg",
+    "aspectRatio": "portrait",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8235.JPG.jpeg | Dual Tag: Roka_Moment_16_orig_IMG_8235.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8235.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #16",
+    "sourceType": "local-public",
+    "gdriveId": "1_gH-P6CeQMJXnZty9a18vCNidU_DCsqJ",
+    "gdriveUrl": "https://drive.google.com/file/d/1_gH-P6CeQMJXnZty9a18vCNidU_DCsqJ/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-17",
+    "title": "Roka Celebration #17 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_17_orig_IMG_8236.JPG.jpeg_.jpg",
+    "aspectRatio": "landscape",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8236.JPG.jpeg | Dual Tag: Roka_Moment_17_orig_IMG_8236.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8236.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #17",
+    "sourceType": "local-public",
+    "gdriveId": "1x8zwp-LunrpGDbON17I5mwnA7EMTWJln",
+    "gdriveUrl": "https://drive.google.com/file/d/1x8zwp-LunrpGDbON17I5mwnA7EMTWJln/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-18",
+    "title": "Roka Celebration #18 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_18_orig_IMG_8237.JPG.jpeg_.jpg",
+    "aspectRatio": "landscape",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8237.JPG.jpeg | Dual Tag: Roka_Moment_18_orig_IMG_8237.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8237.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #18",
+    "sourceType": "local-public",
+    "gdriveId": "1Vwebwt6W8CQsvpKNtI1acyqrw_d_A_lQ",
+    "gdriveUrl": "https://drive.google.com/file/d/1Vwebwt6W8CQsvpKNtI1acyqrw_d_A_lQ/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-19",
+    "title": "Roka Celebration #19 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_19_orig_IMG_8238.JPG.jpeg_.jpg",
+    "aspectRatio": "portrait",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8238.JPG.jpeg | Dual Tag: Roka_Moment_19_orig_IMG_8238.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8238.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #19",
+    "sourceType": "local-public",
+    "gdriveId": "1gLfiPPpCfCXZM3xkPRckw3ow34FBiVTc",
+    "gdriveUrl": "https://drive.google.com/file/d/1gLfiPPpCfCXZM3xkPRckw3ow34FBiVTc/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-20",
+    "title": "Roka Celebration #20 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_20_orig_IMG_8239.JPG.jpeg_.jpg",
+    "aspectRatio": "landscape",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8239.JPG.jpeg | Dual Tag: Roka_Moment_20_orig_IMG_8239.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8239.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #20",
+    "sourceType": "local-public",
+    "gdriveId": "15w5ksG06Z_hCXMOsQCGitG2IFicIamL2",
+    "gdriveUrl": "https://drive.google.com/file/d/15w5ksG06Z_hCXMOsQCGitG2IFicIamL2/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-21",
+    "title": "Roka Celebration #21 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_21_orig_IMG_8240.JPG.jpeg_.jpg",
+    "aspectRatio": "landscape",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8240.JPG.jpeg | Dual Tag: Roka_Moment_21_orig_IMG_8240.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8240.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #21",
+    "sourceType": "local-public",
+    "gdriveId": "1q4cKvvrHAMvso87Ppb5JlWtME3SpMKGm",
+    "gdriveUrl": "https://drive.google.com/file/d/1q4cKvvrHAMvso87Ppb5JlWtME3SpMKGm/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-22",
+    "title": "Roka Celebration #22 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_22_orig_IMG_8241.JPG.jpeg_.jpg",
+    "aspectRatio": "portrait",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8241.JPG.jpeg | Dual Tag: Roka_Moment_22_orig_IMG_8241.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8241.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #22",
+    "sourceType": "local-public",
+    "gdriveId": "1dxiPenUbGXxEUulE0bi3FhupH-b8kSzu",
+    "gdriveUrl": "https://drive.google.com/file/d/1dxiPenUbGXxEUulE0bi3FhupH-b8kSzu/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-23",
+    "title": "Roka Celebration #23 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_23_orig_IMG_8242.JPG.jpeg_.jpg",
+    "aspectRatio": "landscape",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8242.JPG.jpeg | Dual Tag: Roka_Moment_23_orig_IMG_8242.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8242.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #23",
+    "sourceType": "local-public",
+    "gdriveId": "1Wf-29IjK08ieKtcf8DuhbsXmZ8Dj69LB",
+    "gdriveUrl": "https://drive.google.com/file/d/1Wf-29IjK08ieKtcf8DuhbsXmZ8Dj69LB/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-24",
+    "title": "Roka Celebration #24 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_24_orig_IMG_8243.JPG.jpeg_.jpg",
+    "aspectRatio": "landscape",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8243.JPG.jpeg | Dual Tag: Roka_Moment_24_orig_IMG_8243.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8243.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #24",
+    "sourceType": "local-public",
+    "gdriveId": "1PZ_mOQB_CRi6_zYdBx5Y0QhBrueM-07k",
+    "gdriveUrl": "https://drive.google.com/file/d/1PZ_mOQB_CRi6_zYdBx5Y0QhBrueM-07k/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-25",
+    "title": "Roka Celebration #25 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_25_orig_IMG_8244.JPG.jpeg_.jpg",
+    "aspectRatio": "portrait",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8244.JPG.jpeg | Dual Tag: Roka_Moment_25_orig_IMG_8244.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8244.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #25",
+    "sourceType": "local-public",
+    "gdriveId": "14creGevp9Pep_5n26v9PZ2ospO-pvlHr",
+    "gdriveUrl": "https://drive.google.com/file/d/14creGevp9Pep_5n26v9PZ2ospO-pvlHr/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-26",
+    "title": "Roka Celebration #26 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_26_orig_IMG_8245.JPG.jpeg_.jpg",
+    "aspectRatio": "landscape",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8245.JPG.jpeg | Dual Tag: Roka_Moment_26_orig_IMG_8245.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8245.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #26",
+    "sourceType": "local-public",
+    "gdriveId": "1Kf6XiodGsQLeLKwX7TlVzNQpg0c0S4eq",
+    "gdriveUrl": "https://drive.google.com/file/d/1Kf6XiodGsQLeLKwX7TlVzNQpg0c0S4eq/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-27",
+    "title": "Roka Celebration #27 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_27_orig_IMG_8246.JPG.jpeg_.jpg",
+    "aspectRatio": "landscape",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8246.JPG.jpeg | Dual Tag: Roka_Moment_27_orig_IMG_8246.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8246.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #27",
+    "sourceType": "local-public",
+    "gdriveId": "1rSFMmFAThjR_sBna2OtI4pZ9dDNGf4H6",
+    "gdriveUrl": "https://drive.google.com/file/d/1rSFMmFAThjR_sBna2OtI4pZ9dDNGf4H6/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-28",
+    "title": "Roka Celebration #28 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_28_orig_IMG_8247.JPG.jpeg_.jpg",
+    "aspectRatio": "portrait",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8247.JPG.jpeg | Dual Tag: Roka_Moment_28_orig_IMG_8247.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8247.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #28",
+    "sourceType": "local-public",
+    "gdriveId": "1K1H-oTduESaxGJzw_VYaZht_Fr3kGHHQ",
+    "gdriveUrl": "https://drive.google.com/file/d/1K1H-oTduESaxGJzw_VYaZht_Fr3kGHHQ/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-29",
+    "title": "Roka Celebration #29 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_29_orig_IMG_8248.JPG.jpeg_.jpg",
+    "aspectRatio": "landscape",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8248.JPG.jpeg | Dual Tag: Roka_Moment_29_orig_IMG_8248.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8248.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #29",
+    "sourceType": "local-public",
+    "gdriveId": "1Q8NdKaRcduRGKGj3NdFgAhfOcHQOZWjO",
+    "gdriveUrl": "https://drive.google.com/file/d/1Q8NdKaRcduRGKGj3NdFgAhfOcHQOZWjO/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-30",
+    "title": "Roka Celebration #30 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_30_orig_IMG_8249.JPG.jpeg_.jpg",
+    "aspectRatio": "landscape",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8249.JPG.jpeg | Dual Tag: Roka_Moment_30_orig_IMG_8249.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8249.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #30",
+    "sourceType": "local-public",
+    "gdriveId": "19SZFgNZkelSUTGHElsdWQPpQVT9gROtD",
+    "gdriveUrl": "https://drive.google.com/file/d/19SZFgNZkelSUTGHElsdWQPpQVT9gROtD/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-31",
+    "title": "Roka Celebration #31 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_31_orig_IMG_8250.JPG.jpeg_.jpg",
+    "aspectRatio": "portrait",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8250.JPG.jpeg | Dual Tag: Roka_Moment_31_orig_IMG_8250.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8250.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #31",
+    "sourceType": "local-public",
+    "gdriveId": "1JoWIlyTQoxAsdhEbh1wBG0WZeRoWhccZ",
+    "gdriveUrl": "https://drive.google.com/file/d/1JoWIlyTQoxAsdhEbh1wBG0WZeRoWhccZ/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-32",
+    "title": "Roka Celebration #32 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_32_orig_IMG_8251.JPG.jpeg_.jpg",
+    "aspectRatio": "landscape",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8251.JPG.jpeg | Dual Tag: Roka_Moment_32_orig_IMG_8251.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8251.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #32",
+    "sourceType": "local-public",
+    "gdriveId": "1zbpwa5SUvis1jkP1cW-KcqwPlILN5Q5n",
+    "gdriveUrl": "https://drive.google.com/file/d/1zbpwa5SUvis1jkP1cW-KcqwPlILN5Q5n/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-33",
+    "title": "Roka Celebration #33 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_33_orig_IMG_8252.JPG.jpeg_.jpg",
+    "aspectRatio": "landscape",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8252.JPG.jpeg | Dual Tag: Roka_Moment_33_orig_IMG_8252.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8252.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #33",
+    "sourceType": "local-public",
+    "gdriveId": "1xcFhEgEv-LhcuXami219xrvVIhP0lQHg",
+    "gdriveUrl": "https://drive.google.com/file/d/1xcFhEgEv-LhcuXami219xrvVIhP0lQHg/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-34",
+    "title": "Roka Celebration #34 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_34_orig_IMG_8253.JPG.jpeg_.jpg",
+    "aspectRatio": "portrait",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8253.JPG.jpeg | Dual Tag: Roka_Moment_34_orig_IMG_8253.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8253.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #34",
+    "sourceType": "local-public",
+    "gdriveId": "1pOZSuVddwlEyT8PXDpjczQmQ8XZ315BP",
+    "gdriveUrl": "https://drive.google.com/file/d/1pOZSuVddwlEyT8PXDpjczQmQ8XZ315BP/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-35",
+    "title": "Roka Celebration #35 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_35_orig_IMG_8254.JPG.jpeg_.jpg",
+    "aspectRatio": "landscape",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8254.JPG.jpeg | Dual Tag: Roka_Moment_35_orig_IMG_8254.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8254.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #35",
+    "sourceType": "local-public",
+    "gdriveId": "1MaP02YIowxvVIa8e2Zje6fG1mJKKxIFI",
+    "gdriveUrl": "https://drive.google.com/file/d/1MaP02YIowxvVIa8e2Zje6fG1mJKKxIFI/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-36",
+    "title": "Roka Celebration #36 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_36_orig_IMG_8255.JPG.jpeg_.jpg",
+    "aspectRatio": "landscape",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8255.JPG.jpeg | Dual Tag: Roka_Moment_36_orig_IMG_8255.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8255.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #36",
+    "sourceType": "local-public",
+    "gdriveId": "1MYWInWxMNBjBTt45bVIx1OMdmdwsImoi",
+    "gdriveUrl": "https://drive.google.com/file/d/1MYWInWxMNBjBTt45bVIx1OMdmdwsImoi/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-37",
+    "title": "Roka Celebration #37 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_37_orig_IMG_8257.JPG.jpeg_.jpg",
+    "aspectRatio": "portrait",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8257.JPG.jpeg | Dual Tag: Roka_Moment_37_orig_IMG_8257.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8257.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #37",
+    "sourceType": "local-public",
+    "gdriveId": "1kvi9Nv2bQqL5jcr46HYwrCfNb0TtaJUe",
+    "gdriveUrl": "https://drive.google.com/file/d/1kvi9Nv2bQqL5jcr46HYwrCfNb0TtaJUe/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-38",
+    "title": "Roka Celebration #38 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_38_orig_IMG_8258.JPG.jpeg_.jpg",
+    "aspectRatio": "landscape",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8258.JPG.jpeg | Dual Tag: Roka_Moment_38_orig_IMG_8258.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8258.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #38",
+    "sourceType": "local-public",
+    "gdriveId": "1ejz0RQzokYQYxjr39myyl_2Pjv0QA5U2",
+    "gdriveUrl": "https://drive.google.com/file/d/1ejz0RQzokYQYxjr39myyl_2Pjv0QA5U2/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-39",
+    "title": "Roka Celebration #39 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_39_orig_IMG_8259.JPG.jpeg_.jpg",
+    "aspectRatio": "landscape",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8259.JPG.jpeg | Dual Tag: Roka_Moment_39_orig_IMG_8259.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8259.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #39",
+    "sourceType": "local-public",
+    "gdriveId": "1B6EhnHELjhRWC5IZSOpEv2Y7h4XC3HHL",
+    "gdriveUrl": "https://drive.google.com/file/d/1B6EhnHELjhRWC5IZSOpEv2Y7h4XC3HHL/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-40",
+    "title": "Roka Celebration #40 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_40_orig_IMG_8260.JPG.jpeg_.jpg",
+    "aspectRatio": "portrait",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8260.JPG.jpeg | Dual Tag: Roka_Moment_40_orig_IMG_8260.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8260.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #40",
+    "sourceType": "local-public",
+    "gdriveId": "19Ihr62qc3zo3j1lDL0Fx-4kOlIItzhEL",
+    "gdriveUrl": "https://drive.google.com/file/d/19Ihr62qc3zo3j1lDL0Fx-4kOlIItzhEL/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-41",
+    "title": "Roka Celebration #41 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_41_orig_IMG_8262.JPG.jpeg_.jpg",
+    "aspectRatio": "landscape",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_8262.JPG.jpeg | Dual Tag: Roka_Moment_41_orig_IMG_8262.JPG.jpeg_.jpg",
+    "originalFilename": "IMG_8262.JPG.jpeg",
+    "curatedFilename": "Roka Celebration #41",
+    "sourceType": "local-public",
+    "gdriveId": "15wA5tfikxcyG9mIMWn0rkNTOXmwVETvP",
+    "gdriveUrl": "https://drive.google.com/file/d/15wA5tfikxcyG9mIMWn0rkNTOXmwVETvP/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-42",
+    "title": "Roka Celebration #42 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_42_orig_IMG_9324.HEIC_.jpg",
+    "aspectRatio": "landscape",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_9324.HEIC | Dual Tag: Roka_Moment_42_orig_IMG_9324.HEIC_.jpg",
+    "originalFilename": "IMG_9324.HEIC",
+    "curatedFilename": "Roka Celebration #42",
+    "sourceType": "local-public",
+    "gdriveId": "1XjB-1iUCM9nyf3mlR-PzJf1grm7RBVMt",
+    "gdriveUrl": "https://drive.google.com/file/d/1XjB-1iUCM9nyf3mlR-PzJf1grm7RBVMt/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-43",
+    "title": "Roka Celebration #43 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_43_orig_IMG_9325.HEIC_.jpg",
+    "aspectRatio": "portrait",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_9325.HEIC | Dual Tag: Roka_Moment_43_orig_IMG_9325.HEIC_.jpg",
+    "originalFilename": "IMG_9325.HEIC",
+    "curatedFilename": "Roka Celebration #43",
+    "sourceType": "local-public",
+    "gdriveId": "15CZX0fgVTY4pijADNqn50jzYkKWFSP1M",
+    "gdriveUrl": "https://drive.google.com/file/d/15CZX0fgVTY4pijADNqn50jzYkKWFSP1M/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-44",
+    "title": "Roka Celebration #44 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_44_orig_IMG_9328.HEIC_.jpg",
+    "aspectRatio": "landscape",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_9328.HEIC | Dual Tag: Roka_Moment_44_orig_IMG_9328.HEIC_.jpg",
+    "originalFilename": "IMG_9328.HEIC",
+    "curatedFilename": "Roka Celebration #44",
+    "sourceType": "local-public",
+    "gdriveId": "1tEthd9YuU_VhdQto030Du7eXRZ4NTm5i",
+    "gdriveUrl": "https://drive.google.com/file/d/1tEthd9YuU_VhdQto030Du7eXRZ4NTm5i/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-45",
+    "title": "Roka Celebration #45 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_45_orig_IMG_9329.HEIC_.jpg",
+    "aspectRatio": "landscape",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_9329.HEIC | Dual Tag: Roka_Moment_45_orig_IMG_9329.HEIC_.jpg",
+    "originalFilename": "IMG_9329.HEIC",
+    "curatedFilename": "Roka Celebration #45",
+    "sourceType": "local-public",
+    "gdriveId": "12esfLN5oTCxSnH1Ab6RYAxZ2q1MuCEul",
+    "gdriveUrl": "https://drive.google.com/file/d/12esfLN5oTCxSnH1Ab6RYAxZ2q1MuCEul/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-46",
+    "title": "Roka Celebration #46 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_46_orig_IMG_9330.HEIC_.jpg",
+    "aspectRatio": "portrait",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_9330.HEIC | Dual Tag: Roka_Moment_46_orig_IMG_9330.HEIC_.jpg",
+    "originalFilename": "IMG_9330.HEIC",
+    "curatedFilename": "Roka Celebration #46",
+    "sourceType": "local-public",
+    "gdriveId": "1pLM1RNFao7puRYOzCBicL-kHw4_WCWyf",
+    "gdriveUrl": "https://drive.google.com/file/d/1pLM1RNFao7puRYOzCBicL-kHw4_WCWyf/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-47",
+    "title": "Roka Celebration #47 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_47_orig_IMG_9331.HEIC_.jpg",
+    "aspectRatio": "landscape",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_9331.HEIC | Dual Tag: Roka_Moment_47_orig_IMG_9331.HEIC_.jpg",
+    "originalFilename": "IMG_9331.HEIC",
+    "curatedFilename": "Roka Celebration #47",
+    "sourceType": "local-public",
+    "gdriveId": "1ebg8EuyPkNlIwLQJBqdERSBHOlIB7c_4",
+    "gdriveUrl": "https://drive.google.com/file/d/1ebg8EuyPkNlIwLQJBqdERSBHOlIB7c_4/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-48",
+    "title": "Roka Celebration #48 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_48_orig_IMG_9333.HEIC_.jpg",
+    "aspectRatio": "landscape",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_9333.HEIC | Dual Tag: Roka_Moment_48_orig_IMG_9333.HEIC_.jpg",
+    "originalFilename": "IMG_9333.HEIC",
+    "curatedFilename": "Roka Celebration #48",
+    "sourceType": "local-public",
+    "gdriveId": "1_TdZqAAayKfYZQzqHDGO0HiFONOe4x6w",
+    "gdriveUrl": "https://drive.google.com/file/d/1_TdZqAAayKfYZQzqHDGO0HiFONOe4x6w/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-49",
+    "title": "Roka Celebration #49 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_49_orig_IMG_9335.HEIC_.jpg",
+    "aspectRatio": "portrait",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_9335.HEIC | Dual Tag: Roka_Moment_49_orig_IMG_9335.HEIC_.jpg",
+    "originalFilename": "IMG_9335.HEIC",
+    "curatedFilename": "Roka Celebration #49",
+    "sourceType": "local-public",
+    "gdriveId": "196saQBtHpbTpFInQdCns1bR34ltt4ZP2",
+    "gdriveUrl": "https://drive.google.com/file/d/196saQBtHpbTpFInQdCns1bR34ltt4ZP2/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-50",
+    "title": "Roka Celebration #50 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_50_orig_IMG_9336.HEIC_.jpg",
+    "aspectRatio": "landscape",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_9336.HEIC | Dual Tag: Roka_Moment_50_orig_IMG_9336.HEIC_.jpg",
+    "originalFilename": "IMG_9336.HEIC",
+    "curatedFilename": "Roka Celebration #50",
+    "sourceType": "local-public",
+    "gdriveId": "1trbElLGv_v_3xWCkVdnDLzQ5iGSLx9aD",
+    "gdriveUrl": "https://drive.google.com/file/d/1trbElLGv_v_3xWCkVdnDLzQ5iGSLx9aD/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
+  },
+  {
+    "id": "roka-photo-51",
+    "title": "Roka Celebration #51 (Harsha & Bhuvesh)",
+    "category": "Roka Ceremony",
+    "type": "image",
+    "url": "/media/roka/photos/Roka_Moment_51_orig_IMG_9338.HEIC_.jpg",
+    "aspectRatio": "landscape",
+    "featured": false,
+    "coupleName": "Harsha & Bhuvesh",
+    "location": "Taj Palace, New Delhi",
+    "date": "Feb 2026",
+    "description": "Collection: Family & Whatsapp | Original: IMG_9338.HEIC | Dual Tag: Roka_Moment_51_orig_IMG_9338.HEIC_.jpg",
+    "originalFilename": "IMG_9338.HEIC",
+    "curatedFilename": "Roka Celebration #51",
+    "sourceType": "local-public",
+    "gdriveId": "1tH7s8lO9NgYh3lEt_ZRVx_M8WCvQBTtZ",
+    "gdriveUrl": "https://drive.google.com/file/d/1tH7s8lO9NgYh3lEt_ZRVx_M8WCvQBTtZ/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
   },
   {
     "id": "roka-photo-52",
@@ -10706,7 +11299,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Celebration #52",
     "sourceType": "local-public",
     "gdriveId": "1OsQZM33brAo_EkCN__mTZNVirbzpAwzd",
-    "gdriveUrl": "https://drive.google.com/file/d/1OsQZM33brAo_EkCN__mTZNVirbzpAwzd/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1OsQZM33brAo_EkCN__mTZNVirbzpAwzd/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
   },
   {
     "id": "roka-photo-53",
@@ -10724,7 +11318,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Celebration #53",
     "sourceType": "local-public",
     "gdriveId": "1_kiXLZYT0StG0zENOJXvnglo7KSGycS3",
-    "gdriveUrl": "https://drive.google.com/file/d/1_kiXLZYT0StG0zENOJXvnglo7KSGycS3/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1_kiXLZYT0StG0zENOJXvnglo7KSGycS3/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
   },
   {
     "id": "roka-photo-54",
@@ -10742,7 +11337,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Celebration #54",
     "sourceType": "local-public",
     "gdriveId": "1nSQRJrhf0G8KzocClS3u8SlDZYAMy0DT",
-    "gdriveUrl": "https://drive.google.com/file/d/1nSQRJrhf0G8KzocClS3u8SlDZYAMy0DT/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1nSQRJrhf0G8KzocClS3u8SlDZYAMy0DT/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
   },
   {
     "id": "roka-photo-55",
@@ -10760,7 +11356,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Celebration #55",
     "sourceType": "local-public",
     "gdriveId": "1tSqwxLk-5ylgBSxSKSc7xpy0jyZpGCny",
-    "gdriveUrl": "https://drive.google.com/file/d/1tSqwxLk-5ylgBSxSKSc7xpy0jyZpGCny/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1tSqwxLk-5ylgBSxSKSc7xpy0jyZpGCny/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
   },
   {
     "id": "roka-photo-56",
@@ -10778,7 +11375,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Celebration #56",
     "sourceType": "local-public",
     "gdriveId": "1h42gUusm-v8QKlPBrmg-Kd2u_WtEykQ2",
-    "gdriveUrl": "https://drive.google.com/file/d/1h42gUusm-v8QKlPBrmg-Kd2u_WtEykQ2/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1h42gUusm-v8QKlPBrmg-Kd2u_WtEykQ2/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
   },
   {
     "id": "roka-photo-57",
@@ -10796,7 +11394,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Celebration #57",
     "sourceType": "local-public",
     "gdriveId": "1xGA3--CTxIXa_nYx94on2k5S6hPrY-Q4",
-    "gdriveUrl": "https://drive.google.com/file/d/1xGA3--CTxIXa_nYx94on2k5S6hPrY-Q4/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1xGA3--CTxIXa_nYx94on2k5S6hPrY-Q4/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
   },
   {
     "id": "roka-photo-58",
@@ -10814,7 +11413,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Celebration #58",
     "sourceType": "local-public",
     "gdriveId": "1ARB_ghAXuxc6sbBXefa2NrY60pyE-JQ1",
-    "gdriveUrl": "https://drive.google.com/file/d/1ARB_ghAXuxc6sbBXefa2NrY60pyE-JQ1/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1ARB_ghAXuxc6sbBXefa2NrY60pyE-JQ1/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
   },
   {
     "id": "roka-photo-59",
@@ -10832,7 +11432,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Celebration #59",
     "sourceType": "local-public",
     "gdriveId": "1aJKY7BLlp1W6qRXWDxpf9kEHysEQCJyt",
-    "gdriveUrl": "https://drive.google.com/file/d/1aJKY7BLlp1W6qRXWDxpf9kEHysEQCJyt/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1aJKY7BLlp1W6qRXWDxpf9kEHysEQCJyt/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
   },
   {
     "id": "roka-photo-60",
@@ -10850,7 +11451,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Celebration #60",
     "sourceType": "local-public",
     "gdriveId": "1tYxbOZ3dkr8IApfAzXgz-gNszqrWBKQV",
-    "gdriveUrl": "https://drive.google.com/file/d/1tYxbOZ3dkr8IApfAzXgz-gNszqrWBKQV/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1tYxbOZ3dkr8IApfAzXgz-gNszqrWBKQV/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
   },
   {
     "id": "roka-photo-61",
@@ -10868,7 +11470,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Celebration #61",
     "sourceType": "local-public",
     "gdriveId": "1td11nxNq_DdjlGad4kGAaS58-sJs9wAk",
-    "gdriveUrl": "https://drive.google.com/file/d/1td11nxNq_DdjlGad4kGAaS58-sJs9wAk/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1td11nxNq_DdjlGad4kGAaS58-sJs9wAk/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
   },
   {
     "id": "roka-photo-62",
@@ -10886,7 +11489,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Celebration #62",
     "sourceType": "local-public",
     "gdriveId": "1soFPqTZ1BQQhizv_oYKAza5iGYOdYkNO",
-    "gdriveUrl": "https://drive.google.com/file/d/1soFPqTZ1BQQhizv_oYKAza5iGYOdYkNO/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1soFPqTZ1BQQhizv_oYKAza5iGYOdYkNO/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
   },
   {
     "id": "roka-photo-63",
@@ -10904,7 +11508,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Celebration #63",
     "sourceType": "local-public",
     "gdriveId": "1WS5lPHTp36M1N1llu7Fvlw_OBdBHRi9f",
-    "gdriveUrl": "https://drive.google.com/file/d/1WS5lPHTp36M1N1llu7Fvlw_OBdBHRi9f/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1WS5lPHTp36M1N1llu7Fvlw_OBdBHRi9f/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
   },
   {
     "id": "roka-photo-64",
@@ -10922,7 +11527,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Celebration #64",
     "sourceType": "local-public",
     "gdriveId": "1KDQ9drJ21dH4oyi1V_KmW41tnjaPgM0k",
-    "gdriveUrl": "https://drive.google.com/file/d/1KDQ9drJ21dH4oyi1V_KmW41tnjaPgM0k/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1KDQ9drJ21dH4oyi1V_KmW41tnjaPgM0k/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
   },
   {
     "id": "roka-photo-65",
@@ -10940,7 +11546,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Celebration #65",
     "sourceType": "local-public",
     "gdriveId": "1qkeAie8oQqjdDf_tXPgtWyt4_HCAC1fB",
-    "gdriveUrl": "https://drive.google.com/file/d/1qkeAie8oQqjdDf_tXPgtWyt4_HCAC1fB/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1qkeAie8oQqjdDf_tXPgtWyt4_HCAC1fB/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
   },
   {
     "id": "roka-photo-66",
@@ -10958,7 +11565,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Celebration #66",
     "sourceType": "local-public",
     "gdriveId": "1c8xOm1x53KH3Yf1SBtVGfaYjYAHXTPaR",
-    "gdriveUrl": "https://drive.google.com/file/d/1c8xOm1x53KH3Yf1SBtVGfaYjYAHXTPaR/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1c8xOm1x53KH3Yf1SBtVGfaYjYAHXTPaR/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
   },
   {
     "id": "roka-photo-67",
@@ -10976,7 +11584,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Celebration #67",
     "sourceType": "local-public",
     "gdriveId": "1CSVPbMpSiRvmZC9UIpUzbzw9DTwuwxI_",
-    "gdriveUrl": "https://drive.google.com/file/d/1CSVPbMpSiRvmZC9UIpUzbzw9DTwuwxI_/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1CSVPbMpSiRvmZC9UIpUzbzw9DTwuwxI_/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
   },
   {
     "id": "roka-photo-68",
@@ -10994,7 +11603,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Celebration #68",
     "sourceType": "local-public",
     "gdriveId": "1oJEny7adhVd5xYAQucXUuczk-jz0WBmv",
-    "gdriveUrl": "https://drive.google.com/file/d/1oJEny7adhVd5xYAQucXUuczk-jz0WBmv/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1oJEny7adhVd5xYAQucXUuczk-jz0WBmv/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
   },
   {
     "id": "roka-photo-69",
@@ -11012,7 +11622,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Celebration #69",
     "sourceType": "local-public",
     "gdriveId": "1jcSFKBVeqeZLtuF5lgBun8ZnAnEJDcC8",
-    "gdriveUrl": "https://drive.google.com/file/d/1jcSFKBVeqeZLtuF5lgBun8ZnAnEJDcC8/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1jcSFKBVeqeZLtuF5lgBun8ZnAnEJDcC8/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
   },
   {
     "id": "roka-photo-70",
@@ -11030,7 +11641,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Celebration #70",
     "sourceType": "local-public",
     "gdriveId": "1J9mSmgwayVzByatbeJMMZTfHiSvyorlD",
-    "gdriveUrl": "https://drive.google.com/file/d/1J9mSmgwayVzByatbeJMMZTfHiSvyorlD/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1J9mSmgwayVzByatbeJMMZTfHiSvyorlD/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
   },
   {
     "id": "roka-photo-71",
@@ -11048,7 +11660,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Celebration #71",
     "sourceType": "local-public",
     "gdriveId": "1DQK1_Ce7slGIk6lnAZjzTuv0OvmA3UJ0",
-    "gdriveUrl": "https://drive.google.com/file/d/1DQK1_Ce7slGIk6lnAZjzTuv0OvmA3UJ0/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1DQK1_Ce7slGIk6lnAZjzTuv0OvmA3UJ0/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
   },
   {
     "id": "roka-photo-72",
@@ -11066,7 +11679,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Roka Celebration #72",
     "sourceType": "local-public",
     "gdriveId": "11XpZb1sKIyOt4xmRoX1PoW3AdGqlvfTs",
-    "gdriveUrl": "https://drive.google.com/file/d/11XpZb1sKIyOt4xmRoX1PoW3AdGqlvfTs/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/11XpZb1sKIyOt4xmRoX1PoW3AdGqlvfTs/view?usp=sharing",
+    "sourceGroup": "mobile-whatsapp"
   },
   {
     "id": "roka-video-1",
@@ -11086,7 +11700,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "The Roka Ceremony Film — Harsha & Bhuvesh",
     "sourceType": "local-public",
     "gdriveId": "1O5aPL_89CebKWTF_U2K_iKXx1mbL3Kp9",
-    "gdriveUrl": "https://drive.google.com/file/d/1O5aPL_89CebKWTF_U2K_iKXx1mbL3Kp9/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1O5aPL_89CebKWTF_U2K_iKXx1mbL3Kp9/view?usp=sharing",
+    "sourceGroup": "video"
   },
   {
     "id": "roka-video-2",
@@ -11106,7 +11721,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Ring Exchange & Family Celebrations Highlight",
     "sourceType": "local-public",
     "gdriveId": "16afP9KK-wtyD7c1V-eRaWM-uLVj88Wuh",
-    "gdriveUrl": "https://drive.google.com/file/d/16afP9KK-wtyD7c1V-eRaWM-uLVj88Wuh/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/16afP9KK-wtyD7c1V-eRaWM-uLVj88Wuh/view?usp=sharing",
+    "sourceGroup": "video"
   },
   {
     "id": "roka-video-3",
@@ -11126,7 +11742,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Chunni & Shagun Ritual Moments",
     "sourceType": "local-public",
     "gdriveId": "1TleS0uEXWHX4r47jS6_-c-m7cnjET5DZ",
-    "gdriveUrl": "https://drive.google.com/file/d/1TleS0uEXWHX4r47jS6_-c-m7cnjET5DZ/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1TleS0uEXWHX4r47jS6_-c-m7cnjET5DZ/view?usp=sharing",
+    "sourceGroup": "video"
   },
   {
     "id": "roka-video-4",
@@ -11146,7 +11763,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Family Blessings & Sweet Exchange",
     "sourceType": "local-public",
     "gdriveId": "1LGU7_OA73sX_L_wqGT2syg0EjSytDU6b",
-    "gdriveUrl": "https://drive.google.com/file/d/1LGU7_OA73sX_L_wqGT2syg0EjSytDU6b/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1LGU7_OA73sX_L_wqGT2syg0EjSytDU6b/view?usp=sharing",
+    "sourceGroup": "video"
   },
   {
     "id": "roka-video-5",
@@ -11166,7 +11784,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Evening Celebration & Dance Revelry",
     "sourceType": "local-public",
     "gdriveId": "1xlJTxUeXIxgggqqv1BWbeNBTtOnpmXEl",
-    "gdriveUrl": "https://drive.google.com/file/d/1xlJTxUeXIxgggqqv1BWbeNBTtOnpmXEl/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1xlJTxUeXIxgggqqv1BWbeNBTtOnpmXEl/view?usp=sharing",
+    "sourceGroup": "video"
   },
   {
     "id": "roka-video-6",
@@ -11186,7 +11805,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Auspicious New Beginnings Reel",
     "sourceType": "local-public",
     "gdriveId": "1dZYO8LnMsrNBJnL3KzT45zwHU14aaqL_",
-    "gdriveUrl": "https://drive.google.com/file/d/1dZYO8LnMsrNBJnL3KzT45zwHU14aaqL_/view?usp=sharing"
+    "gdriveUrl": "https://drive.google.com/file/d/1dZYO8LnMsrNBJnL3KzT45zwHU14aaqL_/view?usp=sharing",
+    "sourceGroup": "video"
   },
   {
     "id": "roka-video-7",
@@ -11206,7 +11826,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Sacred Roka Blessings Reel #7",
     "gdriveId": "1daftkebW6qrfY_GFc5Oh6mM3MT2xVVwS",
     "gdriveUrl": "https://drive.google.com/file/d/1daftkebW6qrfY_GFc5Oh6mM3MT2xVVwS/view?usp=sharing",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "sourceGroup": "video"
   },
   {
     "id": "roka-video-8",
@@ -11226,7 +11847,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Chunni & Ring Moment Reel #8",
     "gdriveId": "1ezCKFEGWuvYu12qJHeYFkNpOcdUUCfaf",
     "gdriveUrl": "https://drive.google.com/file/d/1ezCKFEGWuvYu12qJHeYFkNpOcdUUCfaf/view?usp=sharing",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "sourceGroup": "video"
   },
   {
     "id": "roka-video-9",
@@ -11246,7 +11868,8 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Celebration Revelry Reel #9",
     "gdriveId": "1z5AD4auqB8iCxVxa8wn2M4MdSGVDk1b6",
     "gdriveUrl": "https://drive.google.com/file/d/1z5AD4auqB8iCxVxa8wn2M4MdSGVDk1b6/view?usp=sharing",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "sourceGroup": "video"
   },
   {
     "id": "roka-video-10",
@@ -11266,6 +11889,7 @@ export const INITIAL_MEDIA_ITEMS: MediaItem[] = [
     "curatedFilename": "Family Togetherness Reel #10",
     "gdriveId": "1ffNGAESGR_6062FGpUsUJquNfC_tHmwp",
     "gdriveUrl": "https://drive.google.com/file/d/1ffNGAESGR_6062FGpUsUJquNfC_tHmwp/view?usp=sharing",
-    "sourceType": "local-public"
+    "sourceType": "local-public",
+    "sourceGroup": "video"
   }
 ];

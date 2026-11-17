@@ -26,6 +26,7 @@ export interface MediaItem {
   gdriveUrl?: string;        // Google Drive direct stream or download URL
   videoEmbedUrl?: string;
   sourceType: 'local-public' | 'user-upload' | 'remote-cloud';
+  sourceGroup?: 'photographer1' | 'photographer2' | 'mobile-whatsapp' | 'video';
 }
 
 export interface CoupleCollection {

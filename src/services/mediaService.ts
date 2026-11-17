@@ -1,8 +1,8 @@
 import type { MediaItem, EventCategory, PhotoSubcategory } from '../types/media';
 import { INITIAL_MEDIA_ITEMS } from '../data/initialData';
 
-// Incremented to v13 to reorder Photographer 1, Photographer 2, WhatsApp photos, then Videos
-const STORAGE_KEY = 'shaadi_photography_media_items_v13_p1_p2_wa_vid';
+// Incremented to v14 to cleanly separate Photographer (542) from Mobile WhatsApp (72)
+const STORAGE_KEY = 'shaadi_photography_media_items_v14_clean_groups';
 
 export class MediaService {
   static getMedia(): MediaItem[] {
@@ -70,11 +70,15 @@ export class MediaService {
       const matchesCategory = category === 'All' || item.category === category;
       const matchesType = typeFilter === 'all' || item.type === typeFilter;
       
-      // Subcategorize photos: Photographer (DSLR) vs Mobile Camera (WhatsApp)
+      // Subcategorize photos: Photographer (DSLR) vs Mobile Camera (WhatsApp 1, 2, 3)
       let matchesSubcategory = true;
       if (typeFilter === 'image' || typeFilter === 'all') {
-        const orig = (item.originalFilename || item.url || '').toLowerCase();
-        const isMobile = orig.includes('whatsapp') || item.id.includes('whatsapp');
+        const isMobile = item.sourceGroup === 'mobile-whatsapp' || 
+          item.originalFilename?.toLowerCase().includes('whatsapp') ||
+          item.originalFilename?.startsWith('IMG_82') ||
+          item.originalFilename?.startsWith('IMG_4345') ||
+          item.id.includes('whatsapp');
+
         if (photoSubcategory === 'photographer') {
           matchesSubcategory = item.type === 'video' ? false : !isMobile;
         } else if (photoSubcategory === 'mobile') {

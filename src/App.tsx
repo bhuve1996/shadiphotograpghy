@@ -338,7 +338,7 @@ export function App() {
                   title="Professional DSLR Photography (Photographer 1 & 2)"
                 >
                   <Camera className="w-3.5 h-3.5" />
-                  <span>Photographer ({mediaItems.filter(m => m.type === 'image' && !m.originalFilename?.toLowerCase().includes('whatsapp') && !m.id.includes('whatsapp')).length})</span>
+                  <span>Photographer ({mediaItems.filter(m => m.type === 'image' && m.sourceGroup !== 'mobile-whatsapp' && !m.originalFilename?.toLowerCase().includes('whatsapp') && !m.originalFilename?.startsWith('IMG_82') && !m.originalFilename?.startsWith('IMG_4345')).length})</span>
                 </button>
                 <button
                   onClick={() => setPhotoSubcategory('mobile')}
@@ -347,10 +347,10 @@ export function App() {
                       ? 'bg-gradient-to-r from-[#c5a059] to-[#dfba73] text-black font-bold shadow-md shadow-[#c5a059]/30'
                       : 'text-white/60 hover:text-white hover:bg-white/5'
                   }`}
-                  title="Mobile Camera & WhatsApp Moments"
+                  title="Mobile Camera & WhatsApp Moments (Whatsapp 1, 2, 3)"
                 >
                   <Smartphone className="w-3.5 h-3.5" />
-                  <span>Mobile Camera ({mediaItems.filter(m => m.type === 'image' && (m.originalFilename?.toLowerCase().includes('whatsapp') || m.id.includes('whatsapp'))).length})</span>
+                  <span>Mobile Camera ({mediaItems.filter(m => m.type === 'image' && (m.sourceGroup === 'mobile-whatsapp' || m.originalFilename?.toLowerCase().includes('whatsapp') || m.originalFilename?.startsWith('IMG_82') || m.originalFilename?.startsWith('IMG_4345'))).length})</span>
                 </button>
               </div>
             )}
