@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useCallback } from 'react';
-import { X, ChevronLeft, ChevronRight, Download, Calendar, MapPin, Tag, FileText } from 'lucide-react';
+import { X, ChevronLeft, ChevronRight, Download, Calendar, MapPin, Tag, FileText, Loader2 } from 'lucide-react';
 import type { MediaItem } from '../types/media';
+import { AssetManager } from '../services/assetManager';
 
 interface MediaLightboxProps {
   item: MediaItem | null;
@@ -16,10 +17,24 @@ export const MediaLightbox: React.FC<MediaLightboxProps> = ({
   onSelect,
 }) => {
   const [touchStart, setTouchStart] = useState<number | null>(null);
+  const [isMediaLoaded, setIsMediaLoaded] = useState(false);
 
   const currentIndex = item ? items.findIndex((m) => m.id === item.id) : -1;
   const hasPrev = currentIndex > 0;
   const hasNext = currentIndex >= 0 && currentIndex < items.length - 1;
+
+  // Preload adjacent images in background cache for instant navigation
+  useEffect(() => {
+    if (currentIndex >= 0) {
+      setIsMediaLoaded(false);
+      const nextUrls = [
+        items[currentIndex + 1]?.url,
+        items[currentIndex + 2]?.url,
+        items[currentIndex - 1]?.url,
+      ].filter(Boolean) as string[];
+      AssetManager.preloadBatch(nextUrls);
+    }
+  }, [currentIndex, items]);
 
   const handlePrev = useCallback(() => {
     if (hasPrev) onSelect(items[currentIndex - 1]);
@@ -41,7 +56,6 @@ export const MediaLightbox: React.FC<MediaLightboxProps> = ({
     return () => window.removeEventListener('keydown', onKeyDown);
   }, [item, handlePrev, handleNext, onClose]);
 
-  // Touch swipe support for mobile
   const handleTouchStart = (e: React.TouchEvent) => {
     setTouchStart(e.targetTouches[0].clientX);
   };
@@ -58,7 +72,6 @@ export const MediaLightbox: React.FC<MediaLightboxProps> = ({
     setTouchStart(null);
   };
 
-  // Early return after all hooks are evaluated
   if (!item) return null;
 
   return (
@@ -105,8 +118,15 @@ export const MediaLightbox: React.FC<MediaLightboxProps> = ({
         </div>
       </div>
 
-      {/* Main Visual Display */}
+      {/* Main Visual Display with Preloader */}
       <div className="relative flex-1 flex items-center justify-center p-2 sm:p-6 max-h-[72vh] md:max-h-[78vh]">
+        {!isMediaLoaded && (
+          <div className="absolute inset-0 flex flex-col items-center justify-center z-10 text-white/50">
+            <Loader2 className="w-10 h-10 text-[#c5a059] animate-spin mb-3" />
+            <span className="text-xs uppercase tracking-widest font-mono text-[#f3e5ab]">Opening Asset...</span>
+          </div>
+        )}
+
         {hasPrev && (
           <button
             onClick={handlePrev}
@@ -131,7 +151,10 @@ export const MediaLightbox: React.FC<MediaLightboxProps> = ({
           <img
             src={item.url}
             alt={item.title}
-            className="max-h-full max-w-full object-contain rounded-lg shadow-2xl transition-transform duration-300"
+            onLoad={() => setIsMediaLoaded(true)}
+            className={`max-h-full max-w-full object-contain rounded-lg shadow-2xl transition-all duration-300 ${
+              isMediaLoaded ? 'opacity-100 scale-100' : 'opacity-0 scale-95'
+            }`}
           />
         ) : (
           <video
@@ -139,7 +162,10 @@ export const MediaLightbox: React.FC<MediaLightboxProps> = ({
             controls
             autoPlay
             playsInline
-            className="max-h-full max-w-full rounded-lg shadow-2xl border border-white/10"
+            onLoadedData={() => setIsMediaLoaded(true)}
+            className={`max-h-full max-w-full rounded-lg shadow-2xl border border-white/10 transition-all duration-300 ${
+              isMediaLoaded ? 'opacity-100' : 'opacity-0'
+            }`}
           />
         )}
       </div>

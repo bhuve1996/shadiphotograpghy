@@ -1,6 +1,7 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Play, Trash2, MapPin, Calendar, FileText, ImageOff } from 'lucide-react';
 import type { MediaItem } from '../types/media';
+import { AssetManager } from '../services/assetManager';
 
 interface MediaCardProps {
   item: MediaItem;
@@ -16,9 +17,18 @@ export const MediaCard: React.FC<MediaCardProps> = ({
   onDelete,
 }) => {
   const [isHovered, setIsHovered] = useState(false);
-  const [hasError, setHasError] = useState(false);
-  const [isLoaded, setIsLoaded] = useState(false);
+  const [hasError, setHasError] = useState(() => AssetManager.isFailed(item.url));
+  const [isLoaded, setIsLoaded] = useState(() => AssetManager.isLoaded(item.url));
   const isVideo = item.type === 'video';
+  const imgRef = useRef<HTMLImageElement | null>(null);
+
+  useEffect(() => {
+    // If browser already has cached image complete, mark loaded immediately
+    if (imgRef.current && imgRef.current.complete && imgRef.current.naturalWidth > 0) {
+      setIsLoaded(true);
+      AssetManager.preloadImage(item.url);
+    }
+  }, [item.url]);
 
   const handleClick = () => {
     if (isVideo && onOpenVideoPlayer) {
@@ -35,7 +45,7 @@ export const MediaCard: React.FC<MediaCardProps> = ({
       className="group relative overflow-hidden rounded-xl bg-[#141824] border border-white/5 transition-all duration-500 hover:border-[#c5a059]/40 hover:shadow-2xl hover:shadow-[#c5a059]/10 cursor-pointer break-inside-avoid mb-6"
       onClick={handleClick}
     >
-      {/* Media container with guaranteed minimum height and solid aspect ratio */}
+      {/* Media container with guaranteed minimum height */}
       <div className="relative w-full overflow-hidden bg-[#10131d] min-h-[280px] flex items-center justify-center">
         {isVideo ? (
           <div className="relative w-full min-h-[280px] aspect-[16/10] bg-black">
@@ -46,6 +56,7 @@ export const MediaCard: React.FC<MediaCardProps> = ({
                 onError={() => setHasError(true)}
                 className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                 loading="lazy"
+                decoding="async"
               />
             ) : (
               <video
@@ -62,23 +73,32 @@ export const MediaCard: React.FC<MediaCardProps> = ({
                 <Play className="w-6 h-6 ml-0.5 fill-current" />
               </div>
             </div>
-            {/* Duration / Format Tag */}
+            {/* Duration Tag */}
             <span className="absolute bottom-3 right-3 px-2 py-0.5 rounded bg-black/80 backdrop-blur-sm text-[11px] font-mono text-[#f3e5ab] border border-white/10 z-10">
               {item.duration || 'VIDEO'}
             </span>
           </div>
         ) : (
           <div className="w-full relative min-h-[280px] bg-[#0e111a] flex items-center justify-center">
-            {/* Skeleton / Shimmer placeholder while loading */}
+            {/* Elegant Luxury Shimmer Skeleton loader while loading */}
             {!isLoaded && !hasError && (
-              <div className="absolute inset-0 skeleton-shimmer z-0" />
+              <div className="absolute inset-0 skeleton-shimmer z-0 flex flex-col items-center justify-center p-4">
+                <div className="w-8 h-8 rounded-full border border-[#c5a059]/40 border-t-[#c5a059] animate-spin mb-2" />
+                <span className="text-[10px] font-serif tracking-widest text-[#f3e5ab]/50 uppercase">Loading Memoir...</span>
+              </div>
             )}
 
             {!hasError ? (
               <img
+                ref={imgRef}
                 src={item.url}
                 alt={item.title}
-                onLoad={() => setIsLoaded(true)}
+                loading="lazy"
+                decoding="async"
+                onLoad={() => {
+                  setIsLoaded(true);
+                  AssetManager.preloadImage(item.url);
+                }}
                 onError={() => {
                   setHasError(true);
                   setIsLoaded(true);
@@ -86,7 +106,6 @@ export const MediaCard: React.FC<MediaCardProps> = ({
                 className={`w-full h-auto min-h-[280px] max-h-[580px] object-cover transition-all duration-700 ease-out group-hover:scale-105 ${
                   isLoaded ? 'opacity-100' : 'opacity-0'
                 }`}
-                loading="lazy"
               />
             ) : (
               <div className="py-20 flex flex-col items-center justify-center text-center p-6 text-white/40">
@@ -134,7 +153,6 @@ export const MediaCard: React.FC<MediaCardProps> = ({
             {item.title}
           </h3>
 
-          {/* Dual Name display */}
           {item.originalFilename && (
             <div className="flex items-center gap-1.5 mt-1.5 text-[10px] font-mono text-gray-300 truncate">
               <FileText className="w-3 h-3 text-[#c5a059] shrink-0" />
