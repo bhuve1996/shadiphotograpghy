@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useCallback } from 'react';
+import React, { useEffect, useState, useCallback, useRef } from 'react';
 import { X, ChevronLeft, ChevronRight, Download, Calendar, MapPin, Tag, FileText, Loader2, Sparkles, RotateCw, RotateCcw } from 'lucide-react';
 import type { MediaItem } from '../types/media';
 import { AssetManager } from '../services/assetManager';
@@ -20,6 +20,7 @@ export const MediaLightbox: React.FC<MediaLightboxProps> = ({
   const [isFullLoaded, setIsFullLoaded] = useState(false);
   const [isThumbReady, setIsThumbReady] = useState(false);
   const [rotation, setRotation] = useState<number>(0);
+  const filmstripRef = useRef<HTMLDivElement | null>(null);
 
   const currentIndex = item ? items.findIndex((m) => m.id === item.id) : -1;
   const hasPrev = currentIndex > 0;
@@ -41,6 +42,15 @@ export const MediaLightbox: React.FC<MediaLightboxProps> = ({
       AssetManager.preloadBatch(nextUrls);
     }
   }, [currentIndex, items]);
+
+  // Automatically scroll filmstrip to keep active thumbnail centered
+  useEffect(() => {
+    if (!filmstripRef.current || currentIndex < 0) return;
+    const activeThumb = filmstripRef.current.querySelector<HTMLButtonElement>(`[data-thumb-index="${currentIndex}"]`);
+    if (activeThumb) {
+      activeThumb.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+    }
+  }, [currentIndex]);
 
   const handleRotateClockwise = () => {
     setRotation((prev) => (prev + 90) % 360);
@@ -91,12 +101,12 @@ export const MediaLightbox: React.FC<MediaLightboxProps> = ({
 
   return (
     <div 
-      className="fixed inset-0 z-50 flex flex-col justify-between bg-black/95 backdrop-blur-2xl animate-in fade-in duration-300 select-none"
+      className="fixed inset-0 z-50 flex flex-col justify-between bg-black/95 backdrop-blur-2xl animate-in fade-in duration-300 select-none overflow-hidden"
       onTouchStart={handleTouchStart}
       onTouchEnd={handleTouchEnd}
     >
       {/* Top Bar */}
-      <div className="p-4 sm:p-6 flex items-center justify-between z-20 bg-gradient-to-b from-black/90 to-transparent">
+      <div className="p-3 sm:p-5 flex items-center justify-between z-20 bg-gradient-to-b from-black/90 to-transparent">
         <div className="min-w-0 pr-4">
           <div className="text-[10px] sm:text-xs uppercase tracking-widest text-[#c5a059] font-medium mb-0.5 truncate flex items-center gap-2">
             <span>{item.category} • {item.type === 'video' ? 'Cinema Reel' : 'High Resolution'}</span>
@@ -178,7 +188,7 @@ export const MediaLightbox: React.FC<MediaLightboxProps> = ({
       </div>
 
       {/* Main Visual Display with Progressive Blur-Up */}
-      <div className="relative flex-1 flex items-center justify-center p-2 sm:p-6 max-h-[72vh] md:max-h-[78vh] overflow-hidden">
+      <div className="relative flex-1 flex items-center justify-center p-2 sm:p-4 overflow-hidden">
         {/* Spinner when waiting */}
         {!isFullLoaded && (
           <div className="absolute top-4 right-6 z-20 flex items-center gap-2 px-3 py-1 rounded-full bg-black/60 border border-white/10 backdrop-blur-md text-[11px] text-[#f3e5ab] font-mono">
@@ -190,7 +200,7 @@ export const MediaLightbox: React.FC<MediaLightboxProps> = ({
         {hasPrev && (
           <button
             onClick={handlePrev}
-            className="absolute left-2 sm:left-6 z-20 p-2 sm:p-3 rounded-full bg-black/60 hover:bg-[#c5a059] hover:text-black text-white backdrop-blur-md border border-white/10 transition-all"
+            className="absolute left-2 sm:left-6 z-20 p-2.5 sm:p-3 rounded-full bg-black/60 hover:bg-[#c5a059] hover:text-black text-white backdrop-blur-md border border-white/10 transition-all"
             aria-label="Previous"
           >
             <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6" />
@@ -200,7 +210,7 @@ export const MediaLightbox: React.FC<MediaLightboxProps> = ({
         {hasNext && (
           <button
             onClick={handleNext}
-            className="absolute right-2 sm:right-6 z-20 p-2 sm:p-3 rounded-full bg-black/60 hover:bg-[#c5a059] hover:text-black text-white backdrop-blur-md border border-white/10 transition-all"
+            className="absolute right-2 sm:right-6 z-20 p-2.5 sm:p-3 rounded-full bg-black/60 hover:bg-[#c5a059] hover:text-black text-white backdrop-blur-md border border-white/10 transition-all"
             aria-label="Next"
           >
             <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6" />
@@ -219,7 +229,7 @@ export const MediaLightbox: React.FC<MediaLightboxProps> = ({
                 alt=""
                 aria-hidden="true"
                 onLoad={() => setIsThumbReady(true)}
-                className={`max-h-[70vh] md:max-h-[76vh] max-w-full object-contain rounded-lg filter blur-md scale-[1.02] transition-opacity duration-500 ${
+                className={`max-h-[62vh] md:max-h-[68vh] max-w-full object-contain rounded-lg filter blur-md scale-[1.02] transition-opacity duration-500 ${
                   isThumbReady ? 'opacity-80' : 'opacity-0'
                 }`}
               />
@@ -230,7 +240,7 @@ export const MediaLightbox: React.FC<MediaLightboxProps> = ({
               src={item.url}
               alt={item.title}
               onLoad={() => setIsFullLoaded(true)}
-              className={`max-h-[70vh] md:max-h-[76vh] max-w-full object-contain rounded-lg shadow-2xl transition-all duration-700 ease-out ${
+              className={`max-h-[62vh] md:max-h-[68vh] max-w-full object-contain rounded-lg shadow-2xl transition-all duration-700 ease-out ${
                 isFullLoaded ? 'opacity-100 scale-100' : 'opacity-0 scale-98 absolute inset-0 m-auto'
               }`}
             />
@@ -242,35 +252,106 @@ export const MediaLightbox: React.FC<MediaLightboxProps> = ({
             autoPlay
             playsInline
             onLoadedData={() => setIsFullLoaded(true)}
-            className={`max-h-full max-w-full rounded-lg shadow-2xl border border-white/10 transition-all duration-300 ${
+            className={`max-h-[62vh] md:max-h-[68vh] max-w-full rounded-lg shadow-2xl border border-white/10 transition-all duration-300 ${
               isFullLoaded ? 'opacity-100' : 'opacity-0'
             }`}
           />
         )}
       </div>
 
-      {/* Bottom Info Bar */}
-      <div className="p-4 sm:p-6 bg-gradient-to-t from-black/95 via-black/80 to-transparent flex flex-col sm:flex-row items-center justify-between text-xs text-white/70 gap-2 sm:gap-3 z-20">
-        <div className="flex items-center gap-4 text-[11px] sm:text-xs">
-          {item.location && (
-            <span className="flex items-center gap-1">
-              <MapPin className="w-3 h-3 text-[#c5a059]" /> {item.location}
-            </span>
-          )}
-          {item.date && (
-            <span className="flex items-center gap-1">
-              <Calendar className="w-3 h-3 text-[#c5a059]" /> {item.date}
-            </span>
-          )}
+      {/* BOTTOM SECTION: Thumbnail Filmstrip Ribbon & Meta Details */}
+      <div className="z-20 bg-gradient-to-t from-black via-black/90 to-transparent pt-2 pb-3 sm:pb-4 px-3 sm:px-6 flex flex-col gap-2">
+        {/* Thumbnail Filmstrip Ribbon */}
+        <div className="flex items-center gap-2">
+          {/* Scroll filmstrip left button */}
+          <button
+            onClick={() => {
+              if (filmstripRef.current) filmstripRef.current.scrollBy({ left: -240, behavior: 'smooth' });
+            }}
+            className="p-1 rounded-full text-white/50 hover:text-[#c5a059] hover:bg-white/10 transition-colors shrink-0"
+            title="Scroll Filmstrip Left"
+            aria-label="Scroll Filmstrip Left"
+          >
+            <ChevronLeft className="w-4 h-4" />
+          </button>
+
+          {/* Filmstrip Track */}
+          <div
+            ref={filmstripRef}
+            className="flex items-center gap-2 overflow-x-auto py-1 scroll-smooth no-scrollbar flex-1"
+            style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
+          >
+            {items.map((m, idx) => {
+              const isCurrent = idx === currentIndex;
+              const mThumb = m.type === 'video'
+                ? (m.thumbnailUrl || m.url)
+                : m.url.replace('/media/roka/photos/', '/media/roka/thumbs/');
+
+              return (
+                <button
+                  key={m.id}
+                  data-thumb-index={idx}
+                  onClick={() => onSelect(m)}
+                  className={`relative shrink-0 w-12 h-12 sm:w-16 sm:h-16 rounded-lg overflow-hidden transition-all duration-300 group cursor-pointer ${
+                    isCurrent
+                      ? 'ring-2 ring-[#c5a059] ring-offset-2 ring-offset-black scale-105 opacity-100 shadow-lg shadow-[#c5a059]/40'
+                      : 'opacity-50 hover:opacity-85 hover:scale-102 border border-white/10'
+                  }`}
+                  title={m.title}
+                >
+                  <img
+                    src={mThumb}
+                    alt={m.title}
+                    loading="lazy"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  {/* Subtle index badge */}
+                  <div className={`absolute bottom-0.5 right-0.5 text-[8px] font-mono px-1 rounded ${
+                    isCurrent ? 'bg-[#c5a059] text-black font-bold' : 'bg-black/70 text-white/70'
+                  }`}>
+                    {idx + 1}
+                  </div>
+                </button>
+              );
+            })}
+          </div>
+
+          {/* Scroll filmstrip right button */}
+          <button
+            onClick={() => {
+              if (filmstripRef.current) filmstripRef.current.scrollBy({ left: 240, behavior: 'smooth' });
+            }}
+            className="p-1 rounded-full text-white/50 hover:text-[#c5a059] hover:bg-white/10 transition-colors shrink-0"
+            title="Scroll Filmstrip Right"
+            aria-label="Scroll Filmstrip Right"
+          >
+            <ChevronRight className="w-4 h-4" />
+          </button>
         </div>
 
-        <div className="flex items-center gap-3">
-          <span className="text-[10px] sm:text-xs text-[#f3e5ab] font-mono flex items-center gap-1">
-            <Tag className="w-3 h-3" /> {item.category}
-          </span>
-          <span className="text-white/40 font-mono text-[10px] sm:text-xs">
-            {currentIndex + 1} of {items.length}
-          </span>
+        {/* Bottom Info Bar */}
+        <div className="flex items-center justify-between text-xs text-white/70 px-1 pt-1 border-t border-white/5">
+          <div className="flex items-center gap-3 text-[10px] sm:text-xs">
+            {item.location && (
+              <span className="flex items-center gap-1">
+                <MapPin className="w-3 h-3 text-[#c5a059]" /> {item.location}
+              </span>
+            )}
+            {item.date && (
+              <span className="flex items-center gap-1">
+                <Calendar className="w-3 h-3 text-[#c5a059]" /> {item.date}
+              </span>
+            )}
+          </div>
+
+          <div className="flex items-center gap-3">
+            <span className="text-[10px] sm:text-xs text-[#f3e5ab] font-mono flex items-center gap-1">
+              <Tag className="w-3 h-3 text-[#c5a059]" /> {item.category}
+            </span>
+            <span className="text-white/60 font-mono text-[10px] sm:text-xs">
+              <span className="text-[#f3e5ab] font-bold">{currentIndex + 1}</span> of {items.length}
+            </span>
+          </div>
         </div>
       </div>
     </div>
