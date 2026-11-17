@@ -22,25 +22,25 @@ const BACKGROUND_FRAMES = [
     delay: "0.2s"
   },
   {
-    src: "/media/roka/photos/Roka_Pro_Photo_090_orig_IMG_9553.JPG.jpg",
+    src: "/media/roka/photos/Roka_Pro_Photo_091_orig_IMG_9553.JPG.jpg",
     className: "bottom-12 left-4 sm:left-24 w-28 sm:w-40 md:w-48 rotate-[8deg] hover:rotate-0",
     caption: "Family Blessings",
     delay: "0.4s"
   },
   {
-    src: "/media/roka/photos/Roka_P2_Photo_500_orig_P2_IMG_0082.JPG.jpg",
+    src: "/media/roka/photos/Roka_P2_Photo_500_orig_P2_IMG_0070.JPG.jpg",
     className: "bottom-14 right-4 sm:right-28 w-30 sm:w-44 md:w-52 rotate-[-9deg] hover:rotate-0",
     caption: "Golden Smiles",
     delay: "0.6s"
   },
   {
-    src: "/media/roka/photos/Roka_Pro_Photo_150_orig_IMG_9630.JPG.jpg",
+    src: "/media/roka/photos/Roka_Pro_Photo_154_orig_IMG_9630.JPG.jpg",
     className: "hidden lg:block top-1/2 left-8 -translate-y-1/2 w-36 rotate-[-5deg] hover:rotate-0 opacity-40 hover:opacity-100",
     caption: "Roka Memoir",
     delay: "0.8s"
   },
   {
-    src: "/media/roka/photos/Roka_P2_Photo_550_orig_P2_IMG_0150.JPG.jpg",
+    src: "/media/roka/photos/Roka_P2_Photo_550_orig_P2_IMG_0138.JPG.jpg",
     className: "hidden lg:block top-1/2 right-10 -translate-y-1/2 w-36 rotate-[6deg] hover:rotate-0 opacity-40 hover:opacity-100",
     caption: "Celebrations",
     delay: "1s"
