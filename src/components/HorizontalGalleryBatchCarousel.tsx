@@ -17,6 +17,7 @@ export const HorizontalGalleryBatchCarousel: React.FC<HorizontalGalleryBatchCaro
 }) => {
   const [currentBatchIndex, setCurrentBatchIndex] = useState(0);
   const scrollContainerRef = useRef<HTMLDivElement | null>(null);
+  const pillTrackRef = useRef<HTMLDivElement | null>(null);
 
   const totalBatches = Math.ceil(items.length / batchSize) || 1;
   const currentBatchItems = items.slice(
@@ -30,7 +31,19 @@ export const HorizontalGalleryBatchCarousel: React.FC<HorizontalGalleryBatchCaro
     if (scrollContainerRef.current) {
       scrollContainerRef.current.scrollTo({ left: 0, behavior: 'smooth' });
     }
+    if (pillTrackRef.current) {
+      pillTrackRef.current.scrollTo({ left: 0, behavior: 'smooth' });
+    }
   }, [items.length]);
+
+  // Keep active pill scrolled into view inside the pill bar
+  useEffect(() => {
+    if (!pillTrackRef.current) return;
+    const activePill = pillTrackRef.current.querySelector<HTMLButtonElement>(`[data-batch="${currentBatchIndex}"]`);
+    if (activePill) {
+      activePill.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+    }
+  }, [currentBatchIndex]);
 
   const handleScrollLeft = () => {
     if (!scrollContainerRef.current) return;
@@ -50,48 +63,26 @@ export const HorizontalGalleryBatchCarousel: React.FC<HorizontalGalleryBatchCaro
     }
   };
 
-  if (!items || items.length === 0) return null;
-
-  // Smart page numbers calculation with ellipsis: < 1 ... 16 [17] 18 >
-  const getPageNumbers = () => {
-    const pages: (number | string)[] = [];
-
-    if (totalBatches <= 7) {
-      for (let i = 1; i <= totalBatches; i++) pages.push(i);
-    } else {
-      const currentPage = currentBatchIndex + 1;
-      pages.push(1);
-
-      if (currentPage > 3) {
-        pages.push('...');
-      }
-
-      const start = Math.max(2, currentPage - 1);
-      const end = Math.min(totalBatches - 1, currentPage + 1);
-
-      for (let i = start; i <= end; i++) {
-        if (!pages.includes(i)) pages.push(i);
-      }
-
-      if (currentPage < totalBatches - 2) {
-        pages.push('...');
-      }
-
-      if (!pages.includes(totalBatches)) {
-        pages.push(totalBatches);
-      }
-    }
-    return pages;
+  const handlePillScrollLeft = () => {
+    if (!pillTrackRef.current) return;
+    pillTrackRef.current.scrollBy({ left: -200, behavior: 'smooth' });
   };
+
+  const handlePillScrollRight = () => {
+    if (!pillTrackRef.current) return;
+    pillTrackRef.current.scrollBy({ left: 200, behavior: 'smooth' });
+  };
+
+  if (!items || items.length === 0) return null;
 
   return (
     <div className="relative bg-gradient-to-b from-[#101420] via-[#141826] to-[#0c0f17] p-5 sm:p-8 rounded-3xl border border-[#c5a059]/30 shadow-2xl overflow-hidden my-6">
-      {/* Unified Luxury Header */}
+      {/* Top Header */}
       <div className="flex flex-col md:flex-row md:items-center justify-between pb-6 mb-6 border-b border-white/10 gap-4">
         <div>
           <div className="flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-[#c5a059] mb-1">
             <Sparkles className="w-3.5 h-3.5 text-[#c5a059]" />
-            Horizontal Story Carousel
+            Horizontal Story Carousel • Page {currentBatchIndex + 1} of {totalBatches}
           </div>
           <h3 className="text-2xl sm:text-3xl font-serif text-white tracking-wide font-normal">
             Browse Moments Horizontally
@@ -118,60 +109,6 @@ export const HorizontalGalleryBatchCarousel: React.FC<HorizontalGalleryBatchCaro
             title="Scroll Right"
           >
             <ChevronRight className="w-5 h-5" />
-          </button>
-        </div>
-      </div>
-
-      {/* SINGLE UNIFIED PAGE NAVIGATION PILL */}
-      <div className="mb-6 flex items-center justify-center">
-        <div className="inline-flex items-center gap-1.5 sm:gap-2.5 bg-[#0f131d] px-4 sm:px-6 py-2 sm:py-2.5 rounded-full border border-white/10 shadow-2xl select-none">
-          {/* Previous Arrow */}
-          <button
-            onClick={() => handleSelectBatch(currentBatchIndex - 1)}
-            disabled={currentBatchIndex === 0}
-            className="p-1 rounded-full text-white/60 hover:text-white disabled:opacity-20 disabled:hover:text-white/60 transition-colors"
-            title="Previous Page"
-            aria-label="Previous Page"
-          >
-            <ChevronLeft className="w-4 h-4 sm:w-5 sm:h-5" />
-          </button>
-
-          {/* Numbered Pills with Ellipsis */}
-          {getPageNumbers().map((page, idx) => {
-            if (page === '...') {
-              return (
-                <span key={`dots-${idx}`} className="px-1 text-white/40 text-xs sm:text-sm font-mono">
-                  ...
-                </span>
-              );
-            }
-            const pageNum = page as number;
-            const isSelected = currentBatchIndex === pageNum - 1;
-            return (
-              <button
-                key={pageNum}
-                onClick={() => handleSelectBatch(pageNum - 1)}
-                className={`w-8 h-8 sm:w-10 sm:h-10 rounded-full flex items-center justify-center text-xs sm:text-sm font-mono font-medium transition-all ${
-                  isSelected
-                    ? 'bg-[#dfba73] text-black font-bold shadow-lg shadow-[#c5a059]/40 scale-105'
-                    : 'text-white/70 hover:text-white hover:bg-white/10'
-                }`}
-                title={`Go to Page ${pageNum}`}
-              >
-                {pageNum}
-              </button>
-            );
-          })}
-
-          {/* Next Arrow */}
-          <button
-            onClick={() => handleSelectBatch(currentBatchIndex + 1)}
-            disabled={currentBatchIndex === totalBatches - 1}
-            className="p-1 rounded-full text-white/60 hover:text-white disabled:opacity-20 disabled:hover:text-white/60 transition-colors"
-            title="Next Page"
-            aria-label="Next Page"
-          >
-            <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5" />
           </button>
         </div>
       </div>
@@ -238,6 +175,60 @@ export const HorizontalGalleryBatchCarousel: React.FC<HorizontalGalleryBatchCaro
             </div>
           </div>
         ))}
+      </div>
+
+      {/* BOTTOM UNIFIED PAGE NAVIGATION PILL WITH FULL CONTINUOUS SCROLL */}
+      <div className="mt-8 pt-6 border-t border-white/10 flex items-center justify-center">
+        <div className="relative max-w-full flex items-center gap-1.5 sm:gap-2 bg-[#0f131d] px-3 sm:px-4 py-2 rounded-full border border-white/10 shadow-2xl select-none">
+          {/* Previous Page Arrow */}
+          <button
+            onClick={() => handleSelectBatch(currentBatchIndex - 1)}
+            disabled={currentBatchIndex === 0}
+            className="p-1.5 rounded-full text-white/60 hover:text-white disabled:opacity-20 disabled:hover:text-white/60 transition-colors shrink-0"
+            title="Previous Page"
+            aria-label="Previous Page"
+          >
+            <ChevronLeft className="w-4 h-4 sm:w-5 sm:h-5" />
+          </button>
+
+          {/* Horizontally scrollable track containing ALL numbers (1 through 26) with zero ellipses */}
+          <div
+            ref={pillTrackRef}
+            className="flex items-center gap-1.5 sm:gap-2 overflow-x-auto max-w-[260px] sm:max-w-[420px] md:max-w-[560px] scroll-smooth no-scrollbar py-0.5 px-1"
+            style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
+          >
+            {Array.from({ length: totalBatches }, (_, i) => {
+              const pageNum = i + 1;
+              const isSelected = currentBatchIndex === i;
+              return (
+                <button
+                  key={pageNum}
+                  data-batch={i}
+                  onClick={() => handleSelectBatch(i)}
+                  className={`min-w-8 h-8 sm:min-w-9 sm:h-9 px-2 rounded-full flex items-center justify-center text-xs sm:text-sm font-mono font-medium transition-all shrink-0 ${
+                    isSelected
+                      ? 'bg-[#dfba73] text-black font-bold shadow-lg shadow-[#c5a059]/40 scale-105 ring-2 ring-[#c5a059]/50'
+                      : 'text-white/70 hover:text-white hover:bg-white/10'
+                  }`}
+                  title={`Go to Page ${pageNum}`}
+                >
+                  {pageNum}
+                </button>
+              );
+            })}
+          </div>
+
+          {/* Next Page Arrow */}
+          <button
+            onClick={() => handleSelectBatch(currentBatchIndex + 1)}
+            disabled={currentBatchIndex === totalBatches - 1}
+            className="p-1.5 rounded-full text-white/60 hover:text-white disabled:opacity-20 disabled:hover:text-white/60 transition-colors shrink-0"
+            title="Next Page"
+            aria-label="Next Page"
+          >
+            <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5" />
+          </button>
+        </div>
       </div>
     </div>
   );
