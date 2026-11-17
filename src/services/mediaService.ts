@@ -1,8 +1,8 @@
 import type { MediaItem, EventCategory } from '../types/media';
 import { INITIAL_MEDIA_ITEMS } from '../data/initialData';
 
-// Incremented to v12 to reorder photos first and videos last across all 624 assets
-const STORAGE_KEY = 'shaadi_photography_media_items_v12_photosfirst';
+// Incremented to v13 to reorder Photographer 1, Photographer 2, WhatsApp photos, then Videos
+const STORAGE_KEY = 'shaadi_photography_media_items_v13_p1_p2_wa_vid';
 
 export class MediaService {
   static getMedia(): MediaItem[] {
