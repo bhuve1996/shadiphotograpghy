@@ -311,8 +311,8 @@ export function App() {
         </div>
 
         {/* Category Pill Tabs & Carousel Toggle */}
-        <div className="flex items-center justify-between gap-4 pb-4 mb-8">
-          <div className="flex items-center gap-3 overflow-x-auto no-scrollbar">
+        <div className="flex flex-wrap items-center justify-between gap-4 mb-8">
+          <div className="flex flex-wrap items-center gap-3">
             {EVENT_CATEGORIES.map((cat) => {
               const count = mediaItems.filter(
                 (m) => (cat === 'All' || m.category === cat) && (typeFilter === 'all' || m.type === typeFilter)
